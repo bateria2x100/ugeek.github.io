@@ -9,7 +9,7 @@ tags: [syncthing, resilio, dukto, sincronización carpetas, podcast]
 categories: podcast
 comments: true
 ---
-### Publicado por Angel
+#### Publicado por Angel
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag2#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 
 Suscribete al Blog  |  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   

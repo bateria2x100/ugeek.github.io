@@ -10,7 +10,7 @@ categories: podcast
 comments: true
 ---
 #### Publicado por Angel
-Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag2#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 
 Suscribete al Blog  |  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
 

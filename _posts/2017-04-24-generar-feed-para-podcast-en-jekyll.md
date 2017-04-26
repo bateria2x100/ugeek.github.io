@@ -7,6 +7,8 @@ categories: jekyll
 ---
 #### Publicado por Angel
 
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+
 Voy a explicar en este post, como generar el Feed del podcast de forma automática.
 
 * Creamos un archivo `podcast.xml` en la raiz, con el siguiente contenido:

@@ -16,8 +16,10 @@ Suscribete al Blog  |  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
 Suscribete al Podcast  |  [RSS](http://feeds.feedburner.com/ugeek) | [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) | [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
 
-<iframe src="https://archive.org/embed/SeEstropeaLaSDDeMiRasberry" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-
+<audio controls>
+  <source src="https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
 Después de un año y dos meses, la tarjeta SD de mi Raspberry se ha estropeado. Unas 10200 horas ha estado funcionando ofreciéndome servicios de escritura y lectura.

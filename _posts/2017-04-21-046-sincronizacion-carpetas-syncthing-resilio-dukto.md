@@ -18,9 +18,12 @@ Suscribete al Podcast  |  [RSS](http://feeds.feedburner.com/ugeek) | [ITunes](ht
 
 
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
-<a href="https://ia601509.us.archive.org/6/items/046SyncthingResilioYDukto/%23046%20Syncthing%2c%20Resilio%20y%20Dukto%20.mp3">Descargar Podcast</a>  
 
-<iframe src="https://archive.org/embed/046SyncthingResilioYDukto" width="100%" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<audio controls>
+  <source src="https://ia601509.us.archive.org/6/items/046SyncthingResilioYDukto/%23046%20Syncthing%2c%20Resilio%20y%20Dukto%20.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
 <!-- ----------------------------------------------------Inicio de comentarios--------------------------------------------------- -->
 
 En el podcast de hoy, voy a explicaros como podeís sincronizar carpetas entre dispositivos, servidores, etc... Con tre aplicaciones.

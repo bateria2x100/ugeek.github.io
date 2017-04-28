@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "049. Encuentro de amiguetes"
+title: "048. Encuentro de amiguetes"
 date: 2017-04-28
 categories: podcast
 image: img/ugeek.png

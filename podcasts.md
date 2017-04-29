@@ -1,4 +1,7 @@
-# Podcast
+#### desarrollado por [atareao.es](https://www.atareao.es/)
+
+Abre con VLC
+<a href="https://ugeek.github.io/ugeek.m3u"><img style="float: left;" src="/img/icon/play.png" alt="" width="30" height="30" /></a>
 
 ## Ultimos podcasts
 * [uGeek - 048. Encuentro de amiguetes](https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3)

@@ -82,7 +82,8 @@ sudo systemctl start service
 Si estamos utilizando Raspbian Lite, la terminal nos devolverá un error, ya que el método para que inicie cada vez que reiniciemos nuestra Raspberry Pi es diferente.
 
 ### Raspbian Lite
-Si queremos acceder desde otro dispositivo a la interfaz web de `Syncthing`, dentro de nuestra red local, no podremos acceder. Para poder hacerlo, primero por `SSH`, editaremos un archivo de configuración y añadiremos la ip para habilitar esta opción.
+Lo primero que debemos hacer, si queremos acceder desde otro dispositivo a la interfaz web de `Syncthing`, dentro de nuestra red local, es editar un archivo de configuración mediante `SSH`.
+Introduciremos esta línea en la Terminal y añadiremos la ip de nuestra Raspberry Pi, en lugar de `127.0.0.1`.
 
 {% highlight ruby %}
 sudo nano ~/.config/syncthing/config.xml

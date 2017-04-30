@@ -21,9 +21,9 @@ Suscribete al Podcast  |  [RSS](http://feeds.feedburner.com/ugeek) | [ITunes](ht
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
-![Syncthing](/img/post/syncthing.png)
+![Syncthing](https:ugeek.github.io/img/post/syncthing.png)
 En el siguiente post os explicaré como instalar Syncthing en Ubuntu, Antergos o Raspberry Pi.
-Como explico en el audio, Syncthing no solo sincroniza carpetas entre dispositovos, servidores, etc... Si no que ademas, con la sencillez de no tener que abrir puertos y creando backups de versiones de todos los archivos, decidiendo el numero de versiones que queremos que se creen tanto en un dispositivo, como en otro.
+Como explico en el audio, Syncthing no solo sincroniza carpetas entre dispositovos, servidores, etc... Si no que además, con la sencillez de no tener que abrir puertos y creando backups de versiones de todos los archivos, decidiendo el numero de versiones que queremos que se creen tanto en un dispositivo, como en otro.
 
 Vamos con la instalación en los diferente dispositivos:
 
@@ -58,7 +58,7 @@ syncthing
 Se abrirá nuestro navegador automáticamente o lo abriremos nosotros, y para acceder a la interfaz web escribiremos `localhost:8384`
 
 
-Hasta aquí, el proceso de instalación es igual en todas las distros dervadas de debian. Para que Syncthing se inicie cada vez que arranquemos el sistema operativo, escribimos en la terminal:
+Hasta aquí, el proceso de instalación es igual en todas las distros derivadas de debian. Para que Syncthing se inicie cada vez que arranquemos el sistema operativo, escribimos en la terminal:
 {% highlight ruby %}
 systemctl --user enable syncthing.service
 {% endhighlight %}
@@ -79,10 +79,10 @@ sudo systemctl start service
 
 
 
-Si estamos utilizando Raspbian Lite, la terminal nos devolverá un error, ya que el metodo para que inicie cada vez que reiniciemos nuestra Raspberry Pi es diferente.
+Si estamos utilizando Raspbian Lite, la terminal nos devolverá un error, ya que el método para que inicie cada vez que reiniciemos nuestra Raspberry Pi es diferente.
 
 ### Raspbian Lite
-Si queremos acceder desde otro dispositivo a la interfaz web de `Syncthing`, dentro de nuestra red local, no podremos acceder porque primero por `SSH`, editaremos un archivo de configuración y añadiremos la ip para habilitar esta opción.
+Si queremos acceder desde otro dispositivo a la interfaz web de `Syncthing`, dentro de nuestra red local, no podremos acceder. Para poder hacerlo, primero por `SSH`, editaremos un archivo de configuración y añadiremos la ip para habilitar esta opción.
 
 {% highlight ruby %}
 sudo nano ~/.config/syncthing/config.xml
@@ -228,7 +228,7 @@ sudo chmod +x /etc/init.d/syncthing
 {% endhighlight %}
 
 
-Habilitamos que se inicie cada vez que reiniciemos
+Habilitamos que inicie cada vez que reiniciemos
 
 {% highlight ruby %}
 sudo update-rc.d syncthing defaults

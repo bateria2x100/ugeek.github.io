@@ -23,7 +23,7 @@ Your browser does not support the audio element.
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 ![syncthing](https://raw.githubusercontent.com/uGeek/ugeek.github.io/master/img/post/syncthing.png)
 En el siguiente post os explicaré como instalar Syncthing en Ubuntu, Antergos o Raspberry Pi.
-Como explico en el audio, Syncthing no solo sincroniza carpetas entre dispositovos, servidores, etc... Si no que además, con la sencillez de no tener que abrir puertos y creando backups de versiones de todos los archivos, decidiendo el numero de versiones que queremos que se creen tanto en un dispositivo, como en otro.
+Como explico en el audio, Syncthing no solo sincroniza carpetas entre dispositovos, servidores, etc... Si no que además, podremos hacer esta sicronización con la sencillez de no tener que abrir puertos y creando backups de versiones de todos los archivos, decidiendo el numero de versiones que queremos que se creen tanto en un dispositivo, como en otro.
 
 Vamos con la instalación en los diferente dispositivos:
 

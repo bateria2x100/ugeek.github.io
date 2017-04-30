@@ -70,7 +70,7 @@ kramdown:
 
 # Podcast Feed Settings
 podcast_url: https://ugeek.github.io
-podcast_album_art: https://archive.org/download/ugeek/ugeek.png
+podcast_album_art: /img/ugeek.png
 podcast_title: uGeek
 podcast_owner: Angel
 podcast_email: ugeekpodcast@gmail.com

@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1,Salmorejo Geek - #118 Directo: Así están las cosas (Abril 2017)
+http://www.ivoox.com/118-directo-asi-estan-cosas-abril-2017_mf_18412331_feed_1.mp3
+#EXTINF:-1,Compilando Podcast - Podcast 4 – Jon “maddog” Hall , Open South Code y Linux y Tapas
+http://compilando.audio/wp-content/uploads/2017/04/podcast4.mp3
+#EXTINF:-1,uGeek - 049. Instalar Syncthing en Ubuntu (derivadas de Debian), Antergos o Raspberry Pi
+https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3
 #EXTINF:-1,uGeek - 048. Encuentro de amiguetes
 https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3
 #EXTINF:-1,uGeek - 047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi
@@ -65,8 +71,8 @@ https://ia801503.us.archive.org/18/items/037LlamadasDeTelegram/%23037%20Llamadas
 https://ia601509.us.archive.org/25/items/036PodcastConFrank/%23036%20podcast%20con%20Frank.mp3
 #EXTINF:-1,Eduardo Collado - Podcast #21: Let’s Encrypt
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-21-lets-encrypt.mp3
-#EXTINF:-1,Podcast Linux - GNU/Linux en la Universidad
-http://www.ivoox.com/gnu-linux-universidad_mf_17834272_feed_1.mp3
+#EXTINF:-1,Podcast Linux - #21 GNU/Linux en la Universidad
+http://www.ivoox.com/21-gnu-linux-universidad_mf_17834272_feed_1.mp3
 #EXTINF:-1,Eduardo Collado - Podcast #20: Cómo ganar dinero con el podcast
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-20-como-ganar-dinero-con-el-podcast.mp3
 #EXTINF:-1,MosqueteroWeb - FreeNAS , Servidor HP Gen8, Contenedores Y Máquinas Virtuales
@@ -121,8 +127,6 @@ https://ia601505.us.archive.org/21/items/024ConectateRemotamenteATuRaspberryPiCo
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-15-mumble.mp3
 #EXTINF:-1,Salmorejo Geek - #108 Directo - Así están las cosas (Marzo 2017)
 http://www.ivoox.com/108-directo-asi-estan-cosas-marzo_mf_17354573_feed_1.mp3
-#EXTINF:-1,uGeek - #023 Entrevista a Chema y Juan, dos desarrolladores de Software Libre de Igalia.com en el #mwc17
-https://ia601507.us.archive.org/8/items/EntrevistaADosDesarrolladoresDeSoftwareLibreDeIgalia/Entrevista%20a%20dos%20desarrolladores%20de%20Software%20Libre%20de%20Igalia.mp3
 #EXTINF:-1,Podcast Linux - #19 GNU/Linux en la escuela
 http://www.ivoox.com/19-gnu-linux-escuela_mf_17289281_feed_1.mp3
 #EXTINF:-1,MosqueteroWeb - AMD vs Intel. Samsung. Nokia MWC Spotify Cloudflare Martingala
@@ -187,8 +191,6 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 http://www.ivoox.com/w10-2gb-moto-mods-no-raid_mf_14773966_feed_1.mp3
 #EXTINF:-1,Salmorejo Geek - #99 Charlando sobre colaboratorio.net (con @elavdeveloper y @ochobitsunbyte)
 http://www.ivoox.com/99-charlando-sobre-colaboratorio-net-con-aelavdeveloper-aochobitsunbyte_mf_14589931_feed_1.mp3
-#EXTINF:-1,Salmorejo Geek - #98 Salmorejo Geek Responde
-http://www.ivoox.com/98-salmorejo-geek-responde_mf_14391873_feed_1.mp3
 #EXTINF:-1,Eduardo Collado - Podcast #3: Cómo crear un podcast
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-3-como-crear-un-podcast.mp3
 #EXTINF:-1,Podcast Linux - #12 Linux Connexion con Alejandro López ( Slimbook )

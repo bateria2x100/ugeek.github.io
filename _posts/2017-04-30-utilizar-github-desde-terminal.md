@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Como utilizar GitHub en la Terminal Linux"
+title: "Como utilizar GitHub en la Terminal"
 date: 2017-04-30
 tags: [github, blog, terminal]
 categories: github

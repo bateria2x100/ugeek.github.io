@@ -8,6 +8,8 @@ title: Interesantes
 [atareao.es](https://www.atareao.es/)  
 [inclusa](http://inclusa.github.io/)  
 [sasogu](https://sasogu.github.io)  
+[rooteando](https://rooteando.com)
+
 
 ### Otros Episodios de Podcast de Interes
 [Applelianos: GNU Linux Usuario Básico Capítulo 1](http://feeds.soundcloud.com/stream/319825255-applelianos-gnu-linux-usuario-basico-capitulo-1.m4a)

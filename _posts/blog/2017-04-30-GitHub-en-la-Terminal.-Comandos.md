@@ -23,15 +23,15 @@ En resume, los pasos básicos para enviar archivos a una rama master de github, 
 * Añadimos a git todos los cambios que hemos hecho en local  
 **git add .** (no olvidar el punto)  
 
-* Commit es una breve explicación del cambio o nuevo archivo que enviamos
+* Commit es una breve explicación del cambio o nuevo archivo que enviamos  
 **git commit -m "nuevo post"**  
 
 * Empujamos el archivo, ahora si, a github   
 **git push origin master**  
 
-Puede intersarte:  
-* [GitHub. Configurarlo en tu Pc mediante la terminal](https://ugeek.github.io/configurar-tu-pc-para-subir-contenido-a-tus-repositiorios-github-mediante-terminal/)  
-*
+Sobre Github:  
+* [GitHub. Configurarlo en tu Pc mediante la terminal](https://ugeek.github.io/GitHub.-Configurarlo-en-tu-Pc-mediante-la-terminal/)  
+* [GitHub en la Terminal. Comandos](GitHub en la Terminal. Comandos)  
 
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},

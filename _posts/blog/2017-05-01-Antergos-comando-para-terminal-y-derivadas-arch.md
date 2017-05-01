@@ -63,6 +63,9 @@ Notas de Nextcloud
 Descarga videos de youtube  
 **sudo pacman -S clipgrab**
 
+Hacer capturas de pantalla
+**yaourt -S shutter**
+
 Convertir audios de m4a a MP3  
 **sudo pacman -S soundconverter**
 

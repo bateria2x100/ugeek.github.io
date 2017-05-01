@@ -11,14 +11,31 @@ Los que venimos de Ubuntu, tenemos problemas al pasar a una dervada de Arch, por
 
 Aquí iré añadiendo periodicamente comandos para ir conociendolos.
 
+## pacman
+Pacman es el sistema de paquetes de Arch oficial, supervisado por ellos.
+
 * Actualizar el Sistema Operativo y repositorios  
 **sudo pacman -Syyuu**
 
-* Instalar aplicaciones (como gimp)  
+* Buscar en los repositorios (usaremos de ejem: gimp)    
+**sudo pacman -Ss gimp**
+
+* Instalar aplicaciones    
 **sudo pacman -S gimp**
 
-* Instalar aplicaciones que no encontremos en Pacman (como utext)  
-**yaourt -S utext**
+## yaourt  
+Las aplicaciones que no esten en los repositorios oficiales de Arch, estan en AUR. AUR (Arch User Repository) es el lugar donde la comunidad de Arch Linux puede subir los PKGBUILD de las aplicaciones, bibliotecas, etc.,
+
+Para instalar desde Aur utilizaremos **yaourt**.
+
+* Actualizar los repositorios  
+**yaourt -Syu**  
+
+* Buscar en yaourt (usaremos de ejem: utext)  
+**yaourt -Ss utext**  
+
+* Instalar aplicaciones que no encontremos en Pacman (como utext)   
+**yaourt -S utext**  
 
 
 ---

@@ -13,10 +13,21 @@ Utilizar la terminal es muchísimo más rápido tanto el poder previsulizar el b
 
 Como siempre os he comentado, utilizar la terminal al principio impresiona, pero hay que reconocer que no hay herramienta más productiva y potente que esta.  
 
-Os dejo estas 2 publicaciones de dos buenos amigos, [inclusa](http://inclusa.github.io/2016/03/30/GIT-Principals-comandaments-que-utilitze.html) y [sasogu](https://sasogu.github.io/2017/04/29/github.html), que me han ayudado a poder llevar todo esto a cabo y os ayudaran gracias a esta webs, a conocer muchísimo mejor los comandos a utilizar en la terminal para GitHub.
+Os dejo estas 2 publicaciones de dos buenos amigos, [inclusa](http://inclusa.github.io/2016/03/30/GIT-Principals-comandaments-que-utilitze.html) y [sasogu](https://sasogu.github.io/2017/04/29/github.html), que me han ayudado a poder llevar todo esto a cabo y os ayudaran gracias a esta webs, a conocer muchísimo mejor los comandos a utilizar en la terminal para GitHub.  
 
+En resume, los pasos básicos para enviar archivos a una rama master de github, serian estos:  
 
+* Vemos el estado desde el último cambio  
+**git status**  
+* Añadimos a git todos los cambios que hemos hecho en local  
+**git add .** (no olvidar el punto)  
+* Commit es una breve explicación del cambio o nuevo archivo que enviamos
+**git commit -m "nuevo post"**
+* Empujamos el archivo, ahora si, a github
+**git push origin master**
 
+Puede intersarte:
+[Configurar tu PC para subir contenido a tus repositorios GitHub mediante la terminal](https://ugeek.github.io/configurar-tu-pc-para-subir-contenido-a-tus-repositiorios-github-mediante-terminal/)
 
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},

@@ -42,7 +42,7 @@ Si te sale lo primero, haz click sobre Use SSH y después haz click sobre el bot
 
 Ahora ves donde quiere importar este repositorio y escribe:
 
-**git clone git@github.com:uGeek/ugeek.github.io.git**
+**git clone git@github.com:podcastlinux/podcastlinux.github.io.git**
 
 Se descargará todo el repositorio descomprimido y ya podrás trabajar en local.
 

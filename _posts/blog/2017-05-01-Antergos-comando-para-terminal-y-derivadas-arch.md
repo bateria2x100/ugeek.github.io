@@ -79,11 +79,6 @@ Skype
 **sudo pacman -S skype**
 
 
-
-
-
-
-
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 

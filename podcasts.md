@@ -9,11 +9,11 @@ Abre con VLC
 <a href="https://ugeek.github.io/ugeek.m3u"><img style="float: left;" src="/img/icon/play.png" alt="" width="30" height="30" /></a>
 
 ## Ultimos podcasts
+* [Eduardo Collado - Podcast #26: Odoo y transformación digital](https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3)
+* [Salmorejo Geek - #119 Geekeando con Érika Betancor](http://www.ivoox.com/119-geekeando-erika-betancor_mf_18422071_feed_1.mp3)
 * [Salmorejo Geek - #118 Directo: Así están las cosas (Abril 2017)](http://www.ivoox.com/118-directo-asi-estan-cosas-abril-2017_mf_18412331_feed_1.mp3)
 * [Compilando Podcast - Podcast 4 – Jon “maddog” Hall , Open South Code y Linux y Tapas](http://compilando.audio/wp-content/uploads/2017/04/podcast4.mp3)
 * [uGeek - 049. Instalar Syncthing en Ubuntu (derivadas de Debian), Antergos o Raspberry Pi](https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3)
-* [uGeek - 048. Encuentro de amiguetes](https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3)
-* [uGeek - 047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi](https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3)
 
 ## uGeek
 * [049. Instalar Syncthing en Ubuntu (derivadas de Debian), Antergos o Raspberry Pi](https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3)
@@ -84,6 +84,7 @@ Abre con VLC
 * [Podcast 0 – Edición de presentación. Stallman y el síndrome Mi Pueblex.](https://archive.org/download/PODCAST0_201704/PODCAST_0.mp3)
 
 ## Salmorejo Geek
+* [#119 Geekeando con Érika Betancor](http://www.ivoox.com/119-geekeando-erika-betancor_mf_18422071_feed_1.mp3)
 * [#118 Directo: Así están las cosas (Abril 2017)](http://www.ivoox.com/118-directo-asi-estan-cosas-abril-2017_mf_18412331_feed_1.mp3)
 * [#117 Sin sombra en el helicóptero](http://www.ivoox.com/117-sin-sombra-helicoptero_mf_18309317_feed_1.mp3)
 * [#116 Conociendo Deepin GNU Linux 15.4](http://www.ivoox.com/116-conociendo-deepin-gnu-linux-15-4_mf_18295101_feed_1.mp3)
@@ -128,6 +129,7 @@ Abre con VLC
 * [Tablet + portátil 2x1 Boligrafos digitales Editores pdf](http://www.ivoox.com/tablet-portatil-2x1-boligrafos-digitales-editores-pdf_mf_11399575_feed_1.mp3)
 
 ## Eduardo Collado
+* [Podcast #26: Odoo y transformación digital](https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3)
 * [Podcast #25: Introducción a Docker](https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-25-introduccion-a-docker.mp3)
 * [Podcast #24: Sobre Vlans](https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-24-sobre-vlans.mp3)
 * [Podcast #23: Calcular máscaras de red](https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-23-calcular-mascaras-de-red.mp3)

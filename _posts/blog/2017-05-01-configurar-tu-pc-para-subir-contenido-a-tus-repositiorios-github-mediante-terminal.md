@@ -40,4 +40,12 @@ Siguiente paso. Ves al repositorio de tu blog en github,haz click en Clone or do
 
 Si te sale lo primero, haz click sobre Use SSH y después haz click sobre el botón de copiar que hay debajo (o copia la url que te aparece debajo), si te sale lo segundo, haz click sobre el botón copiar de abajo directamente para copiar la url
 
+Ahora ves donde quiere importar este repositorio y escribe:
+
+**git clone git@github.com:uGeek/ugeek.github.io.git**
+
+Se descargará todo el repositorio descomprimido y ya podrás trabajar en local.
+
+
+
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},

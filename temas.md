@@ -16,7 +16,8 @@ sitemap:
 ---
 
 ## Jekyll  
-1. [Crear el Feed para el podcast](/generar-feed-para-podcast-en-jekyll/)  
+1. [Instalar Ruby y Jekyll](/Instalar-Ruby-y-Jekyll/)  
+2. [Crear el Feed para el podcast](/generar-feed-para-podcast-en-jekyll/)  
 
 ---
 ## Terminal  

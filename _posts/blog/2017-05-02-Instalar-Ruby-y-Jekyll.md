@@ -62,3 +62,5 @@ Para acceder desde otro dispositivo dentro de nuestra red local, poniendo por ej
 ```
 jekyll serve --host 192.168.1.100
 ```
+
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},

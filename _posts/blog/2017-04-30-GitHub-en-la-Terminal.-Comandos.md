@@ -36,12 +36,14 @@ git commit -m "nuevo post"
 git push origin master
 ```  
 
-Sobre Github:  
-* [GitHub. Configurarlo en tu Pc mediante la terminal](https://ugeek.github.io/GitHub.-Configurarlo-en-tu-Pc-mediante-la-terminal/)  
-* [GitHub en la Terminal. Comandos](GitHub en la Terminal. Comandos)  
+**si tenemos instalado GitHub en dos dispositivos, antes de editar, deberiamos verificar o descargar el contenido remoto de GitHub a local. Para ello escribiremos en la terminal:**  
+
+```
+git pull origin master
+```
 
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
-Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 
 
 {% if page.comments %}

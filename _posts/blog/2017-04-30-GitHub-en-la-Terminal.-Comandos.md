@@ -18,16 +18,23 @@ Os dejo estas 2 publicaciones de dos buenos amigos, [inclusa](http://inclusa.git
 En resume, los pasos básicos para enviar archivos a una rama master de github, serian estos:  
 
 * Vemos el estado desde el último cambio  
-**git status**  
-
+```shell
+ git status
+```  
 * Añadimos a git todos los cambios que hemos hecho en local  
-**git add .** (no olvidar el punto)  
+```
+git add .
+```
 
 * Commit es una breve explicación del cambio o nuevo archivo que enviamos  
-**git commit -m "nuevo post"**  
+```
+git commit -m "nuevo post"
+```  
 
 * Empujamos el archivo, ahora si, a github   
-**git push origin master**  
+```
+git push origin master
+```  
 
 Sobre Github:  
 * [GitHub. Configurarlo en tu Pc mediante la terminal](https://ugeek.github.io/GitHub.-Configurarlo-en-tu-Pc-mediante-la-terminal/)  

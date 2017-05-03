@@ -12,7 +12,7 @@ sitemap:
 ## GitHub
 1. [Configurar GitHub en tu Pc mediante la terminal](/GitHub.-Configurarlo-en-tu-Pc-mediante-la-terminal/)  
 2. [Comandos GitHub en la Terminal.](/GitHub-en-la-Terminal.-Comandos/)  
-3. [Crear un Blog Jekyll desde la Terminal](Crear-un-blog-jekyll-desde-la-terminal/)  
+3. [Crear un Blog Jekyll desde la Terminal](/Crear-un-blog-jekyll-desde-la-terminal/)  
 
 ---
 

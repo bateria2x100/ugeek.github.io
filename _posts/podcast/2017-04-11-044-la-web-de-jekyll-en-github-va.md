@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "044. La web de Jekyll en GitHub, va tomando forma"
+date: 2017-04-11
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
-tags: [podcast]
+podcast_link: https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3
+tags: [podcast, jekyll]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+Ya podeis dejar vuestros comentarios en la nueva web creada con Jekyll en github.
 
 
 

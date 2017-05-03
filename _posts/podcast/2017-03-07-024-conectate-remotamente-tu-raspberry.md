@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: '024. Conectate remotamente a tu Raspberry Pi con "dataplicity" '
+date: 2017-03-07
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-UIu3kck6lnY/WL5CdkYNk8I/AAAAAAAAAyM/OPDakBeBye4AsgpbNlP02IUE4k94pAxSgCLcB/s1600/AAEAAQAAAAAAAAO1AAAAJGE4OGYyOThjLWEyMDktNDdkYy1hNWZlLWIyY2VjMGExZjQ0Zg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-UIu3kck6lnY/WL5CdkYNk8I/AAAAAAAAAyM/OPDakBeBye4AsgpbNlP02IUE4k94pAxSgCLcB/s1600/AAEAAQAAAAAAAAO1AAAAJGE4OGYyOThjLWEyMDktNDdkYy1hNWZlLWIyY2VjMGExZjQ0Zg.png" /></a></div><br />https://www.dataplicity.com/
 
 
 

@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "021. Ubuntu en el Mobile World Congress "
+date: 2017-02-28
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia801606.us.archive.org/21/items/021UbuntuEnMobileWorldCongress/%23021%20ubuntu%20en%20Mobile%20World%20Congress%20.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia801606.us.archive.org/21/items/021UbuntuEnMobileWorldCongress/%23021%20ubuntu%20en%20Mobile%20World%20Congress%20.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+Estoy en el Mobile World Congress y en breve subiremos entrevistas de ubuntu, nextcloud y mucho más...
 
 
 

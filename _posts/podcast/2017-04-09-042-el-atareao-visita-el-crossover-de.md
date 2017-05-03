@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "042. El Atareao visita el Crossover de la Semana"
+date: 2017-04-09
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia601502.us.archive.org/25/items/042ElAtareaoVisitaElCrossoverDeLaSemana/%23042%20El%20Atareao%20visita%20el%20Crossover%20de%20la%20Semana.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia601502.us.archive.org/25/items/042ElAtareaoVisitaElCrossoverDeLaSemana/%23042%20El%20Atareao%20visita%20el%20Crossover%20de%20la%20Semana.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+Esta semana tenemos la participación en el crossover de la semana de Lorenzo, del atareao.<br />Junto a Pedro del MosqueteroWeb, Halaremos de la decisión por parte de Canonical de dejar el proyecto Unity, diferente tipos de escritorios, distros, nuestra forma de gestionar nuestras tareas y notas, Latex, programación y mucho mas....<br /><br />No dudéis en visitar el gran blog de: <a href="https://www.atareao.es/">https://www.atareao.es/</a>
 
 
 

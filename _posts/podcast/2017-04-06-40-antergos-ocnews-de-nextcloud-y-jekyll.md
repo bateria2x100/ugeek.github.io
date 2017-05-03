@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "040. Antergos, Ocnews De Nextcloud Y Jekyll"
+date: 2017-04-06
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+En el Podcast de hoy, hablo de mi experiencia positiva durante 3 dias usando <a href="https://antergos.com/">Antergos</a>.<br /><br />Mi experiencia con la nueva app de Android para News de Nextcloud, <a href="https://t.me/uGeek/99">OCNews</a><br /><br />Proceso de creación del nuevo blog de uGeek, 100% Software Libre con <a href="https://jekyllrb.com/">Jekyll</a>.<br /><br />Sabéis que tenemos <a href="https://t.me/joinchat/AAAAAEGgxsbMjSliSWKXow">Grupo en Telegram</a><br /><br />Y <a href="https://t.me/uGeek">Canal en Telegram</a><br /><br />Nueva Web de uGeek: <a href="https://angelbcn.github.io/ugeek">https://angelbcn.github.io/ugeek&nbsp;</a><br /><br /><a href="http://ugeekpodcast.tk/">http://ugeekpodcast.tk </a>
 
 
 

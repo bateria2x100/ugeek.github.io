@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "015. Como ampliar el almacenamiento de Nextcloud, combinar con nubes publicas
+  y hacer copias de mis fotos."
+date: 2017-02-16
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia801603.us.archive.org/20/items/015AlmacenamientoTheNextcloud/%23015_almacenamiento_the_nextcloud.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia801603.us.archive.org/20/items/015AlmacenamientoTheNextcloud/%23015_almacenamiento_the_nextcloud.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+Hoy cierro temporalmente el tema Nextcloud temporalmente.<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-TaGgfAjaKWs/WKW9CJW08pI/AAAAAAAAAd4/CFOeeFvyRxYWPmSNdRixWYBfisR5uptmgCLcB/s1600/CAP4.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="265" src="https://3.bp.blogspot.com/-TaGgfAjaKWs/WKW9CJW08pI/AAAAAAAAAd4/CFOeeFvyRxYWPmSNdRixWYBfisR5uptmgCLcB/s320/CAP4.jpg" width="320" /></a></div><br /><br />Soy @Angel_BCN en Telegram y @uGeekPodcast en Twitter
 
 
 

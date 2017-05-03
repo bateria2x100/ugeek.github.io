@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "001. Hola Mundo"
-date: '2017-01-26T20:44:00.000+01:00'
-author: Angel
-categories: podcast
+title: "034. Bots de Telegram Sustitutos a Shazam y busqueda de articulos dentro del bot de Pocket"
+date: 2017-03-28
 image: img/ugeek.png
-podcast_link: https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+podcast_link: https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3
 tags: [podcast]
 categories: podcast
 comments: true
 ---
 #### Publicado por Angel
 
-Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |   
+Suscribete al Blog :  [RSS del Blog](http://feeds.feedburner.com/uGeekBlog) |
 
-Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)   
+Suscribete al Podcast :  [RSS](http://feeds.feedburner.com/ugeek) , [ITunes](https://itunes.apple.com/us/podcast/ugeek/id1201421866?mt=2) , [ivoox](https://www.ivoox.com/podcast-ugeek_sq_f1383493_1.html)
 
 <audio controls>
-  <source src="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" type="audio/mpeg">
+  <source src="https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <!-- ---------------------------------------------------Pon aquí el audio-------------------------------------------------------- -->
 
-Hola Mundo! Bienvenidos al Primer Podcast de uGeek.<br /><br />Comparte el Feed para suscribirte: [http://feeds.feedburner.com/ugeek](http://feeds.feedburner.com/ugeek)
+
+<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-T2iRYi0dbTE/WNlo4zlJYgI/AAAAAAAAA5U/xcl-q5yMqxMgvn0MVJk2ToHeP9vPJl4dwCLcB/s1600/photo_2017-03-27_23-32-13.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="https://4.bp.blogspot.com/-T2iRYi0dbTE/WNlo4zlJYgI/AAAAAAAAA5U/xcl-q5yMqxMgvn0MVJk2ToHeP9vPJl4dwCLcB/s320/photo_2017-03-27_23-32-13.jpg" width="187" /></a></div>En este episodio explico como hacer la búsqueda de artículos dentro de Pocket.<br /><br />Dos Bots sustitutos a Shazam:<br /><br /><a href="https://t.me/Tadam_bot">https://t.me/Tadam_bot</a><br /><a href="https://t.me/acknobot">https://t.me/acknobot</a>
 
 
 

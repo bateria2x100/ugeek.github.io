@@ -24,4 +24,7 @@ sitemap:
 ## Terminal  
 1. [Antergos. Comandos para terminal y derivadas de Arch Linux](/Antergos-comando-para-terminal-y-derivadas-arch/)  
 
----
+---  
+
+## Aplicaciones  
+1. [Synapse](/Synapse/)

@@ -4,6 +4,7 @@ title: "Antergos. Comandos para terminal y derivadas de Arch Linux"
 date: 2017-05-01
 tags: [antergos, blog, terminal]
 categories: blog
+comments: true
 ---
 #### Publicado por Angel
 
@@ -99,8 +100,11 @@ Skype
 **sudo pacman -S skype**
 
 
-<!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
-Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+<!-- TAGS Y COMENTARIOS -->
+
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+
+
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
@@ -124,6 +128,5 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-{% endif %}
 
-<script id="dsq-count-scr" src="//https-angelbcn-github-io-ugeek.disqus.com/count.js" async></script>
+{% endif %}

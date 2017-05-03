@@ -4,6 +4,7 @@ title: "GitHub en la Terminal. Comandos"
 date: 2017-04-30
 tags: [github, blog, terminal]
 categories: github
+comments: true
 ---
 #### Publicado por Angel
 
@@ -42,8 +43,10 @@ git push origin master
 git pull origin master
 ```
 
-<!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
+<!-- TAGS Y COMENTARIOS -->
+
 Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+
 
 
 {% if page.comments %}
@@ -68,6 +71,5 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-{% endif %}
 
-<script id="dsq-count-scr" src="//https-angelbcn-github-io-ugeek.disqus.com/count.js" async></script>
+{% endif %}

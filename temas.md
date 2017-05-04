@@ -32,7 +32,8 @@ sitemap:
 ---
 
 ## Podcast   
-
+* [051. Adiós Blogger, Hola GitHub!](https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3)  
+* [050. Que ando haciendo, nuevas publicaciones y más...](https://ia801505.us.archive.org/9/items/050.QueAndoHaciendo/050.%20Que%20ando%20haciendo.mp3)  
 * [049. Instalar Syncthing en Ubuntu (derivadas de Debian), Antergos o Raspberry Pi](https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3)
 * [048. Encuentro de amiguetes](https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3)
 * [047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi](https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3)

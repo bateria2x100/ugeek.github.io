@@ -7,7 +7,7 @@ permalink: /podcasts/
 sitemap:
   priority: .5
 ---
-[Desarrollado por atareao.es](https://www.atareao.es/)
+[atareao.es](https://www.atareao.es/)
 
 <html lang="en">
 <head>

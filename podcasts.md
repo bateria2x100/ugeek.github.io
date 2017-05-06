@@ -9,6 +9,7 @@ sitemap:
 ---
 [Desarrollado por atareao.es](https://www.atareao.es/)
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,6 +21,9 @@ sitemap:
     var playlist;
     var tracks;
     var current;
+    var previous;
+    var current_track;
+    var previous_track;
     var ntracks;
     function initaudio(){
         audio=$("audio");
@@ -27,13 +31,18 @@ sitemap:
         ntracks=$("[id^=item-]").length
         audio[0].volume=1;
         current=0;
-        current_pista=playlist.find("#item-0");
-        runaudio($(current_pista),audio[0]);
+        previous=ntracks-1;
+        current_track=playlist.find("#item-0");
+        previous_track=playlist.find("#item-"+previous);
+        runaudio(current_track, audio[0],false);
         $("[id^=item-]").click(function(e){
             e.preventDefault();
-            link=$(this);
-            current=link.parent().index();
-            runaudio(link, audio[0]);
+            previous=current;
+            previous_track=current_track;
+            remove_play(previous_track);
+            current_track=$(this);
+            current=current_track.parent().index();
+            runaudio(current_track, audio[0]);
         });
         audio[0].addEventListener("ended",function(e){
             playnext();
@@ -46,38 +55,53 @@ sitemap:
         });
     };
     function playnext(){
+        previous=current;
+        previous_track=current_track;
+        remove_play(previous_track);
         current++;
-        current_pista=playlist.find("#item-"+current);
-        if(current_pista.length==0){
+        current_track=playlist.find("#item-"+current);
+        if(current_track.length==0){
             current=0;
-            current_pista=playlist.find("#item-0");
+            current_track=playlist.find("#item-0");
         }
-        runaudio($(current_pista),audio[0]);
+        runaudio($(current_track),audio[0]);
     }
     function playprevious(){
+        previous=current;
+        previous_track=current_track;
+        remove_play(previous_track);
         current--;
-        current_pista=playlist.find("#item-"+current);
-        if(current_pista.length==0){
+        current_track=playlist.find("#item-"+current);
+        if(current<0){
             current=ntracks-1;
-            current_pista=playlist.find("#item-"+current);
         }
-        runaudio($(current_pista),audio[0]);
+        current_track=playlist.find("#item-"+current);
+        runaudio($(current_track),audio[0]);
     }
-    function runaudio(item,player){
-        title=$(item.find(".title"));
-        $("#podcaster").text(title.text());
-        link=$(item.find("a"));
-        episode = link.text()
-        if(episode.length>33){
-            $("#episode").text(link.text().substring(0,30)+"...");
+    function remove_play(item){
+        isp=$(item.find(".isplaying"));
+        isp.html("");
+    }
+    function runaudio(item, player,play=true){
+        isp=$(item.find(".isplaying"))
+        isp.html("<i class='fa fa-play' aria-hidden='true'></i>");
+        podcast=$(item.find(".podcast"));
+        $("#podcast").text(podcast.text());
+        track=$(item.find(".track"));
+        if(track.text().length>33){
+            $("#track").text(track.text().substring(0,30)+"...");
         }else{
-            $("#episode").text(link.text());
+            $("#track").text(track.text());
         }
+        link=$(item.find('a'));
         player.src=link.attr("href");
         par=link.parent();
         par.addClass("active").siblings().removeClass("active");
         audio[0].load();
-        audio[0].play();
+        if(play==true){
+            console.log(play);
+            audio[0].play();
+        }
     }
     $(document).ready(function(){
         console.log($("[id^=item-]").length);
@@ -91,17 +115,18 @@ sitemap:
         initaudio();
     });
     </script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
         #left{
-            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAl0lEQVRIx+3UMQoCMRRF0aO1VloKdroM3YvgSsRdiJ2uwkYstRbciVVsZmAMMmYmbS6EVO9+Ql5CodCNMc549AkvcUGoVhKDal/j1QiHLpO3eEfhkDp9/yOYJJji2BJuFcxx+xNuFTwTwl+CYSQIuWWZ4ZpzBJjgkCOor3GXI6jZ9C1Ss8qrnCrXLPo8ppgRTriXn60Q8wECX1R63JgTcwAAAABJRU5ErkJggg==");
+            margin-top: 7px;
             float: left;
             width: 16px;
             height: 32px;
             cursor:hand;
         }
         #right{
-            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAjUlEQVRIx+3UOwoCQRCE4W+NNdJQMNNj6F0ETyLeQsz0FJuIoaYG3mSjNtlgQRDtSaegkoH+KaYfVFV96o4zxllA9G6xLAEEXlj3700GEOiwzSYYev9rivjiI6YlgMAV8xJA4DksGCU61ZQkuGGRBZwwy37iIdvGDruSUd5kR7nFKrNMD1wwqZet6h+9AfPLU3sbivmUAAAAAElFTkSuQmCC");
+            margin-top: 7px;
             float:left;
             width: 16px;
             height: 32px;
@@ -129,6 +154,9 @@ sitemap:
         body{
             background-color: rgb(247, 247, 247);
             font-family: "Roboto", sans-serif;
+            body { background-image:
+            background.image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><linearGradient id='gradient'><stop offset='10%' stop-color='%23F00'/><stop offset='90%' stop-color='%23fcc'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/></svg>");
+      }
         }
         .panel{
             webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
@@ -143,13 +171,14 @@ sitemap:
             margin-bottom: 20px;
         }
         audio {
-            width:300px; /* Ancho del reproductor */
+            width:250px; /* Ancho del reproductor */
             display: block;
             float:left;
         }
         ul {
           list-style-type: none;
-        }        
+          padding-left: 0px;
+        }
         li {
             list-style-type: none;
             height:70px;
@@ -159,19 +188,36 @@ sitemap:
             line-height: 20px;
             display: block;
             }
+        .isplaying{
+            float:left;
+            margin-top:12px;
+            width:24px;
+            height:24px;
+            margin-right: 5px;
+        }
         .logo{
             float:left;
             width:48px;
             height:48px;
             margin-right: 5px;
         }
-        .title{
+        .podcast, #podcast{
             display: block;
-            font-size: 18px;
+            font-size: 16px;
+            font-weight: 400;
+            color:rgba(0,0,0,.87);
             }
-        .mp3, #episode, #podcaster{
+        .track, #track{
             display: block;
             font-size: 14px;
+            font-weight: normal;
+            color:rgba(0,0,0,.54);
+        }
+        #track{
+            text-overflow: ellipsis;
+            display: -webkit-box;
+           -webkit-box-orient: vertical;
+           -webkit-line-clamp: 2;
         }
         #player{
             height:80px;
@@ -185,6 +231,14 @@ sitemap:
             font-size: 12px;
             color: #9E9E9E;
         }
+        a{
+            text-decoration:none;
+            color:rgba(0,0,0,.54);
+        }
+        a:visited{
+            text-decoration: none;
+            color:rgba(0,0,0,.54);
+        }
         @media only screen and (min-width: 700px) {
             .panel{
                 width:600px;
@@ -196,1425 +250,1604 @@ sitemap:
 <body>
     <div class="panel">
         <div id="player">
-            <a href="#" id="left" onclick="return false" title="Anterior"></a>
-            <audio id="audio" preload="auto" tabindex="0" controls="" autoplay>
-                <source src="https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3">
+            <a href="#" id="left" onclick="return false" title="Anterior">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
+            <audio id="audio" preload="auto" tabindex="0" controls="">
+                <source src="">
             </audio>
-            <a href="#" id="right" onclick="return false" title="Siguiente"></a>
+            <a href="#" id="right" onclick="return false" title="Siguiente">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
         </div>
         <div id="playing">
             <span class="playingnow">Reproduciendo ahora...</span>
-            <span id="podcaster">uGeek</span>
-            <span id="episode">Title</span>
+            <span id="podcast"></span>
+            <span id="track"></span>
         </div>
     </div>
     <div class="panel">
         <ul id="playlist">
 
-
 <li class="active">
-<span id="item-0">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3">051. Adiós Blogger, Hola GitHub!</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-1">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3">Podcast #26: Odoo y transformación digital</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-2">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/119-geekeando-erika-betancor_mf_18422071_feed_1.mp3">#119 Geekeando con Érika Betancor</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-3">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801505.us.archive.org/9/items/050.QueAndoHaciendo/050.%20Que%20ando%20haciendo.mp3">050. Que ando haciendo, nuevas publicaciones y más...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-4">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/118-directo-asi-estan-cosas-abril-2017_mf_18412331_feed_1.mp3">#118 Directo: Así están las cosas (Abril 2017)</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-5">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3">049. Instalando Syncthing en Ubuntu, Antergos y Raspberry Pi</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-6">
-<span class="logo compilandopodcast"></span>
-<span class="title">Compilando Podcast</span>
-<span class="mp3">
-<a href="http://compilando.audio/wp-content/uploads/2017/04/podcast4.mp3">Podcast 4 – Jon “maddog” Hall , Open South Code y Linux y Tapas</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-7">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3">048. Encuentro de amiguetes</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-8">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/twitter-sabemos-usarlo-android-audio-pocket-casts_mf_18349090_feed_1.mp3">Twitter, ¿sabemos usarlo? Android Audio y Pocket Casts</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-9">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/23-la-terminal_mf_18347303_feed_1.mp3">#23 La Terminal</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-10">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3">047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-11">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/117-sin-sombra-helicoptero_mf_18309317_feed_1.mp3">#117 Sin sombra en el helicóptero</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-12">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/116-conociendo-deepin-gnu-linux-15-4_mf_18295101_feed_1.mp3">#116 Conociendo Deepin GNU Linux 15.4</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-13">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-25-introduccion-a-docker.mp3">Podcast #25: Introducción a Docker</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-14">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601509.us.archive.org/6/items/046SyncthingResilioYDukto/%23046%20Syncthing%2c%20Resilio%20y%20Dukto%20.mp3">046. Sincronización de carpetas entre dispositivos. Syncthing, Resilio y Dukto</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-15">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801502.us.archive.org/1/items/041UbuntuYElAdiosAUnity/%23041%20Ubuntu%20y%20el%20adi%c3%b3s%20a%20Unity.mp3">041. Ubuntu y el adios de Unity</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-16">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-24-sobre-vlans.mp3">Podcast #24: Sobre Vlans</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-17">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/seguridad-hardware-tu-servidor-casero_mf_18128440_feed_1.mp3">Seguridad por Hardware en tu Servidor casero</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-18">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/115-crossover-ugeek-podcast-mastodon-ubuntu-y_mf_18112915_feed_1.mp3">#115 Crossover con uGeek Podcast: Mastodon, Ubuntu y comunidad Linux, Telegram y mucho más</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-19">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/22-linux-connexion-osl-la_mf_18133189_feed_1.mp3">#22 Linux Connexion con la OSL de la Universidad de La Laguna</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-20">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801505.us.archive.org/27/items/045CrossoverConSalmorejoGeek/%23045%20Crossover%20con%20Salmorejo%20Geek.mp3">045. Crossover con Salmorejo Geek, donde hablamos de Mastodon, Ubuntu, Telegram y mucho mas...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-21">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3">044. La web de Jekyll en GitHub, va tomando forma</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-22">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/114-ubuntu-abandona-unity-convergencia-y_mf_18057325_feed_1.mp3">#114 Ubuntu abandona Unity y la Convergencia ¿Y ahora qué?</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-23">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601509.us.archive.org/23/items/043BotDeTelegramDeIFTTT/%23043%20Bot%20de%20Telegram%20de%20IFTTT.mp3">043. Bot de Telegram IFTTT</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-24">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-23-calcular-mascaras-de-red.mp3">Podcast #23: Calcular máscaras de red</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-25">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/que-pasa-ubuntu-hablando-linux-con_mf_18041732_feed_1.mp3">¿Qué pasa con Ubuntu? Hablando de Linux con El Atareao y con uGeek</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-26">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601502.us.archive.org/25/items/042ElAtareaoVisitaElCrossoverDeLaSemana/%23042%20El%20Atareao%20visita%20el%20Crossover%20de%20la%20Semana.mp3">042. El Atareao visita el Crossover de la Semana</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-27">
-<span class="logo compilandopodcast"></span>
-<span class="title">Compilando Podcast</span>
-<span class="mp3">
-<a href="https://compilando.audio/wp-content/uploads/2017/04/Podcast_3.mp3">Podcast 3 – Entrevista con ” el atareao” y el nuevo rumbo de Ubuntu</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-28">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3">040. Antergos, Ocnews De Nextcloud Y Jekyll</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-29">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-22-iptables-en-gnu-linux.mp3">Podcast #22: NAT en GNU/Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-30">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/113-offtopiqueando-ando-informatica-semana-santa-chuck_mf_17909300_feed_1.mp3">#113 Offtopiqueando ando: Informática, Semana Santa y Chuck Norris</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-31">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601508.us.archive.org/2/items/039TelegramNotes/%23039%20Telegram%2c%20Notes.mp3">039. Aplicación Notes de Nextcloud y crea tus bots de Telegram</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-32">
-<span class="logo compilandopodcast"></span>
-<span class="title">Compilando Podcast</span>
-<span class="mp3">
-<a href="https://compilando.audio/wp-content/uploads/2017/04/CompilandoPodcast2.mp3">Podcast 2 – Especial Servidores Privados</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-33">
-<span class="logo compilandopodcast"></span>
-<span class="title">Compilando Podcast</span>
-<span class="mp3">
-<a href="https://compilando.audio/wp-content/uploads/2017/04/podcast_1.mp3">Podcast 1- Ian Murdock, Debian y el proyecto QSL</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-34">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/virtualizacion-ugeek-mosqueteroweb-face-to-face_mf_17898640_feed_1.mp3">Virtualizacion. uGeek y Mosqueteroweb. Face to Face.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-35">
-<span class="logo compilandopodcast"></span>
-<span class="title">Compilando Podcast</span>
-<span class="mp3">
-<a href="https://archive.org/download/PODCAST0_201704/PODCAST_0.mp3">Podcast 0 – Edición de presentación. Stallman y el síndrome Mi Pueblex.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-36">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601506.us.archive.org/26/items/38CrossoverConMosqueteroWeb/%23%2038%20Crossover%20con%20MosqueteroWeb.mp3">038. Crossover con MosqueteroWeb. Masterclass de FreeNas, Docker y virtualización mediante Proxmox y Esxi.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-37">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/112-llamadas-voz-telegram-cada-dia_mf_17886542_feed_1.mp3">#112 Llamadas de voz en Telegram, cada día mejor</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-38">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801503.us.archive.org/18/items/037LlamadasDeTelegram/%23037%20Llamadas%20de%20Telegram.mp3">037. Llamadas de Telegram ya estan aquí. Y 3 bots que os encantaran</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-39">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601509.us.archive.org/25/items/036PodcastConFrank/%23036%20podcast%20con%20Frank.mp3">036. Podcast con Frank de Batería2x100, Servidores Linux y NAS, lo mismo pero  diferente</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-40">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-21-lets-encrypt.mp3">Podcast #21: Let’s Encrypt</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-41">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/21-gnu-linux-universidad_mf_17834272_feed_1.mp3">#21 GNU/Linux en la Universidad</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-42">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-20-como-ganar-dinero-con-el-podcast.mp3">Podcast #20: Cómo ganar dinero con el podcast</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-43">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/freenas-servidor-hp-gen8-contenedores-y-maquinas_mf_17803755_feed_1.mp3">FreeNAS , Servidor HP Gen8, Contenedores Y Máquinas Virtuales</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-44">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601501.us.archive.org/10/items/035MiG8/%23035%20Mi%20G8.mp3">035. Mi HP ProLiant MicroServer Gen8</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-45">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3">034. Bots de Telegram Sustitutos a Shazam y busqueda de articulos dentro del bot de Pocket</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-46">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/chromebooks-raspi-xiaomi-note-4-ultraportatil-jumper_mf_17764920_feed_1.mp3">Chromebooks, raspi, Xiaomi Note 4 y ultraportátil Jumper</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-47">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-19-openvpn.mp3">Podcast #19: OpenVPN</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-48">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601500.us.archive.org/4/items/033BotDePocketParaTelegram/%23033%20Bot%20de%20Pocket%20para%20Telegram.mp3">033. Bots en Telegram. Bot de Pocket</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-49">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601606.us.archive.org/30/items/032MiscelaneaDeViernes/%23032%20Miscel%C3%A1nea%20de%20Viernes.mp3">032. Miscelánea de Viernes</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-50">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601606.us.archive.org/14/items/031Keepass.ComoGestionoMisContrasenas/%23031%20Keepass.%20Como%20gestiono%20mis%20contrase%C3%B1as.mp3">031. Keepass, como gestiono mis contraseñas</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-51">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601609.us.archive.org/0/items/030Mumble/%23030%20Mumble.mp3">030. Mumble, VoIP de Software Libre. Nextcloud, Wallabag y kdenlive</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-52">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/111-problemas-focusrite-scarlett-solo-y_mf_17626877_feed_1.mp3">#111 Problemas con la Focusrite Scarlett Solo y 2i2 en macOS Sierra</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-53">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-18-herramientas-simples-y-utiles-para-un-adminsitrador-de-red.mp3">Podcast #18: Herramientas simples y útiles para un adminsitrador de red</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-54">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601608.us.archive.org/28/items/029MiscelneaDeViernes/%23029%20Miscel%C3%A1nea%20de%20viernes.mp3">029. Miscelánea de Viernes.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-55">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601607.us.archive.org/17/items/ugeekpodcast_gmail_XMPP/XMPP.mp3">028. Instala un servidor de mensajeria tipo Whatsapp o Telegram y de Software Libre con XMPP/Jabber</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-56">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/20-linux-connexion-david-montalva-lliurex_mf_17557164_feed_1.mp3">#20 Linux Connexion con David Montalva (Lliurex)</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-57">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/110-armando-nuevo-pc-para-linux_mf_17538251_feed_1.mp3">#110 Armando un nuevo PC para Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-58">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601606.us.archive.org/3/items/027InstalaTuVpnEnUbuntuORaspberryPi/%23027%20instala%20tu%20vpn%20en%20Ubuntu%20o%20Raspberry%20Pi.mp3">027. Instala una VPN (OpenVpn) en Ubuntu o Raspberry Pi con PiVpn</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-59">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-17-sistemas-de-monitorizacion-de-sistemas-y-red.mp3">Podcast #17: Sistemas de monitorización de sistemas y red</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-60">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-16-directo-11-marzo-2017.mp3">Podcast #16: Directo 11 de Marzo 2017</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-61">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601606.us.archive.org/25/items/026PodcastConFrankDeBatera2x100/%23026%20Podcast%20con%20Frank%20de%20Bater%C3%ADa2x100.mp3">026. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestras Fotos, actualidad y sorteo del libro del año</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-62">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/transexualidad_mf_17427425_feed_1.mp3">Transexualidad</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-63">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/flintos-raspberry-pi-vernee-thor_mf_17416576_feed_1.mp3">FlintOS, Raspberry PI y Vernee Thor</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-64">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601600.us.archive.org/16/items/025MtodoMMsCompletoQueParaRecopilarNotasOrgMode/%23025%20M%C3%A9todo%20m%C3%A1s%20completo%20que%20para%20recopilar%20notas%2C%20org%20mode.mp3">025. Metodo mas completo para recopilar notas, org Mode</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-65">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/109-mi-vuelta-a-antergos-linux-al-estilo_mf_17415345_feed_1.mp3">#109 Mi vuelta a Antergos Linux al estilo Atlético de Madrid</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-66">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3">024. Conectate remotamente a tu Raspberry Pi con "dataplicity"</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-67">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-15-mumble.mp3">Podcast #15: Mumble, tu mesa de reuniones virtual</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-68">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/108-directo-asi-estan-cosas-marzo_mf_17354573_feed_1.mp3">#108 Directo - Así están las cosas (Marzo 2017)</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-69">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801609.us.archive.org/20/items/EntrevistaADosDesarrolladoresDeSoftwareLibreDeIgalia/Entrevista%20a%20dos%20desarrolladores%20de%20Software%20Libre%20de%20Igalia.mp3">023. Entrevista a Chema y Juan, dos desarrolladores de Software Libre de Igalia.com en el #mwc17</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-70">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601600.us.archive.org/33/items/EntrevistaConArturoSuarezDirectivoDelCloudDeCanonicalUbuntu/Entrevista%20con%20Arturo%20Suarez,%20Directivo%20del%20Cloud%20de%20Canonical%20Ubuntu.mp3">022. Entrevista con Arturo Suarez, DIrectivo del Cloud de Canonical Ubuntu</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-71">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/19-gnu-linux-escuela_mf_17289281_feed_1.mp3">#19 GNU/Linux en la escuela</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-72">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/amd-vs-intel-samsung-nokia-mwc-spotify-cloudflare_mf_17285109_feed_1.mp3">AMD vs Intel. Samsung. Nokia MWC Spotify Cloudflare Martingala</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-73">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-14-radio-o-podcast.mp3">Podcast #14: Radio o Podcast, no elijas puedes tener las dos</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-74">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801606.us.archive.org/21/items/021UbuntuEnMobileWorldCongress/%23021%20ubuntu%20en%20Mobile%20World%20Congress%20.mp3">021. Ubuntu en el Mobile World Congress</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-75">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-13-ospf-multiarea.mp3">Podcast #13: OSPF Multiárea</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-76">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601601.us.archive.org/7/items/20PodcastConFrankDeBatera2x100HablamosDeComoGestionamosNuestraNotas/%2320%20Podcast%20con%20Frank%20de%20Bater%c3%ada2x100%2c%20Hablamos%20de%20como%20gestionamos%20nuestra%20notas%20.mp3">020. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestra notas y mucho mas...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-77">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/noticias-tecnologicas_mf_17193972_feed_1.mp3">Noticias Tecnológicas</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-78">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601603.us.archive.org/6/items/019DokuwikiNuevaFormaDeTomarMisNotas/%23019%20Dokuwiki%2c%20nueva%20forma%20de%20tomar%20mis%20notas%20.mp3">019. Dokuwiki, nueva forma de tomar mis notas. Monta tu wiki con DokuWiki o MediaWiki.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-79">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601604.us.archive.org/24/items/018WallabagElPocketOInstapaper/%23018_Wallabag%2c_el_Pocket_o_Instapaper.mp3">018. Como montar Wallabag, el Pocket o Instapaper de software libre y lo mejor de todo, en tu servidor</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-80">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-12-atencion-al-cliente-y-migrar-una-web.mp3">Podcast #12: Atención al cliente y migrar una web</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-81">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801300.us.archive.org/34/items/017PodcastConFrankDeBateria2x100HablandoDePlexNextcloud.../%23017%20Podcast%20con%20Frank%20de%20Bateria2x100%2c%20hablando%20de%20Plex%2c%20Nextcloud....mp3">017. Podcast con Frank de Bateria2x100, hablando de Plex, Nextcloud...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-82">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801603.us.archive.org/24/items/016QueEsUnServidor/%23016%20Que%20es%20un%20servidor.mp3">016. Que es un Servidor (dudas oyentes), servidor web, ...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-83">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801603.us.archive.org/20/items/015AlmacenamientoTheNextcloud/%23015_almacenamiento_the_nextcloud.mp3">015. Como ampliar el almacenamiento de Nextcloud, combinar con nubes publicas y hacer copias de mis fotos.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-84">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/18-linux-connexion-bitacora-ciberseguridad_mf_17029145_feed_1.mp3">#18 Linux Connexion con Bitácora de Ciberseguridad</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-85">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601602.us.archive.org/11/items/NotasEnNextcloud/Notas%20en%20nextcloud.mp3">014. Notas en Nextcloud y Markdown</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-86">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801601.us.archive.org/21/items/013NewsYFreshRSS.GestorDeNoticiasRSS/%23013%20News%20y%20Fresh%20RSS.%20Gestor%20de%20Noticias%20RSS.mp3">013. News y FreshRSS. Gestor de Noticias RSS.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-87">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801604.us.archive.org/21/items/013FDroidAplicacionesDeSoftwareLibre/%23013%20F-Droid%20Aplicaciones%20de%20Software%20Libre.mp3">013. bis F-Droid Tienda Android de aplicaciones de Software Libre y Actualizar las Noticias en Nextcloud.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-88">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/107-no-soy-fanboy_mf_16980247_feed_1.mp3">#107 No soy un Fanboy</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-89">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3">012. Como actualizar Nextcloud y salir del modo de "mantenimiento"</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-90">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/w10-no-va-bien-mac-vs-linux-directo_mf_16950998_feed_1.mp3">W10 NO va bien. Mac vs Linux. Directo con ChineseDroid+AndroyTecno</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-91">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-11-ospf-en-un-area.mp3">Podcast #11: OSPF en un único área</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-92">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801602.us.archive.org/16/items/011PodcastConFrankDeBateria2x100/%23011%20Podcast%20con%20Frank%20de%20Bateria2x100.mp3">011. Podcast con Frank de Bateria2x100, hablando un poco de todo...</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-93">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/106-linux-no-es-dificil-somos-viejos_mf_16934360_feed_1.mp3">#106 Linux no es difícil, somos los viejos usuarios quienes lo hacemos así</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-94">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601603.us.archive.org/9/items/010ElSistemaOperativoDeBolsillo/%23010%20El%20Sistema%20Operativo%20de%20bolsillo.mp3">010. CloudReady el Chromium OS de bolsillo</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-95">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601602.us.archive.org/11/items/ComoCrearTuPodcastYTotalmenteGtatis/Como%20crear%20tu%20podcast%20y%20totalmente%20gtatis.mp3">009. Crea tu podcast en 3 simples pasos y totalmente gratis</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-96">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801900.us.archive.org/13/items/008ComoGestionoMisNotas/%23008%20Como%20gestiono%20mis%20notas.mp3">008. Como gestiono mis Notas</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-97">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/batiburrillo-androytecno_mf_16862300_feed_1.mp3">Batiburrillo con AndroyTecno</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-98">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="hhttps://ia601902.us.archive.org/28/items/007LinuxEsUnaAlternativaReal/%23007%20Linux%20es%20una%20alternativa%20real.mp3">007. Linux es una alternativa real</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-99">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601900.us.archive.org/18/items/ElTrelloDeSoftwareLibreWekan/El_Trello_de_software_libre_Wekan.mp3">006. El Trello de Software Libre Wekan y Kanboard para Raspberry Pi. El sistema Kanban en tu servidor.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-100">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/105-directo-asi-estan-cosas-febrero-2017_mf_16815748_feed_1.mp3">#105 #Directo Así están las cosas (Febrero 2017)</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-101">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-10-dns-y-arp.mp3">Podcast #10: Cómo funciona el DNS</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-102">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601603.us.archive.org/9/items/005PaperDeDropbox/%23005%20Paper%20de%20Dropbox.mp3">005. Paper de Dropbox</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-103">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/17-linux-connexion-alexandre-filgueira_mf_16768269_feed_1.mp3">#17 Linux Connexion con Alexandre Filgueira</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-104">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-9-streaming-con-icecat2-mp3.mp3">Podcast #9: Streaming con Icecast 2</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-105">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601903.us.archive.org/19/items/004ServidorLinuxVsQNapSynology/%23004%20Servidor%20Linux%20Vs%20QNap-Synology.mp3">004. Servidor Linux Vs QNAP-Synology</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-106">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia601903.us.archive.org/4/items/003Nextcloud/%23003%20Nextcloud.mp3">003. Nextcloud. Instalar tu Nube en menos de 2 minutos.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-107">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3">002. "De qué va esto de uGeek?"</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-108">
-<span class="logo ugeek"></span>
-<span class="title">uGeek</span>
-<span class="mp3">
-<a href="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3">001. Hola Mundo</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-109">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-8-el-viaje-de-cargar-una-web.mp3">Podcast #8: El viaje de cargar una web</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-110">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/104-probando-3-cacharros-amazon-adaptadores-wifi_mf_16547697_feed_1.mp3">#104 Probando 3 cacharros de Amazon: Adaptadores Wifi, Bluetooth y disco duro Sata</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-111">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/16-antergos_mf_16451726_feed_1.mp3">#16 Antergos</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-112">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-7-cableado.mp3">Podcast #7: Cableado en un Centro de Datos</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-113">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/15-linux-connexion-jen0f0nte_mf_15880251_feed_1.mp3">#15 Linux Connexion con Jen0f0nte</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-114">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/103-esto-se-va-a-descontrolar-sobre-tuxlibanes_mf_15817492_feed_1.mp3">#103 Esto se va a descontrolar: Sobre tuxlibanes, blogs linuxeros y sus comunidades</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-115">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-6-almacenamiento.mp3">Podcast #6: Almacenamiento</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-116">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/102-balance-linuxero-2016-deseos-para-2017_mf_15446331_feed_1.mp3">#102 Balance linuxero 2016 y deseos para 2017 por el Killall Radio Podcast Team</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-117">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/14-especial-slimbook-katana_mf_15380402_feed_1.mp3">#14 Especial Slimbook Katana</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-118">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-5-cloud-centros-de-datos.mp3">Podcast #5: Introducción al Cloud y servicios de Centros de Datos</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-119">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/101-linux-uefi-gpt-mbr-los_mf_15114926_feed_1.mp3">#101 Linux en UEFI GPT MBR y los instaladores de las distribuciones</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-120">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/13-ciberseguridad-basica-gnu-linux_mf_14880771_feed_1.mp3">#13 Ciberseguridad Básica en GNU/Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-121">
-<span class="logo salmorejogeek"></span>
-<span class="title">Salmorejo Geek</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/100-engrasando-ubuntu-a-vueltas-la_mf_14836526_feed_1.mp3">#100 Engrasando con Ubuntu, a vueltas con la distro única</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-122">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-4-ssl-spam-postventa-de-apple.mp3">Podcast #4: SSL, spam y postventa de Apple</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-123">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/w10-2gb-moto-mods-no-raid_mf_14773966_feed_1.mp3">W10 +2GB Moto Mods, No Raid</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-124">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-3-como-crear-un-podcast.mp3">Podcast #3: Cómo crear un podcast</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-125">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/12-linux-connexion-alejandro-lopez-slimbook_mf_14164009_feed_1.mp3">#12 Linux Connexion con Alejandro López ( Slimbook )</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-126">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-2-crud-en-rails-formularios-dinamicos.mp3">Podcast #2: Git, CRUD en Rails y Formularios dinámicos en HTML con JavaScript</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-127">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/11-linux-connexion-gabriel-viso-pitando-net-podcast_mf_13759097_feed_1.mp3">#11 Linux Connexion con Gabriel Viso (Pitando.net). Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-128">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-1-presentacion-rails-lynda.mp3">Podcast #1: Presentación, Rails y Lynda.com</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-129">
-<span class="logo eduardocollado"></span>
-<span class="title">Eduardo Collado</span>
-<span class="mp3">
-<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-0.mp3">Podcast #0: Presentación</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-130">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/10-raspberry-pi-gnu-linux-podcast-linux_mf_13546779_feed_1.mp3">#10 Raspberry Pi y GNU/Linux. Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-131">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/linux-ha-vencido-cuidado-linux_mf_13467162_feed_1.mp3">Linux ha vencido! Cuidado con Linux!</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-132">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/moviles-servidor-casero_mf_13366716_feed_1.mp3">Móviles y Servidor Casero</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-133">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/09-especial-lenovo-thinkpad-x220_mf_13265714_feed_1.mp3">#09 Especial Lenovo ThinkPad X220</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-134">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/08-sabores-a-montones_mf_13103580_feed_1.mp3">#08 Sabores a montones</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-135">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/distribuciones-linux-recomendaciones_mf_13011221_feed_1.mp3">Distribuciones Linux. Recomendaciones</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-136">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram_mf_12912418_feed_1.mp3">#07 Linux Connexion con Huezo (Grupo Telegram GNU-Linux)</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-137">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram-gnu-linux_mf_13383404_feed_1.mp3">#07 Linux Connexion con Huezo (Grupo Telegram GNU/Linux) Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-138">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/verano-tecnologia_mf_12810335_feed_1.mp3">Verano y Tecnología.</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-139">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/06-conlinuxsisepuede_mf_12737297_feed_1.mp3">#06 #ConLinuxSíSePuede</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-140">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/06-conlinuxsisepuede-podcast-linux_mf_13383405_feed_1.mp3">#06 #ConLinuxSíSePuede. Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-141">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_12593330_feed_1.mp3">#05 Linux Connexion con Yoyo Fernández</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-142">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_13383406_feed_1.mp3">#05 Linux Connexion con Yoyo Fernández</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-143">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/04-amor-distro-madre_mf_12520959_feed_1.mp3">#04 Amor de (Distro) madre</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-144">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/04-amor-distro-madre-podcast-linux_mf_13383407_feed_1.mp3">#04 Amor de Distro Madre. Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-145">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no_mf_12374536_feed_1.mp3">#03 Y no estaba muerto, no no</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-146">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no-podcast_mf_13383408_feed_1.mp3">#03 Y no estaba muerto, no, no. Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-147">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/02-un-pinguino-mi-usb_mf_12218805_feed_1.mp3">#02 Un pingüino en mi USB</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-148">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/02-un-pinguino-mi-usb-podcast-linux_mf_13383409_feed_1.mp3">#02 Un pingüino en mi USB Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-149">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/50gb-20euros-audio-mejorado-linea-vacaciones-vodafone-linux-mint-18_mf_12098132_feed_1.mp3">50GB-20€ audio Mejorado.Línea vacaciones Vodafone, Linux Mint 18, teclast x89</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-150">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/01-antecedentes_mf_12085902_feed_1.mp3">#01 Antecedentes</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-151">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/01-antecedentes-podcast-linux_mf_13383410_feed_1.mp3">#01 Antecedentes. Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-152">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_12048502_feed_1.mp3">#00 Promo Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-153">
-<span class="logo podcastlinux"></span>
-<span class="title">Podcast Linux</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_13383411_feed_1.mp3">#00 Promo Podcast Linux</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-154">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/teclast-x89-kindow-chromebook-otras-noticias_mf_11777780_feed_1.mp3">Teclast x89 kindow. Chromebook y otras noticias</a>
-</span>
-</span>
-</li>
-<li>
-<span id="item-155">
-<span class="logo mosqueteroweb"></span>
-<span class="title">MosqueteroWeb</span>
-<span class="mp3">
-<a href="http://www.ivoox.com/tablet-portatil-2x1-boligrafos-digitales-editores-pdf_mf_11399575_feed_1.mp3">Tablet + portátil 2x1 Boligrafos digitales Editores pdf</a>
-</span>
-</span>
+	<span id="item-0">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-27-ipv6-primera-parte.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #27: IPv6 (primera parte)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-1">
+		<a href="https://ia601506.us.archive.org/33/items/JekyllOWordpress/Jekyll%20o%20Wordpress.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">052. ¿Jekyll o WordPress?</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-2">
+		<a href="https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">051. Adiós Blogger, Hola GitHub!</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-3">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #26: Odoo y transformación digital</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-4">
+		<a href="http://www.ivoox.com/119-geekeando-erika-betancor_mf_18422071_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#119 Geekeando con Érika Betancor</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-5">
+		<a href="https://ia801505.us.archive.org/9/items/050.QueAndoHaciendo/050.%20Que%20ando%20haciendo.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">050. Que ando haciendo, nuevas publicaciones y más...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-6">
+		<a href="http://www.ivoox.com/118-directo-asi-estan-cosas-abril-2017_mf_18412331_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#118 Directo: Así están las cosas (Abril 2017)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-7">
+		<a href="https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">049. Instalando Syncthing en Ubuntu, Antergos y Raspberry Pi</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-8">
+		<a href="http://compilando.audio/wp-content/uploads/2017/04/podcast4.mp3">
+			<span class="isplaying"></span>
+			<span class="logo compilandopodcast"></span>
+			<span class="podcast">Compilando Podcast</span>
+			<span class="track">Podcast 4 – Jon “maddog” Hall , Open South Code y Linux y Tapas</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-9">
+		<a href="https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">048. Encuentro de amiguetes</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-10">
+		<a href="http://www.ivoox.com/twitter-sabemos-usarlo-android-audio-pocket-casts_mf_18349090_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Twitter, ¿sabemos usarlo? Android Audio y Pocket Casts</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-11">
+		<a href="http://www.ivoox.com/23-la-terminal_mf_18347303_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#23 La Terminal</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-12">
+		<a href="https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-13">
+		<a href="http://www.ivoox.com/117-sin-sombra-helicoptero_mf_18309317_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#117 Sin sombra en el helicóptero</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-14">
+		<a href="http://www.ivoox.com/116-conociendo-deepin-gnu-linux-15-4_mf_18295101_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#116 Conociendo Deepin GNU Linux 15.4</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-15">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-25-introduccion-a-docker.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #25: Introducción a Docker</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-16">
+		<a href="https://ia601509.us.archive.org/6/items/046SyncthingResilioYDukto/%23046%20Syncthing%2c%20Resilio%20y%20Dukto%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">046. Sincronización de carpetas entre dispositivos. Syncthing, Resilio y Dukto</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-17">
+		<a href="https://ia801502.us.archive.org/1/items/041UbuntuYElAdiosAUnity/%23041%20Ubuntu%20y%20el%20adi%c3%b3s%20a%20Unity.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">041. Ubuntu y el adios de Unity</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-18">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-24-sobre-vlans.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #24: Sobre Vlans</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-19">
+		<a href="http://www.ivoox.com/seguridad-hardware-tu-servidor-casero_mf_18128440_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Seguridad por Hardware en tu Servidor casero</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-20">
+		<a href="http://www.ivoox.com/115-crossover-ugeek-podcast-mastodon-ubuntu-y_mf_18112915_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#115 Crossover con uGeek Podcast: Mastodon, Ubuntu y comunidad Linux, Telegram y mucho más</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-21">
+		<a href="http://www.ivoox.com/22-linux-connexion-osl-la_mf_18133189_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#22 Linux Connexion con la OSL de la Universidad de La Laguna</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-22">
+		<a href="https://ia801505.us.archive.org/27/items/045CrossoverConSalmorejoGeek/%23045%20Crossover%20con%20Salmorejo%20Geek.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">045. Crossover con Salmorejo Geek, donde hablamos de Mastodon, Ubuntu, Telegram y mucho mas...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-23">
+		<a href="https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">044. La web de Jekyll en GitHub, va tomando forma</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-24">
+		<a href="http://www.ivoox.com/114-ubuntu-abandona-unity-convergencia-y_mf_18057325_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#114 Ubuntu abandona Unity y la Convergencia ¿Y ahora qué?</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-25">
+		<a href="https://ia601509.us.archive.org/23/items/043BotDeTelegramDeIFTTT/%23043%20Bot%20de%20Telegram%20de%20IFTTT.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">043. Bot de Telegram IFTTT</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-26">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-23-calcular-mascaras-de-red.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #23: Calcular máscaras de red</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-27">
+		<a href="http://www.ivoox.com/que-pasa-ubuntu-hablando-linux-con_mf_18041732_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">¿Qué pasa con Ubuntu? Hablando de Linux con El Atareao y con uGeek</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-28">
+		<a href="https://ia601502.us.archive.org/25/items/042ElAtareaoVisitaElCrossoverDeLaSemana/%23042%20El%20Atareao%20visita%20el%20Crossover%20de%20la%20Semana.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">042. El Atareao visita el Crossover de la Semana</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-29">
+		<a href="https://compilando.audio/wp-content/uploads/2017/04/Podcast_3.mp3">
+			<span class="isplaying"></span>
+			<span class="logo compilandopodcast"></span>
+			<span class="podcast">Compilando Podcast</span>
+			<span class="track">Podcast 3 – Entrevista con ” el atareao” y el nuevo rumbo de Ubuntu</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-30">
+		<a href="https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">040. Antergos, Ocnews De Nextcloud Y Jekyll</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-31">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-22-iptables-en-gnu-linux.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #22: NAT en GNU/Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-32">
+		<a href="http://www.ivoox.com/113-offtopiqueando-ando-informatica-semana-santa-chuck_mf_17909300_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#113 Offtopiqueando ando: Informática, Semana Santa y Chuck Norris</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-33">
+		<a href="https://ia601508.us.archive.org/2/items/039TelegramNotes/%23039%20Telegram%2c%20Notes.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">039. Aplicación Notes de Nextcloud y crea tus bots de Telegram</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-34">
+		<a href="https://compilando.audio/wp-content/uploads/2017/04/CompilandoPodcast2.mp3">
+			<span class="isplaying"></span>
+			<span class="logo compilandopodcast"></span>
+			<span class="podcast">Compilando Podcast</span>
+			<span class="track">Podcast 2 – Especial Servidores Privados</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-35">
+		<a href="https://compilando.audio/wp-content/uploads/2017/04/podcast_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo compilandopodcast"></span>
+			<span class="podcast">Compilando Podcast</span>
+			<span class="track">Podcast 1- Ian Murdock, Debian y el proyecto QSL</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-36">
+		<a href="http://www.ivoox.com/virtualizacion-ugeek-mosqueteroweb-face-to-face_mf_17898640_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Virtualizacion. uGeek y Mosqueteroweb. Face to Face.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-37">
+		<a href="https://archive.org/download/PODCAST0_201704/PODCAST_0.mp3">
+			<span class="isplaying"></span>
+			<span class="logo compilandopodcast"></span>
+			<span class="podcast">Compilando Podcast</span>
+			<span class="track">Podcast 0 – Edición de presentación. Stallman y el síndrome Mi Pueblex.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-38">
+		<a href="https://ia601506.us.archive.org/26/items/38CrossoverConMosqueteroWeb/%23%2038%20Crossover%20con%20MosqueteroWeb.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">038. Crossover con MosqueteroWeb. Masterclass de FreeNas, Docker y virtualización mediante Proxmox y Esxi.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-39">
+		<a href="http://www.ivoox.com/112-llamadas-voz-telegram-cada-dia_mf_17886542_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#112 Llamadas de voz en Telegram, cada día mejor</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-40">
+		<a href="https://ia801503.us.archive.org/18/items/037LlamadasDeTelegram/%23037%20Llamadas%20de%20Telegram.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">037. Llamadas de Telegram ya estan aquí. Y 3 bots que os encantaran</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-41">
+		<a href="https://ia601509.us.archive.org/25/items/036PodcastConFrank/%23036%20podcast%20con%20Frank.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">036. Podcast con Frank de Batería2x100, Servidores Linux y NAS, lo mismo pero  diferente</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-42">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-21-lets-encrypt.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #21: Let’s Encrypt</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-43">
+		<a href="http://www.ivoox.com/21-gnu-linux-universidad_mf_17834272_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#21 GNU/Linux en la Universidad</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-44">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-20-como-ganar-dinero-con-el-podcast.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #20: Cómo ganar dinero con el podcast</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-45">
+		<a href="http://www.ivoox.com/freenas-servidor-hp-gen8-contenedores-y-maquinas_mf_17803755_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">FreeNAS , Servidor HP Gen8, Contenedores Y Máquinas Virtuales</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-46">
+		<a href="https://ia601501.us.archive.org/10/items/035MiG8/%23035%20Mi%20G8.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">035. Mi HP ProLiant MicroServer Gen8</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-47">
+		<a href="https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">034. Bots de Telegram Sustitutos a Shazam y busqueda de articulos dentro del bot de Pocket</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-48">
+		<a href="http://www.ivoox.com/chromebooks-raspi-xiaomi-note-4-ultraportatil-jumper_mf_17764920_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Chromebooks, raspi, Xiaomi Note 4 y ultraportátil Jumper</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-49">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-19-openvpn.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #19: OpenVPN</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-50">
+		<a href="https://ia601500.us.archive.org/4/items/033BotDePocketParaTelegram/%23033%20Bot%20de%20Pocket%20para%20Telegram.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">033. Bots en Telegram. Bot de Pocket</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-51">
+		<a href="https://ia601606.us.archive.org/30/items/032MiscelaneaDeViernes/%23032%20Miscel%C3%A1nea%20de%20Viernes.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">032. Miscelánea de Viernes</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-52">
+		<a href="https://ia601606.us.archive.org/14/items/031Keepass.ComoGestionoMisContrasenas/%23031%20Keepass.%20Como%20gestiono%20mis%20contrase%C3%B1as.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">031. Keepass, como gestiono mis contraseñas</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-53">
+		<a href="https://ia601609.us.archive.org/0/items/030Mumble/%23030%20Mumble.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">030. Mumble, VoIP de Software Libre. Nextcloud, Wallabag y kdenlive</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-54">
+		<a href="http://www.ivoox.com/111-problemas-focusrite-scarlett-solo-y_mf_17626877_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#111 Problemas con la Focusrite Scarlett Solo y 2i2 en macOS Sierra</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-55">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-18-herramientas-simples-y-utiles-para-un-adminsitrador-de-red.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #18: Herramientas simples y útiles para un adminsitrador de red</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-56">
+		<a href="https://ia601608.us.archive.org/28/items/029MiscelneaDeViernes/%23029%20Miscel%C3%A1nea%20de%20viernes.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">029. Miscelánea de Viernes.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-57">
+		<a href="https://ia601607.us.archive.org/17/items/ugeekpodcast_gmail_XMPP/XMPP.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">028. Instala un servidor de mensajeria tipo Whatsapp o Telegram y de Software Libre con XMPP/Jabber</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-58">
+		<a href="http://www.ivoox.com/20-linux-connexion-david-montalva-lliurex_mf_17557164_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#20 Linux Connexion con David Montalva (Lliurex)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-59">
+		<a href="http://www.ivoox.com/110-armando-nuevo-pc-para-linux_mf_17538251_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#110 Armando un nuevo PC para Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-60">
+		<a href="https://ia601606.us.archive.org/3/items/027InstalaTuVpnEnUbuntuORaspberryPi/%23027%20instala%20tu%20vpn%20en%20Ubuntu%20o%20Raspberry%20Pi.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">027. Instala una VPN (OpenVpn) en Ubuntu o Raspberry Pi con PiVpn</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-61">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-17-sistemas-de-monitorizacion-de-sistemas-y-red.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #17: Sistemas de monitorización de sistemas y red</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-62">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-16-directo-11-marzo-2017.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #16: Directo 11 de Marzo 2017</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-63">
+		<a href="https://ia601606.us.archive.org/25/items/026PodcastConFrankDeBatera2x100/%23026%20Podcast%20con%20Frank%20de%20Bater%C3%ADa2x100.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">026. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestras Fotos, actualidad y sorteo del libro del año</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-64">
+		<a href="http://www.ivoox.com/transexualidad_mf_17427425_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Transexualidad</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-65">
+		<a href="http://www.ivoox.com/flintos-raspberry-pi-vernee-thor_mf_17416576_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">FlintOS, Raspberry PI y Vernee Thor</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-66">
+		<a href="https://ia601600.us.archive.org/16/items/025MtodoMMsCompletoQueParaRecopilarNotasOrgMode/%23025%20M%C3%A9todo%20m%C3%A1s%20completo%20que%20para%20recopilar%20notas%2C%20org%20mode.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">025. Metodo mas completo para recopilar notas, org Mode</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-67">
+		<a href="http://www.ivoox.com/109-mi-vuelta-a-antergos-linux-al-estilo_mf_17415345_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#109 Mi vuelta a Antergos Linux al estilo Atlético de Madrid</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-68">
+		<a href="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">024. Conectate remotamente a tu Raspberry Pi con "dataplicity"</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-69">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-15-mumble.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #15: Mumble, tu mesa de reuniones virtual</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-70">
+		<a href="http://www.ivoox.com/108-directo-asi-estan-cosas-marzo_mf_17354573_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#108 Directo - Así están las cosas (Marzo 2017)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-71">
+		<a href="https://ia801609.us.archive.org/20/items/EntrevistaADosDesarrolladoresDeSoftwareLibreDeIgalia/Entrevista%20a%20dos%20desarrolladores%20de%20Software%20Libre%20de%20Igalia.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">023. Entrevista a Chema y Juan, dos desarrolladores de Software Libre de Igalia.com en el #mwc17</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-72">
+		<a href="https://ia601600.us.archive.org/33/items/EntrevistaConArturoSuarezDirectivoDelCloudDeCanonicalUbuntu/Entrevista%20con%20Arturo%20Suarez,%20Directivo%20del%20Cloud%20de%20Canonical%20Ubuntu.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">022. Entrevista con Arturo Suarez, DIrectivo del Cloud de Canonical Ubuntu</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-73">
+		<a href="http://www.ivoox.com/19-gnu-linux-escuela_mf_17289281_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#19 GNU/Linux en la escuela</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-74">
+		<a href="http://www.ivoox.com/amd-vs-intel-samsung-nokia-mwc-spotify-cloudflare_mf_17285109_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">AMD vs Intel. Samsung. Nokia MWC Spotify Cloudflare Martingala</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-75">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-14-radio-o-podcast.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #14: Radio o Podcast, no elijas puedes tener las dos</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-76">
+		<a href="https://ia801606.us.archive.org/21/items/021UbuntuEnMobileWorldCongress/%23021%20ubuntu%20en%20Mobile%20World%20Congress%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">021. Ubuntu en el Mobile World Congress</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-77">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-13-ospf-multiarea.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #13: OSPF Multiárea</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-78">
+		<a href="https://ia601601.us.archive.org/7/items/20PodcastConFrankDeBatera2x100HablamosDeComoGestionamosNuestraNotas/%2320%20Podcast%20con%20Frank%20de%20Bater%c3%ada2x100%2c%20Hablamos%20de%20como%20gestionamos%20nuestra%20notas%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">020. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestra notas y mucho mas...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-79">
+		<a href="http://www.ivoox.com/noticias-tecnologicas_mf_17193972_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Noticias Tecnológicas</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-80">
+		<a href="https://ia601603.us.archive.org/6/items/019DokuwikiNuevaFormaDeTomarMisNotas/%23019%20Dokuwiki%2c%20nueva%20forma%20de%20tomar%20mis%20notas%20.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">019. Dokuwiki, nueva forma de tomar mis notas. Monta tu wiki con DokuWiki o MediaWiki.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-81">
+		<a href="https://ia601604.us.archive.org/24/items/018WallabagElPocketOInstapaper/%23018_Wallabag%2c_el_Pocket_o_Instapaper.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">018. Como montar Wallabag, el Pocket o Instapaper de software libre y lo mejor de todo, en tu servidor</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-82">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-12-atencion-al-cliente-y-migrar-una-web.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #12: Atención al cliente y migrar una web</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-83">
+		<a href="https://ia801300.us.archive.org/34/items/017PodcastConFrankDeBateria2x100HablandoDePlexNextcloud.../%23017%20Podcast%20con%20Frank%20de%20Bateria2x100%2c%20hablando%20de%20Plex%2c%20Nextcloud....mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">017. Podcast con Frank de Bateria2x100, hablando de Plex, Nextcloud...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-84">
+		<a href="https://ia801603.us.archive.org/24/items/016QueEsUnServidor/%23016%20Que%20es%20un%20servidor.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">016. Que es un Servidor (dudas oyentes), servidor web, ...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-85">
+		<a href="https://ia801603.us.archive.org/20/items/015AlmacenamientoTheNextcloud/%23015_almacenamiento_the_nextcloud.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">015. Como ampliar el almacenamiento de Nextcloud, combinar con nubes publicas y hacer copias de mis fotos.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-86">
+		<a href="http://www.ivoox.com/18-linux-connexion-bitacora-ciberseguridad_mf_17029145_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#18 Linux Connexion con Bitácora de Ciberseguridad</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-87">
+		<a href="https://ia601602.us.archive.org/11/items/NotasEnNextcloud/Notas%20en%20nextcloud.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">014. Notas en Nextcloud y Markdown</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-88">
+		<a href="https://ia801601.us.archive.org/21/items/013NewsYFreshRSS.GestorDeNoticiasRSS/%23013%20News%20y%20Fresh%20RSS.%20Gestor%20de%20Noticias%20RSS.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">013. News y FreshRSS. Gestor de Noticias RSS.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-89">
+		<a href="https://ia801604.us.archive.org/21/items/013FDroidAplicacionesDeSoftwareLibre/%23013%20F-Droid%20Aplicaciones%20de%20Software%20Libre.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">013. bis F-Droid Tienda Android de aplicaciones de Software Libre y Actualizar las Noticias en Nextcloud.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-90">
+		<a href="http://www.ivoox.com/107-no-soy-fanboy_mf_16980247_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#107 No soy un Fanboy</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-91">
+		<a href="https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">012. Como actualizar Nextcloud y salir del modo de "mantenimiento"</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-92">
+		<a href="http://www.ivoox.com/w10-no-va-bien-mac-vs-linux-directo_mf_16950998_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">W10 NO va bien. Mac vs Linux. Directo con ChineseDroid+AndroyTecno</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-93">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-11-ospf-en-un-area.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #11: OSPF en un único área</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-94">
+		<a href="https://ia801602.us.archive.org/16/items/011PodcastConFrankDeBateria2x100/%23011%20Podcast%20con%20Frank%20de%20Bateria2x100.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">011. Podcast con Frank de Bateria2x100, hablando un poco de todo...</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-95">
+		<a href="http://www.ivoox.com/106-linux-no-es-dificil-somos-viejos_mf_16934360_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#106 Linux no es difícil, somos los viejos usuarios quienes lo hacemos así</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-96">
+		<a href="https://ia601603.us.archive.org/9/items/010ElSistemaOperativoDeBolsillo/%23010%20El%20Sistema%20Operativo%20de%20bolsillo.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">010. CloudReady el Chromium OS de bolsillo</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-97">
+		<a href="https://ia601602.us.archive.org/11/items/ComoCrearTuPodcastYTotalmenteGtatis/Como%20crear%20tu%20podcast%20y%20totalmente%20gtatis.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">009. Crea tu podcast en 3 simples pasos y totalmente gratis</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-98">
+		<a href="https://ia801900.us.archive.org/13/items/008ComoGestionoMisNotas/%23008%20Como%20gestiono%20mis%20notas.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">008. Como gestiono mis Notas</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-99">
+		<a href="http://www.ivoox.com/batiburrillo-androytecno_mf_16862300_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Batiburrillo con AndroyTecno</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-100">
+		<a href="hhttps://ia601902.us.archive.org/28/items/007LinuxEsUnaAlternativaReal/%23007%20Linux%20es%20una%20alternativa%20real.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">007. Linux es una alternativa real</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-101">
+		<a href="https://ia601900.us.archive.org/18/items/ElTrelloDeSoftwareLibreWekan/El_Trello_de_software_libre_Wekan.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">006. El Trello de Software Libre Wekan y Kanboard para Raspberry Pi. El sistema Kanban en tu servidor.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-102">
+		<a href="http://www.ivoox.com/105-directo-asi-estan-cosas-febrero-2017_mf_16815748_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#105 #Directo Así están las cosas (Febrero 2017)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-103">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-10-dns-y-arp.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #10: Cómo funciona el DNS</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-104">
+		<a href="https://ia601603.us.archive.org/9/items/005PaperDeDropbox/%23005%20Paper%20de%20Dropbox.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">005. Paper de Dropbox</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-105">
+		<a href="http://www.ivoox.com/17-linux-connexion-alexandre-filgueira_mf_16768269_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#17 Linux Connexion con Alexandre Filgueira</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-106">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-9-streaming-con-icecat2-mp3.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #9: Streaming con Icecast 2</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-107">
+		<a href="https://ia601903.us.archive.org/19/items/004ServidorLinuxVsQNapSynology/%23004%20Servidor%20Linux%20Vs%20QNap-Synology.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">004. Servidor Linux Vs QNAP-Synology</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-108">
+		<a href="https://ia601903.us.archive.org/4/items/003Nextcloud/%23003%20Nextcloud.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">003. Nextcloud. Instalar tu Nube en menos de 2 minutos.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-109">
+		<a href="https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">002. "De qué va esto de uGeek?"</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-110">
+		<a href="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3">
+			<span class="isplaying"></span>
+			<span class="logo ugeek"></span>
+			<span class="podcast">uGeek</span>
+			<span class="track">001. Hola Mundo</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-111">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-8-el-viaje-de-cargar-una-web.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #8: El viaje de cargar una web</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-112">
+		<a href="http://www.ivoox.com/104-probando-3-cacharros-amazon-adaptadores-wifi_mf_16547697_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#104 Probando 3 cacharros de Amazon: Adaptadores Wifi, Bluetooth y disco duro Sata</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-113">
+		<a href="http://www.ivoox.com/16-antergos_mf_16451726_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#16 Antergos</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-114">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-7-cableado.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #7: Cableado en un Centro de Datos</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-115">
+		<a href="http://www.ivoox.com/15-linux-connexion-jen0f0nte_mf_15880251_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#15 Linux Connexion con Jen0f0nte</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-116">
+		<a href="http://www.ivoox.com/103-esto-se-va-a-descontrolar-sobre-tuxlibanes_mf_15817492_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#103 Esto se va a descontrolar: Sobre tuxlibanes, blogs linuxeros y sus comunidades</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-117">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-6-almacenamiento.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #6: Almacenamiento</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-118">
+		<a href="http://www.ivoox.com/102-balance-linuxero-2016-deseos-para-2017_mf_15446331_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#102 Balance linuxero 2016 y deseos para 2017 por el Killall Radio Podcast Team</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-119">
+		<a href="http://www.ivoox.com/14-especial-slimbook-katana_mf_15380402_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#14 Especial Slimbook Katana</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-120">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-5-cloud-centros-de-datos.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #5: Introducción al Cloud y servicios de Centros de Datos</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-121">
+		<a href="http://www.ivoox.com/101-linux-uefi-gpt-mbr-los_mf_15114926_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#101 Linux en UEFI GPT MBR y los instaladores de las distribuciones</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-122">
+		<a href="http://www.ivoox.com/13-ciberseguridad-basica-gnu-linux_mf_14880771_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#13 Ciberseguridad Básica en GNU/Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-123">
+		<a href="http://www.ivoox.com/100-engrasando-ubuntu-a-vueltas-la_mf_14836526_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo salmorejogeek"></span>
+			<span class="podcast">Salmorejo Geek</span>
+			<span class="track">#100 Engrasando con Ubuntu, a vueltas con la distro única</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-124">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-4-ssl-spam-postventa-de-apple.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #4: SSL, spam y postventa de Apple</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-125">
+		<a href="http://www.ivoox.com/w10-2gb-moto-mods-no-raid_mf_14773966_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">W10 +2GB Moto Mods, No Raid</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-126">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-3-como-crear-un-podcast.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #3: Cómo crear un podcast</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-127">
+		<a href="http://www.ivoox.com/12-linux-connexion-alejandro-lopez-slimbook_mf_14164009_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#12 Linux Connexion con Alejandro López ( Slimbook )</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-128">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-2-crud-en-rails-formularios-dinamicos.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #2: Git, CRUD en Rails y Formularios dinámicos en HTML con JavaScript</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-129">
+		<a href="http://www.ivoox.com/11-linux-connexion-gabriel-viso-pitando-net-podcast_mf_13759097_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#11 Linux Connexion con Gabriel Viso (Pitando.net). Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-130">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-1-presentacion-rails-lynda.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #1: Presentación, Rails y Lynda.com</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-131">
+		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-0.mp3">
+			<span class="isplaying"></span>
+			<span class="logo eduardocollado"></span>
+			<span class="podcast">Eduardo Collado</span>
+			<span class="track">Podcast #0: Presentación</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-132">
+		<a href="http://www.ivoox.com/10-raspberry-pi-gnu-linux-podcast-linux_mf_13546779_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#10 Raspberry Pi y GNU/Linux. Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-133">
+		<a href="http://www.ivoox.com/linux-ha-vencido-cuidado-linux_mf_13467162_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Linux ha vencido! Cuidado con Linux!</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-134">
+		<a href="http://www.ivoox.com/moviles-servidor-casero_mf_13366716_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Móviles y Servidor Casero</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-135">
+		<a href="http://www.ivoox.com/09-especial-lenovo-thinkpad-x220_mf_13265714_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#09 Especial Lenovo ThinkPad X220</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-136">
+		<a href="http://www.ivoox.com/08-sabores-a-montones_mf_13103580_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#08 Sabores a montones</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-137">
+		<a href="http://www.ivoox.com/distribuciones-linux-recomendaciones_mf_13011221_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Distribuciones Linux. Recomendaciones</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-138">
+		<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram_mf_12912418_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#07 Linux Connexion con Huezo (Grupo Telegram GNU-Linux)</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-139">
+		<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram-gnu-linux_mf_13383404_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#07 Linux Connexion con Huezo (Grupo Telegram GNU/Linux) Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-140">
+		<a href="http://www.ivoox.com/verano-tecnologia_mf_12810335_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Verano y Tecnología.</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-141">
+		<a href="http://www.ivoox.com/06-conlinuxsisepuede_mf_12737297_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#06 #ConLinuxSíSePuede</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-142">
+		<a href="http://www.ivoox.com/06-conlinuxsisepuede-podcast-linux_mf_13383405_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#06 #ConLinuxSíSePuede. Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-143">
+		<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_12593330_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#05 Linux Connexion con Yoyo Fernández</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-144">
+		<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_13383406_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#05 Linux Connexion con Yoyo Fernández</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-145">
+		<a href="http://www.ivoox.com/04-amor-distro-madre_mf_12520959_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#04 Amor de (Distro) madre</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-146">
+		<a href="http://www.ivoox.com/04-amor-distro-madre-podcast-linux_mf_13383407_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#04 Amor de Distro Madre. Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-147">
+		<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no_mf_12374536_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#03 Y no estaba muerto, no no</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-148">
+		<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no-podcast_mf_13383408_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#03 Y no estaba muerto, no, no. Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-149">
+		<a href="http://www.ivoox.com/02-un-pinguino-mi-usb_mf_12218805_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#02 Un pingüino en mi USB</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-150">
+		<a href="http://www.ivoox.com/02-un-pinguino-mi-usb-podcast-linux_mf_13383409_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#02 Un pingüino en mi USB Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-151">
+		<a href="http://www.ivoox.com/50gb-20euros-audio-mejorado-linea-vacaciones-vodafone-linux-mint-18_mf_12098132_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">50GB-20€ audio Mejorado.Línea vacaciones Vodafone, Linux Mint 18, teclast x89</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-152">
+		<a href="http://www.ivoox.com/01-antecedentes_mf_12085902_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#01 Antecedentes</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-153">
+		<a href="http://www.ivoox.com/01-antecedentes-podcast-linux_mf_13383410_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#01 Antecedentes. Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-154">
+		<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_12048502_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#00 Promo Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-155">
+		<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_13383411_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo podcastlinux"></span>
+			<span class="podcast">Podcast Linux</span>
+			<span class="track">#00 Promo Podcast Linux</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-156">
+		<a href="http://www.ivoox.com/teclast-x89-kindow-chromebook-otras-noticias_mf_11777780_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Teclast x89 kindow. Chromebook y otras noticias</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-157">
+		<a href="http://www.ivoox.com/tablet-portatil-2x1-boligrafos-digitales-editores-pdf_mf_11399575_feed_1.mp3">
+			<span class="isplaying"></span>
+			<span class="logo mosqueteroweb"></span>
+			<span class="podcast">MosqueteroWeb</span>
+			<span class="track">Tablet + portátil 2x1 Boligrafos digitales Editores pdf</span>
+		</a>
+	</span>
 </li>
         </ul>
     </div>

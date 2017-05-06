@@ -9,7 +9,9 @@ sitemap:
 ---
 [Desarrollado por atareao.es](https://www.atareao.es/)
 
-<!DOCTYPE html>
+Abre con VLC
+<a href="https://ugeek.github.io/podcasts.m3u"><img style="float: left;" src="/img/icon/play.png" alt="" width="30" height="30" /></a>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

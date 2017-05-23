@@ -59,7 +59,7 @@ comments: true
 
 <!-- TAGS Y COMENTARIOS -->
 
-Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="https://ugeek.github.io/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 
 
 

@@ -16,14 +16,14 @@ Como siempre os he comentado, utilizar la terminal al principio impresiona, pero
 
 Os dejo estas 2 publicaciones de dos buenos amigos, [inclusa](http://inclusa.github.io/2016/03/30/GIT-Principals-comandaments-que-utilitze.html) y [sasogu](https://sasogu.github.io/2017/04/29/github.html), que me han ayudado a poder llevar todo esto a cabo y os ayudaran gracias a esta webs, a conocer muchísimo mejor los comandos a utilizar en la terminal para GitHub.  
 
-Primera vez:  
+Solo la primera vez, especificamos nuestro correo y nombre de usuario:  
 
 ```
-git config --global user.email "you@example.com"
+git config --global user.email "tucorreo@gmail.com"
 ```  
 
 ```
-git config --global user.name "Your Name"
+git config --global user.name "Tu Nombre"
 ```  
 
 En resume, los pasos básicos para enviar archivos a una rama master de github, serian estos:  

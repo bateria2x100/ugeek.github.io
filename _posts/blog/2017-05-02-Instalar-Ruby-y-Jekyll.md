@@ -21,7 +21,13 @@ Instalamos ruby
 
 ```
 sudo pacman -S ruby /  sudo apt install ruby
+```  
+
+Instalamos Jekyll  
 ```
+sudo pacman -S jekyll / sudo apt install jekyll   
+```  
+
 
 Ahora vamos a instalar un par de librerías de ruby  
 

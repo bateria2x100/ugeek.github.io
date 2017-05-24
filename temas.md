@@ -25,7 +25,7 @@ sitemap:
 
 ## Terminal  
 1. [Antergos. Comandos para terminal y derivadas de Arch Linux](/Antergos-comando-para-terminal-y-derivadas-arch/)  
-
+2. [Crear un USB con una ISO de una distro](https://ugeek.github.io/Crear-un-usb-con-iso/)  
 ---  
 
 ## Aplicaciones  

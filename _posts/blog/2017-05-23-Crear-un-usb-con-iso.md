@@ -1,16 +1,16 @@
 ---
 layout: page
 title: "Crear un usb con una ISO de una distro"
-date: 2017-05-23 21:36:00
+date: 2017-05-24 15:15
 tags: [blog, usb, pendrive, terminal]
-categories: aplicaciones
-comments: true
+categories: terminal
+comments: trueaplicaciones
 ---
 #### Publicado por Angel
 
 ![usb](/img/post/usb.png)
 
----
+
 Averiguamos cual es el nombre de nuestro usb o pendrive con:  
 
 
@@ -26,6 +26,8 @@ sudo dd if=nombre_de_la_iso.iso of=/dev/sdb bs=4M
 ```
 
 Esperamos y ya tendremos nuestro usb con la distro grabada y lista para ser instalada.
+
+
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
 
 

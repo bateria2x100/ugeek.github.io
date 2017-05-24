@@ -27,16 +27,8 @@ sudo dd if=nombre_de_la_iso.iso of=/dev/sdb bs=4M
 
 Esperamos y ya tendremos nuestro usb con la distro grabada y lista para ser instalada.
 
-
 <!-- -------------------------------------Aquí abajo los comentarios -------------------------------------------  -->
-
-
-{% endhighlight %}
-
-
-
-Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="https://ugeek.github.io/search#{{ tag }}">{{ tag }}</a></span> {% endfor %},
-
+Tags: {% assign sorted_tags = page.tags | sort %} {% for tag in sorted_tags %} , <span class="tag"><a href="/tag#{{ tag }}">{{ tag }}</a></span> {% endfor %},
 
 
 {% if page.comments %}
@@ -61,5 +53,6 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-
 {% endif %}
+
+<script id="dsq-count-scr" src="//https-angelbcn-github-io-ugeek.disqus.com/count.js" async></script>

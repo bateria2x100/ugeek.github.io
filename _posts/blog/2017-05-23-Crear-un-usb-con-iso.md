@@ -4,7 +4,7 @@ title: "Crear un usb con una ISO de una distro"
 date: 2017-05-24 15:15
 tags: [blog, usb, pendrive, terminal]
 categories: terminal
-comments: trueaplicaciones
+comments: true
 ---
 #### Publicado por Angel
 

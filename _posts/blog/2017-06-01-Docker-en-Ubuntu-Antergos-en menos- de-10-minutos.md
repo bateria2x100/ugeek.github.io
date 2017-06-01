@@ -4,7 +4,7 @@ title: "Docker en Ubuntu, Antergos y derivadas en menos de 10 minutos"
 date: 2017-06-01 21:15
 tags: [blog, docker, servidor, ubuntu, antergos, terminal]
 categories: terminal
-comments: trueaplicacione
+comments: true
 ---
 #### Publicado por Angel
 

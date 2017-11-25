@@ -6,7 +6,7 @@
  <channel>
   <title>{{ site.title  | xml_escape }} - blog</title>
   <description>Posts tagged as 'blog'</description>
-     <atom:link href="{{ site.url }}/feeds/feed.blog.xml" rel="self" type="application/rss+xml" />
+     <atom:link href="{{ site.url }}/feeds/feed.android.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}/tag/blog/</link>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <author>

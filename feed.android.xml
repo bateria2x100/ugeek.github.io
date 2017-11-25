@@ -5,7 +5,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
   <title>{{ site.title  | xml_escape }} - blog</title>
-  <description>Posts tagged as 'blog'</description>
+  <description>Posts tagged as 'android'</description>
      <atom:link href="{{ site.url }}/feeds/feed.android.xml" rel="self" type="application/rss+xml" />
   <link>{{ site.url }}/tag/blog/</link>
   <updated>{{ site.time | date_to_xmlschema }}</updated>

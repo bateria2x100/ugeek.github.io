@@ -4,8 +4,6 @@ title: "Podcasts"
 desc: "Lista de Podcast"
 permalink: /podcast/
 
-sitemap:
-  priority: .5
 ---
 [Desarrollado por atareao.es](https://www.atareao.es/)
 

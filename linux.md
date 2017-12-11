@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "►Linux"
+title: "►"
 desc: "Lista de Podcast"
-permalink: /linux/
+permalink: /podcast/
 
 ---
 [Desarrollado por atareao.es](https://www.atareao.es/)

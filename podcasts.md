@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "+Linux"
+title: "Podcasts"
 desc: "Lista de Podcast"
-permalink: /+Linux/
+permalink: /podcast/
 
 sitemap:
   priority: .5

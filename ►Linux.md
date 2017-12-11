@@ -1,3 +1,15 @@
+---
+layout: page
+title: ►Linux.md
+desc: "Lista de podcast de Linux"
+permalink: /►Linux.md/
+
+sitemap:
+  priority: .5
+
+---
+
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>

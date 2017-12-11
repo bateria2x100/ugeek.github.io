@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "►"
+title: "Listado de Podcast Favotitos"
 desc: "Lista de Podcast"
 permalink: /podcast/
 

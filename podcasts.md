@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Podcasts de Linux"
-desc: "Lista de post ordenados por etiquetas"
-permalink: /podcasts/
+title: "►Linux"
+desc: "Lista de Podcast"
+permalink: /Linux/
 
 sitemap:
   priority: .5

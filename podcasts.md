@@ -9,7 +9,6 @@ permalink: /podcast/
 Abre con VLC
 <a href="https://ugeek.github.io/podcasts.m3u"><img style="float: left;" src="/img/icon/play.png" alt="" width="30" height="30" /></a>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">

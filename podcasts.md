@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Listado de Podcast Favotitos"
+title: " "
 desc: " "
-permalink: /podcast/
+permalink: /podcasts/
 
 ---
 

@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1,Radiogeek - #Radiogeek - En un local de Starbucks de Buenos Aires usan la red Wifi para minar Bitcoins
+http://ar.ivoox.com/es/radiogeek-en-local-starbucks-de_mf_22616725_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #30 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/30linuxexpress.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #80: Listas de Spam
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/12/podcast-80-listas-de-spam.mp3
+#EXTINF:-1,Tomando Un Café - Reflexión sobre Software Libre
+https://anchor.fm/s/18c0860/podcast/download/73685/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FReflexi-n-sobre-Software-Libre-e441b001260f9.m4a
+#EXTINF:-1,Web Reactiva - WR 13: Así creamos nuestro primer chatbot
+http://api.spreaker.com/download/episode/13565951/webreactiva_podcast_13.mp3
+#EXTINF:-1,NASeros Podcast - Master Class sobre NAS (1ª parte)
+http://www.ivoox.com/master-class-sobre-nas-1-parte_mf_22593315_feed_1.mp3
+#EXTINF:-1,Tomando Un Café - SmartGit
+https://anchor.fm/s/18c0860/podcast/download/73159/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FSmartGit-3e87d9cacfb3a.m4a
+#EXTINF:-1,Radiogeek - #Radiogeek - LG seria el fabricante de las próximas pantallas del iPhone X
+http://ar.ivoox.com/es/radiogeek-lg-seria-fabricante-las_mf_22590318_feed_1.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #14-Bullet Journal: Adáptalo a los principios del GTD
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/KidifVae9DQ/14-Bullet%20Journal-%20Adaptalo%20a%20los%20principios%20del%20GTD.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #79: ebtables
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/12/podcast-79-ebtables.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 082. Slimbook One. El 3 en 1
 https://ia601504.us.archive.org/25/items/SlimbookOneEl3En1/SlimbookOne_El_3_en_1.mp3
 #EXTINF:-1,Tomando Un Café - SmartGit
@@ -31,6 +51,8 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 http://compilando.audio/wp-content/uploads/2017/12/podcast18.mp3
 #EXTINF:-1,Bateria2x100 - #169 – Recomendaciones  varias (interesante creo)
 http://tracking.feedpress.it/link/15283/7627716/Bat2x100_169.m4a
+#EXTINF:-1,Web Reactiva - WR 12: Marketing online y desarrollo web con Óscar Martín
+http://api.spreaker.com/download/episode/13511346/webreactiva_podcast_12b.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Samsung revolucionaria el mercado de las baterías con el Grafeno
 http://www.ivoox.com/radiogeek-samsung-revolucionaria-mercado-las_mf_22447288_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #75: Multiples gateways con múltiples interfaces
@@ -43,6 +65,14 @@ http://www.ivoox.com/165-asi-lo-hacemos-apacoestrada77-aecollado-ayoyo308_mf_224
 https://anchor.fm/s/106db04/podcast/download/68109/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FRecomendaciones-Y-Pr-ximo-Ep---4dadac040f951.m4a
 #EXTINF:-1,Tomando Un Café - Herramientas para terminal
 https://anchor.fm/s/18c0860/podcast/download/68248/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FHerramientas-para-terminal-12d2778854d9c.m4a
+#EXTINF:-1,Maratón Linuxero - #04 Maratón Linuxero 3D: Ariel Corgatelli
+https://archive.org/download/ArielCorgatelli/ArielCorgatelli.ogg
+#EXTINF:-1,Maratón Linuxero - #03 Maratón Linuxero 3D: Maratón Linuxero
+https://archive.org/download/MaratonLinuxero3D/MaratonLinuxero3D.ogg
+#EXTINF:-1,Maratón Linuxero - #02 Maratón Linuxero 3D: Gabriel Coronado
+https://archive.org/download/GabrielCoronado/GabrielCoronado.ogg
+#EXTINF:-1,Maratón Linuxero - #01 Maratón Linuxero 3D: Rails Girls Venezuela
+https://archive.org/download/RailsGirlsVe/RailGirlsVe.ogg
 #EXTINF:-1,Radiogeek - #Radiogeek - El Google Pixel tiene menos amigos que Trump
 http://www.ivoox.com/radiogeek-el-google-pixel-tiene-menos-amigos_mf_22406601_feed_1.mp3
 #EXTINF:-1,Salmorejo Geek - #164 Guiller, Pedro Sanchez y Yo: Charleta de Norte a Sur
@@ -57,6 +87,8 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 http://www.ivoox.com/radiogeek-ya-sabemos-quien-desactivo-cuenta_mf_22383429_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #168 – RSS Radio la mejor app para podcasts ?
 http://tracking.feedpress.it/link/15283/7573563/Bat2x100_168.m4a
+#EXTINF:-1,Cultura NAS - #CN029 – Dieciocho preguntas y otros menesteres
+http://tracking.feedpress.it/link/14730/7570442/CN_Programa_029.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #72: El negocio del DNS
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/11/podcast-72-el-neogicio-del-dns.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Samsung tendría listo el micro para el Galaxy S9
@@ -67,8 +99,12 @@ https://anchor.fm/s/18c0860/podcast/download/65479/https%3A%2F%2Fs3-us-west-2.am
 http://www.ivoox.com/radiogeek-grave-fallo-apple-macos-high_mf_22340960_feed_1.mp3
 #EXTINF:-1,Tomando Un Café - Tomando Un Café 06
 https://anchor.fm/s/18c0860/podcast/download/64856/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FTomando-Un-Caf--06-552664f583be5.m4a
+#EXTINF:-1,Linux Express, de Podcast Linux. - #29 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/29linuxexpress.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #71: LACP
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/11/podcast-71-lacp.mp3
+#EXTINF:-1,Web Reactiva - WR 11: Alternativas a WordPress. ¿Hay alguien ahí fuera?
+http://api.spreaker.com/download/episode/13454096/webreactiva_podcast_11.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Samsung y LG podrían lanzar sus buques insignias en el CES2018
 http://www.ivoox.com/radiogeek-samsung-lg-podrian-lanzar-sus_mf_22314067_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #70: He instalado un certificado y mi web no muestra el candado verde
@@ -113,12 +149,16 @@ https://anchor.fm/s/18c0860/podcast/download/60964/https%3A%2F%2Fs3-us-west-2.am
 https://anchor.fm/s/18c0860/podcast/download/60780/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2F21-nov--2017-2944addd0e63f.m4a
 #EXTINF:-1,Tomando Un Café - DietPi
 https://anchor.fm/s/18c0860/podcast/download/60775/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2F21-nov--2017-de2c55fe8c78b.m4a
+#EXTINF:-1,Web Reactiva - WR 10: Los mejores podcast de programación y tecnología (o casi)
+http://api.spreaker.com/download/episode/13383382/webreactiva_podcast_10.mp3
 #EXTINF:-1,Bateria2x100 - #164 – Bundles, Black Friday & Gestores Contraseñas (otra vez)
 http://tracking.feedpress.it/link/15283/7473115/Bat2x100_164.m4a
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #65: Tiendas online autogestionadas
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/11/podcast-65-tiendas-online-autogestionadas.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Apple, Huawei y Samsung darán una batalla muy fuerte en el 2018
 http://www.ivoox.com/radiogeek-apple-huawei-samsung-daran-una_mf_22184880_feed_1.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #13-Aprendizaje: ¿Sabes en que fase estás?
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/MdE9PF5EHUg/13-Aprendizaje-En%20que%20fase%20estas.mp3
 #EXTINF:-1,Tomando Un Café - Lista de deseo para Telegram
 https://anchor.fm/s/18c0860/podcast/download/60316/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FTomando-un-caf--03-64d0e7d0c93c.m4a
 #EXTINF:-1,Compilando Podcast - Podcast 17 – Robótica libre con Obijuan y Cumpleaños de Android
@@ -131,6 +171,8 @@ https://anchor.fm/s/18c0860/podcast/download/59733/https%3A%2F%2Fs3-us-west-2.am
 http://www.ivoox.com/hablamos-martin-frascaroli-inteligencia-artificial_mf_22160667_feed_1.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Intel y Amd. Windows y Linux en Android. Chromebooks
 http://www.ivoox.com/intel-amd-windows-linux-android_mf_22160116_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #40 El Podcast como herramienta didáctica en el aula de Educación Primaria
+https://archive.org/download/40ElPodcastHerramientaDidacticaEnElAula/40-el-podcast-herramienta-didactica-en-el-aula.mp3
 #EXTINF:-1,Bateria2x100 - #163 – 2FA / 2FV – Generando inseguridad, sin querer !
 http://tracking.feedpress.it/link/15283/7430026/Bat2x100_163.m4a
 #EXTINF:-1,Radiogeek - #Radiogeek - WhatsApp esta trabajando para mejorar los Grupos
@@ -139,8 +181,14 @@ http://www.ivoox.com/radiogeek-whatsapp-esta-trabajando-para-mejorar-los_mf_2212
 http://www.ivoox.com/cesta-tecnologica-sorteo-recaudacion-benefica_mf_22109813_feed_1.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Nuevos Moto Mod Polaroid Insta-Share Printer
 http://www.ivoox.com/radiogeek-nuevos-moto-mod-polaroid-insta-share-printer_mf_22103438_feed_1.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 024 - Los niveles de altitud en GTD
+http://www.ivoox.com/024-los-niveles-altitud-gtd_mf_22094466_feed_1.mp3
 #EXTINF:-1,Radiogeek - #Radiogeek - Motorola lanza la tableta Moto Tab
 http://www.ivoox.com/radiogeek-motorola-lanza-tableta-moto-tab_mf_22075980_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #28 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/28linuxexpress.mp3
+#EXTINF:-1,Web Reactiva - WR 9: Contenido enriquecido HTML5 con H5P
+http://api.spreaker.com/download/episode/13319600/webreactiva_podcast_09.mp3
 #EXTINF:-1,NASeros Podcast - Tipos y formatos de discos SSD M2, PCIe y NVMe
 http://www.ivoox.com/tipos-formatos-discos-ssd-m2-pcie_mf_22051973_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #63: Autogestión de la información
@@ -161,10 +209,16 @@ http://www.ivoox.com/162-disponible-opcion-donaciones-para-proyectos-salmorejo_m
 http://www.ivoox.com/38-linux-connexion-wikimedia-espana_mf_21944072_feed_1.mp3
 #EXTINF:-1,deployando.me - 22 – asciinema
 https://deployando.me/podcast-download/181/22-asciinema.mp3
+#EXTINF:-1,Cultura NAS - #CN028 – Madrid NAS Events 2017
+http://tracking.feedpress.it/link/14730/7427247/CN_Programa_028.mp3
 #EXTINF:-1,Bateria2x100 - #162 – Sigo viviendo con retraso…
 http://tracking.feedpress.it/link/15283/7327708/Bat2x100_162.m4a
+#EXTINF:-1,Web Reactiva - WR 8: El programador mató a la startup
+http://api.spreaker.com/download/episode/13264718/webreactiva_podcast_08.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #61: Gestión de contenedores Docker con portainer
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/11/podcast-61-gestion-contenedores-con-portainer.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #12-yUML: Crea Diagramas a partir de texto plano
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/RDvyf9JuOtY/12%20-%20yUML-Crea%20diagramas%20a%20partir%20de%20texto%20plano.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - w10 da miedito en la noche de Halloween
 http://www.ivoox.com/w10-da-miedito-noche-halloween_mf_21890831_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #60: Primer aniversario del podcast
@@ -175,10 +229,18 @@ http://www.ivoox.com/161-como-partner-youtube-soy-os_mf_21887997_feed_1.mp3
 http://www.ivoox.com/s02e01-ubuntu-17-10-distros-100-libres_mf_21884774_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #59: Víctor de la Nuez de Wifi Canarias
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-59-victor-de-la-nuez.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 023 - Gestión del correo electrónico
+http://www.ivoox.com/023-gestion-del-correo-electronico_mf_21822168_feed_1.mp3
 #EXTINF:-1,deployando.me - 21 – Ceph Storage
 https://deployando.me/podcast-download/179/21-ceph-storage.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #27 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/27linuxexpress.mp3
+#EXTINF:-1,Web Reactiva - WR 7: Open Source CRM. Gestiona tus clientes con software libre gratuito
+http://api.spreaker.com/download/episode/13210675/webreactiva_podcast_07.mp3
 #EXTINF:-1,Salmorejo Geek - #160 Linux Mint abandona KDE, Corebird 1.7, mini Podcast personal en Telegram
 http://www.ivoox.com/160-linux-mint-abandona-kde-corebird-1-7-mini_mf_21746395_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #39 El fracaso escolar en España
+https://archive.org/download/39ContestandoALazarusWorld/39-contestando-a-lazarus-world.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 079. Novedades Anchor y como enlazo mis Audios
 https://anchor.fm/s/106db04/podcast/download/47948/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-data%2Fstationexports%2Fpodcasts%2FComo-enlazo-audios-a-Anchor-b378f648f54ec.m4a
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #58: RIP
@@ -191,26 +253,52 @@ https://anchor.fm/s/106db04/podcast/download/46801/https%3A%2F%2Fs3-us-west-2.am
 http://www.ivoox.com/37-cultura-libre_mf_21673527_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #57: Jitsi
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-57-jitsi.mp3
+#EXTINF:-1,Web Reactiva - WR 6: Cómo explicar proyectos tecnológicos a tu jefe o cliente
+http://api.spreaker.com/download/episode/13111917/wr_6_como_explicar_proyectos_tecnolo_gicos_a_tu_jefe_o_cliente.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #56: Internet y la aguja hipodérmica
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-56-internet-y-la-aguja-hipotermica.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #11-Correo: Cómo redactar un buen Asunto
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/33ZkQxHR6T0/11-Correo%20-%20Como%20redactar%20un%20buen%20Asunto.mp3
 #EXTINF:-1,Salmorejo Geek - #159 2 distros Linux 1 Swap: Solución inicio lento (extra ACPI Error)
 http://www.ivoox.com/159-2-distros-linux-1-swap-solucion-inicio_mf_21604893_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #38 Telegram lo hizo primero - Simyo - Correcciones
+https://archive.org/download/38CorreccionesACap37Y36/38-correcciones-a-cap-37-y-36.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #55: Centros de Datos con Tomás Ledo
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-55-centros-de-datos-tomas-ledo.mp3
 #EXTINF:-1,Salmorejo Geek - #158 Un truco Telegram para ser más productivo
 http://www.ivoox.com/158-un-truco-telegram-para-ser-mas-productivo_mf_21575863_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #37 WhatsApp Ubicación en tiempo real
+https://archive.org/download/37WhatsappUbicacionEnTiempoReal/37-whatsapp-ubicacion-en-tiempo-real.mp3
 #EXTINF:-1,NASeros Podcast - Conceptos básicos de redes y vulnerabilidad WIFI WPA2 KRACK
 http://www.ivoox.com/conceptos-basicos-redes-vulnerabilidad-wifi-wpa2_mf_21526247_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #26 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2326%20Podcast%20Linux%20Express.mp3
+#EXTINF:-1,Web Reactiva - WR 5: La historia de los pequeños objetos y la web de componentes
+http://api.spreaker.com/download/episode/13058124/webreactiva_podcast_05b.mp3
 #EXTINF:-1,Compilando Podcast - Podcast 15 – Desarrollo de Gnome, Red Hat y Fedora . Librecon 2017.
 http://compilando.audio/wp-content/uploads/2017/10/podcast15.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #54: Hablamos de dominios con Jorge Campanillas
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-54-hablamos-de-dominios-con-jorge-campanillas.mp3
+#EXTINF:-1,Maratón Linuxero - #03 Maratón Linuxero 1.1: NOLegalTech Radio
+https://archive.org/download/Maraton11NoLegalTech/Marat%C3%B3n11-NoLegalTech.ogg
+#EXTINF:-1,Maratón Linuxero - #02 Maratón Linuxero 1.1: Etertics
+https://archive.org/download/Maraton11Etertics/Marat%C3%B3n11-Etertics.ogg
+#EXTINF:-1,Maratón Linuxero - #01 Maratón Linuxero 1.1: Proyecto Maratón Linuxero
+https://archive.org/download/Maraton11MaratonLinuxero/Marat%C3%B3n11-Marat%C3%B3nLinuxero.ogg
 #EXTINF:-1,Salmorejo Geek - #157 Victorhck in The Free World: GNU/Linux, Software Libre, openSUSE y Gatos
 http://www.ivoox.com/157-victorhck-in-the-free-world-gnu-linux-software_mf_21456955_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #161 – Por fin …  Sigo vivo !
 http://tracking.feedpress.it/link/15283/7066757/Bat2x100_161.m4a
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 022 - Productividad con Sergio Pantiga
+http://www.ivoox.com/022-productividad-sergio-pantiga_mf_21418719_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #36 Mi Band 2 y Simyo
+https://archive.org/download/36Miband2Simyo/36-miband2-simyo.mp3
 #EXTINF:-1,Podcast Linux - #36 Linux Connexion con Atareao
 http://www.ivoox.com/36-linux-connexion-atareao_mf_21387751_feed_1.mp3
+#EXTINF:-1,Web Reactiva - WR 4: Stripe, el gran salto de los pagos online
+http://api.spreaker.com/download/episode/13002280/webreactiva_podcast_04.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #10-Cómo conseguir las metas que te propones
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/xV7_uChntEY/10-Como%20conseguir%20las%20metas%20que%20te%20propones.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #53: BGP
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/10/podcast-53-bgp.mp3
 #EXTINF:-1,Salmorejo Geek - #156 Mi HDD de 1TB ha muerto y se ha llevado parte de mí
@@ -221,12 +309,22 @@ http://www.ivoox.com/155-ojo-la-scarlett-2i2-2nd-gen-firmware_mf_21315385_feed_1
 http://www.ivoox.com/w10-update-creators-google-ia-iphone-mas_mf_21303021_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - Los datos, el petróleo del siglo XXI. Fin de la neutralidad de la red
 http://www.ivoox.com/datos-petroleo-del-siglo-xxi-fin_mf_21275754_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #25 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2325%20Podcast%20Linux%20Express.mp3
+#EXTINF:-1,Web Reactiva - WR 3: Programador, pon un git en tu vida
+http://api.spreaker.com/download/episode/12939362/webreactiva_podcast_03.mp3
 #EXTINF:-1,Salmorejo Geek - #154 Killall Radio Team International Podcast Day
 http://www.ivoox.com/154-killall-radio-team-international-podcast-day_mf_21210309_feed_1.mp3
 #EXTINF:-1,Salmorejo Geek - #153 Eugenia Bahit: El dinero no es un incentivo, necesito otros retos
 http://www.ivoox.com/153-eugenia-bahit-el-dinero-no-es-un_mf_21189920_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #35 IFTTT
+https://archive.org/download/35Ifttt/35-ifttt.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 021 - 10 Leyes de la productividad
+http://www.ivoox.com/021-10-leyes-productividad_mf_21188972_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #52: Por qué el correo no llega
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-52-por-que-el-correo-no-llega.mp3
+#EXTINF:-1,Cultura NAS - #CN027 – Los mata bien muertos
+http://tracking.feedpress.it/link/14730/7427248/CN_Programa_027.mp3
 #EXTINF:-1,Salmorejo Geek - #152 RIM: La chica que soñó con ser linuxera (un año después)
 http://www.ivoox.com/152-rim-la-chica-sono-ser_mf_21136402_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #35 Formatos Libres
@@ -239,16 +337,24 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 http://compilando.audio/wp-content/uploads/2017/09/podcast14.mp3
 #EXTINF:-1,Salmorejo Geek - #150 Salmorejo Geek finalista en la 8ª edición de los Premios de la Asociación Podcast de España
 http://www.ivoox.com/150-salmorejo-geek-finalista-8-edicion_mf_21046283_feed_1.mp3
+#EXTINF:-1,Web Reactiva - WR 2: La trampa de las plantillas premium
+http://api.spreaker.com/download/episode/12840752/webreactiva_podcast_02.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #24 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2324%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #51: MicroWeber
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-51-microweber.mp3
 #EXTINF:-1,Bateria2x100 - #160 – FingBox
 http://tracking.feedpress.it/link/15283/6840493/Bat2x100_160.m4a
 #EXTINF:-1,Salmorejo Geek - #149 Demasiado Telegram, usar con responsabilidad
 http://www.ivoox.com/149-demasiado-telegram-usar-responsabilidad_mf_20904631_feed_1.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 020 - Entornos Productivos
+http://www.ivoox.com/020-entornos-productivos_mf_20895650_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #159 – Sorteo !
 http://tracking.feedpress.it/link/15283/6777127/Bat2x100_159.m4a
 #EXTINF:-1,deployando.me - 20 – mosh
 https://deployando.me/podcast-download/174/20-mosh.mp3
+#EXTINF:-1,Web Reactiva - WR 1: Un programador, una oportunidad aprovechada y pasión por el salmón
+http://api.spreaker.com/download/episode/12778503/webreactiva_podcast_1.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01Extra02 Desde Ubucon Europe: Entrevistas (Alan Pope, Martin Wimpress, Rudy y Miguel) & LexNET
 http://www.ivoox.com/s01extra02-desde-ubucon-europe-entrevistas-alan-pope-martin_mf_20826073_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #158 – Volvemos ya no ? Empezamos !!
@@ -257,6 +363,8 @@ http://tracking.feedpress.it/link/15283/6765725/Bat2x100_158.m4a
 http://www.ivoox.com/34-directo-maraton-linuxero_mf_20794227_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #50: Sandstorm
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-50-sandstorm.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #09-Elimina el desorden Visual | Un poco de minimalismo
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/wHXO1CeBYXU/09%20Elimina%20el%20desorden%20visual.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Blackview A7. Smartphone sorprendente
 http://www.ivoox.com/blackview-a7-smartphone-sorprendente_mf_20776730_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #49: YouPHPTube, tu propio You Tube
@@ -265,6 +373,10 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 http://compilando.audio/wp-content/uploads/2017/09/Podcast13-MaratonLinuxero.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #48: Escritorio en la nube con x2Go
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-48-escritorio-en-la-nube-con-x2go.mp3
+#EXTINF:-1,eDucando Geek - #34 Linktree y Plusdede
+https://archive.org/download/34LinktreePlusdede/34-linktree-plusdede.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #23 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2323%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 076. Un Servidor en mi Casa - Podcast del Maratón Linuxero 2017
 https://ia601500.us.archive.org/19/items/076.UnServidorEnMiCasaMaratnLinuxero/076.%20Un%20Servidor%20en%20mi%20Casa%20-%20Marat%C3%B3n%20Linuxero.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Servidor Casero con ugeek en Maraton Linuxero 3/9/17
@@ -273,6 +385,24 @@ http://www.ivoox.com/servidor-casero-ugeek-maraton-linuxero-3-9-17_mf_20680980_f
 http://www.ivoox.com/s01extra01-maraton-linuxero-ubucon-europea-drm-en_mf_20679885_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #47: Mi intervención en el Maratón Linuxero
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-47-directo-maraton-linuxero.mp3
+#EXTINF:-1,Maratón Linuxero - #09 Maratón Linuxero I: Compilando Podcast
+https://archive.org/download/MaratonLinuxero9CompilandoPodcast/Marat%C3%B3n%20Linuxero%209%20Compilando%20Podcast.ogg
+#EXTINF:-1,Maratón Linuxero - #08 Maratón Linuxero I: Jugando en GNU/Linux
+https://archive.org/download/MaratonLinuxero8Jugando/Marat%C3%B3n%20Linuxero%208%20Jugandoen%20GNULinux.ogg
+#EXTINF:-1,Maratón Linuxero - #07 Maratón Linuxero I: uGeek y Mosquetero Web
+https://archive.org/download/MaratonLinuxero7UgeekYMosqueteroWeb/Marat%C3%B3n%20Linuxero%207%20Ugeek%20y%20Mosquetero%20Web.ogg
+#EXTINF:-1,Maratón Linuxero - #06 Maratón Linuxero I: Ubuntu y otras hierbas
+https://archive.org/download/MaratonLinuxero6UbuntuYOtrasHierbas/Marat%C3%B3n%20Linuxero%206%20Ubuntu%20y%20otras%20hierbas.ogg
+#EXTINF:-1,Maratón Linuxero - #05 Maratón Linuxero I: KDE España
+https://archive.org/download/MaratonLinuxero5KDEEspana/Marat%C3%B3n%20Linuxero%205%20KDE%20Espa%C3%B1a.ogg
+#EXTINF:-1,Maratón Linuxero - #04 Maratón Linuxero I: Audio y Música en GNU/Linux
+https://archive.org/download/MaratonLinuxero4Audio/Marat%C3%B3n%20Linuxero%204%20Audio.ogg
+#EXTINF:-1,Maratón Linuxero - #03 Maratón Linuxero I: Salmorejo Geek
+https://archive.org/download/MaratonLinuxero3SalmorejoGeek/Marat%C3%B3n%20Linuxero%203%20Salmorejo%20Geek.ogg
+#EXTINF:-1,Maratón Linuxero - #02 Maratón Linuxero I: Eduardo Collado
+https://archive.org/download/MaratonLinuxero2EduardoCollado/Marat%C3%B3n%20Linuxero%202%20Eduardo%20Collado.ogg
+#EXTINF:-1,Maratón Linuxero - #01 Maratón Linuxero I: Podcast Linux
+https://archive.org/download/MaratonLinuxero1PodcastLinux/Marat%C3%B3n%20Linuxero%201%20PodcastLinux.ogg
 #EXTINF:-1,Salmorejo Geek - #148 24 horas ML
 http://www.ivoox.com/148-24-horas-ml_mf_20652331_feed_1.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 075. Respuestas a Preguntas de los Oyentes y Maratón Linuxero
@@ -283,20 +413,28 @@ http://www.ivoox.com/147-gnome-3-26-elimina-iconos-legacy-en_mf_20641855_feed_1.
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-46-mejorar-apariencia-gnu-social.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #45: Instalación de GNUSocial
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-45-instalacion-gnu-social.mp3
+#EXTINF:-1,eDucando Geek - #33 FreedomPop 4G - Teclado - Carbocaje
+https://archive.org/download/33Freedompop4gLogitechmk270Carbocage/33-freedompop4g-logitechmk270-carbocage.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 074. Me explicáis como tomáis vuestras Notas. Y Que es uGeekRadio
 https://ia601507.us.archive.org/20/items/074.NotasYFeed/074.%20Notas%20y%20Feed.mp3
 #EXTINF:-1,Podcast Linux - #33 1º Directo Podcast Linux
 http://www.ivoox.com/33-1-directo-podcast-linux_mf_20569029_feed_1.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 019 - Los contextos en GTD
+http://www.ivoox.com/019-los-contextos-gtd_mf_20554370_feed_1.mp3
 #EXTINF:-1,Salmorejo Geek - #146 El Cuenta Linux
 http://www.ivoox.com/146-el-cuenta-linux_mf_20546550_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #157 – Un podcast raro
 http://tracking.feedpress.it/link/15283/6602296/Bat2x100_157.m4a
+#EXTINF:-1,Maratón Linuxero - #04 Último ensayo del Maratón Linuxero
+https://archive.org/download/04UltimoEnsayo/%2304UltimoEnsayo.ogg
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #44: Redes en GNU/Linux
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-44-la-red-en-gnu-linux.mp3
 #EXTINF:-1,Compilando Podcast - Podcast 12 – Empleo y Negocio en software libre con Carlos Rodriguez (Librebit-AGASOL) y Maratón Linuxero.
 http://compilando.audio/wp-content/uploads/2017/08/podcast12.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #43: PfSense
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-43-pfsense.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #08-Bullet Journal | Chronodex: Gestiona tu tiempo de forma visual
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/0966D3nKlGM/08-Bullet%20Journal%20-%20Chronodex.%20Gestiona%20tu%20tiempo%20de%20forma%20visual.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #42: Routers sobre GNU/Linux
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-42-routers-en-gnu-linux.mp3
 #EXTINF:-1,Bateria2x100 - #156 – Atentado en Barcelona y algo de tecnología.
@@ -309,12 +447,20 @@ http://www.ivoox.com/32-linux-connexion-reciclanet_mf_20316104_feed_1.mp3
 http://tracking.feedpress.it/link/15283/6490695/Bat2x100_154.m4a
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #41: Maratón Linuxsero, grabación de podcast y transmisión en vídeo
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-41-maraton-grabacion-y-transmision.mp3
+#EXTINF:-1,Maratón Linuxero - #03 Novedades en el Maratón Linuxero
+https://archive.org/download/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero.ogg
+#EXTINF:-1,eDucando Geek - #32 Montando un servidor con una Raspberry Pi 3 - Bullet Journal, un sistema de organización personal analógico - Leyendo Voy, mi nuevo podcast de libros y lectura en Anchor
+https://archive.org/download/32Raspi3BujoAnchor/32-raspi3-bujo-anchor.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Instalación nuevo disco híbrido SSHD y tests en Linux
 http://www.ivoox.com/instalacion-nuevo-disco-hibrido-sshd-tests-en_mf_20255876_feed_1.mp3
 #EXTINF:-1,deployando.me - 19 – Administradores de Configuración 02
 https://deployando.me/podcast-download/171/administradores-de-configuracion-02.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 073. ¿Porque se descarga tan rápido la batería de mi Android?
 https://ia601501.us.archive.org/17/items/073.PorqueSeDescargaTanRapido/073.%20Porque_se_descarga_tan_rapido.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #22 Linux Express
+https://githlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2322%20Podcast%20Linux%20Express.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #21 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2321%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #40: Big Data con Iñigo González
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-40-big-data-con-inigo-gonzalez.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #39: ISPConfig
@@ -329,12 +475,18 @@ http://www.ivoox.com/amazon-attcliente-vodafone-mas_mf_20173322_feed_1.mp3
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-38-fail2ban.mp3
 #EXTINF:-1,deployando.me - 18 – Administradores de Configuración 01
 https://deployando.me/podcast-download/168/administradores-de-configuracion-01.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 018 - Cómo gestionar las interrupciones de forma productiva
+http://www.ivoox.com/018-como-gestionar-interrupciones-forma_mf_20083728_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #31 Especial TLP2017
 http://www.ivoox.com/31-especial-tlp2017_mf_20075548_feed_1.mp3
+#EXTINF:-1,Maratón Linuxero - #02 Avanzando en el Maratón Linuxero
+https://archive.org/download/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero.ogg
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #37: Login Radius en Mikrotik
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/07/podcast-37-login-radius-en-mikrotik.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 071. Copia Remota De Vuestra SD, Mas Snap's
 https://ia601502.us.archive.org/29/items/071.CopiaRemotaDeVuestraSDMasSnaps/071.%20Copia%20remota%20de%20vuestra%20SD,%20Mas%20snap's.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #20 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2320%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Movilidad sin PC, libros, uso datos, compras y programación
 http://www.ivoox.com/movilidad-sin-pc-libros-uso-datos-compras-y_mf_19915687_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #153 – Otro refrito veraniego.
@@ -343,16 +495,24 @@ http://tracking.feedpress.it/link/15283/6280762/Bat2x100_153.m4a
 http://tracking.feedpress.it/link/15283/6268135/Bat2x100_152.m4a
 #EXTINF:-1,Podcast Linux - #30 Especial Maratón Linuxero
 http://www.ivoox.com/30-especial-maraton-linuxero_mf_19835582_feed_1.mp3
+#EXTINF:-1,Maratón Linuxero - #01 Qué es y cómo anda el Maratón Linuxero
+https://archive.org/download/01QuEsYCCmoAndaElMaratanLinuxero/#01%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero.ogg
 #EXTINF:-1,Compilando Podcast - Podcast 10 – Akademy 2017 y China hacia GNU/Linux
 http://compilando.audio/wp-content/uploads/2017/07/podcast10.mp3
 #EXTINF:-1,Bateria2x100 - #151 – Homebridge + Día de winners !!! Y ….
 http://tracking.feedpress.it/link/15283/6219086/Bat2x100_151.m4a
+#EXTINF:-1,Maratón Linuxero - #00 3,2,1... probando
+https://archive.org/download/00PrimerasPruebasDelMaratnLinuxero/%2300%20Primeras%20pruebas%20del%20Marat%C3%B3n%20Linuxero.ogg
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 070. Eficiencia de servicios y aplicaciones. Notas entre Keep, OneNote, Paper, Emacs...
 https://ia801500.us.archive.org/2/items/070.EficienciaEnRaspberryYNotas/070.%20Eficiencia%20en%20Raspberry%20y%20Notas.mp3
 #EXTINF:-1,deployando.me - 17 – fortalecer el servidor 2/2
 https://deployando.me/podcast-download/165/17-fortalecer-el-servidor-22.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #19 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2319%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #36: Directo pre-verano
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/07/podcast-36-directo-pre-verano.mp3
+#EXTINF:-1,eDucando Geek - #31 Software libre en Android: F-Droid y AntennaPod
+https://archive.org/download/31SoftwareLibreFdroidAntennapod/31-software-libre-fdroid-antennapod.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E07 Fairphone y FSF
 http://www.ivoox.com/s01e07-fairphone-fsf_mf_19689764_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #150 – Tarde “Macnífica” con … Marc !
@@ -373,6 +533,8 @@ https://ia601507.us.archive.org/16/items/67Miscelanea/67-Miscelanea.mp3
 http://www.ivoox.com/canon-digital-vodafone-te-clava-factura-y_mf_19631584_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #149 – Nuevo Logo ! … y sorpresa !!
 http://tracking.feedpress.it/link/15283/6153483/Bat2x100_149.m4a
+#EXTINF:-1,eDucando Geek - #30 Cuida tus ojos al usar Linux con Redshift
+https://archive.org/download/30Redshift/30-redshift.mp3
 #EXTINF:-1,Bateria2x100 - #148 – CrossOver con … Davicito Loco
 http://tracking.feedpress.it/link/15283/6141379/Bat2x100_148.m4a
 #EXTINF:-1,Podcast Linux - #28 Especial Aniversario
@@ -381,10 +543,14 @@ http://www.ivoox.com/28-especial-aniversario_mf_19570639_feed_1.mp3
 http://www.ivoox.com/slimbook-pro-linux-ultrabook_mf_19542755_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - Master Class sobre redes wifi y redes mesh
 http://www.ivoox.com/master-class-sobre-redes-wifi-redes-mesh_mf_19540463_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #18 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2318%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 066. Nextcloud, Resilio, Syncthing... ¿Que Nube elijo?
 https://ia601507.us.archive.org/15/items/NextcloudResilioSyncthingQueNubeElijoo/Nextcloud%2c%20Resilio%2c%20Syncthing%20%c2%bfQue%20Nube%20elijo%3f.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E06 Ubuntu rolling y abandono de arquitectura 32 bits
 http://www.ivoox.com/s01e06-ubuntu-rolling-abandono-arquitectura-32_mf_19444625_feed_1.mp3
+#EXTINF:-1,eDucando Geek - #29 Cómo ver series y películas en un iPad/iPhone mediante Telegram y VLC
+https://archive.org/download/29VerSeriesPeliculasIpadTelegramVlc/29-ver-series-peliculas-ipad-telegram-vlc.mp3
 #EXTINF:-1,Bateria2x100 - #147 – # Hoy toca … App para MAC OS !
 http://tracking.feedpress.it/link/15283/6072426/Bat2x100_147.m4a
 #EXTINF:-1,deployando.me - 16 – fortalecer el servidor 1/2
@@ -401,6 +567,8 @@ http://tracking.feedpress.it/link/15283/6065605/Bat2x100_146.m4a
 http://www.ivoox.com/27-especial-slimbook-one_mf_19385447_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #27 Especial Slimbook One
 http://www.ivoox.com/27-especial-slimbook-one_mf_21151729_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - Crossover Linuxero KilallRadio
+https://www.ivoox.com/20-crossover-linuxero-directo-sobre-gnome-plasma_md_19395669_wp_1.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Ipad Pro ¿sustituto del PC?
 http://www.ivoox.com/ipad-pro-sustituto-del-pc_mf_19348017_feed_1.mp3
 #EXTINF:-1,Compilando Podcast - Podcast 7 -Fundación Apache con Ignasi Barrera y el cumpleaños de TUX
@@ -411,14 +579,76 @@ http://tracking.feedpress.it/link/15283/6049484/Bat2x100_145.m4a
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/06/podcast-35-montar-dos-routers-bgp.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 064. Resilio. Una Nube Ilimitada, donde el control de tus datos los tienes tu.
 https://ia801501.us.archive.org/34/items/064.ResilioLaNubeDondeElControlLoTienesTu/064.%20Resilio,%20La%20nube%20donde%20el%20control%20lo%20tienes%20tu.mp3
+#EXTINF:-1,eDucando Geek - #28 Nuevo proyecto de eDucando Geek Podcast-Blog
+https://archive.org/download/28NuevoProyectoEducandoGeek/28-nuevo-proyecto-educando-geek.mp3
+#EXTINF:-1,eDucando Geek - #27 Operadoras. La sarten por el mango la tienes tú
+https://archive.org/download/27OperadorasLaSartenPorElMangoLaTienesTu/27-operadoras-la-sarten-por-el-mango-la-tienes-tu.mp3
+#EXTINF:-1,eDucando Geek - #26 Adiós Yoigo, hola Pepehone - Kodi - Taj (lectura recomendada)
+https://archive.org/download/26AdiosYoigoHolaPepehoneKodiTajLecturaRecomendada/26-adios-yoigo-hola-pepehone-kodi-taj-lectura-recomendada.mp3
+#EXTINF:-1,eDucando Geek - #25 Video mensajes en Telegram
+https://archive.org/download/25VideoMensajesEnTelegram/25-video-mensajes-en-telegram.mp3
+#EXTINF:-1,eDucando Geek - #24 Un ecosistema de lectura
+https://archive.org/download/24UnEcosistemaDeLectura/24-un-ecosistema-de-lectura.mp3
+#EXTINF:-1,eDucando Geek - #23 Tecnología y Educación
+https://archive.org/download/23TecnologiaYEducacion/23-tecnologia-y-educacion.mp3
+#EXTINF:-1,eDucando Geek - #22 Manjaro Linux
+https://archive.org/download/22Manjaro/22-manjaro.mp3
+#EXTINF:-1,eDucando Geek - #21 Detector casero de fallo eléctrico en el domicilio y utilidades
+https://archive.org/download/21DetectorCaseroFalloElectricoUtilidades/21-detector-casero-fallo-electrico-utilidades.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #07-Cómo enfocar el Aprendizaje
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/QyOBSOkOrJM/07%20Como%20enfocar%20el%20Aprendizaje.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 017 - Cómo elegir tu app de productividad
+http://www.ivoox.com/017-como-elegir-tu-app-productividad_mf_19261678_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #144 – (Reparado) Cuando tienes un martillo…todo te parece un clavo !
 http://tracking.feedpress.it/link/15283/6021195/Bat2x100_144.m4a
 #EXTINF:-1,Bateria2x100 - #143 – Cuando tienes un martillo…todo te parece un clavo !
 http://tracking.feedpress.it/link/15283/6020913/Bat2x100_143.m4a
+#EXTINF:-1,eDucando Geek - #20 Reciclando un MacBook de 2007
+https://archive.org/download/20ReciclandoUnMacbookDe2007/20-reciclando-un-macbook-de-2007.mp3
+#EXTINF:-1,eDucando Geek - #19 Nuevo smartphone - Huawei P9 Plus
+https://archive.org/download/19NuevoSmartphoneHuaweiP9Plus/19-nuevo-smartphone-huawei-p9-plus.mp3
+#EXTINF:-1,eDucando Geek - #18 Firefox para Android - Car charger Xiaomi - El smartphone ideal - Agradecimientos comentarios
+https://archive.org/download/18FirefoxParaAndroidSmartphoneIdeal/18-firefox-para-android-smartphone-ideal.mp3
+#EXTINF:-1,eDucando Geek - #17 Deshaciéndome de tecnología que no uso - Anécdota reparación
+https://archive.org/download/17DesahaciendomeDeEquiposYAnecdota_201706/17-desahaciendome-de-equipos-y-anecdota.mp3
+#EXTINF:-1,eDucando Geek - #16 OMV FreedomPop - Teclast X80 Pro
+https://archive.org/download/16FreedompopTeclastX80pro/16-freedompop-teclast-x80pro.mp3
+#EXTINF:-1,eDucando Geek - #15 MIUI8 - Android TV MXQ Pro+ 2/16Gb - KeePass2 gestor de passwords
+https://archive.org/download/15Miui8AndroidtvKeepass2/15-miui8-androidtv-keepass2.mp3
+#EXTINF:-1,eDucando Geek - #14 Tutorial configurar PayPal para la no conversión de divisas - Compras Internet - Impresora Doméstica
+https://archive.org/download/14ComprasImpresoraConfigurarPaypalDivisas/14-compras-impresora-configurar-paypal-divisas.mp3
+#EXTINF:-1,eDucando Geek - #13 ChromeOS en un USB - Tarjeta prepago de Correos - OMV Freedompop
+https://archive.org/download/13ChromebookCaseroCorreosPrepagoMastercardFreedompop/13-chromebook-casero-correos-prepago-mastercard-freedompop.mp3
+#EXTINF:-1,eDucando Geek - #12 Resistiendo a la obsolescencia programada
+https://archive.org/download/12ResistiendoALaObsolescenciaProgramada_201706/12-resistiendo-a-la-obsolescencia-programada.mp3
+#EXTINF:-1,eDucando Geek - #11 Telegram bots  canales - ¿Tiene Telegram los días contados?
+https://archive.org/download/11TelegramBotsCanalesTieneTelegramDiasContados/11-telegram-bots-canales-tiene-telegram-dias-contados.mp3
+#EXTINF:-1,eDucando Geek - #10 Apps iMediaShare - Series TV - Tutoriales Podcast
+https://archive.org/download/10ImediashareSeriestvTutorialesPodcasters/10-imediashare-seriestv-tutoriales-podcasters.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #17 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2317%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 063. Con Linux es posible
 https://ia801502.us.archive.org/3/items/ConLinuxEsPosible/Con%20Linux%20es%20posible.mp3
+#EXTINF:-1,eDucando Geek - #09 Si algo funciona... ¡no lo toques!.
+https://archive.org/download/09SiAlgoFuncionaNoLoToques_201706/09-si-algo-funciona-no-lo-toques.mp3
+#EXTINF:-1,eDucando Geek - #08 Cómo grabar un Pocast 2ª parte y correcciones
+https://archive.org/download/08ComoHacerUnPodcastCorreccionErrores/08-como-hacer-un-podcast-correccion-errores.mp3
+#EXTINF:-1,eDucando Geek - #07 15 días con el Xiaomi Redmi Note 3 Pro
+https://archive.org/download/0715DiasConElXiaomiRn3pro/07-15-dias-con-el-xiaomi-rn3pro.mp3
+#EXTINF:-1,eDucando Geek - #06 Micrófono Boya M1 - Kindle Paperwhite - Goodreads, RRSS para lectores
+https://archive.org/download/06MicroBoyam1KindleGoodreadsLecturas_20170614/06-micro-boyam1-kindle-goodreads-lecturas.mp3
+#EXTINF:-1,eDucando Geek - #05 Cómo grabar un podcast y por qué he decidido hacer el mío
+https://archive.org/download/05ComoHacerUnPodcastPorQueGrabarUnPodcast/05-como-hacer-un-podcast-por-que-grabar-un-podcast.mp3
+#EXTINF:-1,eDucando Geek - #04 Mis primeras impresiones con el Xiaomi Redmi Note 3 Pro
+https://archive.org/download/04PrimeraTomaDeContatctoXiaomiRn3pro_201706/04-primera-toma-de-contatcto-xiaomi-rn3pro.mp3
+#EXTINF:-1,eDucando Geek - #03 Yoigo capa las descargas por Torrent - Vacunación
+https://archive.org/download/03YoigoCapaLosTorrentsVacunacionInfantil/03-yoigo-capa-los-torrents-vacunacion-infantil.mp3
+#EXTINF:-1,eDucando Geek - #02 Esperando el Xiaomi Redmi Note 3 Pro
+https://archive.org/download/02EsperandoElXiaomiRedmiNote3Pro_20170614/02-esperando-el-xiaomi-redmi-note-3-pro.mp3
 #EXTINF:-1,Bateria2x100 - #142 – NAS huérfano busca propietario !
 http://tracking.feedpress.it/link/15283/6006587/Bat2x100_142.m4a
+#EXTINF:-1,eDucando Geek - #01 Capítulo piloto
+https://archive.org/download/01EpisodioPiloto_20170614/01-episodio-piloto.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E05 Comprar PCs con Ubuntu, desbandada desarrolladores Canonical y Chrome ha ganado ¿qué puede hacer Mozilla?
 http://www.ivoox.com/s01e05-comprar-pcs-ubuntu-desbandada-desarrolladores-canonical_mf_19187730_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #34: Servicio de correo
@@ -435,6 +665,8 @@ http://www.ivoox.com/amazon-ilimitado-antivacunas_mf_19160559_feed_1.mp3
 http://tracking.feedpress.it/link/15283/5981666/Bat2x100_141.m4a
 #EXTINF:-1,Podcast Linux - #26 Linux Connexion con Ugeek
 http://www.ivoox.com/26-linux-connexion-ugeek_mf_19127057_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN026 – Synology Workshop Barcelona con Manuel Jordán
+http://tracking.feedpress.it/link/14730/7427249/CN_Programa_026.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E04 Software libre en la educación
 http://www.ivoox.com/s01e04-software-libre-educacion_mf_19068060_feed_1.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E03 Seguridad y privacidad
@@ -447,10 +679,14 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 https://ia601502.us.archive.org/23/items/DockerEnMenosDe10Min/Docker%20en%20menos%20de%2010%20min.mp3
 #EXTINF:-1,Bateria2x100 - #140 – Sorteo  y más contenido …con sorpresa!
 http://tracking.feedpress.it/link/15283/5955001/Bat2x100_140.m4a
+#EXTINF:-1,Cultura NAS - #CN025 – Especial preguntas (atrasadas) de oyentes
+http://tracking.feedpress.it/link/14730/7427250/CN_Programa_025.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 060. La Terminal mas fácil con alias
 https://ia601504.us.archive.org/9/items/TerminalAlias/Terminal%20alias.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Computex 2017 y Gearbest
 http://www.ivoox.com/computex-2017-gearbest_mf_19018626_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #16 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2316%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,NASeros Podcast - ¿Cuándo es recomendable cambiar de router?
 http://www.ivoox.com/cuando-es-recomendable-cambiar-router_mf_18945263_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #139 – Miscelánea… De lunes !
@@ -471,8 +707,12 @@ http://tracking.feedpress.it/link/15283/5882630/Bat2x100_138.m4a
 http://www.ivoox.com/conexiones-remotas-como-puede-afectarnos-llegada_mf_18813411_feed_1.mp3
 #EXTINF:-1,Ubuntu y otras hierbas - S01E02 GNOME3 y UBPorts
 http://www.ivoox.com/s01e02-gnome3-ubports_mf_18807244_feed_1.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #15 Linux Express ¿Mp3 o Ogg? y 2
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2315%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #29: Calidad de servicio en GNU/Linux
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-29-calidad-de-servicio-en-linux.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #14 Linux Express ¿Mp3 o Ogg?
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2314%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 057. Multicuenta de Telegram en tu PC de escritorio y Wire
 https://ia801500.us.archive.org/13/items/057.MulticuentaTelegramWire/057.%20Multicuenta%20telegram,%20wire.mp3
 #EXTINF:-1,Bateria2x100 - #137 – Apps y un WorkFlow muy muy guapo !
@@ -485,6 +725,8 @@ https://ia801503.us.archive.org/12/items/056.VideoderYLlamadasTelegram/056.%20Vi
 http://www.ivoox.com/adios-spreaker-cambio-feed-ivoox_mf_18744170_feed_1.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 055. Nuevos Cambios...
 https://ia801506.us.archive.org/9/items/055.M4aAplicacionesDePodcastYNuevoMicro/055.%20M4a,%20aplicaciones%20de%20Podcast%20y%20nuevo%20micro.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #13 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2313%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,NASeros Podcast - ¿Qué pasó realmente con el ransonware del pasado viernes?
 http://www.ivoox.com/que-paso-realmente-ransonware-del-pasado_mf_18675963_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #135 – # Ransomware_WannaCry @Dekkar @macjosan Must listen !
@@ -497,6 +739,8 @@ http://tracking.feedpress.it/link/15283/5826921/Bat2x100_134.mp3
 https://ia601507.us.archive.org/31/items/054.TelefnicaEstaSiendoAtacada/054.%20Telef%C3%B3nica%20esta%20siendo%20atacada!%20.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #28: IPv6 (segunda parte)
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-28-ipv6-segunda-parte.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #06-Identifica bien tus Bandejas de Entrada
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/gKM4otPERmA/06%20Identifica%20bien%20tus%20bandejas%20de%20entrada.mp3
 #EXTINF:-1,Bateria2x100 - #133 – # Crossover de Seguridad con Andreu Adrover
 http://tracking.feedpress.it/link/15283/5812783/Bat2x100_133.mp3
 #EXTINF:-1,Podcast Linux - #24 Linux Connexion con DavidOchoBits
@@ -511,14 +755,20 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 https://ia601506.us.archive.org/33/items/JekyllOWordpress/Jekyll%20o%20Wordpress.mp3
 #EXTINF:-1,Bateria2x100 - #131 – Worflow Avanzado (VIII)
 http://tracking.feedpress.it/link/15283/5788411/Bat2x100_131.mp3
+#EXTINF:-1,Cultura NAS - #CN024 – Los 1001 usos de un NAS by Sergio Navas de @isenacode
+http://tracking.feedpress.it/link/14730/7427251/CN_Programa_024.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 051. Adiós Blogger, Hola GitHub!
 https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3
 #EXTINF:-1,Bateria2x100 - #130 – Worflow Avanzado (VII)
 http://tracking.feedpress.it/link/15283/5778335/Bat2x100_130.mp3
 #EXTINF:-1,deployando.me - 14 – vagrant workflow (vagrant 03)
 https://deployando.me/podcast-download/153/14-vagrant-workflow-vagrant-03.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #12 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2312%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #129 – WorkFlow Avanzado (VI)
 http://tracking.feedpress.it/link/15283/5773304/Bat2x100_129.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 016 - Mejora tu productividad con la matriz de Eisenhower
+http://www.ivoox.com/016-mejora-tu-productividad-matriz_mf_18449310_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #26: Odoo y transformación digital
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 050. Que ando haciendo, nuevas publicaciones y más...
@@ -541,6 +791,8 @@ http://www.ivoox.com/23-la-terminal_mf_21151730_feed_1.mp3
 https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3
 #EXTINF:-1,Bateria2x100 - #127 – Worflow Avanzado (V)
 http://tracking.feedpress.it/link/15283/5731739/Bat2x100_127.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #05-Bullet Journal: Vista semanal y Areas de responsabilidad
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/KbK_OfgFiV4/05%20BuJo-Vista%20semanal-Areas.mp3
 #EXTINF:-1,Bateria2x100 - #126 – Especial Leo Rearte
 http://tracking.feedpress.it/link/15283/5723135/Bat2x100_126.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #25: Introducción a Docker
@@ -553,10 +805,14 @@ http://tracking.feedpress.it/link/15283/5702435/Bat2x100_125.mp3
 http://tracking.feedpress.it/link/15283/5697573/Bat2x100_124.mp3
 #EXTINF:-1,Bateria2x100 - #123 – Hazel con Eden Exposito
 http://tracking.feedpress.it/link/15283/5696878/Bat2x100_123.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #11 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2311%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #122 – WorkFlow Avanzado (II)
 http://tracking.feedpress.it/link/15283/5691499/Bat2x100_122.mp3
 #EXTINF:-1,Bateria2x100 - #121 – WorkFlow Avanzado (I)
 http://tracking.feedpress.it/link/15283/5691501/Bat2x100_121.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 015 - Productividad con mapas mentales
+http://www.ivoox.com/015-productividad-mapas-mentales_mf_18193206_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #24: Sobre Vlans
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-24-sobre-vlans.mp3
 #EXTINF:-1,Podcast Linux - #22 Linux Connexion con la OSL de la Universidad de La Laguna
@@ -565,6 +821,8 @@ http://www.ivoox.com/22-linux-connexion-osl-la_mf_18133189_feed_1.mp3
 https://ia801505.us.archive.org/27/items/045CrossoverConSalmorejoGeek/%23045%20Crossover%20con%20Salmorejo%20Geek.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 044. La web de Jekyll en GitHub, va tomando forma
 https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #04-Cómo crear un hábito nuevo
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/4oWZBbaGff4/04%20Como%20crear%20un%20habito%20nuevo.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 043. Bot de Telegram IFTTT
 https://ia601509.us.archive.org/23/items/043BotDeTelegramDeIFTTT/%23043%20Bot%20de%20Telegram%20de%20IFTTT.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #23: Calcular máscaras de red
@@ -577,6 +835,8 @@ https://compilando.audio/wp-content/uploads/2017/04/Podcast_3.mp3
 https://ia801502.us.archive.org/1/items/041UbuntuYElAdiosAUnity/%23041%20Ubuntu%20y%20el%20adi%c3%b3s%20a%20Unity.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 040. Antergos, Ocnews De Nextcloud Y Jekyll
 https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #10 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2310%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #120 – Download Station y sorpresa.(must listen)
 http://tracking.feedpress.it/link/15283/5622479/Bat2x100_120.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #22: NAT en GNU/Linux
@@ -595,6 +855,8 @@ https://archive.org/download/PODCAST0_201704/PODCAST_0.mp3
 https://ia601506.us.archive.org/26/items/38CrossoverConMosqueteroWeb/%23%2038%20Crossover%20con%20MosqueteroWeb.mp3
 #EXTINF:-1,Bateria2x100 - #118 – Podcast in itinere…
 http://tracking.feedpress.it/link/15283/5594853/Bat2x100_118.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 014 - La regla de los dos minutos
+http://www.ivoox.com/014-la-regla-dos-minutos_mf_17859531_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #117 – Podcast con uGeekPodcast hablando de Servidores NAS y Linux
 http://tracking.feedpress.it/link/15283/5592352/Bat2x100_117.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 037. Llamadas de Telegram ya estan aquí. Y 3 bots que os encantaran
@@ -609,10 +871,14 @@ http://www.ivoox.com/21-gnu-linux-universidad_mf_17834272_feed_1.mp3
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-20-como-ganar-dinero-con-el-podcast.mp3
 #EXTINF:-1,Bateria2x100 - #116 – PushBullet/ PushOver, Workflows y Bots…
 http://tracking.feedpress.it/link/15283/5581612/Bat2x100_116.mp3
+#EXTINF:-1,Cultura NAS - #CN023 – IoT, IFTTT y Thunderbolt 3 con Pedro Barranquero
+http://tracking.feedpress.it/link/14730/7427252/CN_Programa_023.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 035. Mi HP ProLiant MicroServer Gen8
 https://ia601501.us.archive.org/10/items/035MiG8/%23035%20Mi%20G8.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 034. Bots de Telegram Sustitutos a Shazam y busqueda de articulos dentro del bot de Pocket
 https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #03-El funcionamiento del hábito
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/THIxi2C7AkQ/03%20Funcionamiento%20del%20habito.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #19: OpenVPN
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-19-openvpn.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 033. Bots en Telegram. Bot de Pocket
@@ -623,6 +889,8 @@ https://ia601606.us.archive.org/30/items/032MiscelaneaDeViernes/%23032%20Miscel%
 http://tracking.feedpress.it/link/15283/5552178/Bat2x100_115.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 031. Keepass, como gestiono mis contraseñas
 https://ia601606.us.archive.org/14/items/031Keepass.ComoGestionoMisContrasenas/%23031%20Keepass.%20Como%20gestiono%20mis%20contrase%C3%B1as.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #09 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2309%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 030. Mumble, VoIP de Software Libre. Nextcloud, Wallabag y kdenlive
 https://ia601609.us.archive.org/0/items/030Mumble/%23030%20Mumble.mp3
 #EXTINF:-1,Bateria2x100 - #114 – Apps de IOS – Edén Exposito (II)
@@ -631,6 +899,8 @@ http://tracking.feedpress.it/link/15283/5541236/Bat2x100_114.mp3
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-18-herramientas-simples-y-utiles-para-un-adminsitrador-de-red.mp3
 #EXTINF:-1,Bateria2x100 - #113 – VierNAS de Podcast variado…
 http://tracking.feedpress.it/link/15283/5527711/Bat2x100_113.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 013 - Bullet Journal, un método de productividad analógico
+http://www.ivoox.com/013-bullet-journal-metodo-productividad_mf_17600758_feed_1.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 029. Miscelánea de Viernes.
 https://ia601608.us.archive.org/28/items/029MiscelneaDeViernes/%23029%20Miscel%C3%A1nea%20de%20viernes.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 028. Instala un servidor de mensajeria tipo Whatsapp o Telegram y de Software Libre con XMPP/Jabber
@@ -653,10 +923,14 @@ https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploa
 https://ia601606.us.archive.org/25/items/026PodcastConFrankDeBatera2x100/%23026%20Podcast%20con%20Frank%20de%20Bater%C3%ADa2x100.mp3
 #EXTINF:-1,Bateria2x100 - #109 – Miscelánea Jueves Noche
 http://tracking.feedpress.it/link/15283/5481956/Bat2x100_109.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #02-Cómo empezar a ser organizado
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/aIAJtbYUCjg/02-Como%20empezar%20a%20ser%20organizado.mp3
 #EXTINF:-1,Bateria2x100 - #108 – Especial Seguridad III Y Sorpresa
 http://tracking.feedpress.it/link/15283/5473528/Bat2x100_108.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 025. Metodo mas completo para recopilar notas, org Mode
 https://ia601600.us.archive.org/16/items/025MtodoMMsCompletoQueParaRecopilarNotasOrgMode/%23025%20M%C3%A9todo%20m%C3%A1s%20completo%20que%20para%20recopilar%20notas%2C%20org%20mode.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #08 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2308%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #107 – Piper NV Y Alguna Cosa Más!
 http://tracking.feedpress.it/link/15283/5467633/Bat2x100_107.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 024. Conectate remotamente a tu Raspberry Pi con "dataplicity"
@@ -665,8 +939,12 @@ https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCo
 http://tracking.feedpress.it/link/15283/5458016/Bat2x100_106.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #15: Mumble, tu mesa de reuniones virtual
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-15-mumble.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 012 - Workflow - Automatizaciones en iOS
+http://www.ivoox.com/012-workflow-automatizaciones-ios_mf_17357158_feed_1.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 023. Entrevista a Chema y Juan, dos desarrolladores de Software Libre de Igalia.com en el #mwc17
 https://ia801609.us.archive.org/20/items/EntrevistaADosDesarrolladoresDeSoftwareLibreDeIgalia/Entrevista%20a%20dos%20desarrolladores%20de%20Software%20Libre%20de%20Igalia.mp3
+#EXTINF:-1,Cultura NAS - #CN022 – El libro «Servidores NAS en tu vida digital»
+http://tracking.feedpress.it/link/14730/7427253/CN_Programa_022.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 022. Entrevista con Arturo Suarez, DIrectivo del Cloud de Canonical Ubuntu
 https://ia601600.us.archive.org/33/items/EntrevistaConArturoSuarezDirectivoDelCloudDeCanonicalUbuntu/Entrevista%20con%20Arturo%20Suarez,%20Directivo%20del%20Cloud%20de%20Canonical%20Ubuntu.mp3
 #EXTINF:-1,Bateria2x100 - #105 – Trucos y agradecimientos.La Impresora de Tickets
@@ -691,8 +969,12 @@ https://ia601603.us.archive.org/6/items/019DokuwikiNuevaFormaDeTomarMisNotas/%23
 http://tracking.feedpress.it/link/15283/5394883/Bat2x100_102.mp3
 #EXTINF:-1,Bateria2x100 - #101 – ASUS AC-68U Y Mitrastar HGU 2541 De Movistar.
 http://tracking.feedpress.it/link/15283/5391684/Bat2x100_101.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #07 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2307%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 018. Como montar Wallabag, el Pocket o Instapaper de software libre y lo mejor de todo, en tu servidor
 https://ia601604.us.archive.org/24/items/018WallabagElPocketOInstapaper/%23018_Wallabag%2c_el_Pocket_o_Instapaper.mp3
+#EXTINF:-1,Vacia Tu Bandeja - #01-Organízate con Bullet Journal
+http://feedproxy.google.com/~r/Vaciatubandeja/~5/HnGBGpZGsKs/Vtb01_Se_analogico_en_un_mundo_digital_con_Bullet_Journal.mp3
 #EXTINF:-1,Bateria2x100 - #100 – Homenaje a…Seguridad IOS (2) Y Docker
 http://tracking.feedpress.it/link/15283/5365429/Bat2x100_100.mp3
 #EXTINF:-1,Bateria2x100 - #99 – Podcast Con Angel De uGeekPodcast Hablando De Plex, Nextcloud
@@ -719,6 +1001,8 @@ https://ia801601.us.archive.org/21/items/013NewsYFreshRSS.GestorDeNoticiasRSS/%2
 https://ia801604.us.archive.org/21/items/013FDroidAplicacionesDeSoftwareLibre/%23013%20F-Droid%20Aplicaciones%20de%20Software%20Libre.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 012. Como actualizar Nextcloud y salir del modo de "mantenimiento"
 https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3
+#EXTINF:-1,Cultura NAS - #CN021 – Los 1001 usos de un NAS by @patuflinx
+http://tracking.feedpress.it/link/14730/7427254/CN_Programa_021.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #11: OSPF en un único área
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-11-ospf-en-un-area.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 011. Podcast con Frank de Bateria2x100, hablando un poco de todo...
@@ -727,6 +1011,8 @@ https://ia801602.us.archive.org/16/items/011PodcastConFrankDeBateria2x100/%23011
 https://ia601603.us.archive.org/9/items/010ElSistemaOperativoDeBolsillo/%23010%20El%20Sistema%20Operativo%20de%20bolsillo.mp3
 #EXTINF:-1,Bateria2x100 - #95 – Apunte DS Note
 http://tracking.feedpress.it/link/15283/5291600/Bat2x100_95.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 011 - Técnicas de productividad: Pomodoro + Mapas mentales
+http://www.ivoox.com/011-tecnicas-productividad-pomodoro-mapas_mf_16923506_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #94 – DS NOTE, espectacular.
 http://tracking.feedpress.it/link/15283/5290201/Bat2x100_94.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 009. Crea tu podcast en 3 simples pasos y totalmente gratis
@@ -737,6 +1023,8 @@ http://tracking.feedpress.it/link/15283/5281613/Bat2x100_93.mp3
 http://tracking.feedpress.it/link/15283/5278089/Bat2x100_92.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 008. Como gestiono mis Notas
 https://ia801900.us.archive.org/13/items/008ComoGestionoMisNotas/%23008%20Como%20gestiono%20mis%20notas.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #06 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2306%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #91 – Charla con @angel_bcn, podcaster de uGeek
 http://tracking.feedpress.it/link/15283/5272972/Bat2x100_91.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 007. Linux es una alternativa real
@@ -769,18 +1057,26 @@ http://tracking.feedpress.it/link/15283/5234570/Bat2x100_86.mp3
 https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3
 #EXTINF:-1,uGeek - Tecnología, Android, Linux, Servidores y mucho más... - 001. Hola Mundo
 https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3
+#EXTINF:-1,Cultura NAS - Llamada telefónica
+http://tracking.feedpress.it/link/14730/7427255/CN_Programa_Sorteo.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #05 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2305%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #85 – Un Capítulo Muy Muy Interesante.
 http://tracking.feedpress.it/link/15283/5194885/Bat2x100_85.mp3
 #EXTINF:-1,Bateria2x100 - #84 – Así Me Gestiono Yo & Menubar Stats 2
 http://tracking.feedpress.it/link/15283/5186279/Bat2x100_84.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #8: El viaje de cargar una web
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-8-el-viaje-de-cargar-una-web.mp3
+#EXTINF:-1,Cultura NAS - #CN020 – Cómo mejorar la velocidad de transferencia del NAS en tu red LAN
+http://tracking.feedpress.it/link/14730/7427256/CN_Programa_020.mp3
 #EXTINF:-1,Bateria2x100 - #83 – Variado De Miércoles
 http://tracking.feedpress.it/link/15283/5167120/Bat2x100_83.mp3
 #EXTINF:-1,Podcast Linux - #16 Antergos
 http://www.ivoox.com/16-antergos_mf_16451726_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #82 – Amerigo(App IOS) Y Wallabag Por Fin Ok!
 http://tracking.feedpress.it/link/15283/5143176/Bat2x100_82.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #04 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2304%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #81 – Otro Podcast Nocturno.
 http://tracking.feedpress.it/link/15283/5122681/Bat2x100_81.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #7: Cableado en un Centro de Datos
@@ -797,10 +1093,14 @@ http://tracking.feedpress.it/link/15283/5067810/Bat2x100_78.mp3
 http://tracking.feedpress.it/link/15283/5064109/Bat2x100_77.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #6: Almacenamiento
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-6-almacenamiento.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #03 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2303%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #76 – 25 Dciembre !
 http://tracking.feedpress.it/link/15283/5029972/Bat2x100_76.mp3
 #EXTINF:-1,Podcast Linux - #14 Especial Slimbook Katana
 http://www.ivoox.com/14-especial-slimbook-katana_mf_15380402_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN019 – Hablamos sobre todas las novedades del Synology Event 2017
+http://tracking.feedpress.it/link/14730/7427257/CN_Programa_019.mp3
 #EXTINF:-1,Bateria2x100 - #75 – Disculpas / Telegram IFTTT
 http://tracking.feedpress.it/link/15283/5015085/Bat2x100_75.mp3
 #EXTINF:-1,Bateria2x100 - #74 – Variado De Miércoles
@@ -817,8 +1117,12 @@ http://tracking.feedpress.it/link/15283/4978702/Bat2x100_71.mp3
 http://tracking.feedpress.it/link/15283/4978611/Bat2x100_70.mp3
 #EXTINF:-1,Bateria2x100 - #69 – PLEX PHOTO Y PLEX MUSIC
 http://tracking.feedpress.it/link/15283/4976671/Bat2x100_69.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #02 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2302%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #68 – Amazon Go, Netflix Y La Inteligencia Artificial
 http://tracking.feedpress.it/link/15283/4968838/Bat2x100_68.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 010 - Preguntas y respuestas de productividad
+http://www.ivoox.com/010-preguntas-respuestas-productividad_mf_14936160_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #67 – PLEX : Sincronización Y Nubes.
 http://tracking.feedpress.it/link/15283/4962010/Bat2x100_67.mp3
 #EXTINF:-1,Bateria2x100 - #66 – Termostatos
@@ -829,6 +1133,8 @@ http://www.ivoox.com/13-ciberseguridad-basica-gnu-linux_mf_14880771_feed_1.mp3
 http://tracking.feedpress.it/link/15283/4948930/Bat2x100_65.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #4: SSL, spam y postventa de Apple
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-4-ssl-spam-postventa-de-apple.mp3
+#EXTINF:-1,Linux Express, de Podcast Linux. - #01 Linux Express
+https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2301%20Podcast%20Linux%20Express.mp3
 #EXTINF:-1,Bateria2x100 - #64 – Empieza La Navidad !
 http://tracking.feedpress.it/link/15283/4894112/Bat2x100_64.mp3
 #EXTINF:-1,Bateria2x100 - #63 – ApplePay !! Y Muchas Noticias….
@@ -837,16 +1143,24 @@ http://tracking.feedpress.it/link/15283/4886356/Bat2x100_63.mp3
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-3-como-crear-un-podcast.mp3
 #EXTINF:-1,Bateria2x100 - #62 – Mi Experiencia Con UBER en Miami !
 http://tracking.feedpress.it/link/15283/4877236/Bat2x100_62.mp3
+#EXTINF:-1,Cultura NAS - #CN018 – Nos vigilan las 24h
+http://tracking.feedpress.it/link/14730/7427258/CN_Programa_018.mp3
 #EXTINF:-1,Podcast Linux - #12 Linux Connexion con Alejandro López ( Slimbook )
 http://www.ivoox.com/12-linux-connexion-alejandro-lopez-slimbook_mf_14164009_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #2: Git, CRUD en Rails y Formularios dinámicos en HTML con JavaScript
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-2-crud-en-rails-formularios-dinamicos.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 009 - Hacer las tareas de nuestro sistema GTD
+http://www.ivoox.com/009-hacer-tareas-nuestro-sistema_mf_13765048_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #11 Linux Connexion con Gabriel Viso (Pitando.net). Podcast Linux
 http://www.ivoox.com/11-linux-connexion-gabriel-viso-pitando-net-podcast_mf_13759097_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #61 – AyudaAlba Y Desvirtualizando Podcasters.
 http://tracking.feedpress.it/link/15283/4776794/Bat2x100_61.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #1: Presentación, Rails y Lynda.com
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-1-presentacion-rails-lynda.mp3
+#EXTINF:-1,Cultura NAS - #CN017 – Hablamos sobre el QNAP World Tour 2016
+http://tracking.feedpress.it/link/14730/7427259/CN_Programa_017.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 008 - Evaluación de nuestro sistema GTD
+http://www.ivoox.com/008-evaluacion-nuestro-sistema-gtd_mf_13660172_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #0: Presentación
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-0.mp3
 #EXTINF:-1,Bateria2x100 - #60 – Descuentos en Amazon Con COINC Y Un Par De Cosas Más.
@@ -863,16 +1177,24 @@ http://www.ivoox.com/que-es-como-se-prepara-para-que_mf_13435849_feed_1.mp3
 http://tracking.feedpress.it/link/15283/4682146/Bat2x100_56.mp3
 #EXTINF:-1,NASeros Podcast - VPNs de pago, Plex Cloud y Agregación de enlaces o LACP
 http://www.ivoox.com/vpns-pago-plex-cloud-agregacion-de_mf_13404579_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN016 – La virtualización para todos los públicos
+http://tracking.feedpress.it/link/14730/7427260/CN_Programa_016.mp3
 #EXTINF:-1,NASeros Podcast - Tipos de sistemas seguridad que podemos tener
 http://www.ivoox.com/tipos-sistemas-seguridad-podemos-tener_mf_13321458_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #55 – Ya Estoy De Vuelta
 http://tracking.feedpress.it/link/15283/4626880/Bat2x100_55.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 007 - Cómo organizar tareas y proyectos en GTD
+http://www.ivoox.com/007-como-organizar-tareas-proyectos-en_mf_13288081_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #09 Especial Lenovo ThinkPad X220
 http://www.ivoox.com/09-especial-lenovo-thinkpad-x220_mf_13265714_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #54 – PLEX Cloud
 http://tracking.feedpress.it/link/15283/4535017/Bat2x100_54.mp3
+#EXTINF:-1,Cultura NAS - #CN015 – Adrián Groba, responsable de ventas en QNAP España
+http://tracking.feedpress.it/link/14730/7427583/CN_Programa_015.mp3
 #EXTINF:-1,Podcast Linux - #08 Sabores a montones
 http://www.ivoox.com/08-sabores-a-montones_mf_13103580_feed_1.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 006 - Procesar tareas y proyectos en GTD
+http://www.ivoox.com/006-procesar-tareas-proyectos-gtd_mf_13088788_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #53 – Amazon Cloud Drive Y Plex Unidos !!
 http://tracking.feedpress.it/link/15283/4517572/Bat2x100_53.mp3
 #EXTINF:-1,Bateria2x100 - #52 – Sorteo ! & iDoctusPed
@@ -885,6 +1207,8 @@ http://tracking.feedpress.it/link/15283/4433408/Bat2x100_50.mp3
 http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram_mf_12912418_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #07 Linux Connexion con Huezo (Grupo Telegram GNU/Linux) Podcast Linux
 http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram-gnu-linux_mf_13383404_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN014 – Aumenta la seguridad en tu NAS
+http://tracking.feedpress.it/link/14730/7427584/CN_Programa_014.mp3
 #EXTINF:-1,Bateria2x100 - #49 – Subsmarine Y Ajuste Del Consumo De Datos.
 http://tracking.feedpress.it/link/15283/4388666/Bat2x100_49.mp3
 #EXTINF:-1,Bateria2x100 - #48 – Miscelánea De NAS Y Corrección HYper BackUp Con Amazon Cloud Drive
@@ -901,6 +1225,8 @@ http://tracking.feedpress.it/link/15283/4301188/Bat2x100_46.mp3
 http://tracking.feedpress.it/link/15283/4292872/Bat2x100_45.mp3
 #EXTINF:-1,Bateria2x100 - #44 – Cosas Varias Y Protector Ultrafino iPhone
 http://tracking.feedpress.it/link/15283/4242490/Bat2x100_44.mp3
+#EXTINF:-1,Cultura NAS - #CN013 – Especial preguntas (fin de) verano
+http://tracking.feedpress.it/link/14730/7427585/CN_Programa_013.mp3
 #EXTINF:-1,Bateria2x100 - #43 – Series Y Aprender a Pronunciar Vitaminización.
 http://tracking.feedpress.it/link/15283/4221979/Bat2x100_43.mp3
 #EXTINF:-1,Podcast Linux - #05 Linux Connexion con Yoyo Fernández
@@ -921,6 +1247,8 @@ http://tracking.feedpress.it/link/15283/4121849/Bat2x100_40.mp3
 http://tracking.feedpress.it/link/15283/4084831/Bat2x100_39.mp3
 #EXTINF:-1,Bateria2x100 - #38 – Mix De Cosillas(Droplr, Here,Vivino)
 http://tracking.feedpress.it/link/15283/4068203/Bat2x100_38.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 005 - Recopilar información en GTD
+http://www.ivoox.com/005-recopilar-informacion-gtd_mf_12424970_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #37 – Un 10 Para Movistar en Twitter
 http://tracking.feedpress.it/link/15283/4052759/Bat2x100_37.mp3
 #EXTINF:-1,Bateria2x100 - #36 – Plex : Content Rating & IFTTT
@@ -929,10 +1257,14 @@ http://tracking.feedpress.it/link/15283/4052760/Bat2x100_36.mp3
 http://www.ivoox.com/03-y-no-estaba-muerto-no-no_mf_12374536_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #03 Y no estaba muerto, no, no. Podcast Linux
 http://www.ivoox.com/03-y-no-estaba-muerto-no-no-podcast_mf_13383408_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN012 – ¿Cómo organizamos la información en nuestro NAS?
+http://tracking.feedpress.it/link/14730/7427586/CN_Programa_012.mp3
 #EXTINF:-1,Bateria2x100 - #35 – Reflexión
 http://tracking.feedpress.it/link/15283/4052761/Bat2x100_35.mp3
 #EXTINF:-1,Bateria2x100 - #34 – Downie & Eliminar Ficheros en Plex & DSPhoto Para Apple TV
 http://tracking.feedpress.it/link/15283/4052762/Bat2x100_34.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 004 - Los cinco pasos del GTD
+http://www.ivoox.com/004-los-cinco-pasos-del-gtd_mf_12304304_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #33 – Movistar… Y Orasis
 http://tracking.feedpress.it/link/15283/4052763/Bat2x100_33.mp3
 #EXTINF:-1,Bateria2x100 - #32 –  Eltima Software : CloudMounter & Más Sobre GPS
@@ -953,8 +1285,12 @@ http://tracking.feedpress.it/link/15283/4052768/Bat2x100_28.mp3
 http://tracking.feedpress.it/link/15283/4052769/Bat2x100_27.mp3
 #EXTINF:-1,Bateria2x100 - #26 Amazon Cloud Drive
 http://tracking.feedpress.it/link/15283/4052770/Bat2x100_26.mp3
+#EXTINF:-1,Cultura NAS - #CN011 – Manuel Jordán, Synology Product Manager para España
+http://tracking.feedpress.it/link/14730/7427587/CN_Programa_011.mp3
 #EXTINF:-1,Bateria2x100 - #25 Multimedia Para Mayores Y PlexPy
 http://tracking.feedpress.it/link/15283/4052771/Bat2x100_25.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 003 - Entrevista a Javier Cristobal @crjstobal
+http://www.ivoox.com/003-entrevista-a-javier-cristobal-acrjstobal_mf_12088444_feed_1.mp3
 #EXTINF:-1,Podcast Linux - #01 Antecedentes
 http://www.ivoox.com/01-antecedentes_mf_12085902_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #24 KickStarter –  LightPack2 – Macnificos y podcasts
@@ -971,12 +1307,16 @@ http://tracking.feedpress.it/link/15283/4052774/Bat2x100_22.mp3
 http://tracking.feedpress.it/link/15283/4052775/Bat2x100_21.mp3
 #EXTINF:-1,Bateria2x100 - #20 IndieGoGo & KickStarter
 http://tracking.feedpress.it/link/15283/4052776/Bat2x100_20.mp3
+#EXTINF:-1,Cultura NAS - #CN010 – Mac & NAS con Carlos Burges
+http://tracking.feedpress.it/link/14730/3651015/Programa_010.mp3
 #EXTINF:-1,Bateria2x100 - #19 File Manager Pro
 http://tracking.feedpress.it/link/15283/4052777/Bat2x100_19.mp3
 #EXTINF:-1,Bateria2x100 - #18 Gestión De Tareas
 http://tracking.feedpress.it/link/15283/4052778/Bat2x100_18.mp3
 #EXTINF:-1,Bateria2x100 - #17 WWDC
 http://tracking.feedpress.it/link/15283/4052779/Bat2x100_17.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 002 - ¿Qué es el GTD?
+http://www.ivoox.com/002-que-es-gtd_mf_11864093_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #16 WeSmartPark
 http://tracking.feedpress.it/link/15283/4052780/Bat2x100_16.mp3
 #EXTINF:-1,Bateria2x100 - #15 ParkingDoor & Montar Unidades NAS
@@ -989,6 +1329,8 @@ http://tracking.feedpress.it/link/15283/4052783/Bat2x100_13.mp3
 http://tracking.feedpress.it/link/15283/4052784/Bat2x100_12.mp3
 #EXTINF:-1,Bateria2x100 - #11 Interact (IOS)
 http://tracking.feedpress.it/link/15283/4052785/Bat2x100_11.mp3
+#EXTINF:-1,Cultura NAS - #CN009 – Todo sobre caché SSD en tu NAS
+http://tracking.feedpress.it/link/14730/7427588/Programa_009.mp3
 #EXTINF:-1,Bateria2x100 - #10 Dropcopy y Copied
 http://tracking.feedpress.it/link/15283/4052786/Bat2x100_10.mp3
 #EXTINF:-1,Bateria2x100 - #9 Backup y Redundancia (NAS) Crashplan
@@ -1001,10 +1343,14 @@ http://tracking.feedpress.it/link/15283/4052789/Bat2x100_07.mp3
 http://tracking.feedpress.it/link/15283/4052790/Bat2x100_06.mp3
 #EXTINF:-1,Bateria2x100 - #5 Screenshot (MAC OS) y flujo en fotos (NAS)
 http://tracking.feedpress.it/link/15283/4052791/Bat2x100_05.mp3
+#EXTINF:-1,Cultura NAS - #CN008 – Especial preguntas de oyentes
+http://tracking.feedpress.it/link/14730/7427589/Programa_008.mp3
 #EXTINF:-1,Bateria2x100 - #4 TimePage (IOS)
 http://tracking.feedpress.it/link/15283/4052792/Bat2x100_04.mp3
 #EXTINF:-1,Bateria2x100 - #3 HashPhotos ! (IOS)
 http://tracking.feedpress.it/link/15283/4052793/Bat2x100_03.mp3
+#EXTINF:-1,Cultura NAS - #CN007 – Los NAS en la educación con Rubén Brenes
+http://tracking.feedpress.it/link/14730/7427590/Programa_007.mp3
 #EXTINF:-1,Bateria2x100 - #2 Drop Zone 3 & Expandrive & Insync
 http://tracking.feedpress.it/link/15283/4052794/Bat2x100_02.mp3
 #EXTINF:-1,Bateria2x100 - #1 Airserver y Remote Buddy
@@ -1013,6 +1359,14 @@ http://tracking.feedpress.it/link/15283/4052795/Bat2x100_01.mp3
 http://www.ivoox.com/cual-es-mejor-reproductor-multimedia-cual-es-el_mf_11569876_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - Hola a tod@s !
 http://tracking.feedpress.it/link/15283/4052796/Bat2x100_00.mp3
+#EXTINF:-1,Aprendiendo GTD podcast productividad - 001 - Presentación de Aprendiendo GTD
+http://www.ivoox.com/001-presentacion-aprendiendo-gtd_mf_11450474_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN006 – Hablemos de RADIUS
+http://tracking.feedpress.it/link/14730/7427591/Programa_006.mp3
+#EXTINF:-1,Cultura NAS - #CN005 – Tu Web en Tu servidor NAS
+http://tracking.feedpress.it/link/14730/7427592/Programa_005.mp3
+#EXTINF:-1,Cultura NAS - #CN004 – Lo virtual si es privado… mejor!
+http://tracking.feedpress.it/link/14730/7427593/Programa_004.mp3
 #EXTINF:-1,NASeros Podcast - Hablemos de seguridad informática
 http://www.ivoox.com/hablemos-seguridad-informatica_mf_11041040_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - Prepara un Router-NAS casero de gran potencia
@@ -1021,12 +1375,20 @@ http://www.ivoox.com/prepara-router-nas-casero-gran-potencia_mf_11001326_feed_1.
 http://www.ivoox.com/nuevos-productos-cebit2016-dudas-oyentes_mf_10952034_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - Multimedia y vídeo 4K. Nueva colaboración con Applelianos.
 http://www.ivoox.com/multimedia-video-4k-nueva-colaboracion-applelianos_mf_10878639_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN003 – Torrentes de pasión
+http://tracking.feedpress.it/link/14730/7427594/Programa_003.mp3
 #EXTINF:-1,NASeros Podcast - ¿Qué dispositivo o reproductor de streaming elijo?
 http://www.ivoox.com/que-dispositivo-o-reproductor-streaming-elijo_mf_10710919_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - ¿Compro un NAS o monto un disco en red?
 http://www.ivoox.com/compro-nas-o-monto-disco-en_mf_10623105_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN002 – Copiándonos
+http://tracking.feedpress.it/link/14730/7427595/Programa_002.mp3
 #EXTINF:-1,NASeros Podcast - Qnap vs Synology
 http://www.ivoox.com/qnap-vs-synology_mf_10517926_feed_1.mp3
 #EXTINF:-1,NASeros Podcast - Plex vs Kodi, qué sistema multimedia elegir
 http://www.ivoox.com/plex-vs-kodi-sistema-multimedia-elegir_mf_10423262_feed_1.mp3
+#EXTINF:-1,Cultura NAS - #CN001 – Pon un Servidor NAS en tu vida
+http://tracking.feedpress.it/link/14730/7427596/Programa_001.mp3
+#EXTINF:-1,Cultura NAS - #CN000 – Presentación del podcast Cultura NAS
+http://tracking.feedpress.it/link/14730/7427597/Programa_000.mp3
 

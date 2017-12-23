@@ -251,6 +251,11 @@
 
 	background-size: 48px 48px;
 }
+.experimentaconjekyll{
+	background: url('data:image/png;base64,None');
+
+	background-size: 48px 48px;
+}
 .daboblogpodcast{
 	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACMUlEQVR4nO2WTU9TQRSG3zMz0g+SArVJm4i9CULYCQndkFhhBSHE/gH5E/IHdOG2sWEtW6NWFq74E/hBItFisXF1bTd10dTbcO8ZF5UuDMmk0waJmWd1F3fePPecM3eGtNa4Toh/LfA3TsiEEzLhhEw4IRNOyIQTMuGETIxNKIoiZh49h8Z7QWPWRCAi6wRlt6zX6wEshCASAEkpq9Xq5GRie/sBgDAMAVJKWiRbtkxrZmatEUWslDo6ere39ywel4eHb+tndSJiDu2SR5khobUGNIBEIpbLZc/q3w7eHLx6+UJKad01S6H+oBAJKSUzz83dWV+/H4vf2NraTKenAZyfR1cqJC7QGsycTCbb7Z+9oPfp5KT6+mB5eXln5+GVCoVhyBwBUEoqpfb3nz95/PTzl9r8/Hy3++v4+LjRaNglW+4yIgqCoNttM3O5XK5UKgAaje++33r/4aMQYmJiwi4Z2ord3UeLi4vZbHYwvEtLd/sPUgoAhULBLtmmZVrr09OvtVqt2WyurKx4ngfA939MTaVyuWz/R3ulu4yIfN8nIiHE2tpasVhUSrVarenpmY2NzUwmA8D+GBm2pMystV5dXRXiko9ZWFiYnb0FoFi8N3h5KIYe6n4vSqWS53mdTicIglgslk7P3MykU6mpfP52IhGPoiif92DVOMvD9c8AXlakERn1tB+UGgCBQMBFYezmeszXj9H5f2+M48IJmXBCJpyQCSdkwgmZcEImrp3Qb2/SmNouGXD5AAAAAElFTkSuQmCC');
 
@@ -2877,6 +2882,16 @@
 </li>
 <li>
 	<span id="item-246">
+		<a href="https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3" title="#04-Publicando el Blog con GitHub">
+			<span class="isplaying"></span>
+			<span class="logo experimentaconjekyll"></span>
+			<span class="podcast">Experimenta con Jekyll</span>
+			<span class="track">#04-Publicando el Blog con GitHub</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-247">
 		<a href="http://www.ivoox.com/149-demasiado-telegram-usar-responsabilidad_mf_20904631_feed_1.mp3" title="#149 Demasiado Telegram, usar con responsabilidad">
 			<span class="isplaying"></span>
 			<span class="logo salmorejogeek"></span>
@@ -2886,7 +2901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-247">
+	<span id="item-248">
 		<a href="http://www.ivoox.com/020-entornos-productivos_mf_20895650_feed_1.mp3" title="020 - Entornos Productivos">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -2896,7 +2911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-248">
+	<span id="item-249">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM108.mp3" title="LHM 108 en directo – Preguntas y proyectos con David Cuartielles (Septiembre 2017)">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -2906,7 +2921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-249">
+	<span id="item-250">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM107.mp3" title="LHM 107 – Qué es la programación creativa con Marta Verde">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -2916,7 +2931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-250">
+	<span id="item-251">
 		<a href="http://tracking.feedpress.it/link/15283/6777127/Bat2x100_159.m4a" title="#159 – Sorteo !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -2926,7 +2941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-251">
+	<span id="item-252">
 		<a href="https://deployando.me/podcast-download/174/20-mosh.mp3" title="20 – mosh">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -2936,7 +2951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-252">
+	<span id="item-253">
 		<a href="http://api.spreaker.com/download/episode/12778503/webreactiva_podcast_1.mp3" title="WR 1: Un programador, una oportunidad aprovechada y pasión por el salmón">
 			<span class="isplaying"></span>
 			<span class="logo webreactiva"></span>
@@ -2946,7 +2961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-253">
+	<span id="item-254">
 		<a href="http://www.ivoox.com/s01extra02-desde-ubucon-europe-entrevistas-alan-pope-martin_mf_20826073_feed_1.mp3" title="S01Extra02 Desde Ubucon Europe: Entrevistas (Alan Pope, Martin Wimpress, Rudy y Miguel) & LexNET">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -2956,7 +2971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-254">
+	<span id="item-255">
 		<a href="http://tracking.feedpress.it/link/15283/6765725/Bat2x100_158.m4a" title="#158 – Volvemos ya no ? Empezamos !!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -2966,7 +2981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-255">
+	<span id="item-256">
 		<a href="http://api.spreaker.com/download/episode/12777977/podcast118.mp3" title="#118. Medir la temperatura en líquidos con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -2976,7 +2991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-256">
+	<span id="item-257">
 		<a href="http://www.ivoox.com/emacs-editor-texto-vida_mf_20808274_feed_1.mp3" title="Emacs, el editor de texto de una vida en Linux">
 			<span class="isplaying"></span>
 			<span class="logo procrastinaciónycafé"></span>
@@ -2986,7 +3001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-257">
+	<span id="item-258">
 		<a href="http://www.ivoox.com/34-directo-maraton-linuxero_mf_20794227_feed_1.mp3" title="#34 Directo Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -2996,7 +3011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-258">
+	<span id="item-259">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-50-sandstorm.mp3" title="Podcast #50: Sandstorm">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3006,7 +3021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-259">
+	<span id="item-260">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM106.mp3" title="LHM 106 – Exploramos la nube y gran avance de los eventos del otoño">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3016,7 +3031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-260">
+	<span id="item-261">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/wHXO1CeBYXU/09%20Elimina%20el%20desorden%20visual.mp3" title="#09-Elimina el desorden Visual | Un poco de minimalismo">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -3026,7 +3041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-261">
+	<span id="item-262">
 		<a href="http://www.ivoox.com/blackview-a7-smartphone-sorprendente_mf_20776730_feed_1.mp3" title="Blackview A7. Smartphone sorprendente">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3036,7 +3051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-262">
+	<span id="item-263">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-49-youphptube-tu-propio-you-tube.mp3" title="Podcast #49: YouPHPTube, tu propio You Tube">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3046,7 +3061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-263">
+	<span id="item-264">
 		<a href="http://compilando.audio/wp-content/uploads/2017/09/Podcast13-MaratonLinuxero.mp3" title="Podcast 13 – Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -3056,7 +3071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-264">
+	<span id="item-265">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-48-escritorio-en-la-nube-con-x2go.mp3" title="Podcast #48: Escritorio en la nube con x2Go">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3066,7 +3081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-265">
+	<span id="item-266">
 		<a href="https://archive.org/download/34LinktreePlusdede/34-linktree-plusdede.mp3" title="#34 Linktree y Plusdede">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -3076,7 +3091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-266">
+	<span id="item-267">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2323%20Podcast%20Linux%20Express.mp3" title="#23 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -3086,7 +3101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-267">
+	<span id="item-268">
 		<a href="https://ia601500.us.archive.org/19/items/076.UnServidorEnMiCasaMaratnLinuxero/076.%20Un%20Servidor%20en%20mi%20Casa%20-%20Marat%C3%B3n%20Linuxero.mp3" title="076. Un Servidor en mi Casa - Podcast del Maratón Linuxero 2017">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3096,7 +3111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-268">
+	<span id="item-269">
 		<a href="http://www.ivoox.com/servidor-casero-ugeek-maraton-linuxero-3-9-17_mf_20680980_feed_1.mp3" title="Servidor Casero con ugeek en Maraton Linuxero 3/9/17">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3106,7 +3121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-269">
+	<span id="item-270">
 		<a href="http://www.ivoox.com/s01extra01-maraton-linuxero-ubucon-europea-drm-en_mf_20679885_feed_1.mp3" title="S01Extra01 Maratón Linuxero. Ubucon Europea y DRM en HTML5">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -3116,7 +3131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-270">
+	<span id="item-271">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-47-directo-maraton-linuxero.mp3" title="Podcast #47: Mi intervención en el Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3126,7 +3141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-271">
+	<span id="item-272">
 		<a href="https://archive.org/download/MaratonLinuxero9CompilandoPodcast/Marat%C3%B3n%20Linuxero%209%20Compilando%20Podcast.ogg" title="#09 Maratón Linuxero I: Compilando Podcast">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3136,7 +3151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-272">
+	<span id="item-273">
 		<a href="https://archive.org/download/MaratonLinuxero8Jugando/Marat%C3%B3n%20Linuxero%208%20Jugandoen%20GNULinux.ogg" title="#08 Maratón Linuxero I: Jugando en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3146,7 +3161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-273">
+	<span id="item-274">
 		<a href="https://archive.org/download/MaratonLinuxero7UgeekYMosqueteroWeb/Marat%C3%B3n%20Linuxero%207%20Ugeek%20y%20Mosquetero%20Web.ogg" title="#07 Maratón Linuxero I: uGeek y Mosquetero Web">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3156,7 +3171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-274">
+	<span id="item-275">
 		<a href="https://archive.org/download/MaratonLinuxero6UbuntuYOtrasHierbas/Marat%C3%B3n%20Linuxero%206%20Ubuntu%20y%20otras%20hierbas.ogg" title="#06 Maratón Linuxero I: Ubuntu y otras hierbas">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3166,7 +3181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-275">
+	<span id="item-276">
 		<a href="https://archive.org/download/MaratonLinuxero5KDEEspana/Marat%C3%B3n%20Linuxero%205%20KDE%20Espa%C3%B1a.ogg" title="#05 Maratón Linuxero I: KDE España">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3176,7 +3191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-276">
+	<span id="item-277">
 		<a href="https://archive.org/download/MaratonLinuxero4Audio/Marat%C3%B3n%20Linuxero%204%20Audio.ogg" title="#04 Maratón Linuxero I: Audio y Música en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3186,7 +3201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-277">
+	<span id="item-278">
 		<a href="https://archive.org/download/MaratonLinuxero3SalmorejoGeek/Marat%C3%B3n%20Linuxero%203%20Salmorejo%20Geek.ogg" title="#03 Maratón Linuxero I: Salmorejo Geek">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3196,7 +3211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-278">
+	<span id="item-279">
 		<a href="https://archive.org/download/MaratonLinuxero2EduardoCollado/Marat%C3%B3n%20Linuxero%202%20Eduardo%20Collado.ogg" title="#02 Maratón Linuxero I: Eduardo Collado">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3206,7 +3221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-279">
+	<span id="item-280">
 		<a href="https://archive.org/download/MaratonLinuxero1PodcastLinux/Marat%C3%B3n%20Linuxero%201%20PodcastLinux.ogg" title="#01 Maratón Linuxero I: Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3216,7 +3231,17 @@
 	</span>
 </li>
 <li>
-	<span id="item-280">
+	<span id="item-281">
+		<a href="https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3" title="#03-Analizando los archivos del proyecto">
+			<span class="isplaying"></span>
+			<span class="logo experimentaconjekyll"></span>
+			<span class="podcast">Experimenta con Jekyll</span>
+			<span class="track">#03-Analizando los archivos del proyecto</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-282">
 		<a href="http://www.ivoox.com/148-24-horas-ml_mf_20652331_feed_1.mp3" title="#148 24 horas ML">
 			<span class="isplaying"></span>
 			<span class="logo salmorejogeek"></span>
@@ -3226,7 +3251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-281">
+	<span id="item-283">
 		<a href="https://ia601508.us.archive.org/22/items/075.RespuestaDePreguntasYMaraton/075.%20Respuesta%20de%20Preguntas%20y%20Maraton.mp3" title="075. Respuestas a Preguntas de los Oyentes y Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3236,7 +3261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-282">
+	<span id="item-284">
 		<a href="http://www.ivoox.com/147-gnome-3-26-elimina-iconos-legacy-en_mf_20641855_feed_1.mp3" title="#147 Gnome 3.26 elimina los iconos legacy en el systray">
 			<span class="isplaying"></span>
 			<span class="logo salmorejogeek"></span>
@@ -3246,7 +3271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-283">
+	<span id="item-285">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/09/podcast-46-mejorar-apariencia-gnu-social.mp3" title="Podcast #46: Mejorar la imagen de GNU Social con Qvitter">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3256,7 +3281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-284">
+	<span id="item-286">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-45-instalacion-gnu-social.mp3" title="Podcast #45: Instalación de GNUSocial">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3266,7 +3291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-285">
+	<span id="item-287">
 		<a href="https://archive.org/download/33Freedompop4gLogitechmk270Carbocage/33-freedompop4g-logitechmk270-carbocage.mp3" title="#33 FreedomPop 4G - Teclado - Carbocaje">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -3276,7 +3301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-286">
+	<span id="item-288">
 		<a href="https://ia601507.us.archive.org/20/items/074.NotasYFeed/074.%20Notas%20y%20Feed.mp3" title="074. Me explicáis como tomáis vuestras Notas. Y Que es uGeekRadio">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3286,7 +3311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-287">
+	<span id="item-289">
 		<a href="http://www.ivoox.com/33-1-directo-podcast-linux_mf_20569029_feed_1.mp3" title="#33 1º Directo Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -3296,7 +3321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-288">
+	<span id="item-290">
 		<a href="http://www.ivoox.com/019-los-contextos-gtd_mf_20554370_feed_1.mp3" title="019 - Los contextos en GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -3306,7 +3331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-289">
+	<span id="item-291">
 		<a href="http://www.ivoox.com/146-el-cuenta-linux_mf_20546550_feed_1.mp3" title="#146 El Cuenta Linux">
 			<span class="isplaying"></span>
 			<span class="logo salmorejogeek"></span>
@@ -3316,7 +3341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-290">
+	<span id="item-292">
 		<a href="http://tracking.feedpress.it/link/15283/6602296/Bat2x100_157.m4a" title="#157 – Un podcast raro">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3326,7 +3351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-291">
+	<span id="item-293">
 		<a href="https://archive.org/download/04UltimoEnsayo/%2304UltimoEnsayo.ogg" title="#04 Último ensayo del Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3336,7 +3361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-292">
+	<span id="item-294">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-44-la-red-en-gnu-linux.mp3" title="Podcast #44: Redes en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3346,7 +3371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-293">
+	<span id="item-295">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM105.mp3" title="LHM 105 – Emprendiendo con la impresion 3D de la mano de Diego Trapero">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3356,7 +3381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-294">
+	<span id="item-296">
 		<a href="http://podcast.edyo.es/podcast/edyo-28.mp3" title="Edyo 28 - La tecnología detrás de Entredevyops">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -3366,7 +3391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-295">
+	<span id="item-297">
 		<a href="http://compilando.audio/wp-content/uploads/2017/08/podcast12.mp3" title="Podcast 12 – Empleo y Negocio en software libre con Carlos Rodriguez (Librebit-AGASOL) y Maratón Linuxero.">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -3376,7 +3401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-296">
+	<span id="item-298">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-43-pfsense.mp3" title="Podcast #43: PfSense">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3386,7 +3411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-297">
+	<span id="item-299">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/0966D3nKlGM/08-Bullet%20Journal%20-%20Chronodex.%20Gestiona%20tu%20tiempo%20de%20forma%20visual.mp3" title="#08-Bullet Journal | Chronodex: Gestiona tu tiempo de forma visual">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -3396,7 +3421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-298">
+	<span id="item-300">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-42-routers-en-gnu-linux.mp3" title="Podcast #42: Routers sobre GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3406,7 +3431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-299">
+	<span id="item-301">
 		<a href="http://tracking.feedpress.it/link/15283/6530215/Bat2x100_156.m4a" title="#156 – Atentado en Barcelona y algo de tecnología.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3416,7 +3441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-300">
+	<span id="item-302">
 		<a href="https://www.ivoox.com/19-de-verdad-crees-hay-necesidad-de_mf_20399669_feed_1.mp3" title="#19 ¿De verdad crees que hay necesidad de dar ese testimonio gráfico?">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -3426,7 +3451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-301">
+	<span id="item-303">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM104.mp3" title="LHM 104 – Milena Orlandini nos acerca al espacio desde Tinkerers Lab">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3436,7 +3461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-302">
+	<span id="item-304">
 		<a href="http://tracking.feedpress.it/link/15283/6510774/Bat2x100_155.m4a" title="#155 – Vacaciones tecnológicas.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3446,7 +3471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-303">
+	<span id="item-305">
 		<a href="http://ia801503.us.archive.org/30/items/NolegaltechRadio/000-NOlegaltechRadio.mp3" title="#000-Presentación del podcast">
 			<span class="isplaying"></span>
 			<span class="logo nolegaltechradio"></span>
@@ -3456,7 +3481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-304">
+	<span id="item-306">
 		<a href="http://www.ivoox.com/32-linux-connexion-reciclanet_mf_20316104_feed_1.mp3" title="#32 Linux Connexion con Reciclanet">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -3466,7 +3491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-305">
+	<span id="item-307">
 		<a href="http://tracking.feedpress.it/link/15283/6490695/Bat2x100_154.m4a" title="#154 – Crossover con … Tecnologistas !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3476,7 +3501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-306">
+	<span id="item-308">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-41-maraton-grabacion-y-transmision.mp3" title="Podcast #41: Maratón Linuxsero, grabación de podcast y transmisión en vídeo">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3486,7 +3511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-307">
+	<span id="item-309">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM103.mp3" title="LHM 103 en directo – Preguntas y proyectos con David Cuartielles (Agosto 2017)">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3496,7 +3521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-308">
+	<span id="item-310">
 		<a href="https://archive.org/download/03NovedadesEnElMaratnLinuxero/%2303%20Novedades%20en%20el%20Marat%C3%B3n%20Linuxero.ogg" title="#03 Novedades en el Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3506,7 +3531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-309">
+	<span id="item-311">
 		<a href="https://archive.org/download/32Raspi3BujoAnchor/32-raspi3-bujo-anchor.mp3" title="#32 Montando un servidor con una Raspberry Pi 3 - Bullet Journal, un sistema de organización personal analógico - Leyendo Voy, mi nuevo podcast de libros y lectura en Anchor">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -3516,7 +3541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-310">
+	<span id="item-312">
 		<a href="http://www.ivoox.com/algo-polemica-editores-texto-fundamentales_mf_20275692_feed_1.mp3" title="Algo de polémica y editores de texto fundamentales en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo procrastinaciónycafé"></span>
@@ -3526,7 +3551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-311">
+	<span id="item-313">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM102.mp3" title="LHM 102 – Descubre el arte digital con Varvara Guljajeva y Mar Canet">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3536,7 +3561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-312">
+	<span id="item-314">
 		<a href="http://www.ivoox.com/instalacion-nuevo-disco-hibrido-sshd-tests-en_mf_20255876_feed_1.mp3" title="Instalación nuevo disco híbrido SSHD y tests en Linux">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3546,7 +3571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-313">
+	<span id="item-315">
 		<a href="https://deployando.me/podcast-download/171/administradores-de-configuracion-02.mp3" title="19 – Administradores de Configuración 02">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -3556,7 +3581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-314">
+	<span id="item-316">
 		<a href="https://ia601501.us.archive.org/17/items/073.PorqueSeDescargaTanRapido/073.%20Porque_se_descarga_tan_rapido.mp3" title="073. ¿Porque se descarga tan rápido la batería de mi Android?">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3566,7 +3591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-315">
+	<span id="item-317">
 		<a href="https://githlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2322%20Podcast%20Linux%20Express.mp3" title="#22 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -3576,7 +3601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-316">
+	<span id="item-318">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2321%20Podcast%20Linux%20Express.mp3" title="#21 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -3586,7 +3611,17 @@
 	</span>
 </li>
 <li>
-	<span id="item-317">
+	<span id="item-319">
+		<a href="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3" title="#02-Creando nuestro blog con Jekyll en local">
+			<span class="isplaying"></span>
+			<span class="logo experimentaconjekyll"></span>
+			<span class="podcast">Experimenta con Jekyll</span>
+			<span class="track">#02-Creando nuestro blog con Jekyll en local</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-320">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-40-big-data-con-inigo-gonzalez.mp3" title="Podcast #40: Big Data con Iñigo González">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3596,7 +3631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-318">
+	<span id="item-321">
 		<a href="http://www.ivoox.com/haciendo-presentaciones-linux-software-libre_mf_20182923_feed_1.mp3" title="Haciendo Presentaciones en Linux con Software Libre">
 			<span class="isplaying"></span>
 			<span class="logo procrastinaciónycafé"></span>
@@ -3606,7 +3641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-319">
+	<span id="item-322">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-39-ispconfig.mp3" title="Podcast #39: ISPConfig">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3616,7 +3651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-320">
+	<span id="item-323">
 		<a href="http://compilando.audio/wp-content/uploads/2017/08/podcast11.mp3" title="Podcast 11 – Comunicación en GNU/Linux con Paul Brown y resumen de Akademy 2017">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -3626,7 +3661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-321">
+	<span id="item-324">
 		<a href="https://ia601505.us.archive.org/24/items/072.Anchor/072.%20Anchor.mp3" title="072. Anchor">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3636,7 +3671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-322">
+	<span id="item-325">
 		<a href="http://www.ivoox.com/amazon-attcliente-vodafone-mas_mf_20173322_feed_1.mp3" title="Amazon AttCliente, Vodafone y más">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3646,7 +3681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-323">
+	<span id="item-326">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM101.mp3" title="LHM 101 – Hablamos de blockchain y criptomonedas con Oscar Delgado">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3656,7 +3691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-324">
+	<span id="item-327">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/08/podcast-38-fail2ban.mp3" title="Podcast #38: Fail2ban">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3666,7 +3701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-325">
+	<span id="item-328">
 		<a href="https://deployando.me/podcast-download/168/administradores-de-configuracion-01.mp3" title="18 – Administradores de Configuración 01">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -3676,7 +3711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-326">
+	<span id="item-329">
 		<a href="http://podcast.edyo.es/podcast/edyo-27.mp3" title="Edyo 27 - Comparando AWS y Azure con Javi Moreno (@ciberado).">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -3686,7 +3721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-327">
+	<span id="item-330">
 		<a href="http://www.ivoox.com/018-como-gestionar-interrupciones-forma_mf_20083728_feed_1.mp3" title="018 - Cómo gestionar las interrupciones de forma productiva">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -3696,7 +3731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-328">
+	<span id="item-331">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM100.mp3" title="LHM 100 – Descubre SHA2017, el hackercamp holandés y los próximos pasos de este podcast">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3706,7 +3741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-329">
+	<span id="item-332">
 		<a href="http://www.ivoox.com/31-especial-tlp2017_mf_20075548_feed_1.mp3" title="#31 Especial TLP2017">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -3716,7 +3751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-330">
+	<span id="item-333">
 		<a href="http://www.ivoox.com/presentacion-introduccion-algunas-cosas_mf_20067417_feed_1.mp3" title="Presentación, Introducción y algunas cosas">
 			<span class="isplaying"></span>
 			<span class="logo procrastinaciónycafé"></span>
@@ -3726,7 +3761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-331">
+	<span id="item-334">
 		<a href="https://archive.org/download/02AvanzandoEnElMaratnLinuxero/%2302%20Avanzando%20en%20el%20Marat%C3%B3n%20Linuxero.ogg" title="#02 Avanzando en el Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3736,7 +3771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-332">
+	<span id="item-335">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/07/podcast-37-login-radius-en-mikrotik.mp3" title="Podcast #37: Login Radius en Mikrotik">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3746,7 +3781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-333">
+	<span id="item-336">
 		<a href="https://www.ivoox.com/18-llamada-a-revision-nikon-d750_mf_20057681_feed_1.mp3" title="#18 Llamada a Revisión de las nikon D750, adobe lightroom Lento...">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -3756,7 +3791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-334">
+	<span id="item-337">
 		<a href="https://ia601502.us.archive.org/29/items/071.CopiaRemotaDeVuestraSDMasSnaps/071.%20Copia%20remota%20de%20vuestra%20SD,%20Mas%20snap's.mp3" title="071. Copia Remota De Vuestra SD, Mas Snap's">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3766,7 +3801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-335">
+	<span id="item-338">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2320%20Podcast%20Linux%20Express.mp3" title="#20 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -3776,7 +3811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-336">
+	<span id="item-339">
 		<a href="http://api.spreaker.com/download/episode/12400521/podcast117.mp3" title="#117. Medir consumos eléctricos con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -3786,7 +3821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-337">
+	<span id="item-340">
 		<a href="http://www.ivoox.com/movilidad-sin-pc-libros-uso-datos-compras-y_mf_19915687_feed_1.mp3" title="Movilidad sin PC, libros, uso datos, compras y programación">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3796,7 +3831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-338">
+	<span id="item-341">
 		<a href="http://tracking.feedpress.it/link/15283/6280762/Bat2x100_153.m4a" title="#153 – Otro refrito veraniego.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3806,7 +3841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-339">
+	<span id="item-342">
 		<a href="http://tracking.feedpress.it/link/15283/6268135/Bat2x100_152.m4a" title="#152 – Miscelánea de Miércoles">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3816,7 +3851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-340">
+	<span id="item-343">
 		<a href="http://www.ivoox.com/30-especial-maraton-linuxero_mf_19835582_feed_1.mp3" title="#30 Especial Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -3826,7 +3861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-341">
+	<span id="item-344">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM099.mp3" title="LHM 099 – Maker Faire Barcelona – Proyectos y reflexiones al acabar la feria">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3836,7 +3871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-342">
+	<span id="item-345">
 		<a href="https://archive.org/download/01QuEsYCCmoAndaElMaratanLinuxero/#01%20Qu%C3%A9%20es%20y%20c%C3%B3mo%20anda%20el%20Marat%C3%B3n%20Linuxero.ogg" title="#01 Qué es y cómo anda el Maratón Linuxero">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3846,7 +3881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-343">
+	<span id="item-346">
 		<a href="http://compilando.audio/wp-content/uploads/2017/07/podcast10.mp3" title="Podcast 10 – Akademy 2017 y China hacia GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -3856,7 +3891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-344">
+	<span id="item-347">
 		<a href="http://tracking.feedpress.it/link/15283/6219086/Bat2x100_151.m4a" title="#151 – Homebridge + Día de winners !!! Y ….">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3866,7 +3901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-345">
+	<span id="item-348">
 		<a href="https://archive.org/download/00PrimerasPruebasDelMaratnLinuxero/%2300%20Primeras%20pruebas%20del%20Marat%C3%B3n%20Linuxero.ogg" title="#00 3,2,1... probando">
 			<span class="isplaying"></span>
 			<span class="logo maratónlinuxero"></span>
@@ -3876,7 +3911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-346">
+	<span id="item-349">
 		<a href="https://ia801500.us.archive.org/2/items/070.EficienciaEnRaspberryYNotas/070.%20Eficiencia%20en%20Raspberry%20y%20Notas.mp3" title="070. Eficiencia de servicios y aplicaciones. Notas entre Keep, OneNote, Paper, Emacs...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3886,7 +3921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-347">
+	<span id="item-350">
 		<a href="https://deployando.me/podcast-download/165/17-fortalecer-el-servidor-22.mp3" title="17 – fortalecer el servidor 2/2">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -3896,7 +3931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-348">
+	<span id="item-351">
 		<a href="https://www.ivoox.com/17-tarjetas-memoria-ese-gran-desconocido_mf_19753389_feed_1.mp3" title="#17 Tarjetas de Memoria... ese gran desconocido.">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -3906,7 +3941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-349">
+	<span id="item-352">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2319%20Podcast%20Linux%20Express.mp3" title="#19 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -3916,7 +3951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-350">
+	<span id="item-353">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM098.mp3" title="LHM 098 – Preguntas y proyectos con David Cuartielles (Julio 2017)">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -3926,7 +3961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-351">
+	<span id="item-354">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/07/podcast-36-directo-pre-verano.mp3" title="Podcast #36: Directo pre-verano">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -3936,7 +3971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-352">
+	<span id="item-355">
 		<a href="https://archive.org/download/31SoftwareLibreFdroidAntennapod/31-software-libre-fdroid-antennapod.mp3" title="#31 Software libre en Android: F-Droid y AntennaPod">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -3946,7 +3981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-353">
+	<span id="item-356">
 		<a href="http://www.ivoox.com/s01e07-fairphone-fsf_mf_19689764_feed_1.mp3" title="S01E07 Fairphone y FSF">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -3956,7 +3991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-354">
+	<span id="item-357">
 		<a href="http://tracking.feedpress.it/link/15283/6172130/Bat2x100_150.m4a" title="#150 – Tarde “Macnífica” con … Marc !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -3966,7 +4001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-355">
+	<span id="item-358">
 		<a href="http://www.ivoox.com/raspberry-pi-emilcar_mf_19648096_feed_1.mp3" title="Raspberry pi y Emilcar">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -3976,7 +4011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-356">
+	<span id="item-359">
 		<a href="https://ia601505.us.archive.org/23/items/069.RaspberryPi.SiONo/069.%20Raspberry%20Pi.%20Si%20o%20no.mp3" title="069. Raspberry Pi. ¿Esta hecha para mi?">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -3986,7 +4021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-357">
+	<span id="item-360">
 		<a href="http://compilando.audio/wp-content/uploads/2017/07/podcast9.mp3" title="Podcast 9 – Especial Open Expo 2017">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -3996,7 +4031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-358">
+	<span id="item-361">
 		<a href="http://www.ivoox.com/29-linux-connexion-alejandro-lopez-2_mf_19635497_feed_1.mp3" title="#29 Linux Connexion con Alejandro López (2)">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -4006,7 +4041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-359">
+	<span id="item-362">
 		<a href="https://ia601505.us.archive.org/11/items/68ComoTenerMasEspacioEnTuMovil/68-Como%20tener%20mas%20espacio%20en%20tu%20movil.mp3" title="068. Android: Limpia tu telefono por dentro">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4016,7 +4051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-360">
+	<span id="item-363">
 		<a href="https://ia601507.us.archive.org/16/items/67Miscelanea/67-Miscelanea.mp3" title="067. Miscelánea. Nextcloud 12, Resilio, Rsync...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4026,7 +4061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-361">
+	<span id="item-364">
 		<a href="https://www.ivoox.com/16-canon-6d-mk-ii-indecisa-de_mf_19635093_feed_1.mp3" title="#16 Canon 6D MK II la indecisa de Canon...">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -4036,7 +4071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-362">
+	<span id="item-365">
 		<a href="http://www.ivoox.com/canon-digital-vodafone-te-clava-factura-y_mf_19631584_feed_1.mp3" title="Canon Digital, Vodafone te clava en factura y Xiaomi mi 5">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4046,7 +4081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-363">
+	<span id="item-366">
 		<a href="http://tracking.feedpress.it/link/15283/6153483/Bat2x100_149.m4a" title="#149 – Nuevo Logo ! … y sorpresa !!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4056,7 +4091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-364">
+	<span id="item-367">
 		<a href="http://www.ivoox.com/03x06-plasma-5-10-akademy-2017-almeria_mf_19610528_feed_1.mp3" title="03x06 Plasma 5.10 y Akademy 2017 de Almería">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -4066,7 +4101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-365">
+	<span id="item-368">
 		<a href="http://www.ivoox.com/03x05-sysadmin-kde_mf_19610348_feed_1.mp3" title="03x05 Sysadmin de KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -4076,7 +4111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-366">
+	<span id="item-369">
 		<a href="http://www.ivoox.com/03x04-kde-edu-aplicaciones-educativas-kde_mf_19609807_feed_1.mp3" title="03x04 KDE Edu las aplicaciones educativas KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -4086,7 +4121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-367">
+	<span id="item-370">
 		<a href="http://api.spreaker.com/download/episode/12277876/podcast116.mp3" title="#116 Drones más allá de un vehículo no tripulado con Lot Amorós">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -4096,7 +4131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-368">
+	<span id="item-371">
 		<a href="https://archive.org/download/30Redshift/30-redshift.mp3" title="#30 Cuida tus ojos al usar Linux con Redshift">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4106,7 +4141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-369">
+	<span id="item-372">
 		<a href="http://tracking.feedpress.it/link/15283/6141379/Bat2x100_148.m4a" title="#148 – CrossOver con … Davicito Loco">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4116,7 +4151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-370">
+	<span id="item-373">
 		<a href="http://www.ivoox.com/28-especial-aniversario_mf_19570639_feed_1.mp3" title="#28 Especial Aniversario">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -4126,7 +4161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-371">
+	<span id="item-374">
 		<a href="https://www.ivoox.com/15-el-formato-dng-adobe-porque-lo_mf_19548600_feed_1.mp3" title="#15 El formato DNG de adobe, porqué lo uso.">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -4136,7 +4171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-372">
+	<span id="item-375">
 		<a href="http://www.ivoox.com/slimbook-pro-linux-ultrabook_mf_19542755_feed_1.mp3" title="Slimbook Pro Linux Ultrabook">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4146,7 +4181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-373">
+	<span id="item-376">
 		<a href="http://www.ivoox.com/master-class-sobre-redes-wifi-redes-mesh_mf_19540463_feed_1.mp3" title="Master Class sobre redes wifi y redes mesh">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -4156,7 +4191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-374">
+	<span id="item-377">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM097.mp3" title="LHM 097 – Maker Faire Barcelona – Entrevistamos a Kid’s Kitcar y a los autores de Deconstruyendo el Manifiesto Maker">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -4166,7 +4201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-375">
+	<span id="item-378">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2318%20Podcast%20Linux%20Express.mp3" title="#18 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -4176,7 +4211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-376">
+	<span id="item-379">
 		<a href="https://ia601507.us.archive.org/15/items/NextcloudResilioSyncthingQueNubeElijoo/Nextcloud%2c%20Resilio%2c%20Syncthing%20%c2%bfQue%20Nube%20elijo%3f.mp3" title="066. Nextcloud, Resilio, Syncthing... ¿Que Nube elijo?">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4186,7 +4221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-377">
+	<span id="item-380">
 		<a href="https://www.ivoox.com/14-que-camara-me-compro_mf_19447396_feed_1.mp3" title="#14 ¿Qué cámara me compro?">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -4196,7 +4231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-378">
+	<span id="item-381">
 		<a href="http://www.ivoox.com/s01e06-ubuntu-rolling-abandono-arquitectura-32_mf_19444625_feed_1.mp3" title="S01E06 Ubuntu rolling y abandono de arquitectura 32 bits">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -4206,7 +4241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-379">
+	<span id="item-382">
 		<a href="https://archive.org/download/29VerSeriesPeliculasIpadTelegramVlc/29-ver-series-peliculas-ipad-telegram-vlc.mp3" title="#29 Cómo ver series y películas en un iPad/iPhone mediante Telegram y VLC">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4216,7 +4251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-380">
+	<span id="item-383">
 		<a href="http://tracking.feedpress.it/link/15283/6072426/Bat2x100_147.m4a" title="#147 – # Hoy toca … App para MAC OS !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4226,7 +4261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-381">
+	<span id="item-384">
 		<a href="https://deployando.me/podcast-download/162/16-fortalecer-el-servidor-12.mp3" title="16 – fortalecer el servidor 1/2">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -4236,7 +4271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-382">
+	<span id="item-385">
 		<a href="http://www.ivoox.com/era-post-pc-wintablet_mf_19407609_feed_1.mp3" title="Era Post PC con Wintablet">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4246,7 +4281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-383">
+	<span id="item-386">
 		<a href="http://compilando.audio/wp-content/uploads/2017/06/20crossoverlinuxerodirectosobregnom-systeminside-ivoox19395669.mp3" title="Podcast 8 – Crossover Linuxero: Directo sobre GNOME, Plasma y otras hierbas">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -4256,7 +4291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-384">
+	<span id="item-387">
 		<a href="https://ia601502.us.archive.org/7/items/065.Tiddlywiki/065.%20tiddlywiki.mp3" title="065. TiddlyWiki. Una Wiki en un único archivo y multiplataforma.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4266,7 +4301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-385">
+	<span id="item-388">
 		<a href="http://tracking.feedpress.it/link/15283/6065605/Bat2x100_146.m4a" title="#146 – Mumble en tu Mac OS…Y otras sorpresas…">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4276,7 +4311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-386">
+	<span id="item-389">
 		<a href="http://www.ivoox.com/27-especial-slimbook-one_mf_19385447_feed_1.mp3" title="#27 Especial Slimbook One">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -4286,7 +4321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-387">
+	<span id="item-390">
 		<a href="http://www.ivoox.com/27-especial-slimbook-one_mf_21151729_feed_1.mp3" title="#27 Especial Slimbook One">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -4296,7 +4331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-388">
+	<span id="item-391">
 		<a href="https://www.ivoox.com/20-crossover-linuxero-directo-sobre-gnome-plasma_md_19395669_wp_1.mp3" title="Crossover Linuxero KilallRadio">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -4306,7 +4341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-389">
+	<span id="item-392">
 		<a href="http://api.spreaker.com/download/episode/12163779/podcast115.mp3" title="NodeMCU tutorial paso a paso desde cero">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -4316,7 +4351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-390">
+	<span id="item-393">
 		<a href="http://www.ivoox.com/ipad-pro-sustituto-del-pc_mf_19348017_feed_1.mp3" title="Ipad Pro ¿sustituto del PC?">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4326,7 +4361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-391">
+	<span id="item-394">
 		<a href="http://compilando.audio/wp-content/uploads/2017/06/podcast7.mp3" title="Podcast 7 -Fundación Apache con Ignasi Barrera y el cumpleaños de TUX">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -4336,7 +4371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-392">
+	<span id="item-395">
 		<a href="http://tracking.feedpress.it/link/15283/6049484/Bat2x100_145.m4a" title="#145 – La noche de… Resilio (crossover)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4346,7 +4381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-393">
+	<span id="item-396">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/06/podcast-35-montar-dos-routers-bgp.mp3" title="Podcast #35: Montar dos routers frontera BGP">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -4356,7 +4391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-394">
+	<span id="item-397">
 		<a href="https://ia801501.us.archive.org/34/items/064.ResilioLaNubeDondeElControlLoTienesTu/064.%20Resilio,%20La%20nube%20donde%20el%20control%20lo%20tienes%20tu.mp3" title="064. Resilio. Una Nube Ilimitada, donde el control de tus datos los tienes tu.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4366,7 +4401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-395">
+	<span id="item-398">
 		<a href="https://archive.org/download/28NuevoProyectoEducandoGeek/28-nuevo-proyecto-educando-geek.mp3" title="#28 Nuevo proyecto de eDucando Geek Podcast-Blog">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4376,7 +4411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-396">
+	<span id="item-399">
 		<a href="https://archive.org/download/27OperadorasLaSartenPorElMangoLaTienesTu/27-operadoras-la-sarten-por-el-mango-la-tienes-tu.mp3" title="#27 Operadoras. La sarten por el mango la tienes tú">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4386,7 +4421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-397">
+	<span id="item-400">
 		<a href="https://archive.org/download/26AdiosYoigoHolaPepehoneKodiTajLecturaRecomendada/26-adios-yoigo-hola-pepehone-kodi-taj-lectura-recomendada.mp3" title="#26 Adiós Yoigo, hola Pepehone - Kodi - Taj (lectura recomendada)">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4396,7 +4431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-398">
+	<span id="item-401">
 		<a href="https://archive.org/download/25VideoMensajesEnTelegram/25-video-mensajes-en-telegram.mp3" title="#25 Video mensajes en Telegram">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4406,7 +4441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-399">
+	<span id="item-402">
 		<a href="https://archive.org/download/24UnEcosistemaDeLectura/24-un-ecosistema-de-lectura.mp3" title="#24 Un ecosistema de lectura">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4416,7 +4451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-400">
+	<span id="item-403">
 		<a href="https://archive.org/download/23TecnologiaYEducacion/23-tecnologia-y-educacion.mp3" title="#23 Tecnología y Educación">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4426,7 +4461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-401">
+	<span id="item-404">
 		<a href="https://archive.org/download/22Manjaro/22-manjaro.mp3" title="#22 Manjaro Linux">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4436,7 +4471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-402">
+	<span id="item-405">
 		<a href="https://archive.org/download/21DetectorCaseroFalloElectricoUtilidades/21-detector-casero-fallo-electrico-utilidades.mp3" title="#21 Detector casero de fallo eléctrico en el domicilio y utilidades">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4446,7 +4481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-403">
+	<span id="item-406">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/QyOBSOkOrJM/07%20Como%20enfocar%20el%20Aprendizaje.mp3" title="#07-Cómo enfocar el Aprendizaje">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -4456,7 +4491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-404">
+	<span id="item-407">
 		<a href="http://www.ivoox.com/017-como-elegir-tu-app-productividad_mf_19261678_feed_1.mp3" title="017 - Cómo elegir tu app de productividad">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -4466,7 +4501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-405">
+	<span id="item-408">
 		<a href="http://tracking.feedpress.it/link/15283/6021195/Bat2x100_144.m4a" title="#144 – (Reparado) Cuando tienes un martillo…todo te parece un clavo !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4476,7 +4511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-406">
+	<span id="item-409">
 		<a href="http://tracking.feedpress.it/link/15283/6020913/Bat2x100_143.m4a" title="#143 – Cuando tienes un martillo…todo te parece un clavo !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4486,7 +4521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-407">
+	<span id="item-410">
 		<a href="https://archive.org/download/20ReciclandoUnMacbookDe2007/20-reciclando-un-macbook-de-2007.mp3" title="#20 Reciclando un MacBook de 2007">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4496,7 +4531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-408">
+	<span id="item-411">
 		<a href="https://archive.org/download/19NuevoSmartphoneHuaweiP9Plus/19-nuevo-smartphone-huawei-p9-plus.mp3" title="#19 Nuevo smartphone - Huawei P9 Plus">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4506,7 +4541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-409">
+	<span id="item-412">
 		<a href="https://archive.org/download/18FirefoxParaAndroidSmartphoneIdeal/18-firefox-para-android-smartphone-ideal.mp3" title="#18 Firefox para Android - Car charger Xiaomi - El smartphone ideal - Agradecimientos comentarios">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4516,7 +4551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-410">
+	<span id="item-413">
 		<a href="https://archive.org/download/17DesahaciendomeDeEquiposYAnecdota_201706/17-desahaciendome-de-equipos-y-anecdota.mp3" title="#17 Deshaciéndome de tecnología que no uso - Anécdota reparación">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4526,7 +4561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-411">
+	<span id="item-414">
 		<a href="https://archive.org/download/16FreedompopTeclastX80pro/16-freedompop-teclast-x80pro.mp3" title="#16 OMV FreedomPop - Teclast X80 Pro">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4536,7 +4571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-412">
+	<span id="item-415">
 		<a href="https://archive.org/download/15Miui8AndroidtvKeepass2/15-miui8-androidtv-keepass2.mp3" title="#15 MIUI8 - Android TV MXQ Pro+ 2/16Gb - KeePass2 gestor de passwords">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4546,7 +4581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-413">
+	<span id="item-416">
 		<a href="https://archive.org/download/14ComprasImpresoraConfigurarPaypalDivisas/14-compras-impresora-configurar-paypal-divisas.mp3" title="#14 Tutorial configurar PayPal para la no conversión de divisas - Compras Internet - Impresora Doméstica">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4556,7 +4591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-414">
+	<span id="item-417">
 		<a href="https://archive.org/download/13ChromebookCaseroCorreosPrepagoMastercardFreedompop/13-chromebook-casero-correos-prepago-mastercard-freedompop.mp3" title="#13 ChromeOS en un USB - Tarjeta prepago de Correos - OMV Freedompop">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4566,7 +4601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-415">
+	<span id="item-418">
 		<a href="https://archive.org/download/12ResistiendoALaObsolescenciaProgramada_201706/12-resistiendo-a-la-obsolescencia-programada.mp3" title="#12 Resistiendo a la obsolescencia programada">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4576,7 +4611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-416">
+	<span id="item-419">
 		<a href="https://archive.org/download/11TelegramBotsCanalesTieneTelegramDiasContados/11-telegram-bots-canales-tiene-telegram-dias-contados.mp3" title="#11 Telegram bots  canales - ¿Tiene Telegram los días contados?">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4586,7 +4621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-417">
+	<span id="item-420">
 		<a href="https://archive.org/download/10ImediashareSeriestvTutorialesPodcasters/10-imediashare-seriestv-tutoriales-podcasters.mp3" title="#10 Apps iMediaShare - Series TV - Tutoriales Podcast">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4596,7 +4631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-418">
+	<span id="item-421">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2317%20Podcast%20Linux%20Express.mp3" title="#17 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -4606,7 +4641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-419">
+	<span id="item-422">
 		<a href="http://podcast.edyo.es/podcast/edyo-26.mp3" title="Edyo 26 - Big Data con José Mena.">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -4616,7 +4651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-420">
+	<span id="item-423">
 		<a href="https://ia801502.us.archive.org/3/items/ConLinuxEsPosible/Con%20Linux%20es%20posible.mp3" title="063. Con Linux es posible">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4626,7 +4661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-421">
+	<span id="item-424">
 		<a href="https://archive.org/download/09SiAlgoFuncionaNoLoToques_201706/09-si-algo-funciona-no-lo-toques.mp3" title="#09 Si algo funciona... ¡no lo toques!.">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4636,7 +4671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-422">
+	<span id="item-425">
 		<a href="https://archive.org/download/08ComoHacerUnPodcastCorreccionErrores/08-como-hacer-un-podcast-correccion-errores.mp3" title="#08 Cómo grabar un Pocast 2ª parte y correcciones">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4646,7 +4681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-423">
+	<span id="item-426">
 		<a href="https://archive.org/download/0715DiasConElXiaomiRn3pro/07-15-dias-con-el-xiaomi-rn3pro.mp3" title="#07 15 días con el Xiaomi Redmi Note 3 Pro">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4656,7 +4691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-424">
+	<span id="item-427">
 		<a href="https://archive.org/download/06MicroBoyam1KindleGoodreadsLecturas_20170614/06-micro-boyam1-kindle-goodreads-lecturas.mp3" title="#06 Micrófono Boya M1 - Kindle Paperwhite - Goodreads, RRSS para lectores">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4666,7 +4701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-425">
+	<span id="item-428">
 		<a href="https://archive.org/download/05ComoHacerUnPodcastPorQueGrabarUnPodcast/05-como-hacer-un-podcast-por-que-grabar-un-podcast.mp3" title="#05 Cómo grabar un podcast y por qué he decidido hacer el mío">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4676,7 +4711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-426">
+	<span id="item-429">
 		<a href="https://archive.org/download/04PrimeraTomaDeContatctoXiaomiRn3pro_201706/04-primera-toma-de-contatcto-xiaomi-rn3pro.mp3" title="#04 Mis primeras impresiones con el Xiaomi Redmi Note 3 Pro">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4686,7 +4721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-427">
+	<span id="item-430">
 		<a href="https://archive.org/download/03YoigoCapaLosTorrentsVacunacionInfantil/03-yoigo-capa-los-torrents-vacunacion-infantil.mp3" title="#03 Yoigo capa las descargas por Torrent - Vacunación">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4696,7 +4731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-428">
+	<span id="item-431">
 		<a href="https://archive.org/download/02EsperandoElXiaomiRedmiNote3Pro_20170614/02-esperando-el-xiaomi-redmi-note-3-pro.mp3" title="#02 Esperando el Xiaomi Redmi Note 3 Pro">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4706,7 +4741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-429">
+	<span id="item-432">
 		<a href="https://www.ivoox.com/13-ex12-1-samyang-35mm-f-2-8-para-nikon_mf_19217822_feed_1.mp3" title="#13 (ex12+1) Samyang 35mm f 2,8 para nikon, Amazon nos da una de arena... resaca WWDC">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -4716,7 +4751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-430">
+	<span id="item-433">
 		<a href="http://tracking.feedpress.it/link/15283/6006587/Bat2x100_142.m4a" title="#142 – NAS huérfano busca propietario !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4726,7 +4761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-431">
+	<span id="item-434">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM096.mp3" title="LHM 096 en directo – Preguntas y proyectos con David Cuartielles (Junio 2017)">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -4736,7 +4771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-432">
+	<span id="item-435">
 		<a href="https://archive.org/download/01EpisodioPiloto_20170614/01-episodio-piloto.mp3" title="#01 Capítulo piloto">
 			<span class="isplaying"></span>
 			<span class="logo educandogeek"></span>
@@ -4746,7 +4781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-433">
+	<span id="item-436">
 		<a href="http://www.ivoox.com/s01e05-comprar-pcs-ubuntu-desbandada-desarrolladores-canonical_mf_19187730_feed_1.mp3" title="S01E05 Comprar PCs con Ubuntu, desbandada desarrolladores Canonical y Chrome ha ganado ¿qué puede hacer Mozilla?">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -4756,7 +4791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-434">
+	<span id="item-437">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/06/podcast-34-servicio-de-correo.mp3" title="Podcast #34: Servicio de correo">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -4766,7 +4801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-435">
+	<span id="item-438">
 		<a href="http://www.ivoox.com/slimbook-excalibur-portatil-linux-x3_mf_19185139_feed_1.mp3" title="Slimbook Excálibur Portátil con Linux x3">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4776,7 +4811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-436">
+	<span id="item-439">
 		<a href="https://ia801505.us.archive.org/28/items/062.DomoticaConMiRasperry./062.%20Domotica%20con%20mi%20Rasperry..mp3" title="062. Domótica con mi Raspberry Pi. Usemos el GPIO">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4786,7 +4821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-437">
+	<span id="item-440">
 		<a href="https://deployando.me/podcast-download/159/15-copiando-bloques.mp3" title="15 – copiando bloques">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -4796,7 +4831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-438">
+	<span id="item-441">
 		<a href="http://www.ivoox.com/amazon-ilimitado-antivacunas_mf_19160559_feed_1.mp3" title="Amazon ilimitado y antivacunas">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4806,7 +4841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-439">
+	<span id="item-442">
 		<a href="http://tracking.feedpress.it/link/15283/5981666/Bat2x100_141.m4a" title="#141 – Miscelánea de miércoles.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4816,7 +4851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-440">
+	<span id="item-443">
 		<a href="http://www.ivoox.com/26-linux-connexion-ugeek_mf_19127057_feed_1.mp3" title="#26 Linux Connexion con Ugeek">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -4826,7 +4861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-441">
+	<span id="item-444">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM095.mp3" title="LHM 095 – Visitamos ITmakES Village, la muestra de proyectos maker italoespañola">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -4836,7 +4871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-442">
+	<span id="item-445">
 		<a href="http://tracking.feedpress.it/link/14730/7427249/CN_Programa_026.mp3" title="#CN026 – Synology Workshop Barcelona con Manuel Jordán">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -4846,7 +4881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-443">
+	<span id="item-446">
 		<a href="http://api.spreaker.com/download/episode/12044042/podcast114.mp3" title="114. Sigfox, Arduino MKRFOX1200 y un medidor de radiación UV">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -4856,7 +4891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-444">
+	<span id="item-447">
 		<a href="http://www.ivoox.com/s01e04-software-libre-educacion_mf_19068060_feed_1.mp3" title="S01E04 Software libre en la educación">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -4866,7 +4901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-445">
+	<span id="item-448">
 		<a href="http://www.ivoox.com/s01e03-seguridad-privacidad_mf_19058066_feed_1.mp3" title="S01E03 Seguridad y privacidad">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -4876,7 +4911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-446">
+	<span id="item-449">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/06/podcast-33-virtualizacion-personal.mp3" title="Podcast #33: Virtualiación personal con VMWare Workstation y Virtualbox">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -4886,7 +4921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-447">
+	<span id="item-450">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/06/podcast-32-especial-openexpo.mp3" title="Podcast #32: Especial OpenExpo 2017">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -4896,7 +4931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-448">
+	<span id="item-451">
 		<a href="https://ia601502.us.archive.org/23/items/DockerEnMenosDe10Min/Docker%20en%20menos%20de%2010%20min.mp3" title="061. Docker en 10 minutos">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4906,7 +4941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-449">
+	<span id="item-452">
 		<a href="http://podcast.edyo.es/podcast/edyo-25.mp3" title="Edyo 25 - Cómo organizar con éxito un evento como PyData Barcelona 2017.">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -4916,7 +4951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-450">
+	<span id="item-453">
 		<a href="http://tracking.feedpress.it/link/15283/5955001/Bat2x100_140.m4a" title="#140 – Sorteo  y más contenido …con sorpresa!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -4926,7 +4961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-451">
+	<span id="item-454">
 		<a href="http://tracking.feedpress.it/link/14730/7427250/CN_Programa_025.mp3" title="#CN025 – Especial preguntas (atrasadas) de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -4936,7 +4971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-452">
+	<span id="item-455">
 		<a href="https://ia601504.us.archive.org/9/items/TerminalAlias/Terminal%20alias.mp3" title="060. La Terminal mas fácil con alias">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -4946,7 +4981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-453">
+	<span id="item-456">
 		<a href="http://www.ivoox.com/computex-2017-gearbest_mf_19018626_feed_1.mp3" title="Computex 2017 y Gearbest">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -4956,7 +4991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-454">
+	<span id="item-457">
 		<a href="https://www.ivoox.com/12-nuevas-opticas-angulares-nikon-poco_mf_19016957_feed_1.mp3" title="#12 Nuevas ópticas angulares Nikon y un poco de HDR">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -4966,7 +5001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-455">
+	<span id="item-458">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2316%20Podcast%20Linux%20Express.mp3" title="#16 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -4976,7 +5011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-456">
+	<span id="item-459">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM094.mp3" title="LHM 094 – Fablab Festival abre la temporada de actividades maker del verano">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -4986,7 +5021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-457">
+	<span id="item-460">
 		<a href="http://www.ivoox.com/cuando-es-recomendable-cambiar-router_mf_18945263_feed_1.mp3" title="¿Cuándo es recomendable cambiar de router?">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -4996,7 +5031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-458">
+	<span id="item-461">
 		<a href="http://tracking.feedpress.it/link/15283/5923403/Bat2x100_139.m4a" title="#139 – Miscelánea… De lunes !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5006,7 +5041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-459">
+	<span id="item-462">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-31-migracion-a-kde-neon.mp3" title="Podcast #31: Migración a KDE Neón 5.9">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5016,7 +5051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-460">
+	<span id="item-463">
 		<a href="http://compilando.audio/wp-content/uploads/2017/05/podcast6.mp3" title="Podcast 6 – openSuse y KDE con Antonio Larrosa . OpenExpo2017">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -5026,7 +5061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-461">
+	<span id="item-464">
 		<a href="https://www.ivoox.com/11-cosas-sony-miscelanea-varia_mf_18903284_feed_1.mp3" title="#11 Cosas de Sony y miscelanea varia">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5036,7 +5071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-462">
+	<span id="item-465">
 		<a href="https://ia801505.us.archive.org/21/items/059.2AplicacinesParaTomarNotas/059.%202%20Aplicaci%C3%B3nes%20para%20tomar%20Notas.mp3" title="059. 2 Aplicaciones de Notas alternativas que utilizo">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5046,7 +5081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-463">
+	<span id="item-466">
 		<a href="https://ia601502.us.archive.org/10/items/058.Android.AppCloneMultipleAccounts/058.%20Android.%20App%20clone%20-%20Multiple%20Accounts.m4a" title="058. Android: Multicuentas. Gestion de Servicios Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5056,7 +5091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-464">
+	<span id="item-467">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-30-instalacion-freepbx.mp3" title="Podcast #30: Instalación de FreePBX">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5066,7 +5101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-465">
+	<span id="item-468">
 		<a href="http://api.spreaker.com/download/episode/11930794/podcast113.mp3" title="#113 Aprender Arduino con Enrique Crespo (@jecrespom)">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -5076,7 +5111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-466">
+	<span id="item-469">
 		<a href="http://podcast.edyo.es/podcast/edyo-24.mp3" title="Edyo 24 - Especial Wannacry.">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -5086,7 +5121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-467">
+	<span id="item-470">
 		<a href="http://tracking.feedpress.it/link/15283/5882630/Bat2x100_138.m4a" title="#138 – Executar Workflows de forma “automática”">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5096,7 +5131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-468">
+	<span id="item-471">
 		<a href="http://www.ivoox.com/conexiones-remotas-como-puede-afectarnos-llegada_mf_18813411_feed_1.mp3" title="Conexiones remotas y cómo puede afectarnos la llegada IPv6">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -5106,7 +5141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-469">
+	<span id="item-472">
 		<a href="http://www.ivoox.com/s01e02-gnome3-ubports_mf_18807244_feed_1.mp3" title="S01E02 GNOME3 y UBPorts">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -5116,7 +5151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-470">
+	<span id="item-473">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2315%20Podcast%20Linux%20Express.mp3" title="#15 Linux Express ¿Mp3 o Ogg? y 2">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5126,7 +5161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-471">
+	<span id="item-474">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-29-calidad-de-servicio-en-linux.mp3" title="Podcast #29: Calidad de servicio en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5136,7 +5171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-472">
+	<span id="item-475">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2314%20Podcast%20Linux%20Express.mp3" title="#14 Linux Express ¿Mp3 o Ogg?">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5146,7 +5181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-473">
+	<span id="item-476">
 		<a href="https://ia801500.us.archive.org/13/items/057.MulticuentaTelegramWire/057.%20Multicuenta%20telegram,%20wire.mp3" title="057. Multicuenta de Telegram en tu PC de escritorio y Wire">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5156,7 +5191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-474">
+	<span id="item-477">
 		<a href="http://tracking.feedpress.it/link/15283/5858522/Bat2x100_137.m4a" title="#137 – Apps y un WorkFlow muy muy guapo !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5166,7 +5201,17 @@
 	</span>
 </li>
 <li>
-	<span id="item-475">
+	<span id="item-478">
+		<a href="https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3" title="#01-Qué es Jekyll y su estructura de archivos">
+			<span class="isplaying"></span>
+			<span class="logo experimentaconjekyll"></span>
+			<span class="podcast">Experimenta con Jekyll</span>
+			<span class="track">#01-Qué es Jekyll y su estructura de archivos</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-479">
 		<a href="http://tracking.feedpress.it/link/15283/5853048/Bat2x100_136.m4a" title="#136 – 1 año de podcasting">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5176,7 +5221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-476">
+	<span id="item-480">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM093.mp3" title="LHM 093 – Cómo impedir que se infecten los equipos de tu makespace con el virus WannaCry">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5186,7 +5231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-477">
+	<span id="item-481">
 		<a href="https://ia801503.us.archive.org/12/items/056.VideoderYLlamadasTelegram/056.%20Videoder%20y%20llamadas%20Telegram.mp3" title="056. Android: Videoder y llamadas de Telegram">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5196,7 +5241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-478">
+	<span id="item-482">
 		<a href="http://www.ivoox.com/adios-spreaker-cambio-feed-ivoox_mf_18744170_feed_1.mp3" title="Adios Spreaker. Cambio Feed Ivoox">
 			<span class="isplaying"></span>
 			<span class="logo mosqueterowebtecnologialinuxchromebooks"></span>
@@ -5206,7 +5251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-479">
+	<span id="item-483">
 		<a href="https://ia801506.us.archive.org/9/items/055.M4aAplicacionesDePodcastYNuevoMicro/055.%20M4a,%20aplicaciones%20de%20Podcast%20y%20nuevo%20micro.mp3" title="055. Nuevos Cambios...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5216,7 +5261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-480">
+	<span id="item-484">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2313%20Podcast%20Linux%20Express.mp3" title="#13 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5226,7 +5271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-481">
+	<span id="item-485">
 		<a href="https://www.ivoox.com/10-seguridad-fotografica-para-guardar-nuestras-fotos_mf_18727432_feed_1.mp3" title="#10 Seguridad Fotográfica para guardar nuestras fotos.">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5236,7 +5281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-482">
+	<span id="item-486">
 		<a href="http://podcast.edyo.es/podcast/edyo-23.mp3" title="Edyo 23 - Vulnerabilidad de Wordpress, generadores de contenido estáticos y Amazon Drive.">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -5246,7 +5291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-483">
+	<span id="item-487">
 		<a href="http://www.ivoox.com/que-paso-realmente-ransonware-del-pasado_mf_18675963_feed_1.mp3" title="¿Qué pasó realmente con el ransonware del pasado viernes?">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -5256,7 +5301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-484">
+	<span id="item-488">
 		<a href="http://tracking.feedpress.it/link/15283/5834676/Bat2x100_135.mp3" title="#135 – # Ransomware_WannaCry @Dekkar @macjosan Must listen !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5266,7 +5311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-485">
+	<span id="item-489">
 		<a href="http://compilando.audio/wp-content/uploads/2017/05/podcast5.mp3" title="Podcast 5 – Radios Libres. Microsoft y su “amor” por GNU/Linux.">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -5276,7 +5321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-486">
+	<span id="item-490">
 		<a href="http://tracking.feedpress.it/link/15283/5826921/Bat2x100_134.mp3" title="#134 – Charla con …. @Patuflinx !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5286,7 +5331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-487">
+	<span id="item-491">
 		<a href="https://www.ivoox.com/9-fotografiar-fauna-pajaros_mf_18653942_feed_1.mp3" title="#9 Fotografiar fauna ( Pájaros)">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5296,7 +5341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-488">
+	<span id="item-492">
 		<a href="https://ia601507.us.archive.org/31/items/054.TelefnicaEstaSiendoAtacada/054.%20Telef%C3%B3nica%20esta%20siendo%20atacada!%20.mp3" title="054. Telefónica esta siendo Atacada!!!">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5306,7 +5351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-489">
+	<span id="item-493">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-28-ipv6-segunda-parte.mp3" title="Podcast #28: IPv6 (segunda parte)">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5316,7 +5361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-490">
+	<span id="item-494">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/gKM4otPERmA/06%20Identifica%20bien%20tus%20bandejas%20de%20entrada.mp3" title="#06-Identifica bien tus Bandejas de Entrada">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -5326,7 +5371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-491">
+	<span id="item-495">
 		<a href="http://tracking.feedpress.it/link/15283/5812783/Bat2x100_133.mp3" title="#133 – # Crossover de Seguridad con Andreu Adrover">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5336,7 +5381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-492">
+	<span id="item-496">
 		<a href="http://www.ivoox.com/24-linux-connexion-davidochobits_mf_18604559_feed_1.mp3" title="#24 Linux Connexion con DavidOchoBits">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -5346,7 +5391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-493">
+	<span id="item-497">
 		<a href="https://ia601502.us.archive.org/7/items/053.Synapse/053.%20Synapse%20.mp3" title="053. Synapse">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5356,7 +5401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-494">
+	<span id="item-498">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM092.mp3" title="LHM 092 – Valentín Muro comparte sus aprendizajes tras grabar un documental explorando qué ocurre en los espacios maker por el mundo">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5366,7 +5411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-495">
+	<span id="item-499">
 		<a href="http://api.spreaker.com/download/episode/11823013/podcast112.mp3" title="#112 4 formas de geolocalizar Arduino, GPS, GSM, LPWAN y WiFi">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -5376,7 +5421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-496">
+	<span id="item-500">
 		<a href="http://tracking.feedpress.it/link/15283/5794178/Bat2x100_132.mp3" title="#132 – Jekill o WordPress">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5386,7 +5431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-497">
+	<span id="item-501">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-27-ipv6-primera-parte.mp3" title="Podcast #27: IPv6 (primera parte)">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5396,7 +5441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-498">
+	<span id="item-502">
 		<a href="https://ia601506.us.archive.org/33/items/JekyllOWordpress/Jekyll%20o%20Wordpress.mp3" title="052. ¿Jekyll o WordPress?">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5406,7 +5451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-499">
+	<span id="item-503">
 		<a href="http://tracking.feedpress.it/link/15283/5788411/Bat2x100_131.mp3" title="#131 – Worflow Avanzado (VIII)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5416,7 +5461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-500">
+	<span id="item-504">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM091.mp3" title="LHM 091 – Preguntas y proyectos con David Cuartielles edición Mayo 2017">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5426,7 +5471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-501">
+	<span id="item-505">
 		<a href="http://tracking.feedpress.it/link/14730/7427251/CN_Programa_024.mp3" title="#CN024 – Los 1001 usos de un NAS by Sergio Navas de @isenacode">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -5436,7 +5481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-502">
+	<span id="item-506">
 		<a href="https://ia801502.us.archive.org/5/items/051.AdisBloggerHolaGithub/051.%20Adi%C3%B3s%20Blogger,%20Hola%20Github%20.mp3" title="051. Adiós Blogger, Hola GitHub!">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5446,7 +5491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-503">
+	<span id="item-507">
 		<a href="http://tracking.feedpress.it/link/15283/5778335/Bat2x100_130.mp3" title="#130 – Worflow Avanzado (VII)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5456,7 +5501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-504">
+	<span id="item-508">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM090.mp3" title="LHM 090 – Gerard Rubio nos explica como ha evolucionado Kniterate, su tejedora de escritorio en el último año">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5466,7 +5511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-505">
+	<span id="item-509">
 		<a href="https://deployando.me/podcast-download/153/14-vagrant-workflow-vagrant-03.mp3" title="14 – vagrant workflow (vagrant 03)">
 			<span class="isplaying"></span>
 			<span class="logo deployandome"></span>
@@ -5476,7 +5521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-506">
+	<span id="item-510">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2312%20Podcast%20Linux%20Express.mp3" title="#12 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5486,7 +5531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-507">
+	<span id="item-511">
 		<a href="http://tracking.feedpress.it/link/15283/5773304/Bat2x100_129.mp3" title="#129 – WorkFlow Avanzado (VI)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5496,7 +5541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-508">
+	<span id="item-512">
 		<a href="http://www.ivoox.com/016-mejora-tu-productividad-matriz_mf_18449310_feed_1.mp3" title="016 - Mejora tu productividad con la matriz de Eisenhower">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -5506,7 +5551,17 @@
 	</span>
 </li>
 <li>
-	<span id="item-509">
+	<span id="item-513">
+		<a href="https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3" title="Experimenta con Jekyll | Presentación">
+			<span class="isplaying"></span>
+			<span class="logo experimentaconjekyll"></span>
+			<span class="podcast">Experimenta con Jekyll</span>
+			<span class="track">Experimenta con Jekyll | Presentación</span>
+		</a>
+	</span>
+</li>
+<li>
+	<span id="item-514">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/05/podcast-26-odoo-y-transformacion.mp3" title="Podcast #26: Odoo y transformación digital">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5516,7 +5571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-510">
+	<span id="item-515">
 		<a href="https://ia801505.us.archive.org/9/items/050.QueAndoHaciendo/050.%20Que%20ando%20haciendo.mp3" title="050. Que ando haciendo, nuevas publicaciones y más...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5526,7 +5581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-511">
+	<span id="item-516">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM089.mp3" title="LHM 089 – Visitamos RetroMadrid, una de las ferias más importantes de informática retro">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5536,7 +5591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-512">
+	<span id="item-517">
 		<a href="https://ia601503.us.archive.org/0/items/049.Syncthing/049.%20Syncthing.mp3" title="049. Instalando Syncthing en Ubuntu, Antergos y Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5546,7 +5601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-513">
+	<span id="item-518">
 		<a href="https://www.ivoox.com/8-la-profundidad-campo-noticias-fotograficas_mf_18410232_feed_1.mp3" title="#8 La profundidad de campo + noticias fotograficas">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5556,7 +5611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-514">
+	<span id="item-519">
 		<a href="http://compilando.audio/wp-content/uploads/2017/04/podcast4.mp3" title="Podcast 4 – Jon “maddog” Hall , Open South Code y Linux y Tapas">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -5566,7 +5621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-515">
+	<span id="item-520">
 		<a href="http://podcast.edyo.es/podcast/edyo-22.mp3" title="Edyo 22 - Orchestrate 2017, PyData 2017, Caída s3, Vulnerabilidad de CloudFlare y Vault7.">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -5576,7 +5631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-516">
+	<span id="item-521">
 		<a href="http://tracking.feedpress.it/link/15283/5752088/Bat2x100_128.mp3" title="#128 – Encuentro entre dos amigos !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5586,7 +5641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-517">
+	<span id="item-522">
 		<a href="https://ia601503.us.archive.org/28/items/EncuentroDeAmiguetes/Encuentro%20de%20amiguetes.mp3" title="048. Encuentro de amiguetes">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5596,7 +5651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-518">
+	<span id="item-523">
 		<a href="http://www.ivoox.com/s01e01-ubuntu-mata-unity-movil_mf_18361665_feed_1.mp3" title="S01E01 Ubuntu mata Unity y el móvil">
 			<span class="isplaying"></span>
 			<span class="logo ubuntuyotrashierbas"></span>
@@ -5606,7 +5661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-519">
+	<span id="item-524">
 		<a href="http://www.ivoox.com/23-la-terminal_mf_18347303_feed_1.mp3" title="#23 La Terminal">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -5616,7 +5671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-520">
+	<span id="item-525">
 		<a href="http://www.ivoox.com/23-la-terminal_mf_21151730_feed_1.mp3" title="#23 La Terminal">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -5626,7 +5681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-521">
+	<span id="item-526">
 		<a href="https://ia801500.us.archive.org/21/items/SeEstropeaLaSDDeMiRasberry/Se%20estropea%20la%20SD%20de%20mi%20rasberry.mp3" title="047. Se quemó la SD. Comparación de consumos entre PC, NAS-Microserver, Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5636,7 +5691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-522">
+	<span id="item-527">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM088.mp3" title="LHM 088 – Retos y oportunidades para los Makespaces en bibliotecas">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5646,7 +5701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-523">
+	<span id="item-528">
 		<a href="http://tracking.feedpress.it/link/15283/5731739/Bat2x100_127.mp3" title="#127 – Worflow Avanzado (V)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5656,7 +5711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-524">
+	<span id="item-529">
 		<a href="http://api.spreaker.com/download/episode/11711889/podcast_111.mp3" title="#111 Lean Startup y el movimiento Maker con Néstor Guerra">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -5666,7 +5721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-525">
+	<span id="item-530">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/KbK_OfgFiV4/05%20BuJo-Vista%20semanal-Areas.mp3" title="#05-Bullet Journal: Vista semanal y Areas de responsabilidad">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -5676,7 +5731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-526">
+	<span id="item-531">
 		<a href="http://tracking.feedpress.it/link/15283/5723135/Bat2x100_126.mp3" title="#126 – Especial Leo Rearte">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5686,7 +5741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-527">
+	<span id="item-532">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-25-introduccion-a-docker.mp3" title="Podcast #25: Introducción a Docker">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5696,7 +5751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-528">
+	<span id="item-533">
 		<a href="https://www.ivoox.com/7-efecto-moire-filtro-paso-bajo-y_mf_18288898_feed_1.mp3" title="#7 Efecto Moiré, filtro de paso bajo y comparaciones injustas">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5706,7 +5761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-529">
+	<span id="item-534">
 		<a href="https://ia601509.us.archive.org/6/items/046SyncthingResilioYDukto/%23046%20Syncthing%2c%20Resilio%20y%20Dukto%20.mp3" title="046. Sincronización de carpetas entre dispositivos. Syncthing, Resilio y Dukto">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5716,7 +5771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-530">
+	<span id="item-535">
 		<a href="http://tracking.feedpress.it/link/15283/5702435/Bat2x100_125.mp3" title="#125 – WorkFlow Avanzado (IV)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5726,7 +5781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-531">
+	<span id="item-536">
 		<a href="https://www.ivoox.com/podcast-6-sony-a9-camara-mas-brutal_mf_18243408_feed_1.mp3" title="podcast #6 Sony A9 la cámara mas brutal y sin sentido de Sony ( audio resubido)">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5736,7 +5791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-532">
+	<span id="item-537">
 		<a href="https://www.ivoox.com/sony-a9-la-sinsentido-sony_mf_18242421_feed_1.mp3" title="Sony A9 (La sinsentido de Sony)">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5746,7 +5801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-533">
+	<span id="item-538">
 		<a href="http://tracking.feedpress.it/link/15283/5697573/Bat2x100_124.mp3" title="#124 – WorkFlow Avanzado (III)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5756,7 +5811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-534">
+	<span id="item-539">
 		<a href="http://tracking.feedpress.it/link/15283/5696878/Bat2x100_123.mp3" title="#123 – Hazel con Eden Exposito">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5766,7 +5821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-535">
+	<span id="item-540">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2311%20Podcast%20Linux%20Express.mp3" title="#11 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5776,7 +5831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-536">
+	<span id="item-541">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM087.mp3" title="LHM 087 – Cómo elegir una cortadora láser para tu colegio (o makespace)">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5786,7 +5841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-537">
+	<span id="item-542">
 		<a href="http://tracking.feedpress.it/link/15283/5691499/Bat2x100_122.mp3" title="#122 – WorkFlow Avanzado (II)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5796,7 +5851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-538">
+	<span id="item-543">
 		<a href="http://tracking.feedpress.it/link/15283/5691501/Bat2x100_121.mp3" title="#121 – WorkFlow Avanzado (I)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -5806,7 +5861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-539">
+	<span id="item-544">
 		<a href="http://www.ivoox.com/015-productividad-mapas-mentales_mf_18193206_feed_1.mp3" title="015 - Productividad con mapas mentales">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -5816,7 +5871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-540">
+	<span id="item-545">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-24-sobre-vlans.mp3" title="Podcast #24: Sobre Vlans">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5826,7 +5881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-541">
+	<span id="item-546">
 		<a href="http://www.ivoox.com/03x02-kirigami-interfaz-kde-para-creacion_mf_18154054_feed_1.mp3" title="03x02 Kirigami, la interfaz KDE para la creación de aplicaciones móviles">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -5836,7 +5891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-542">
+	<span id="item-547">
 		<a href="http://www.ivoox.com/03x03-como-contribuir-a-tu-aplicacion-de_mf_18154028_feed_1.mp3" title="03x03 Cómo contribuir a que tu aplicación de Software Libre funcione correctamente">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -5846,7 +5901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-543">
+	<span id="item-548">
 		<a href="http://www.ivoox.com/03x01-portatiles-linux-kde-slimbook_mf_18145444_feed_1.mp3" title="03x01 Portátiles con Linux - KDE Slimbook">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -5856,7 +5911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-544">
+	<span id="item-549">
 		<a href="https://www.ivoox.com/reflex-podcast-4_mf_18130257_feed_1.mp3" title="Reflex Podcast #4">
 			<span class="isplaying"></span>
 			<span class="logo reflexpodcast"></span>
@@ -5866,7 +5921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-545">
+	<span id="item-550">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM086.mp3" title="LHM 086 – Celebramos con Alex Posada el lanzamiento de los primeros Oval, instrumentos de percusión electrónicos">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -5876,7 +5931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-546">
+	<span id="item-551">
 		<a href="http://www.ivoox.com/22-linux-connexion-osl-la_mf_18133189_feed_1.mp3" title="#22 Linux Connexion con la OSL de la Universidad de La Laguna">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -5886,7 +5941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-547">
+	<span id="item-552">
 		<a href="https://ia801505.us.archive.org/27/items/045CrossoverConSalmorejoGeek/%23045%20Crossover%20con%20Salmorejo%20Geek.mp3" title="045. Crossover con Salmorejo Geek, donde hablamos de Mastodon, Ubuntu, Telegram y mucho mas...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5896,7 +5951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-548">
+	<span id="item-553">
 		<a href="http://api.spreaker.com/download/episode/11602454/podcast110.mp3" title="#110 Coches autónomos, el estado del arte con Alex Barredo">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -5906,7 +5961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-549">
+	<span id="item-554">
 		<a href="https://ia801504.us.archive.org/22/items/044WebDeJekyllEnGithub/%23044%20Web%20de%20Jekyll%20en%20Github.mp3" title="044. La web de Jekyll en GitHub, va tomando forma">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5916,7 +5971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-550">
+	<span id="item-555">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/4oWZBbaGff4/04%20Como%20crear%20un%20habito%20nuevo.mp3" title="#04-Cómo crear un hábito nuevo">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -5926,7 +5981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-551">
+	<span id="item-556">
 		<a href="https://ia601509.us.archive.org/23/items/043BotDeTelegramDeIFTTT/%23043%20Bot%20de%20Telegram%20de%20IFTTT.mp3" title="043. Bot de Telegram IFTTT">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5936,7 +5991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-552">
+	<span id="item-557">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-23-calcular-mascaras-de-red.mp3" title="Podcast #23: Calcular máscaras de red">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -5946,7 +6001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-553">
+	<span id="item-558">
 		<a href="https://ia601502.us.archive.org/25/items/042ElAtareaoVisitaElCrossoverDeLaSemana/%23042%20El%20Atareao%20visita%20el%20Crossover%20de%20la%20Semana.mp3" title="042. El Atareao visita el Crossover de la Semana">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5956,7 +6011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-554">
+	<span id="item-559">
 		<a href="https://compilando.audio/wp-content/uploads/2017/04/Podcast_3.mp3" title="Podcast 3 – Entrevista con ” el atareao” y el nuevo rumbo de Ubuntu">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -5966,7 +6021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-555">
+	<span id="item-560">
 		<a href="https://ia801502.us.archive.org/1/items/041UbuntuYElAdiosAUnity/%23041%20Ubuntu%20y%20el%20adi%c3%b3s%20a%20Unity.mp3" title="041. Ubuntu y el adios de Unity">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5976,7 +6031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-556">
+	<span id="item-561">
 		<a href="https://ia801504.us.archive.org/29/items/40AntergosOCNewsDeNextcloudYJekyll/%2340%20Antergos%2c%20OCNews%20de%20Nextcloud%20y%20Jekyll%20.mp3" title="040. Antergos, Ocnews De Nextcloud Y Jekyll">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -5986,7 +6041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-557">
+	<span id="item-562">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2310%20Podcast%20Linux%20Express.mp3" title="#10 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -5996,7 +6051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-558">
+	<span id="item-563">
 		<a href="http://tracking.feedpress.it/link/15283/5622479/Bat2x100_120.mp3" title="#120 – Download Station y sorpresa.(must listen)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6006,7 +6061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-559">
+	<span id="item-564">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM085.mp3" title="LHM 085 – Descubre los proyectos seleccionados para Fab Linkage y sus primeros resultados">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6016,7 +6071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-560">
+	<span id="item-565">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/04/podcast-22-iptables-en-gnu-linux.mp3" title="Podcast #22: NAT en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6026,7 +6081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-561">
+	<span id="item-566">
 		<a href="http://tracking.feedpress.it/link/15283/5609387/Bat2x100_119.mp3" title="#119 – In reply to @uGeekPodcast">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6036,7 +6091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-562">
+	<span id="item-567">
 		<a href="https://ia601508.us.archive.org/2/items/039TelegramNotes/%23039%20Telegram%2c%20Notes.mp3" title="039. Aplicación Notes de Nextcloud y crea tus bots de Telegram">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6046,7 +6101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-563">
+	<span id="item-568">
 		<a href="https://compilando.audio/wp-content/uploads/2017/04/CompilandoPodcast2.mp3" title="Podcast 2 – Especial Servidores Privados">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -6056,7 +6111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-564">
+	<span id="item-569">
 		<a href="https://compilando.audio/wp-content/uploads/2017/04/podcast_1.mp3" title="Podcast 1- Ian Murdock, Debian y el proyecto QSL">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -6066,7 +6121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-565">
+	<span id="item-570">
 		<a href="https://archive.org/download/PODCAST0_201704/PODCAST_0.mp3" title="Podcast 0 – Edición de presentación. Stallman y el síndrome Mi Pueblex.">
 			<span class="isplaying"></span>
 			<span class="logo compilandopodcast"></span>
@@ -6076,7 +6131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-566">
+	<span id="item-571">
 		<a href="https://ia601506.us.archive.org/26/items/38CrossoverConMosqueteroWeb/%23%2038%20Crossover%20con%20MosqueteroWeb.mp3" title="038. Crossover con MosqueteroWeb. Masterclass de FreeNas, Docker y virtualización mediante Proxmox y Esxi.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6086,7 +6141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-567">
+	<span id="item-572">
 		<a href="http://tracking.feedpress.it/link/15283/5594853/Bat2x100_118.mp3" title="#118 – Podcast in itinere…">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6096,7 +6151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-568">
+	<span id="item-573">
 		<a href="http://www.ivoox.com/014-la-regla-dos-minutos_mf_17859531_feed_1.mp3" title="014 - La regla de los dos minutos">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -6106,7 +6161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-569">
+	<span id="item-574">
 		<a href="http://tracking.feedpress.it/link/15283/5592352/Bat2x100_117.mp3" title="#117 – Podcast con uGeekPodcast hablando de Servidores NAS y Linux">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6116,7 +6171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-570">
+	<span id="item-575">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM084.mp3" title="LHM 084 – Preguntas y proyectos con David Cuartielles – Marzo 2017">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6126,7 +6181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-571">
+	<span id="item-576">
 		<a href="https://ia801503.us.archive.org/18/items/037LlamadasDeTelegram/%23037%20Llamadas%20de%20Telegram.mp3" title="037. Llamadas de Telegram ya estan aquí. Y 3 bots que os encantaran">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6136,7 +6191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-572">
+	<span id="item-577">
 		<a href="https://ia601509.us.archive.org/25/items/036PodcastConFrank/%23036%20podcast%20con%20Frank.mp3" title="036. Podcast con Frank de Batería2x100, Servidores Linux y NAS, lo mismo pero  diferente">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6146,7 +6201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-573">
+	<span id="item-578">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-21-lets-encrypt.mp3" title="Podcast #21: Let’s Encrypt">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6156,7 +6211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-574">
+	<span id="item-579">
 		<a href="http://www.ivoox.com/21-gnu-linux-universidad_mf_17834272_feed_1.mp3" title="#21 GNU/Linux en la Universidad">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -6166,7 +6221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-575">
+	<span id="item-580">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-20-como-ganar-dinero-con-el-podcast.mp3" title="Podcast #20: Cómo ganar dinero con el podcast">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6176,7 +6231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-576">
+	<span id="item-581">
 		<a href="http://tracking.feedpress.it/link/15283/5581612/Bat2x100_116.mp3" title="#116 – PushBullet/ PushOver, Workflows y Bots…">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6186,7 +6241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-577">
+	<span id="item-582">
 		<a href="http://tracking.feedpress.it/link/14730/7427252/CN_Programa_023.mp3" title="#CN023 – IoT, IFTTT y Thunderbolt 3 con Pedro Barranquero">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -6196,7 +6251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-578">
+	<span id="item-583">
 		<a href="http://api.spreaker.com/download/episode/11495348/podcast109.mp3" title="#109 Cómo crear un prototipo con Arduino, el proceso paso a paso">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -6206,7 +6261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-579">
+	<span id="item-584">
 		<a href="https://ia601501.us.archive.org/10/items/035MiG8/%23035%20Mi%20G8.mp3" title="035. Mi HP ProLiant MicroServer Gen8">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6216,7 +6271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-580">
+	<span id="item-585">
 		<a href="https://ia801500.us.archive.org/9/items/034BotDeTelegramSustitutoAShazam/%23034%20Bot%20de%20Telegram%20sustituto%20a%20Shazam.mp3" title="034. Bots de Telegram Sustitutos a Shazam y busqueda de articulos dentro del bot de Pocket">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6226,7 +6281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-581">
+	<span id="item-586">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/THIxi2C7AkQ/03%20Funcionamiento%20del%20habito.mp3" title="#03-El funcionamiento del hábito">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -6236,7 +6291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-582">
+	<span id="item-587">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-19-openvpn.mp3" title="Podcast #19: OpenVPN">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6246,7 +6301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-583">
+	<span id="item-588">
 		<a href="https://ia601500.us.archive.org/4/items/033BotDePocketParaTelegram/%23033%20Bot%20de%20Pocket%20para%20Telegram.mp3" title="033. Bots en Telegram. Bot de Pocket">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6256,7 +6311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-584">
+	<span id="item-589">
 		<a href="https://ia601606.us.archive.org/30/items/032MiscelaneaDeViernes/%23032%20Miscel%C3%A1nea%20de%20Viernes.mp3" title="032. Miscelánea de Viernes">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6266,7 +6321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-585">
+	<span id="item-590">
 		<a href="http://tracking.feedpress.it/link/15283/5552178/Bat2x100_115.mp3" title="#115 – MisceláNASnea de miércoles !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6276,7 +6331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-586">
+	<span id="item-591">
 		<a href="https://ia601606.us.archive.org/14/items/031Keepass.ComoGestionoMisContrasenas/%23031%20Keepass.%20Como%20gestiono%20mis%20contrase%C3%B1as.mp3" title="031. Keepass, como gestiono mis contraseñas">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6286,7 +6341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-587">
+	<span id="item-592">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2309%20Podcast%20Linux%20Express.mp3" title="#09 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -6296,7 +6351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-588">
+	<span id="item-593">
 		<a href="https://ia601609.us.archive.org/0/items/030Mumble/%23030%20Mumble.mp3" title="030. Mumble, VoIP de Software Libre. Nextcloud, Wallabag y kdenlive">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6306,7 +6361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-589">
+	<span id="item-594">
 		<a href="http://tracking.feedpress.it/link/15283/5541236/Bat2x100_114.mp3" title="#114 – Apps de IOS – Edén Exposito (II)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6316,7 +6371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-590">
+	<span id="item-595">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-18-herramientas-simples-y-utiles-para-un-adminsitrador-de-red.mp3" title="Podcast #18: Herramientas simples y útiles para un adminsitrador de red">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6326,7 +6381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-591">
+	<span id="item-596">
 		<a href="http://tracking.feedpress.it/link/15283/5527711/Bat2x100_113.mp3" title="#113 – VierNAS de Podcast variado…">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6336,7 +6391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-592">
+	<span id="item-597">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM083.mp3" title="LHM 083 – Sistemas de control de acceso para espacios maker de código abierto – CarontePass y Jarvis">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6346,7 +6401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-593">
+	<span id="item-598">
 		<a href="http://www.ivoox.com/013-bullet-journal-metodo-productividad_mf_17600758_feed_1.mp3" title="013 - Bullet Journal, un método de productividad analógico">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -6356,7 +6411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-594">
+	<span id="item-599">
 		<a href="https://ia601608.us.archive.org/28/items/029MiscelneaDeViernes/%23029%20Miscel%C3%A1nea%20de%20viernes.mp3" title="029. Miscelánea de Viernes.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6366,7 +6421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-595">
+	<span id="item-600">
 		<a href="https://ia601607.us.archive.org/17/items/ugeekpodcast_gmail_XMPP/XMPP.mp3" title="028. Instala un servidor de mensajeria tipo Whatsapp o Telegram y de Software Libre con XMPP/Jabber">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6376,7 +6431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-596">
+	<span id="item-601">
 		<a href="http://tracking.feedpress.it/link/15283/5512078/Bat2x100_112.mp3" title="#112 – Se acabó la paciencia… “must listen”">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6386,7 +6441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-597">
+	<span id="item-602">
 		<a href="http://www.ivoox.com/20-linux-connexion-david-montalva-lliurex_mf_17557164_feed_1.mp3" title="#20 Linux Connexion con David Montalva (Lliurex)">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -6396,7 +6451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-598">
+	<span id="item-603">
 		<a href="http://tracking.feedpress.it/link/15283/5506780/Bat2x100_111.mp3" title="#111 – Ombi & Daisy Disk">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6406,7 +6461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-599">
+	<span id="item-604">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM082.mp3" title="LHM 082 – Crowdfunding maker, qué ha pasado en estos últimos 4 años">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6416,7 +6471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-600">
+	<span id="item-605">
 		<a href="http://api.spreaker.com/download/episode/11382955/podcast108.mp3" title="#108 David Cuartielles cofundador de Arduino y del Open Hardware">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -6426,7 +6481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-601">
+	<span id="item-606">
 		<a href="https://ia601606.us.archive.org/3/items/027InstalaTuVpnEnUbuntuORaspberryPi/%23027%20instala%20tu%20vpn%20en%20Ubuntu%20o%20Raspberry%20Pi.mp3" title="027. Instala una VPN (OpenVpn) en Ubuntu o Raspberry Pi con PiVpn">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6436,7 +6491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-602">
+	<span id="item-607">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-17-sistemas-de-monitorizacion-de-sistemas-y-red.mp3" title="Podcast #17: Sistemas de monitorización de sistemas y red">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6446,7 +6501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-603">
+	<span id="item-608">
 		<a href="http://tracking.feedpress.it/link/15283/5491860/Bat2x100_110.mp3" title="#110 – Podcast con uGeekPodcast, Hablamos de como gestionamos nuestras Fotos, actualidad y Regalo final">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6456,7 +6511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-604">
+	<span id="item-609">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-16-directo-11-marzo-2017.mp3" title="Podcast #16: Directo 11 de Marzo 2017">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6466,7 +6521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-605">
+	<span id="item-610">
 		<a href="https://ia601606.us.archive.org/25/items/026PodcastConFrankDeBatera2x100/%23026%20Podcast%20con%20Frank%20de%20Bater%C3%ADa2x100.mp3" title="026. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestras Fotos, actualidad y sorteo del libro del año">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6476,7 +6531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-606">
+	<span id="item-611">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM081.mp3" title="LHM 081 – Descubre los proyectos de Luis del Valle de la Tecnología para Todos">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6486,7 +6541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-607">
+	<span id="item-612">
 		<a href="http://tracking.feedpress.it/link/15283/5481956/Bat2x100_109.mp3" title="#109 – Miscelánea Jueves Noche">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6496,7 +6551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-608">
+	<span id="item-613">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/aIAJtbYUCjg/02-Como%20empezar%20a%20ser%20organizado.mp3" title="#02-Cómo empezar a ser organizado">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -6506,7 +6561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-609">
+	<span id="item-614">
 		<a href="http://tracking.feedpress.it/link/15283/5473528/Bat2x100_108.mp3" title="#108 – Especial Seguridad III Y Sorpresa">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6516,7 +6571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-610">
+	<span id="item-615">
 		<a href="https://ia601600.us.archive.org/16/items/025MtodoMMsCompletoQueParaRecopilarNotasOrgMode/%23025%20M%C3%A9todo%20m%C3%A1s%20completo%20que%20para%20recopilar%20notas%2C%20org%20mode.mp3" title="025. Metodo mas completo para recopilar notas, org Mode">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6526,7 +6581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-611">
+	<span id="item-616">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2308%20Podcast%20Linux%20Express.mp3" title="#08 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -6536,7 +6591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-612">
+	<span id="item-617">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM080.mp3" title="LHM 080 – Homenaje a Ana Abril, fundadora de Imprimaker">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6546,7 +6601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-613">
+	<span id="item-618">
 		<a href="http://tracking.feedpress.it/link/15283/5467633/Bat2x100_107.mp3" title="#107 – Piper NV Y Alguna Cosa Más!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6556,7 +6611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-614">
+	<span id="item-619">
 		<a href="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3" title="024. Conectate remotamente a tu Raspberry Pi con "dataplicity"">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6566,7 +6621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-615">
+	<span id="item-620">
 		<a href="http://tracking.feedpress.it/link/15283/5458016/Bat2x100_106.mp3" title="#106 – Comentarios Sobre Mi Router Asus Ac-68U">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6576,7 +6631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-616">
+	<span id="item-621">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/03/podcast-15-mumble.mp3" title="Podcast #15: Mumble, tu mesa de reuniones virtual">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6586,7 +6641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-617">
+	<span id="item-622">
 		<a href="http://www.ivoox.com/012-workflow-automatizaciones-ios_mf_17357158_feed_1.mp3" title="012 - Workflow - Automatizaciones en iOS">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -6596,7 +6651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-618">
+	<span id="item-623">
 		<a href="https://ia801609.us.archive.org/20/items/EntrevistaADosDesarrolladoresDeSoftwareLibreDeIgalia/Entrevista%20a%20dos%20desarrolladores%20de%20Software%20Libre%20de%20Igalia.mp3" title="023. Entrevista a Chema y Juan, dos desarrolladores de Software Libre de Igalia.com en el #mwc17">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6606,7 +6661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-619">
+	<span id="item-624">
 		<a href="http://tracking.feedpress.it/link/14730/7427253/CN_Programa_022.mp3" title="#CN022 – El libro «Servidores NAS en tu vida digital»">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -6616,7 +6671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-620">
+	<span id="item-625">
 		<a href="https://ia601600.us.archive.org/33/items/EntrevistaConArturoSuarezDirectivoDelCloudDeCanonicalUbuntu/Entrevista%20con%20Arturo%20Suarez,%20Directivo%20del%20Cloud%20de%20Canonical%20Ubuntu.mp3" title="022. Entrevista con Arturo Suarez, DIrectivo del Cloud de Canonical Ubuntu">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6626,7 +6681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-621">
+	<span id="item-626">
 		<a href="http://tracking.feedpress.it/link/15283/5437584/Bat2x100_105.mp3" title="#105 – Trucos y agradecimientos.La Impresora de Tickets">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6636,7 +6691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-622">
+	<span id="item-627">
 		<a href="http://www.ivoox.com/19-gnu-linux-escuela_mf_17289281_feed_1.mp3" title="#19 GNU/Linux en la escuela">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -6646,7 +6701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-623">
+	<span id="item-628">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM079.mp3" title="LHM 079 – Respuestas sobre el futuro de La Hora Maker">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6656,7 +6711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-624">
+	<span id="item-629">
 		<a href="http://api.spreaker.com/download/episode/11234908/podcast107.mp3" title="#107 Aplicaciones del IoT usos prácticos en el mundo real">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -6666,7 +6721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-625">
+	<span id="item-630">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-14-radio-o-podcast.mp3" title="Podcast #14: Radio o Podcast, no elijas puedes tener las dos">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6676,7 +6731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-626">
+	<span id="item-631">
 		<a href="https://ia801606.us.archive.org/21/items/021UbuntuEnMobileWorldCongress/%23021%20ubuntu%20en%20Mobile%20World%20Congress%20.mp3" title="021. Ubuntu en el Mobile World Congress">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6686,7 +6741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-627">
+	<span id="item-632">
 		<a href="http://tracking.feedpress.it/link/15283/5422049/Bat2x100_104.mp3" title="#104 – Los Clásicos Básicos Con Edén Expósito.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6696,7 +6751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-628">
+	<span id="item-633">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-13-ospf-multiarea.mp3" title="Podcast #13: OSPF Multiárea">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6706,7 +6761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-629">
+	<span id="item-634">
 		<a href="http://tracking.feedpress.it/link/15283/5411239/Bat2x100_103.mp3" title="#103 – Notas, mediaWiki, dokuWiki…una Charla De Viernes.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6716,7 +6771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-630">
+	<span id="item-635">
 		<a href="https://ia601601.us.archive.org/7/items/20PodcastConFrankDeBatera2x100HablamosDeComoGestionamosNuestraNotas/%2320%20Podcast%20con%20Frank%20de%20Bater%c3%ada2x100%2c%20Hablamos%20de%20como%20gestionamos%20nuestra%20notas%20.mp3" title="020. Podcast con Frank de Batería2x100, Hablamos de como gestionamos nuestra notas y mucho mas...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6726,7 +6781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-631">
+	<span id="item-636">
 		<a href="http://podcast.edyo.es/podcast/edyo-21.mp3" title="Edyo 21 - Debate sobre el incidente en Gitlab">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -6736,7 +6791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-632">
+	<span id="item-637">
 		<a href="http://traffic.libsyn.com/cesargarciasaez/LHM078.mp3" title="LHM 078 – Preguntas y proyectos con David Cuartielles">
 			<span class="isplaying"></span>
 			<span class="logo lahoramaker"></span>
@@ -6746,7 +6801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-633">
+	<span id="item-638">
 		<a href="https://ia601603.us.archive.org/6/items/019DokuwikiNuevaFormaDeTomarMisNotas/%23019%20Dokuwiki%2c%20nueva%20forma%20de%20tomar%20mis%20notas%20.mp3" title="019. Dokuwiki, nueva forma de tomar mis notas. Monta tu wiki con DokuWiki o MediaWiki.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6756,7 +6811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-634">
+	<span id="item-639">
 		<a href="http://tracking.feedpress.it/link/15283/5394883/Bat2x100_102.mp3" title="#102 – La Dimensión Desconocida…">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6766,7 +6821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-635">
+	<span id="item-640">
 		<a href="http://tracking.feedpress.it/link/15283/5391684/Bat2x100_101.mp3" title="#101 – ASUS AC-68U Y Mitrastar HGU 2541 De Movistar.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6776,7 +6831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-636">
+	<span id="item-641">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2307%20Podcast%20Linux%20Express.mp3" title="#07 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -6786,7 +6841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-637">
+	<span id="item-642">
 		<a href="https://ia601604.us.archive.org/24/items/018WallabagElPocketOInstapaper/%23018_Wallabag%2c_el_Pocket_o_Instapaper.mp3" title="018. Como montar Wallabag, el Pocket o Instapaper de software libre y lo mejor de todo, en tu servidor">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6796,7 +6851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-638">
+	<span id="item-643">
 		<a href="http://feedproxy.google.com/~r/Vaciatubandeja/~5/HnGBGpZGsKs/Vtb01_Se_analogico_en_un_mundo_digital_con_Bullet_Journal.mp3" title="#01-Organízate con Bullet Journal">
 			<span class="isplaying"></span>
 			<span class="logo vaciatubandeja"></span>
@@ -6806,7 +6861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-639">
+	<span id="item-644">
 		<a href="http://tracking.feedpress.it/link/15283/5365429/Bat2x100_100.mp3" title="#100 – Homenaje a…Seguridad IOS (2) Y Docker">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6816,7 +6871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-640">
+	<span id="item-645">
 		<a href="http://tracking.feedpress.it/link/15283/5340600/Bat2x100_99.mp3" title="#99 – Podcast Con Angel De uGeekPodcast Hablando De Plex, Nextcloud">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6826,7 +6881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-641">
+	<span id="item-646">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-12-atencion-al-cliente-y-migrar-una-web.mp3" title="Podcast #12: Atención al cliente y migrar una web">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6836,7 +6891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-642">
+	<span id="item-647">
 		<a href="https://ia801300.us.archive.org/34/items/017PodcastConFrankDeBateria2x100HablandoDePlexNextcloud.../%23017%20Podcast%20con%20Frank%20de%20Bateria2x100%2c%20hablando%20de%20Plex%2c%20Nextcloud....mp3" title="017. Podcast con Frank de Bateria2x100, hablando de Plex, Nextcloud...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6846,7 +6901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-643">
+	<span id="item-648">
 		<a href="http://tracking.feedpress.it/link/15283/5332154/Bat2x100_98.mp3" title="#98 – Homenaje a … Especial Seguridad (I)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6856,7 +6911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-644">
+	<span id="item-649">
 		<a href="https://ia801603.us.archive.org/24/items/016QueEsUnServidor/%23016%20Que%20es%20un%20servidor.mp3" title="016. Que es un Servidor (dudas oyentes), servidor web, ...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6866,7 +6921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-645">
+	<span id="item-650">
 		<a href="https://ia801603.us.archive.org/20/items/015AlmacenamientoTheNextcloud/%23015_almacenamiento_the_nextcloud.mp3" title="015. Como ampliar el almacenamiento de Nextcloud, combinar con nubes publicas y hacer copias de mis fotos.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6876,7 +6931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-646">
+	<span id="item-651">
 		<a href="http://tracking.feedpress.it/link/15283/5318680/Bat2x100_97.mp3" title="#97 – Homenaje A… (1/3)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6886,7 +6941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-647">
+	<span id="item-652">
 		<a href="https://ia601602.us.archive.org/11/items/NotasEnNextcloud/Notas%20en%20nextcloud.mp3" title="014. Notas en Nextcloud y Markdown">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6896,7 +6951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-648">
+	<span id="item-653">
 		<a href="http://tracking.feedpress.it/link/15283/5315184/Bat2x100_96.mp3" title="#96 – Audio Whatsapp a Mp3.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6906,7 +6961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-649">
+	<span id="item-654">
 		<a href="http://api.spreaker.com/download/episode/10772602/podcast106.mp3" title="#106 BricoGeek, la tienda Maker de Frikis para Frikis">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -6916,7 +6971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-650">
+	<span id="item-655">
 		<a href="https://ia801601.us.archive.org/21/items/013NewsYFreshRSS.GestorDeNoticiasRSS/%23013%20News%20y%20Fresh%20RSS.%20Gestor%20de%20Noticias%20RSS.mp3" title="013. News y FreshRSS. Gestor de Noticias RSS.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6926,7 +6981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-651">
+	<span id="item-656">
 		<a href="https://ia801604.us.archive.org/21/items/013FDroidAplicacionesDeSoftwareLibre/%23013%20F-Droid%20Aplicaciones%20de%20Software%20Libre.mp3" title="013. bis F-Droid Tienda Android de aplicaciones de Software Libre y Actualizar las Noticias en Nextcloud.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6936,7 +6991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-652">
+	<span id="item-657">
 		<a href="https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3" title="012. Como actualizar Nextcloud y salir del modo de "mantenimiento"">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6946,7 +7001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-653">
+	<span id="item-658">
 		<a href="http://tracking.feedpress.it/link/14730/7427254/CN_Programa_021.mp3" title="#CN021 – Los 1001 usos de un NAS by @patuflinx">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -6956,7 +7011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-654">
+	<span id="item-659">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-11-ospf-en-un-area.mp3" title="Podcast #11: OSPF en un único área">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -6966,7 +7021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-655">
+	<span id="item-660">
 		<a href="https://ia801602.us.archive.org/16/items/011PodcastConFrankDeBateria2x100/%23011%20Podcast%20con%20Frank%20de%20Bateria2x100.mp3" title="011. Podcast con Frank de Bateria2x100, hablando un poco de todo...">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6976,7 +7031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-656">
+	<span id="item-661">
 		<a href="https://ia601603.us.archive.org/9/items/010ElSistemaOperativoDeBolsillo/%23010%20El%20Sistema%20Operativo%20de%20bolsillo.mp3" title="010. CloudReady el Chromium OS de bolsillo">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -6986,7 +7041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-657">
+	<span id="item-662">
 		<a href="http://tracking.feedpress.it/link/15283/5291600/Bat2x100_95.mp3" title="#95 – Apunte DS Note">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -6996,7 +7051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-658">
+	<span id="item-663">
 		<a href="http://www.ivoox.com/011-tecnicas-productividad-pomodoro-mapas_mf_16923506_feed_1.mp3" title="011 - Técnicas de productividad: Pomodoro + Mapas mentales">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -7006,7 +7061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-659">
+	<span id="item-664">
 		<a href="http://tracking.feedpress.it/link/15283/5290201/Bat2x100_94.mp3" title="#94 – DS NOTE, espectacular.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7016,7 +7071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-660">
+	<span id="item-665">
 		<a href="https://ia601602.us.archive.org/11/items/ComoCrearTuPodcastYTotalmenteGtatis/Como%20crear%20tu%20podcast%20y%20totalmente%20gtatis.mp3" title="009. Crea tu podcast en 3 simples pasos y totalmente gratis">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7026,7 +7081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-661">
+	<span id="item-666">
 		<a href="http://tracking.feedpress.it/link/15283/5281613/Bat2x100_93.mp3" title="#93 – Life360,Piper Y #SaferInternetDay">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7036,7 +7091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-662">
+	<span id="item-667">
 		<a href="http://tracking.feedpress.it/link/15283/5278089/Bat2x100_92.mp3" title="#92 – Miscelánea De Miércoles">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7046,7 +7101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-663">
+	<span id="item-668">
 		<a href="https://ia801900.us.archive.org/13/items/008ComoGestionoMisNotas/%23008%20Como%20gestiono%20mis%20notas.mp3" title="008. Como gestiono mis Notas">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7056,7 +7111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-664">
+	<span id="item-669">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2306%20Podcast%20Linux%20Express.mp3" title="#06 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7066,7 +7121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-665">
+	<span id="item-670">
 		<a href="http://tracking.feedpress.it/link/15283/5272972/Bat2x100_91.mp3" title="#91 – Charla con @angel_bcn, podcaster de uGeek">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7076,7 +7131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-666">
+	<span id="item-671">
 		<a href="hhttps://ia601902.us.archive.org/28/items/007LinuxEsUnaAlternativaReal/%23007%20Linux%20es%20una%20alternativa%20real.mp3" title="007. Linux es una alternativa real">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7086,7 +7141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-667">
+	<span id="item-672">
 		<a href="http://tracking.feedpress.it/link/15283/5266091/Bat2x100_90.mp3" title="#90 – Prueba De Feed">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7096,7 +7151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-668">
+	<span id="item-673">
 		<a href="http://tracking.feedpress.it/link/15283/5266093/Bat2x100_89.mp3" title="#89 – Ransomware & Dropbox">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7106,7 +7161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-669">
+	<span id="item-674">
 		<a href="https://ia601900.us.archive.org/18/items/ElTrelloDeSoftwareLibreWekan/El_Trello_de_software_libre_Wekan.mp3" title="006. El Trello de Software Libre Wekan y Kanboard para Raspberry Pi. El sistema Kanban en tu servidor.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7116,7 +7171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-670">
+	<span id="item-675">
 		<a href="http://tracking.feedpress.it/link/15283/5259020/Bat2x100_88.mp3" title="#88 – RCLONE & MULTCLOUD.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7126,7 +7181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-671">
+	<span id="item-676">
 		<a href="http://tracking.feedpress.it/link/15283/5254374/Bat2x100_87.mp3" title="#87 – Siempre Estuvo Allí Y Yo Sin Saberlo (DS NOTE)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7136,7 +7191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-672">
+	<span id="item-677">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/02/podcast-10-dns-y-arp.mp3" title="Podcast #10: Cómo funciona el DNS">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7146,7 +7201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-673">
+	<span id="item-678">
 		<a href="https://ia601603.us.archive.org/9/items/005PaperDeDropbox/%23005%20Paper%20de%20Dropbox.mp3" title="005. Paper de Dropbox">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7156,7 +7211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-674">
+	<span id="item-679">
 		<a href="http://www.ivoox.com/17-linux-connexion-alexandre-filgueira_mf_16768269_feed_1.mp3" title="#17 Linux Connexion con Alexandre Filgueira">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7166,7 +7221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-675">
+	<span id="item-680">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-9-streaming-con-icecat2-mp3.mp3" title="Podcast #9: Streaming con Icecast 2">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7176,7 +7231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-676">
+	<span id="item-681">
 		<a href="https://ia601903.us.archive.org/19/items/004ServidorLinuxVsQNapSynology/%23004%20Servidor%20Linux%20Vs%20QNap-Synology.mp3" title="004. Servidor Linux Vs QNAP-Synology">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7186,7 +7241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-677">
+	<span id="item-682">
 		<a href="http://api.spreaker.com/download/episode/10446110/podcast105.mp3" title="#105 Guía cómo configurar un ESP01, el módulo WiFi basado en ESP8266">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7196,7 +7251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-678">
+	<span id="item-683">
 		<a href="https://ia601903.us.archive.org/4/items/003Nextcloud/%23003%20Nextcloud.mp3" title="003. Nextcloud. Instalar tu Nube en menos de 2 minutos.">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7206,7 +7261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-679">
+	<span id="item-684">
 		<a href="http://tracking.feedpress.it/link/15283/5234570/Bat2x100_86.mp3" title="#86 – No Somos Usuarios Corrientes">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7216,7 +7271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-680">
+	<span id="item-685">
 		<a href="https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3" title="002. "De qué va esto de uGeek?"">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7226,7 +7281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-681">
+	<span id="item-686">
 		<a href="https://ia801602.us.archive.org/21/items/HolaMundo_201701/Hola%20Mundo.mp3" title="001. Hola Mundo">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
@@ -7236,7 +7291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-682">
+	<span id="item-687">
 		<a href="http://tracking.feedpress.it/link/14730/7427255/CN_Programa_Sorteo.mp3" title="Llamada telefónica">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7246,7 +7301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-683">
+	<span id="item-688">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2305%20Podcast%20Linux%20Express.mp3" title="#05 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7256,7 +7311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-684">
+	<span id="item-689">
 		<a href="http://tracking.feedpress.it/link/15283/5194885/Bat2x100_85.mp3" title="#85 – Un Capítulo Muy Muy Interesante.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7266,7 +7321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-685">
+	<span id="item-690">
 		<a href="http://tracking.feedpress.it/link/15283/5186279/Bat2x100_84.mp3" title="#84 – Así Me Gestiono Yo & Menubar Stats 2">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7276,7 +7331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-686">
+	<span id="item-691">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-8-el-viaje-de-cargar-una-web.mp3" title="Podcast #8: El viaje de cargar una web">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7286,7 +7341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-687">
+	<span id="item-692">
 		<a href="http://tracking.feedpress.it/link/14730/7427256/CN_Programa_020.mp3" title="#CN020 – Cómo mejorar la velocidad de transferencia del NAS en tu red LAN">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7296,7 +7351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-688">
+	<span id="item-693">
 		<a href="http://tracking.feedpress.it/link/15283/5167120/Bat2x100_83.mp3" title="#83 – Variado De Miércoles">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7306,7 +7361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-689">
+	<span id="item-694">
 		<a href="http://www.ivoox.com/16-antergos_mf_16451726_feed_1.mp3" title="#16 Antergos">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7316,7 +7371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-690">
+	<span id="item-695">
 		<a href="http://api.spreaker.com/download/episode/10323357/podcast104.mp3" title="#104 Electrónica para todos con RincónIngenieril">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7326,7 +7381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-691">
+	<span id="item-696">
 		<a href="http://www.ivoox.com/02x07-flatpak-snappy_mf_16315062_feed_1.mp3" title="02x07 Flatpak y Snappy">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -7336,7 +7391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-692">
+	<span id="item-697">
 		<a href="http://www.ivoox.com/02x06-presente-futuro-plasma-5_mf_16313378_feed_1.mp3" title="02x06 Presente y futuro de Plasma 5">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -7346,7 +7401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-693">
+	<span id="item-698">
 		<a href="http://www.ivoox.com/02x05-20-anos-kde_mf_16312432_feed_1.mp3" title="02x05 20 años de KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -7356,7 +7411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-694">
+	<span id="item-699">
 		<a href="http://tracking.feedpress.it/link/15283/5143176/Bat2x100_82.mp3" title="#82 – Amerigo(App IOS) Y Wallabag Por Fin Ok!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7366,7 +7421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-695">
+	<span id="item-700">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2304%20Podcast%20Linux%20Express.mp3" title="#04 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7376,7 +7431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-696">
+	<span id="item-701">
 		<a href="http://tracking.feedpress.it/link/15283/5122681/Bat2x100_81.mp3" title="#81 – Otro Podcast Nocturno.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7386,7 +7441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-697">
+	<span id="item-702">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2017/01/podcast-7-cableado.mp3" title="Podcast #7: Cableado en un Centro de Datos">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7396,7 +7451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-698">
+	<span id="item-703">
 		<a href="http://tracking.feedpress.it/link/15283/5097843/Bat2x100_80.mp3" title="#80 – Podcast Verpertino.3 Reflexiones Post Navideñas">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7406,7 +7461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-699">
+	<span id="item-704">
 		<a href="http://www.ivoox.com/15-linux-connexion-jen0f0nte_mf_15880251_feed_1.mp3" title="#15 Linux Connexion con Jen0f0nte">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7416,7 +7471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-700">
+	<span id="item-705">
 		<a href="http://tracking.feedpress.it/link/15283/5084487/Bat2x100_79.mp3" title="#79 – Variado De Reyes !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7426,7 +7481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-701">
+	<span id="item-706">
 		<a href="http://tracking.feedpress.it/link/15283/5067810/Bat2x100_78.mp3" title="#78 – +Wallabag Y Piper NV">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7436,7 +7491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-702">
+	<span id="item-707">
 		<a href="http://tracking.feedpress.it/link/15283/5064109/Bat2x100_77.mp3" title="#77 – Feliz 2017  ! Resilio Y Wallabag Y Alguna Cosa Más.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7446,7 +7501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-703">
+	<span id="item-708">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-6-almacenamiento.mp3" title="Podcast #6: Almacenamiento">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7456,7 +7511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-704">
+	<span id="item-709">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2303%20Podcast%20Linux%20Express.mp3" title="#03 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7466,7 +7521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-705">
+	<span id="item-710">
 		<a href="http://api.spreaker.com/download/episode/10187746/podcast103.mp3" title="#103. Cultura Maker e IoT con Cesar García de La Hora Maker">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7476,7 +7531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-706">
+	<span id="item-711">
 		<a href="http://tracking.feedpress.it/link/15283/5029972/Bat2x100_76.mp3" title="#76 – 25 Dciembre !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7486,7 +7541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-707">
+	<span id="item-712">
 		<a href="http://www.ivoox.com/14-especial-slimbook-katana_mf_15380402_feed_1.mp3" title="#14 Especial Slimbook Katana">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7496,7 +7551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-708">
+	<span id="item-713">
 		<a href="http://tracking.feedpress.it/link/14730/7427257/CN_Programa_019.mp3" title="#CN019 – Hablamos sobre todas las novedades del Synology Event 2017">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7506,7 +7561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-709">
+	<span id="item-714">
 		<a href="http://tracking.feedpress.it/link/15283/5015085/Bat2x100_75.mp3" title="#75 – Disculpas / Telegram IFTTT">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7516,7 +7571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-710">
+	<span id="item-715">
 		<a href="http://tracking.feedpress.it/link/15283/5011944/Bat2x100_74.mp3" title="#74 – Variado De Miércoles">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7526,7 +7581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-711">
+	<span id="item-716">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-5-cloud-centros-de-datos.mp3" title="Podcast #5: Introducción al Cloud y servicios de Centros de Datos">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7536,7 +7591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-712">
+	<span id="item-717">
 		<a href="http://tracking.feedpress.it/link/15283/4985759/Bat2x100_73.mp3" title="#73 – Especial Navidad ’16. V1.0">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7546,7 +7601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-713">
+	<span id="item-718">
 		<a href="http://tracking.feedpress.it/link/15283/4982891/Bat2x100_72.mp3" title="#72 – Plexpy Y Los Bloqueos De Las Cuentas en Amazon Cloud Drive">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7556,7 +7611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-714">
+	<span id="item-719">
 		<a href="http://tracking.feedpress.it/link/15283/4978702/Bat2x100_71.mp3" title="#71 – Notición + Podcasting Nocturno.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7566,7 +7621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-715">
+	<span id="item-720">
 		<a href="http://tracking.feedpress.it/link/15283/4978611/Bat2x100_70.mp3" title="#70 – Amazon Pantry Y Mis Menesteres Navideños.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7576,7 +7631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-716">
+	<span id="item-721">
 		<a href="http://tracking.feedpress.it/link/15283/4976671/Bat2x100_69.mp3" title="#69 – PLEX PHOTO Y PLEX MUSIC">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7586,7 +7641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-717">
+	<span id="item-722">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2302%20Podcast%20Linux%20Express.mp3" title="#02 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7596,7 +7651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-718">
+	<span id="item-723">
 		<a href="http://tracking.feedpress.it/link/15283/4968838/Bat2x100_68.mp3" title="#68 – Amazon Go, Netflix Y La Inteligencia Artificial">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7606,7 +7661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-719">
+	<span id="item-724">
 		<a href="http://www.ivoox.com/010-preguntas-respuestas-productividad_mf_14936160_feed_1.mp3" title="010 - Preguntas y respuestas de productividad">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -7616,7 +7671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-720">
+	<span id="item-725">
 		<a href="http://tracking.feedpress.it/link/15283/4962010/Bat2x100_67.mp3" title="#67 – PLEX : Sincronización Y Nubes.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7626,7 +7681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-721">
+	<span id="item-726">
 		<a href="http://api.spreaker.com/download/episode/10094908/podcast102.mp3" title="#102. Luces árbol de Navidad NeoPixel con Arduino, hazlo tu mismo">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7636,7 +7691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-722">
+	<span id="item-727">
 		<a href="http://tracking.feedpress.it/link/15283/4955048/Bat2x100_66.mp3" title="#66 – Termostatos">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7646,7 +7701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-723">
+	<span id="item-728">
 		<a href="http://www.ivoox.com/13-ciberseguridad-basica-gnu-linux_mf_14880771_feed_1.mp3" title="#13 Ciberseguridad Básica en GNU/Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7656,7 +7711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-724">
+	<span id="item-729">
 		<a href="http://tracking.feedpress.it/link/15283/4948930/Bat2x100_65.mp3" title="#65 – Reflexiones Sábado Noche">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7666,7 +7721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-725">
+	<span id="item-730">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-4-ssl-spam-postventa-de-apple.mp3" title="Podcast #4: SSL, spam y postventa de Apple">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7676,7 +7731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-726">
+	<span id="item-731">
 		<a href="https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/%2301%20Podcast%20Linux%20Express.mp3" title="#01 Linux Express">
 			<span class="isplaying"></span>
 			<span class="logo linuxexpressdepodcastlinux"></span>
@@ -7686,7 +7741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-727">
+	<span id="item-732">
 		<a href="http://tracking.feedpress.it/link/15283/4894112/Bat2x100_64.mp3" title="#64 – Empieza La Navidad !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7696,7 +7751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-728">
+	<span id="item-733">
 		<a href="http://tracking.feedpress.it/link/15283/4886356/Bat2x100_63.mp3" title="#63 – ApplePay !! Y Muchas Noticias….">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7706,7 +7761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-729">
+	<span id="item-734">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-3-como-crear-un-podcast.mp3" title="Podcast #3: Cómo crear un podcast">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7716,7 +7771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-730">
+	<span id="item-735">
 		<a href="http://tracking.feedpress.it/link/15283/4877236/Bat2x100_62.mp3" title="#62 – Mi Experiencia Con UBER en Miami !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7726,7 +7781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-731">
+	<span id="item-736">
 		<a href="http://tracking.feedpress.it/link/14730/7427258/CN_Programa_018.mp3" title="#CN018 – Nos vigilan las 24h">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7736,7 +7791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-732">
+	<span id="item-737">
 		<a href="http://podcast.edyo.es/podcast/edyo-20.mp3" title="Edyo 20 - Entrevista a David Monreal">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -7746,7 +7801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-733">
+	<span id="item-738">
 		<a href="http://api.spreaker.com/download/episode/9991973/podcast101.mp3" title="101. Proyectos IoT con Arduino, las plataformas más importantes">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7756,7 +7811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-734">
+	<span id="item-739">
 		<a href="http://www.ivoox.com/12-linux-connexion-alejandro-lopez-slimbook_mf_14164009_feed_1.mp3" title="#12 Linux Connexion con Alejandro López ( Slimbook )">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7766,7 +7821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-735">
+	<span id="item-740">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-2-crud-en-rails-formularios-dinamicos.mp3" title="Podcast #2: Git, CRUD en Rails y Formularios dinámicos en HTML con JavaScript">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7776,7 +7831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-736">
+	<span id="item-741">
 		<a href="http://www.ivoox.com/009-hacer-tareas-nuestro-sistema_mf_13765048_feed_1.mp3" title="009 - Hacer las tareas de nuestro sistema GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -7786,7 +7841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-737">
+	<span id="item-742">
 		<a href="http://www.ivoox.com/11-linux-connexion-gabriel-viso-pitando-net-podcast_mf_13759097_feed_1.mp3" title="#11 Linux Connexion con Gabriel Viso (Pitando.net). Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -7796,7 +7851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-738">
+	<span id="item-743">
 		<a href="http://api.spreaker.com/download/episode/9877168/podcast100.mp3" title="100. Trabajar como Freelance emprendedor, la historia de Luis del Valle">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7806,7 +7861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-739">
+	<span id="item-744">
 		<a href="http://tracking.feedpress.it/link/15283/4776794/Bat2x100_61.mp3" title="#61 – AyudaAlba Y Desvirtualizando Podcasters.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7816,7 +7871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-740">
+	<span id="item-745">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-1-presentacion-rails-lynda.mp3" title="Podcast #1: Presentación, Rails y Lynda.com">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7826,7 +7881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-741">
+	<span id="item-746">
 		<a href="http://tracking.feedpress.it/link/14730/7427259/CN_Programa_017.mp3" title="#CN017 – Hablamos sobre el QNAP World Tour 2016">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7836,7 +7891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-742">
+	<span id="item-747">
 		<a href="http://www.ivoox.com/008-evaluacion-nuestro-sistema-gtd_mf_13660172_feed_1.mp3" title="008 - Evaluación de nuestro sistema GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -7846,7 +7901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-743">
+	<span id="item-748">
 		<a href="https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2016/12/podcast-0.mp3" title="Podcast #0: Presentación">
 			<span class="isplaying"></span>
 			<span class="logo podcastdeeduardocollado"></span>
@@ -7856,7 +7911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-744">
+	<span id="item-749">
 		<a href="http://tracking.feedpress.it/link/15283/4739234/Bat2x100_60.mp3" title="#60 – Descuentos en Amazon Con COINC Y Un Par De Cosas Más.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7866,7 +7921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-745">
+	<span id="item-750">
 		<a href="http://tracking.feedpress.it/link/15283/4733251/Bat2x100_59.mp3" title="#59 – Suscripciones Con Movistar Y Más Cosillas.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7876,7 +7931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-746">
+	<span id="item-751">
 		<a href="http://api.spreaker.com/download/episode/9769921/podcast99.mp3" title="99. Arquitectura IoT, prototipando los dispositivos del futuro">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7886,7 +7941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-747">
+	<span id="item-752">
 		<a href="http://tracking.feedpress.it/link/15283/4712043/Bat2x100_58.mp3" title="#58 – Podcast Tardío …">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7896,7 +7951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-748">
+	<span id="item-753">
 		<a href="http://api.spreaker.com/download/episode/9715839/podcast98.mp3" title="98. 5 proyectos con Arduino para iniciarse en el mundo Maker">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7906,7 +7961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-749">
+	<span id="item-754">
 		<a href="http://tracking.feedpress.it/link/15283/4685064/Bat2x100_57.mp3" title="#57 – Thermo (Withings)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7916,7 +7971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-750">
+	<span id="item-755">
 		<a href="http://www.ivoox.com/que-es-como-se-prepara-para-que_mf_13435849_feed_1.mp3" title="Qué es, cómo se prepara y para qué sirve un ataque DDoS. Qué ocurrió realmente este viernes">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -7926,7 +7981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-751">
+	<span id="item-756">
 		<a href="http://tracking.feedpress.it/link/15283/4682146/Bat2x100_56.mp3" title="#56 – Mokacam">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7936,7 +7991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-752">
+	<span id="item-757">
 		<a href="http://www.ivoox.com/vpns-pago-plex-cloud-agregacion-de_mf_13404579_feed_1.mp3" title="VPNs de pago, Plex Cloud y Agregación de enlaces o LACP">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -7946,7 +8001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-753">
+	<span id="item-758">
 		<a href="http://tracking.feedpress.it/link/14730/7427260/CN_Programa_016.mp3" title="#CN016 – La virtualización para todos los públicos">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -7956,7 +8011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-754">
+	<span id="item-759">
 		<a href="http://podcast.edyo.es/podcast/edyo-19.mp3" title="Edyo 19 - Serverless">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -7966,7 +8021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-755">
+	<span id="item-760">
 		<a href="http://api.spreaker.com/download/episode/9662020/podcast97.mp3" title="97. Obijuan, que el software libre te acompañe">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -7976,7 +8031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-756">
+	<span id="item-761">
 		<a href="http://www.ivoox.com/tipos-sistemas-seguridad-podemos-tener_mf_13321458_feed_1.mp3" title="Tipos de sistemas seguridad que podemos tener">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -7986,7 +8041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-757">
+	<span id="item-762">
 		<a href="http://tracking.feedpress.it/link/15283/4626880/Bat2x100_55.mp3" title="#55 – Ya Estoy De Vuelta">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -7996,7 +8051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-758">
+	<span id="item-763">
 		<a href="http://www.ivoox.com/007-como-organizar-tareas-proyectos-en_mf_13288081_feed_1.mp3" title="007 - Cómo organizar tareas y proyectos en GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8006,7 +8061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-759">
+	<span id="item-764">
 		<a href="http://www.ivoox.com/02x04-akademy-2016-berlin_mf_13282347_feed_1.mp3" title="02x04 Akademy 2016 en Berlín">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -8016,7 +8071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-760">
+	<span id="item-765">
 		<a href="http://www.ivoox.com/09-especial-lenovo-thinkpad-x220_mf_13265714_feed_1.mp3" title="#09 Especial Lenovo ThinkPad X220">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8026,7 +8081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-761">
+	<span id="item-766">
 		<a href="http://api.spreaker.com/download/episode/9612398/podcast96.mp3" title="96. Programación con Arduino, el paradigma de la computación física">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8036,7 +8091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-762">
+	<span id="item-767">
 		<a href="http://api.spreaker.com/download/episode/9559392/podcast95.mp3" title="95. Staticboards, fabricar electrónica para Arduino made in Spain">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8046,7 +8101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-763">
+	<span id="item-768">
 		<a href="http://tracking.feedpress.it/link/15283/4535017/Bat2x100_54.mp3" title="#54 – PLEX Cloud">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8056,7 +8111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-764">
+	<span id="item-769">
 		<a href="http://tracking.feedpress.it/link/14730/7427583/CN_Programa_015.mp3" title="#CN015 – Adrián Groba, responsable de ventas en QNAP España">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8066,7 +8121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-765">
+	<span id="item-770">
 		<a href="http://www.ivoox.com/08-sabores-a-montones_mf_13103580_feed_1.mp3" title="#08 Sabores a montones">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8076,7 +8131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-766">
+	<span id="item-771">
 		<a href="http://www.ivoox.com/006-procesar-tareas-proyectos-gtd_mf_13088788_feed_1.mp3" title="006 - Procesar tareas y proyectos en GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8086,7 +8141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-767">
+	<span id="item-772">
 		<a href="http://tracking.feedpress.it/link/15283/4517572/Bat2x100_53.mp3" title="#53 – Amazon Cloud Drive Y Plex Unidos !!">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8096,7 +8151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-768">
+	<span id="item-773">
 		<a href="http://api.spreaker.com/download/episode/9495173/podcast94.mp3" title="94. Por qué usar las interrupciones en Arduino, todo lo que necesitas saber">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8106,7 +8161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-769">
+	<span id="item-774">
 		<a href="http://podcast.edyo.es/podcast/edyo-18.mp3" title="Edyo 18 - Entrevista a Xavi Soler">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -8116,7 +8171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-770">
+	<span id="item-775">
 		<a href="http://tracking.feedpress.it/link/15283/4488618/Bat2x100_52.mp3" title="#52 – Sorteo ! & iDoctusPed">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8126,7 +8181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-771">
+	<span id="item-776">
 		<a href="http://tracking.feedpress.it/link/15283/4466370/Bat2x100_51.mp3" title="#51 – LightX">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8136,7 +8191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-772">
+	<span id="item-777">
 		<a href="http://api.spreaker.com/download/episode/9444186/podcast_93.mp3" title="93. ESP8266 todo lo que necesitas saber del módulo WiFi para Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8146,7 +8201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-773">
+	<span id="item-778">
 		<a href="http://tracking.feedpress.it/link/15283/4433408/Bat2x100_50.mp3" title="#50 – In Reply to JM & David">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8156,7 +8211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-774">
+	<span id="item-779">
 		<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram_mf_12912418_feed_1.mp3" title="#07 Linux Connexion con Huezo (Grupo Telegram GNU-Linux)">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8166,7 +8221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-775">
+	<span id="item-780">
 		<a href="http://www.ivoox.com/07-linux-connexion-huezo-grupo-telegram-gnu-linux_mf_13383404_feed_1.mp3" title="#07 Linux Connexion con Huezo (Grupo Telegram GNU/Linux) Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8176,7 +8231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-776">
+	<span id="item-781">
 		<a href="http://tracking.feedpress.it/link/14730/7427584/CN_Programa_014.mp3" title="#CN014 – Aumenta la seguridad en tu NAS">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8186,7 +8241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-777">
+	<span id="item-782">
 		<a href="http://api.spreaker.com/download/episode/9396831/podcast_92.mp3" title="92. Crear un vehículo autónomo con sensores de ultrasonidos y Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8196,7 +8251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-778">
+	<span id="item-783">
 		<a href="http://tracking.feedpress.it/link/15283/4388666/Bat2x100_49.mp3" title="#49 – Subsmarine Y Ajuste Del Consumo De Datos.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8206,7 +8261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-779">
+	<span id="item-784">
 		<a href="http://api.spreaker.com/download/episode/9342197/podcast91.mp3" title="91. Motor Shield, arrancando motores del e-tiesto">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8216,7 +8271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-780">
+	<span id="item-785">
 		<a href="http://tracking.feedpress.it/link/15283/4339884/Bat2x100_48.mp3" title="#48 – Miscelánea De NAS Y Corrección HYper BackUp Con Amazon Cloud Drive">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8226,7 +8281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-781">
+	<span id="item-786">
 		<a href="http://tracking.feedpress.it/link/15283/4324745/Bat2x100_47.mp3" title="#47 – Gestores De Datos en IOS">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8236,7 +8291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-782">
+	<span id="item-787">
 		<a href="http://www.ivoox.com/06-conlinuxsisepuede_mf_12737297_feed_1.mp3" title="#06 #ConLinuxSíSePuede">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8246,7 +8301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-783">
+	<span id="item-788">
 		<a href="http://www.ivoox.com/06-conlinuxsisepuede-podcast-linux_mf_13383405_feed_1.mp3" title="#06 #ConLinuxSíSePuede. Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8256,7 +8311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-784">
+	<span id="item-789">
 		<a href="http://tracking.feedpress.it/link/15283/4301188/Bat2x100_46.mp3" title="#46 – Amazon Cloud Drive">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8266,7 +8321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-785">
+	<span id="item-790">
 		<a href="http://tracking.feedpress.it/link/15283/4292872/Bat2x100_45.mp3" title="#45 – Malware De Nuevo en Transmission Y Un Reply to Retrotech Podcast">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8276,7 +8331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-786">
+	<span id="item-791">
 		<a href="http://api.spreaker.com/download/episode/9293727/podcast90.mp3" title="90. Tiesto inteligente con Arduino, proyecto paso a paso">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8286,7 +8341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-787">
+	<span id="item-792">
 		<a href="http://tracking.feedpress.it/link/15283/4242490/Bat2x100_44.mp3" title="#44 – Cosas Varias Y Protector Ultrafino iPhone">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8296,7 +8351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-788">
+	<span id="item-793">
 		<a href="http://tracking.feedpress.it/link/14730/7427585/CN_Programa_013.mp3" title="#CN013 – Especial preguntas (fin de) verano">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8306,7 +8361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-789">
+	<span id="item-794">
 		<a href="http://tracking.feedpress.it/link/15283/4221979/Bat2x100_43.mp3" title="#43 – Series Y Aprender a Pronunciar Vitaminización.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8316,7 +8371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-790">
+	<span id="item-795">
 		<a href="http://api.spreaker.com/download/episode/9243968/podcast89.mp3" title="89. Eliminar el ruido en Arduino, controlando la señal">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8326,7 +8381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-791">
+	<span id="item-796">
 		<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_12593330_feed_1.mp3" title="#05 Linux Connexion con Yoyo Fernández">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8336,7 +8391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-792">
+	<span id="item-797">
 		<a href="http://www.ivoox.com/05-linux-connexion-yoyo-fernandez_mf_13383406_feed_1.mp3" title="#05 Linux Connexion con Yoyo Fernández">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8346,7 +8401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-793">
+	<span id="item-798">
 		<a href="http://tracking.feedpress.it/link/15283/4140888/Bat2x100_42.mp3" title="#42 – Screens, VNC, TeamViewe, Parallels Access…cuál Usáis Vosotros ??">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8356,7 +8411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-794">
+	<span id="item-799">
 		<a href="http://www.ivoox.com/04-amor-distro-madre_mf_12520959_feed_1.mp3" title="#04 Amor de (Distro) madre">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8366,7 +8421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-795">
+	<span id="item-800">
 		<a href="http://www.ivoox.com/04-amor-distro-madre-podcast-linux_mf_13383407_feed_1.mp3" title="#04 Amor de Distro Madre. Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8376,7 +8431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-796">
+	<span id="item-801">
 		<a href="http://tracking.feedpress.it/link/15283/4122468/Bat2x100_41.mp3" title="#41 – Pocket Casts Y Sus Filtros.">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8386,7 +8441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-797">
+	<span id="item-802">
 		<a href="http://tracking.feedpress.it/link/15283/4121849/Bat2x100_40.mp3" title="#40 – Mi Nuevo Mouse Y RoomScan Pro">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8396,7 +8451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-798">
+	<span id="item-803">
 		<a href="http://tracking.feedpress.it/link/15283/4084831/Bat2x100_39.mp3" title="#39 – Suscripciones ?? Seguro ?? & VidLib">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8406,7 +8461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-799">
+	<span id="item-804">
 		<a href="http://tracking.feedpress.it/link/15283/4068203/Bat2x100_38.mp3" title="#38 – Mix De Cosillas(Droplr, Here,Vivino)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8416,7 +8471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-800">
+	<span id="item-805">
 		<a href="http://www.ivoox.com/005-recopilar-informacion-gtd_mf_12424970_feed_1.mp3" title="005 - Recopilar información en GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8426,7 +8481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-801">
+	<span id="item-806">
 		<a href="http://tracking.feedpress.it/link/15283/4052759/Bat2x100_37.mp3" title="#37 – Un 10 Para Movistar en Twitter">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8436,7 +8491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-802">
+	<span id="item-807">
 		<a href="http://tracking.feedpress.it/link/15283/4052760/Bat2x100_36.mp3" title="#36 – Plex : Content Rating & IFTTT">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8446,7 +8501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-803">
+	<span id="item-808">
 		<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no_mf_12374536_feed_1.mp3" title="#03 Y no estaba muerto, no no">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8456,7 +8511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-804">
+	<span id="item-809">
 		<a href="http://www.ivoox.com/03-y-no-estaba-muerto-no-no-podcast_mf_13383408_feed_1.mp3" title="#03 Y no estaba muerto, no, no. Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8466,7 +8521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-805">
+	<span id="item-810">
 		<a href="http://www.ivoox.com/02x03-plasma-distintas-distribuciones_mf_12362858_feed_1.mp3" title="02x03 Plasma en las distintas distribuciones">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -8476,7 +8531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-806">
+	<span id="item-811">
 		<a href="http://tracking.feedpress.it/link/14730/7427586/CN_Programa_012.mp3" title="#CN012 – ¿Cómo organizamos la información en nuestro NAS?">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8486,7 +8541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-807">
+	<span id="item-812">
 		<a href="http://api.spreaker.com/download/episode/9062389/podcast88.mp3" title="88. Servidor web Low Cost con Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8496,7 +8551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-808">
+	<span id="item-813">
 		<a href="http://tracking.feedpress.it/link/15283/4052761/Bat2x100_35.mp3" title="#35 – Reflexión">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8506,7 +8561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-809">
+	<span id="item-814">
 		<a href="http://tracking.feedpress.it/link/15283/4052762/Bat2x100_34.mp3" title="#34 – Downie & Eliminar Ficheros en Plex & DSPhoto Para Apple TV">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8516,7 +8571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-810">
+	<span id="item-815">
 		<a href="http://www.ivoox.com/004-los-cinco-pasos-del-gtd_mf_12304304_feed_1.mp3" title="004 - Los cinco pasos del GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8526,7 +8581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-811">
+	<span id="item-816">
 		<a href="http://tracking.feedpress.it/link/15283/4052763/Bat2x100_33.mp3" title="#33 – Movistar… Y Orasis">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8536,7 +8591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-812">
+	<span id="item-817">
 		<a href="http://tracking.feedpress.it/link/15283/4052764/Bat2x100_32.mp3" title="#32 –  Eltima Software : CloudMounter & Más Sobre GPS">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8546,7 +8601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-813">
+	<span id="item-818">
 		<a href="http://tracking.feedpress.it/link/15283/4052765/Bat2x100_31.mp3" title="#31 – Plex Home Theater Y GPS iPhone">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8556,7 +8611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-814">
+	<span id="item-819">
 		<a href="http://tracking.feedpress.it/link/15283/4052766/Bat2x100_30.mp3" title="#30 Adiós a Spreaker Y Desavenencias Con Parallels">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8566,7 +8621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-815">
+	<span id="item-820">
 		<a href="http://www.ivoox.com/02-un-pinguino-mi-usb_mf_12218805_feed_1.mp3" title="#02 Un pingüino en mi USB">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8576,7 +8631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-816">
+	<span id="item-821">
 		<a href="http://www.ivoox.com/02-un-pinguino-mi-usb-podcast-linux_mf_13383409_feed_1.mp3" title="#02 Un pingüino en mi USB Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8586,7 +8641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-817">
+	<span id="item-822">
 		<a href="http://tracking.feedpress.it/link/15283/4052767/Bat2x100_29.mp3" title="#29 Trickster y WaltR2">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8596,7 +8651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-818">
+	<span id="item-823">
 		<a href="http://api.spreaker.com/download/episode/8966066/podcast87.mp3" title="87. Vídeo con Raspberry Pi, crea tu sistema de vigilancia">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8606,7 +8661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-819">
+	<span id="item-824">
 		<a href="http://tracking.feedpress.it/link/15283/4052768/Bat2x100_28.mp3" title="#28 Burstio, Prisma e Instaflash Pro">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8616,7 +8671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-820">
+	<span id="item-825">
 		<a href="http://www.ivoox.com/02x02-kde-android_mf_12171095_feed_1.mp3" title="02x02 KDE en Android">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -8626,7 +8681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-821">
+	<span id="item-826">
 		<a href="http://www.ivoox.com/02x01-plasma-mobile_mf_12170139_feed_1.mp3" title="02x01 Plasma Mobile">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -8636,7 +8691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-822">
+	<span id="item-827">
 		<a href="http://tracking.feedpress.it/link/15283/4052769/Bat2x100_27.mp3" title="#27 Más sobre Parking Door">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8646,7 +8701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-823">
+	<span id="item-828">
 		<a href="http://tracking.feedpress.it/link/15283/4052770/Bat2x100_26.mp3" title="#26 Amazon Cloud Drive">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8656,7 +8711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-824">
+	<span id="item-829">
 		<a href="http://tracking.feedpress.it/link/14730/7427587/CN_Programa_011.mp3" title="#CN011 – Manuel Jordán, Synology Product Manager para España">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8666,7 +8721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-825">
+	<span id="item-830">
 		<a href="http://tracking.feedpress.it/link/15283/4052771/Bat2x100_25.mp3" title="#25 Multimedia Para Mayores Y PlexPy">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8676,7 +8731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-826">
+	<span id="item-831">
 		<a href="http://www.ivoox.com/003-entrevista-a-javier-cristobal-acrjstobal_mf_12088444_feed_1.mp3" title="003 - Entrevista a Javier Cristobal @crjstobal">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8686,7 +8741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-827">
+	<span id="item-832">
 		<a href="http://www.ivoox.com/01-antecedentes_mf_12085902_feed_1.mp3" title="#01 Antecedentes">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8696,7 +8751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-828">
+	<span id="item-833">
 		<a href="http://tracking.feedpress.it/link/15283/4052772/Bat2x100_24.mp3" title="#24 KickStarter –  LightPack2 – Macnificos y podcasts">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8706,7 +8761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-829">
+	<span id="item-834">
 		<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_12048502_feed_1.mp3" title="#00 Promo Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8716,7 +8771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-830">
+	<span id="item-835">
 		<a href="http://www.ivoox.com/00-promo-podcast-linux_mf_13383411_feed_1.mp3" title="#00 Promo Podcast Linux">
 			<span class="isplaying"></span>
 			<span class="logo podcastlinux"></span>
@@ -8726,7 +8781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-831">
+	<span id="item-836">
 		<a href="http://api.spreaker.com/download/episode/8869489/podcast86.mp3" title="86. Sensor Kinect, inteligencia artificial al alcance de todos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8736,7 +8791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-832">
+	<span id="item-837">
 		<a href="http://tracking.feedpress.it/link/15283/4052773/Bat2x100_23.mp3" title="#23 Mi primera semana con el iPad mini">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8746,7 +8801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-833">
+	<span id="item-838">
 		<a href="http://podcast.edyo.es/podcast/edyo-17.mp3" title="Edyo 17 - ChatOps">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -8756,7 +8811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-834">
+	<span id="item-839">
 		<a href="http://tracking.feedpress.it/link/15283/4052774/Bat2x100_22.mp3" title="#22 Tulotero y CloudConverter">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8766,7 +8821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-835">
+	<span id="item-840">
 		<a href="http://tracking.feedpress.it/link/15283/4052775/Bat2x100_21.mp3" title="#21 Nuevo Router Movistar">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8776,7 +8831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-836">
+	<span id="item-841">
 		<a href="http://api.spreaker.com/download/episode/8810866/podcast85.mp3" title="85. Trabajar de programador, las claves">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8786,7 +8841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-837">
+	<span id="item-842">
 		<a href="http://tracking.feedpress.it/link/15283/4052776/Bat2x100_20.mp3" title="#20 IndieGoGo & KickStarter">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8796,7 +8851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-838">
+	<span id="item-843">
 		<a href="http://tracking.feedpress.it/link/14730/3651015/Programa_010.mp3" title="#CN010 – Mac & NAS con Carlos Burges">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8806,7 +8861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-839">
+	<span id="item-844">
 		<a href="http://tracking.feedpress.it/link/15283/4052777/Bat2x100_19.mp3" title="#19 File Manager Pro">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8816,7 +8871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-840">
+	<span id="item-845">
 		<a href="http://tracking.feedpress.it/link/15283/4052778/Bat2x100_18.mp3" title="#18 Gestión De Tareas">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8826,7 +8881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-841">
+	<span id="item-846">
 		<a href="http://api.spreaker.com/download/episode/8756170/podcast84.mp3" title="84. Creación de Software, así lo hago yo">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8836,7 +8891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-842">
+	<span id="item-847">
 		<a href="http://tracking.feedpress.it/link/15283/4052779/Bat2x100_17.mp3" title="#17 WWDC">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8846,7 +8901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-843">
+	<span id="item-848">
 		<a href="http://www.ivoox.com/002-que-es-gtd_mf_11864093_feed_1.mp3" title="002 - ¿Qué es el GTD?">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -8856,7 +8911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-844">
+	<span id="item-849">
 		<a href="http://tracking.feedpress.it/link/15283/4052780/Bat2x100_16.mp3" title="#16 WeSmartPark">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8866,7 +8921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-845">
+	<span id="item-850">
 		<a href="http://tracking.feedpress.it/link/15283/4052781/Bat2x100_15.mp3" title="#15 ParkingDoor & Montar Unidades NAS">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8876,7 +8931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-846">
+	<span id="item-851">
 		<a href="http://tracking.feedpress.it/link/15283/4052782/Bat2x100_14.mp3" title="#14 Más Hazel !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8886,7 +8941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-847">
+	<span id="item-852">
 		<a href="http://tracking.feedpress.it/link/15283/4052783/Bat2x100_13.mp3" title="#13 Soporte Targus">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8896,7 +8951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-848">
+	<span id="item-853">
 		<a href="http://api.spreaker.com/download/episode/8700539/podcast83.mp3" title="83. Escoger el mejor sensor de temperatura para Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8906,7 +8961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-849">
+	<span id="item-854">
 		<a href="http://tracking.feedpress.it/link/15283/4052784/Bat2x100_12.mp3" title="#12 Wallapop & iPad mini 64 GB">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8916,7 +8971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-850">
+	<span id="item-855">
 		<a href="http://tracking.feedpress.it/link/15283/4052785/Bat2x100_11.mp3" title="#11 Interact (IOS)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8926,7 +8981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-851">
+	<span id="item-856">
 		<a href="http://tracking.feedpress.it/link/14730/7427588/Programa_009.mp3" title="#CN009 – Todo sobre caché SSD en tu NAS">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -8936,7 +8991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-852">
+	<span id="item-857">
 		<a href="http://api.spreaker.com/download/episode/8662825/sorteo_campus.mp3" title="Sorteo del Arduino MKR1000 y novedades">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8946,7 +9001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-853">
+	<span id="item-858">
 		<a href="http://tracking.feedpress.it/link/15283/4052786/Bat2x100_10.mp3" title="#10 Dropcopy y Copied">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8956,7 +9011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-854">
+	<span id="item-859">
 		<a href="http://tracking.feedpress.it/link/15283/4052787/Bat2x100_09.mp3" title="#9 Backup y Redundancia (NAS) Crashplan">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8966,7 +9021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-855">
+	<span id="item-860">
 		<a href="http://api.spreaker.com/download/episode/8642216/podcast82.mp3" title="82. Arduino MKR1000 y el protocolo I2C">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -8976,7 +9031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-856">
+	<span id="item-861">
 		<a href="http://tracking.feedpress.it/link/15283/4052788/Bat2x100_08.mp3" title="#8 Flujo de trabajo multimedia….Y Hazel !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8986,7 +9041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-857">
+	<span id="item-862">
 		<a href="http://tracking.feedpress.it/link/15283/4052789/Bat2x100_07.mp3" title="#7 iMazing y PopClip">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -8996,7 +9051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-858">
+	<span id="item-863">
 		<a href="http://tracking.feedpress.it/link/15283/4052790/Bat2x100_06.mp3" title="#6 Plato combinado (NAS/IOS/MAC OSX)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9006,7 +9061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-859">
+	<span id="item-864">
 		<a href="http://tracking.feedpress.it/link/15283/4052791/Bat2x100_05.mp3" title="#5 Screenshot (MAC OS) y flujo en fotos (NAS)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9016,7 +9071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-860">
+	<span id="item-865">
 		<a href="http://tracking.feedpress.it/link/14730/7427589/Programa_008.mp3" title="#CN008 – Especial preguntas de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9026,7 +9081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-861">
+	<span id="item-866">
 		<a href="http://tracking.feedpress.it/link/15283/4052792/Bat2x100_04.mp3" title="#4 TimePage (IOS)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9036,7 +9091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-862">
+	<span id="item-867">
 		<a href="http://api.spreaker.com/download/episode/8582396/podcast81.mp3" title="81. Visión artificial, OpenCV y Phyton">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9046,7 +9101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-863">
+	<span id="item-868">
 		<a href="http://tracking.feedpress.it/link/15283/4052793/Bat2x100_03.mp3" title="#3 HashPhotos ! (IOS)">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9056,7 +9111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-864">
+	<span id="item-869">
 		<a href="http://tracking.feedpress.it/link/14730/7427590/Programa_007.mp3" title="#CN007 – Los NAS en la educación con Rubén Brenes">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9066,7 +9121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-865">
+	<span id="item-870">
 		<a href="http://tracking.feedpress.it/link/15283/4052794/Bat2x100_02.mp3" title="#2 Drop Zone 3 & Expandrive & Insync">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9076,7 +9131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-866">
+	<span id="item-871">
 		<a href="http://tracking.feedpress.it/link/15283/4052795/Bat2x100_01.mp3" title="#1 Airserver y Remote Buddy">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9086,7 +9141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-867">
+	<span id="item-872">
 		<a href="http://www.ivoox.com/cual-es-mejor-reproductor-multimedia-cual-es-el_mf_11569876_feed_1.mp3" title="¿Cual es el mejor reproductor multimedia?¿Cual es el mejor hardware para Plex o Kodi?">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9096,7 +9151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-868">
+	<span id="item-873">
 		<a href="http://tracking.feedpress.it/link/15283/4052796/Bat2x100_00.mp3" title="Hola a tod@s !">
 			<span class="isplaying"></span>
 			<span class="logo bateria2x100"></span>
@@ -9106,7 +9161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-869">
+	<span id="item-874">
 		<a href="http://api.spreaker.com/download/episode/8521336/podcast80.mp3" title="80. Processing, el lenguaje para gráficos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9116,7 +9171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-870">
+	<span id="item-875">
 		<a href="http://api.spreaker.com/download/episode/8457793/podcast79.mp3" title="79. Pensamiento computacional con Tic and Bot">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9126,7 +9181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-871">
+	<span id="item-876">
 		<a href="http://www.ivoox.com/001-presentacion-aprendiendo-gtd_mf_11450474_feed_1.mp3" title="001 - Presentación de Aprendiendo GTD">
 			<span class="isplaying"></span>
 			<span class="logo aprendiendogtdpodcastproductividad"></span>
@@ -9136,7 +9191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-872">
+	<span id="item-877">
 		<a href="http://tracking.feedpress.it/link/14730/7427591/Programa_006.mp3" title="#CN006 – Hablemos de RADIUS">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9146,7 +9201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-873">
+	<span id="item-878">
 		<a href="http://api.spreaker.com/download/episode/8395572/podcast78.mp3" title="78. Automatización del hogar con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9156,7 +9211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-874">
+	<span id="item-879">
 		<a href="http://api.spreaker.com/download/episode/8389942/promo01.mp3" title="Promo La Tecnología para todos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9166,7 +9221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-875">
+	<span id="item-880">
 		<a href="http://api.spreaker.com/download/episode/8341197/podcast77.mp3" title="77. Aplicación web con Arduino MKR1000">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9176,7 +9231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-876">
+	<span id="item-881">
 		<a href="http://tracking.feedpress.it/link/14730/7427592/Programa_005.mp3" title="#CN005 – Tu Web en Tu servidor NAS">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9186,7 +9241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-877">
+	<span id="item-882">
 		<a href="http://api.spreaker.com/download/episode/8285708/podcast76.mp3" title="76. Arduino MKR1000, llega la revolución del IoT">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9196,7 +9251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-878">
+	<span id="item-883">
 		<a href="http://api.spreaker.com/download/episode/8231670/podcast75.mp3" title="75. Arduino Day y el protocolo de comunicaciones Firmata">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9206,7 +9261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-879">
+	<span id="item-884">
 		<a href="http://tracking.feedpress.it/link/14730/7427593/Programa_004.mp3" title="#CN004 – Lo virtual si es privado… mejor!">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9216,7 +9271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-880">
+	<span id="item-885">
 		<a href="http://www.ivoox.com/hablemos-seguridad-informatica_mf_11041040_feed_1.mp3" title="Hablemos de seguridad informática">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9226,7 +9281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-881">
+	<span id="item-886">
 		<a href="http://api.spreaker.com/download/episode/8172535/podcast74.mp3" title="74. Programación y educación">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9236,7 +9291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-882">
+	<span id="item-887">
 		<a href="http://www.ivoox.com/prepara-router-nas-casero-gran-potencia_mf_11001326_feed_1.mp3" title="Prepara un Router-NAS casero de gran potencia">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9246,7 +9301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-883">
+	<span id="item-888">
 		<a href="http://www.ivoox.com/nuevos-productos-cebit2016-dudas-oyentes_mf_10952034_feed_1.mp3" title="Nuevos productos, CeBIT2016 y dudas de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9256,7 +9311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-884">
+	<span id="item-889">
 		<a href="http://api.spreaker.com/download/episode/8117605/podcast73.mp3" title="73. Motor paso a paso con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9266,7 +9321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-885">
+	<span id="item-890">
 		<a href="http://podcast.edyo.es/podcast/edyo-16.mp3" title="Edyo 16 - Noticias, Bluemix y Github">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -9276,7 +9331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-886">
+	<span id="item-891">
 		<a href="http://www.ivoox.com/multimedia-video-4k-nueva-colaboracion-applelianos_mf_10878639_feed_1.mp3" title="Multimedia y vídeo 4K. Nueva colaboración con Applelianos.">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9286,7 +9341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-887">
+	<span id="item-892">
 		<a href="http://api.spreaker.com/download/episode/8060680/podcast72.mp3" title="72. Aniversario de La tecnología para todos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9296,7 +9351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-888">
+	<span id="item-893">
 		<a href="http://api.spreaker.com/download/episode/7998543/podcast71.mp3" title="71. Financia tu proyecto tecnológico con Crowdfunding">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9306,7 +9361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-889">
+	<span id="item-894">
 		<a href="http://tracking.feedpress.it/link/14730/7427594/Programa_003.mp3" title="#CN003 – Torrentes de pasión">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9316,7 +9371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-890">
+	<span id="item-895">
 		<a href="http://www.ivoox.com/que-dispositivo-o-reproductor-streaming-elijo_mf_10710919_feed_1.mp3" title="¿Qué dispositivo o reproductor de streaming elijo?">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9326,7 +9381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-891">
+	<span id="item-896">
 		<a href="http://api.spreaker.com/download/episode/7942545/podcast70.mp3" title="70. Herramientas para Makers, conviértete en un profesional">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9336,7 +9391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-892">
+	<span id="item-897">
 		<a href="http://www.ivoox.com/compro-nas-o-monto-disco-en_mf_10623105_feed_1.mp3" title="¿Compro un NAS o monto un disco en red?">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9346,7 +9401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-893">
+	<span id="item-898">
 		<a href="http://api.spreaker.com/download/episode/7891875/podcast69.mp3" title="69. Aumentar salidas digitales en Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9356,7 +9411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-894">
+	<span id="item-899">
 		<a href="http://tracking.feedpress.it/link/14730/7427595/Programa_002.mp3" title="#CN002 – Copiándonos">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9366,7 +9421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-895">
+	<span id="item-900">
 		<a href="http://api.spreaker.com/download/episode/7840768/podcast68.mp3" title="68. Arduino basado en la web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9376,7 +9431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-896">
+	<span id="item-901">
 		<a href="http://www.ivoox.com/qnap-vs-synology_mf_10517926_feed_1.mp3" title="Qnap vs Synology">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9386,7 +9441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-897">
+	<span id="item-902">
 		<a href="http://api.spreaker.com/download/episode/7790295/podcast67.mp3" title="67. Big data y visión artificial">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9396,7 +9451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-898">
+	<span id="item-903">
 		<a href="http://www.ivoox.com/plex-vs-kodi-sistema-multimedia-elegir_mf_10423262_feed_1.mp3" title="Plex vs Kodi, qué sistema multimedia elegir">
 			<span class="isplaying"></span>
 			<span class="logo naserospodcast"></span>
@@ -9406,7 +9461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-899">
+	<span id="item-904">
 		<a href="http://tracking.feedpress.it/link/14730/7427596/Programa_001.mp3" title="#CN001 – Pon un Servidor NAS en tu vida">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9416,7 +9471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-900">
+	<span id="item-905">
 		<a href="http://api.spreaker.com/download/episode/7738563/podcast66.mp3" title="66. La vida del microcontrolador">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9426,7 +9481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-901">
+	<span id="item-906">
 		<a href="http://api.spreaker.com/download/episode/7686379/podcast65.mp3" title="65. Sistemas de comunicación inalámbricas">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9436,7 +9491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-902">
+	<span id="item-907">
 		<a href="http://tracking.feedpress.it/link/14730/7427597/Programa_000.mp3" title="#CN000 – Presentación del podcast Cultura NAS">
 			<span class="isplaying"></span>
 			<span class="logo culturanas"></span>
@@ -9446,7 +9501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-903">
+	<span id="item-908">
 		<a href="http://api.spreaker.com/download/episode/7633821/podcast64.mp3" title="64. Proyectos curiosos con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9456,7 +9511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-904">
+	<span id="item-909">
 		<a href="http://api.spreaker.com/download/episode/7583852/podcast63.mp3" title="63. Programación visual con Arduino, Scratch y Snap!">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9466,7 +9521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-905">
+	<span id="item-910">
 		<a href="http://api.spreaker.com/download/episode/7535262/podcast62.mp3" title="62. Domótica y edificios inteligentes">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9476,7 +9531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-906">
+	<span id="item-911">
 		<a href="http://api.spreaker.com/download/episode/7447958/podcast61.mp3" title="61. Arduino y los dispositivos del IoT">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9486,7 +9541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-907">
+	<span id="item-912">
 		<a href="http://api.spreaker.com/download/episode/7408228/podcast60.mp3" title="60. Raspberry Pi en modo didáctico con Pitando Podcast">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9496,7 +9551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-908">
+	<span id="item-913">
 		<a href="http://api.spreaker.com/download/episode/7363692/podcast59.mp3" title="59. Qué son los servicios web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9506,7 +9561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-909">
+	<span id="item-914">
 		<a href="http://podcast.edyo.es/podcast/edyo-15.mp3" title="Edyo 15 - Eventos y noticias de Diciembre">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -9516,7 +9571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-910">
+	<span id="item-915">
 		<a href="http://api.spreaker.com/download/episode/7312952/podcast58.mp3" title="58. Cómo destruir Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9526,7 +9581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-911">
+	<span id="item-916">
 		<a href="http://api.spreaker.com/download/episode/7267120/podcast57.mp3" title="57. Kit de supervivencia Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9536,7 +9591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-912">
+	<span id="item-917">
 		<a href="http://api.spreaker.com/download/episode/7219757/podcast56.mp3" title="56. De la idea al producto, fases de creación del software">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9546,7 +9601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-913">
+	<span id="item-918">
 		<a href="http://api.spreaker.com/download/episode/7172296/podcast55.mp3" title="55. Isabel Cabezas, Evangelista Técnico de Microsoft">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9556,7 +9611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-914">
+	<span id="item-919">
 		<a href="http://api.spreaker.com/download/episode/7115805/podcast54.mp3" title="54. Web, móvil y desktop, un IDE para gobernarlos a todos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9566,7 +9621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-915">
+	<span id="item-920">
 		<a href="http://api.spreaker.com/download/episode/7029030/podcast53.mp3" title="53. Resultados de la encuesta y ganador del sorteo">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9576,7 +9631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-916">
+	<span id="item-921">
 		<a href="http://api.spreaker.com/download/episode/6913772/podcast52.mp3" title="52. Bower, gestor de paquetes para el desarrollo web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9586,7 +9641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-917">
+	<span id="item-922">
 		<a href="http://api.spreaker.com/download/episode/6871482/podcast51.mp3" title="51. Qué es Bootstrap">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9596,7 +9651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-918">
+	<span id="item-923">
 		<a href="http://api.spreaker.com/download/episode/6822692/podcast50.mp3" title="50. Sonar con Visual Studio y Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9606,7 +9661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-919">
+	<span id="item-924">
 		<a href="http://www.ivoox.com/01x07-akademy-es-2015_mf_8799280_feed_1.mp3" title="01x07 Akademy-es 2015">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -9616,7 +9671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-920">
+	<span id="item-925">
 		<a href="http://api.spreaker.com/download/episode/6744906/podcast49.mp3" title="49. Ultrasonidos y servos con Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9626,7 +9681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-921">
+	<span id="item-926">
 		<a href="http://www.ivoox.com/01x06-aplicaciones-kde_mf_8783145_feed_1.mp3" title="01X06 Aplicaciones KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -9636,7 +9691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-922">
+	<span id="item-927">
 		<a href="http://podcast.edyo.es/podcast/edyo-14.mp3" title="Edyo 14 - Eventos, Entrevista post EuroPython y Python San Sebastián">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -9646,7 +9701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-923">
+	<span id="item-928">
 		<a href="http://www.ivoox.com/01x05-blogs-sobre-kde-software-libre-en_mf_8765003_feed_1.mp3" title="01x05 Blogs sobre KDE y Software Libre en general">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -9656,7 +9711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-924">
+	<span id="item-929">
 		<a href="http://www.ivoox.com/01x04-como-iniciar-proyectos-kde_mf_8751812_feed_1.mp3" title="01x04 Como iniciar proyectos KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -9666,7 +9721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-925">
+	<span id="item-930">
 		<a href="http://www.ivoox.com/01x03-los-eventos-comunidad-kde_mf_8750923_feed_1.mp3" title="01x03 Los eventos de la Comunidad KDE">
 			<span class="isplaying"></span>
 			<span class="logo podcastdekdeespaña"></span>
@@ -9676,7 +9731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-926">
+	<span id="item-931">
 		<a href="http://api.spreaker.com/download/episode/6696817/podcast48.mp3" title="48. Sensor de  temperatura en Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9686,7 +9741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-927">
+	<span id="item-932">
 		<a href="http://api.spreaker.com/download/episode/6655920/podcast47.mp3" title="47. Raspberry Pi como servidor web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9696,7 +9751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-928">
+	<span id="item-933">
 		<a href="http://api.spreaker.com/download/episode/6621714/podcast46.mp3" title="46. Experiencias de un programador con D. Freniche">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9706,7 +9761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-929">
+	<span id="item-934">
 		<a href="http://api.spreaker.com/download/episode/6590148/podcast45.mp3" title="45. Aprender a programar">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9716,7 +9771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-930">
+	<span id="item-935">
 		<a href="http://api.spreaker.com/download/episode/6568642/podcast44.mp3" title="44. Tratamiento de imágenes con JavaScript">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9726,7 +9781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-931">
+	<span id="item-936">
 		<a href="http://api.spreaker.com/download/episode/6535240/podcast43.mp3" title="43. Introducción a jQuery (Parte 2)">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9736,7 +9791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-932">
+	<span id="item-937">
 		<a href="http://api.spreaker.com/download/episode/6505114/podcast42.mp3" title="42. Introducción a jQuery (parte 1)">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9746,7 +9801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-933">
+	<span id="item-938">
 		<a href="http://podcast.edyo.es/podcast/edyo-13.mp3" title="Edyo 13 - Eventos, Noticias y Varios">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -9756,7 +9811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-934">
+	<span id="item-939">
 		<a href="http://api.spreaker.com/download/episode/6477001/podcast41.mp3" title="41. Dudas sobre podcasting">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9766,7 +9821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-935">
+	<span id="item-940">
 		<a href="http://api.spreaker.com/download/episode/6448265/podcast40.mp3" title="40. Raspberry Pi como centro multimedia">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9776,7 +9831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-936">
+	<span id="item-941">
 		<a href="http://api.spreaker.com/download/episode/6422391/podcast39.mp3" title="39. Windows 10 para Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9786,7 +9841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-937">
+	<span id="item-942">
 		<a href="http://api.spreaker.com/download/episode/6407093/podcast38.mp3" title="38. Visual Studio 2015, bienvenido">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9796,7 +9851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-938">
+	<span id="item-943">
 		<a href="http://api.spreaker.com/download/episode/6390000/podcast37.mp3" title="37. Raspberry Pi como servidor">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9806,7 +9861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-939">
+	<span id="item-944">
 		<a href="http://api.spreaker.com/download/episode/6375873/podcast36.mp3" title="36. Cómo elegir el entorno de desarrollo">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9816,7 +9871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-940">
+	<span id="item-945">
 		<a href="http://api.spreaker.com/download/episode/6358147/podcast35.mp3" title="35.Conceptos básicos electrónica Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9826,7 +9881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-941">
+	<span id="item-946">
 		<a href="http://api.spreaker.com/download/episode/6344443/podcast34.mp3" title="34. Ranking de frameworks de JavaScript">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9836,7 +9891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-942">
+	<span id="item-947">
 		<a href="http://api.spreaker.com/download/episode/6327734/podcast33.mp3" title="33. Tipos de datos básicos en Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9846,7 +9901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-943">
+	<span id="item-948">
 		<a href="http://api.spreaker.com/download/episode/6314258/podcast32.mp3" title="32. Desarrollo web con JavaScript">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9856,7 +9911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-944">
+	<span id="item-949">
 		<a href="http://api.spreaker.com/download/episode/6297337/podcast31.mp3" title="31. API de Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9866,7 +9921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-945">
+	<span id="item-950">
 		<a href="http://api.spreaker.com/download/episode/6283178/capitulo30.mp3" title="30. Introducción a Raspberry Pi">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9876,7 +9931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-946">
+	<span id="item-951">
 		<a href="http://api.spreaker.com/download/episode/6265460/capitulo29.mp3" title="29. Desarrollo web con CSS3">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9886,7 +9941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-947">
+	<span id="item-952">
 		<a href="http://api.spreaker.com/download/episode/6251180/capitulo28.mp3" title="28. Entorno de desarrollo de Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9896,7 +9951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-948">
+	<span id="item-953">
 		<a href="http://api.spreaker.com/download/episode/6233711/capitulo27.mp3" title="27. Desarrollo web con HTML5">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9906,7 +9961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-949">
+	<span id="item-954">
 		<a href="http://api.spreaker.com/download/episode/6218231/capitulo26.mp3" title="26. Arduino entradas y salidas">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9916,7 +9971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-950">
+	<span id="item-955">
 		<a href="http://api.spreaker.com/download/episode/6199870/capitulo25.mp3" title="25. Proyecto Arduino y desarrollo web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9926,7 +9981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-951">
+	<span id="item-956">
 		<a href="http://api.spreaker.com/download/episode/6185070/podcast24.mp3" title="24. Ciberseguridad con Josep Albors de E">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9936,7 +9991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-952">
+	<span id="item-957">
 		<a href="http://api.spreaker.com/download/episode/6166362/capitulo23.mp3" title="23. Charla con El Guille parte 2">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9946,7 +10001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-953">
+	<span id="item-958">
 		<a href="http://api.spreaker.com/download/episode/6151569/capitulo22.mp3" title="22. Charla con El Guille parte 1">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9956,7 +10011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-954">
+	<span id="item-959">
 		<a href="http://api.spreaker.com/download/episode/6131735/podcast21.mp3" title="21. Introducción al Arduino">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9966,7 +10021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-955">
+	<span id="item-960">
 		<a href="http://api.spreaker.com/download/episode/6117666/capitulo20.mp3" title="20. Crear aplicaciones con WPF">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9976,7 +10031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-956">
+	<span id="item-961">
 		<a href="http://api.spreaker.com/download/episode/6099522/capitulo19.mp3" title="19. Patrón Modelo Vista Controlador">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9986,7 +10041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-957">
+	<span id="item-962">
 		<a href="http://api.spreaker.com/download/episode/6090959/capitulo18.mp3" title="18. Realidad aumentada">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -9996,7 +10051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-958">
+	<span id="item-963">
 		<a href="http://api.spreaker.com/download/episode/6066610/podcast17.mp3" title="17. Whatsapp en entorno web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10006,7 +10061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-959">
+	<span id="item-964">
 		<a href="http://api.spreaker.com/download/episode/6052770/podcast16.mp3" title="16. Alerta virus CryptoLocker">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10016,7 +10071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-960">
+	<span id="item-965">
 		<a href="http://api.spreaker.com/download/episode/6035013/podcast15.mp3" title="15. Cómo funciona un sitio web">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10026,7 +10081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-961">
+	<span id="item-966">
 		<a href="http://api.spreaker.com/download/episode/6019448/podcast14.mp3" title="14.Qué es un podcast y cómo podemos crea">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10036,7 +10091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-962">
+	<span id="item-967">
 		<a href="http://api.spreaker.com/download/episode/6001587/podcast13.mp3" title="13. Megapíxeles: una verdad a medias">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10046,7 +10101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-963">
+	<span id="item-968">
 		<a href="http://api.spreaker.com/download/episode/5986608/podcast12.mp3" title="12. Navegador Chrome de Google">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10056,7 +10111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-964">
+	<span id="item-969">
 		<a href="http://api.spreaker.com/download/episode/5964839/podcast11.mp3" title="11. El Internet de las cosas">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10066,7 +10121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-965">
+	<span id="item-970">
 		<a href="http://api.spreaker.com/download/episode/5952287/podcast10.mp3" title="10. Como afecta el Big Data a nuestras v">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10076,7 +10131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-966">
+	<span id="item-971">
 		<a href="http://api.spreaker.com/download/episode/5938385/podcast09.mp3" title="9. Desarrollar aplicaciones con Visual S">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10086,7 +10141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-967">
+	<span id="item-972">
 		<a href="http://api.spreaker.com/download/episode/5928158/podcast08.mp3" title="8. Una herramienta indispensable, Google">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10096,7 +10151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-968">
+	<span id="item-973">
 		<a href="http://api.spreaker.com/download/episode/5916092/podcast07.mp3" title="7. Android Studio para desarrollar aplic">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10106,7 +10161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-969">
+	<span id="item-974">
 		<a href="http://podcast.edyo.es/podcast/edyo-12.mp3" title="Edyo 12 - Entrevista EuroPython 2015">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10116,7 +10171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-970">
+	<span id="item-975">
 		<a href="http://api.spreaker.com/download/episode/5896346/podcast06.mp3" title="6. Batiburrillo tecnológico">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10126,7 +10181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-971">
+	<span id="item-976">
 		<a href="http://api.spreaker.com/download/episode/5880922/podcast05.mp3" title="5. Montar un servidor web en casa">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10136,7 +10191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-972">
+	<span id="item-977">
 		<a href="http://api.spreaker.com/download/episode/5867578/podcast04.mp3" title="4. El desfragmentador de disco duro">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10146,7 +10201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-973">
+	<span id="item-978">
 		<a href="http://api.spreaker.com/download/episode/5852051/podcast03.mp3" title="3. Iniciarse en la programación">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10156,7 +10211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-974">
+	<span id="item-979">
 		<a href="http://api.spreaker.com/download/episode/5834311/podcast02.mp3" title="2. Qué es un driver">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10166,7 +10221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-975">
+	<span id="item-980">
 		<a href="http://api.spreaker.com/download/episode/5819108/capitulo01.mp3" title="1. Comenzamos La Tecnología Para Todos">
 			<span class="isplaying"></span>
 			<span class="logo latecnologíaparatodos"></span>
@@ -10176,7 +10231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-976">
+	<span id="item-981">
 		<a href="http://podcast.edyo.es/podcast/edyo-11.mp3" title="Edyo 11 - Cursos SCRUM, GHOST y FOSDEM">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10186,7 +10241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-977">
+	<span id="item-982">
 		<a href="http://podcast.edyo.es/podcast/edyo-10.mp3" title="Edyo 10 - Eventos, EuroPython y FOSDEM">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10196,7 +10251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-978">
+	<span id="item-983">
 		<a href="http://podcast.edyo.es/podcast/edyo-9.mp3" title="Edyo 9 - Conferencias y Microservicios">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10206,7 +10261,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-979">
+	<span id="item-984">
 		<a href="http://podcast.edyo.es/podcast/edyo-8.mp3" title="Edyo 8 - Debatimos sobre Shellshock, Heartbleed y Poodle">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10216,7 +10271,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-980">
+	<span id="item-985">
 		<a href="http://podcast.edyo.es/podcast/edyo-7.mp3" title="Edyo 7 - Entrevista a Josep Pla">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10226,7 +10281,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-981">
+	<span id="item-986">
 		<a href="http://podcast.edyo.es/podcast/edyo-6.mp3" title="Edyo 6 - Entrevista a David Poblador">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10236,7 +10291,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-982">
+	<span id="item-987">
 		<a href="http://podcast.edyo.es/podcast/edyo-5.mp3" title="Edyo 5 - Entrevista a Daniel Aresté">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10246,7 +10301,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-983">
+	<span id="item-988">
 		<a href="http://podcast.edyo.es/podcast/edyo-4.mp3" title="Edyo 4 - Heartbleed">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10256,7 +10311,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-984">
+	<span id="item-989">
 		<a href="http://podcast.edyo.es/podcast/edyo-3.mp3" title="Edyo 3 - Entrevista a Jasiek, QA en Ebay">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10266,7 +10321,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-985">
+	<span id="item-990">
 		<a href="http://podcast.edyo.es/podcast/edyo-2.mp3" title="Edyo 2 - Creando una cultura de DevOps">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10276,7 +10331,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-986">
+	<span id="item-991">
 		<a href="http://www.ivoox.com/daboblog-podcast-kernel-panic-n-43-hacking-y_mf_2803627_feed_1.mp3" title="DaboBlog Podcast. 'Kernel Panic' nº 43. Hacking y GNU / Linux con Yago Jesús">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10286,7 +10341,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-987">
+	<span id="item-992">
 		<a href="http://podcast.edyo.es/podcast/edyo-1.mp3" title="Edyo 1 - Primer commit">
 			<span class="isplaying"></span>
 			<span class="logo entredevyopspodcast"></span>
@@ -10296,7 +10351,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-988">
+	<span id="item-993">
 		<a href="http://www.ivoox.com/daboblog-podcast-kernel-panic-n-42-gnu_mf_2674894_feed_1.mp3" title="DaboBlog Podcast. 'Kernel Panic' nº 42. GNU / Linux y Software Libre">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10306,7 +10361,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-989">
+	<span id="item-994">
 		<a href="http://www.ivoox.com/daboblog-podcast-kernel-panic-n-41_mf_2579206_feed_1.mp3" title="DaboBlog Podcast. 'Kernel Panic' nº 41.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10316,7 +10371,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-990">
+	<span id="item-995">
 		<a href="http://www.ivoox.com/daboblog-podcast-kernel-panic-n-40_mf_2522120_feed_1.mp3" title="DaboBlog Podcast. 'Kernel Panic' nº 40.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10326,7 +10381,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-991">
+	<span id="item-996">
 		<a href="http://www.ivoox.com/daboblog-podcast-especial-lanzamiento-eninternet-es-por-forat_mf_1768991_feed_1.mp3" title="DaboBlog Podcast. Especial lanzamiento 'eninternet.es' (por Forat)">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10336,7 +10391,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-992">
+	<span id="item-997">
 		<a href="http://www.ivoox.com/daboblog-podcast-feliz-2013_mf_1679594_feed_1.mp3" title="DaboBlog Podcast. Feliz 2013 !!!">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10346,7 +10401,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-993">
+	<span id="item-998">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-39-kernel-panic-manzanas-traigo_mf_1667417_feed_1.mp3" title="DaboBlog Podcast nº39. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10356,7 +10411,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-994">
+	<span id="item-999">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-38-kernel-panic-manzanas-traigo_mf_1562229_feed_1.mp3" title="DaboBlog Podcast nº38. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10366,7 +10421,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-995">
+	<span id="item-1000">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-37-kernel-panic-manzanas-traigo_mf_1522771_feed_1.mp3" title="DaboBlog Podcast nº37. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10376,7 +10431,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-996">
+	<span id="item-1001">
 		<a href="http://www.ivoox.com/daboblog-podcast-kernel-panic-especial-fluxbox_mf_1367785_feed_1.mp3" title="DaboBlog Podcast. 'Kernel Panic' especial Fluxbox">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10386,7 +10441,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-997">
+	<span id="item-1002">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-36-manzanas-traigo-wwdc_mf_1291005_feed_1.mp3" title="DaboBlog Podcast nº36. (Manzanas Traigo WWDC)">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10396,7 +10451,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-998">
+	<span id="item-1003">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-36-kernel-panic-prox-manzanas_mf_1265188_feed_1.mp3" title="DaboBlog Podcast nº36. 'Kernel Panic' (Próx 'Manzanas)">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10406,7 +10461,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-999">
+	<span id="item-1004">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-35-kernel-panic-manzanas-traigo_mf_1147254_feed_1.mp3" title="DaboBlog Podcast nº35. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10416,7 +10471,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1000">
+	<span id="item-1005">
 		<a href="http://www.ivoox.com/daboblog-podcast-especial-fin-ano-2011_mf_972013_feed_1.mp3" title="DaboBlog Podcast. Especial fin de año 2011">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10426,7 +10481,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1001">
+	<span id="item-1006">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-34-kernel-panic-manzanas-traigo_mf_961747_feed_1.mp3" title="DaboBlog Podcast nº34. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10436,7 +10491,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1002">
+	<span id="item-1007">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-33-kernel-panic-manzanas-traigo_mf_898481_feed_1.mp3" title="DaboBlog Podcast nº33. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10446,7 +10501,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1003">
+	<span id="item-1008">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-32-kernel-panic-manzanas-traigo_mf_828844_feed_1.mp3" title="DaboBlog Podcast nº32. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10456,7 +10511,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1004">
+	<span id="item-1009">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-31-kernel-panic-manzanas-traigo_mf_799855_feed_1.mp3" title="DaboBlog Podcast nº31. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10466,7 +10521,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1005">
+	<span id="item-1010">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-30-kernel-panic-manzanas-traigo_mf_764549_feed_1.mp3" title="DaboBlog Podcast nº30. 'Kernel Panic' y 'Manzanas Traigo'.">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10476,7 +10531,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1006">
+	<span id="item-1011">
 		<a href="http://www.ivoox.com/daboblog-podcast-n-29-kernel-panic-manzanas-traigo_mf_729491_feed_1.mp3" title="DaboBlog Podcast nº29. 'Kernel Panic' y 'Manzanas Traigo'">
 			<span class="isplaying"></span>
 			<span class="logo daboblogpodcast"></span>
@@ -10486,7 +10541,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1007">
+	<span id="item-1012">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Z4VutroILog/mp3.mp3" title="on172 regresando">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10496,7 +10551,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1008">
+	<span id="item-1013">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Yx9D7XZPURU/mp3.mp3" title="Episode 171 - ON171 entrevista oesopen, cuide su privacidad">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10506,7 +10561,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1009">
+	<span id="item-1014">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/CrTA3sSVxxo/mp3.mp3" title="Episode 170 - ON 170 todos usan linux, hasta los que se portan mal">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10516,7 +10571,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1010">
+	<span id="item-1015">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/0n4j5Agx0GI/mp3.mp3" title="Episode 169 - ON 169 ya en 2011, pymes, asesorías, huerfanos">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10526,7 +10581,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1011">
+	<span id="item-1016">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/nT1a8Lg2KWs/mp3.mp3" title="Episode 168 - ON 168 Felices fiestas, nos vemos en el 2011">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10536,7 +10591,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1012">
+	<span id="item-1017">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/IpzvEu263pM/mp3.mp3" title="Episode 167 - ON 167 Noticias de Emergencia.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10546,7 +10601,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1013">
+	<span id="item-1018">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/QlJaHvaleLM/mp3.mp3" title="Episode 166 - ON 166 Ubuntudf, software, correo.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10556,7 +10611,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1014">
+	<span id="item-1019">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/MK8mWHzhttM/mp3.mp3" title="Episode 165 - ON 165 somos tan vulnerables.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10566,7 +10621,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1015">
+	<span id="item-1020">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/iRIC9WmK1T8/mp3.mp3" title="4ce6bf9679793">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10576,7 +10631,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1016">
+	<span id="item-1021">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/AZctbQvSCSo/mp3.mp3" title="Episode 163 - ON 163 Linux en la ciencia, programe usted SL, niños Debian">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10586,7 +10641,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1017">
+	<span id="item-1022">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/NZETlU2bfGI/mp3.mp3" title="ON162 embellece tu Ubuntu 10.10, radio comercial agoniza">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10596,7 +10651,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1018">
+	<span id="item-1023">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/1LM3ePJOu80/mp3.mp3" title="Episode 161 - ON 161 habladuri­as corporativas, entrevista 2 con Allen Zapien.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10606,7 +10661,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1019">
+	<span id="item-1024">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/1r5wOOdLkPU/mp3.mp3" title="4cac7d21b34ee">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10616,7 +10671,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1020">
+	<span id="item-1025">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/cEji1guQWew/mp3.mp3" title="Episode 159 - ON 159 defendiendo el uso del SL">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10626,7 +10681,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1021">
+	<span id="item-1026">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/tuB-Ppuu1iE/mp3.mp3" title="4c8faaca035e2">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10636,7 +10691,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1022">
+	<span id="item-1027">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/FZV7xoXZjXY/mp3.mp3" title="4c812d51dff58">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10646,7 +10701,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1023">
+	<span id="item-1028">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/pqnVtXUgTE0/mp3.mp3" title="ON 156 Nuevo Inkscape, fin del 5to aniversario">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10656,7 +10711,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1024">
+	<span id="item-1029">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/c7i1sBWW4f4/mp3.mp3" title="Episode 155 - ON 155 Integradores gandallas, plática con Armando Muciño">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10666,7 +10721,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1025">
+	<span id="item-1030">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/js5ucKHk8mE/mp3.mp3" title="Episode 154 - ON 154 Plática con Allen Zapien, parte 1">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10676,7 +10731,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1026">
+	<span id="item-1031">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/bMxSxXN5nEU/mp3.mp3" title="Episode 153 - ON 153 GPL gana demanda, antología de LiveCDs">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10686,7 +10741,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1027">
+	<span id="item-1032">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/6rwdTY1Uhlc/mp3.mp3" title="Episode 152 - ON 152 nubes, FF4beta, Nokia N900">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10696,7 +10751,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1028">
+	<span id="item-1033">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/64WU61qpSxc/mp3.mp3" title="ON 151 - Software para Empresas">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10706,7 +10761,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1029">
+	<span id="item-1034">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/NvOsD4wmRFU/mp3.mp3" title="ON 150 expresate, con videos, screencast, audio">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10716,7 +10771,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1030">
+	<span id="item-1035">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/KSGZds8hSb0/mp3.mp3" title="ON 149 Vulnerabilidad irreal ("Unreal" vulnerabilty)">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10726,7 +10781,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1031">
+	<span id="item-1036">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/X3DL4INNkqA/mp3.mp3" title="ON 148 recuperando la lomita">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10736,7 +10791,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1032">
+	<span id="item-1037">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/VUbN2PdP_VA/mp3.mp3" title="ON 147 correo de mis amigos">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10746,7 +10801,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1033">
+	<span id="item-1038">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/uEF9NIG2d_s/mp3.mp3" title="ON 146 ¿radio-ON? fácil su propia estación con software libre.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10756,7 +10811,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1034">
+	<span id="item-1039">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/6vhOPJBWbd4/mp3.mp3" title="ON 145 diseñando el futuro">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10766,7 +10821,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1035">
+	<span id="item-1040">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/2uYFRUd3k80/mp3.mp3" title="ON 144 Twitísimo">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10776,7 +10831,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1036">
+	<span id="item-1041">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/bRSmd3xNRec/mp3.mp3" title="ON 143 organizado, apretujado, corporatizado">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10786,7 +10841,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1037">
+	<span id="item-1042">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/EZrdFPMBRtI/mp3.mp3" title="ON 142 nuevo horario, masoquistas, sea legal – use linux">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10796,7 +10851,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1038">
+	<span id="item-1043">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Y3Jr6tvoQ1k/mp3.mp3" title="ON 141 Hadrones bajo GNU/Linux, ¡seamos libres! ¿chicas TUX?">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10806,7 +10861,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1039">
+	<span id="item-1044">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/0JDpxky_5Uc/mp3.mp3" title="ON140 Zen, Tron, Iron">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10816,7 +10871,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1040">
+	<span id="item-1045">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/tjX9xkcHcEw/mp3.mp3" title="ON 139 Dialogo VoIP con Ebert">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10826,7 +10881,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1041">
+	<span id="item-1046">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/uGYLTQc-n2o/mp3.mp3" title="ON 138 ¿criminales nosotros?, ¿queremos flash? seamos albañiles">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10836,7 +10891,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1042">
+	<span id="item-1047">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/FUQeKeI4pt8/mp3.mp3" title="ON136 testiomonio de éxito con software libre">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10846,7 +10901,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1043">
+	<span id="item-1048">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/igzVYbKPpAU/mp3.mp3" title="ON 135 haciendo las cosas, producir TV en linux">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10856,7 +10911,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1044">
+	<span id="item-1049">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/ktLRR_u-Vqk/mp3.mp3" title="ON 134 el fin de la red IPv4 cantada, FLAC a mp3, minitube">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10866,7 +10921,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1045">
+	<span id="item-1050">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/u2NzIY3eg-A/mp3.mp3" title="ON 133 ¿Como seria la vida sin Windows?">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10876,7 +10931,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1046">
+	<span id="item-1051">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/tNmUGTt7vag/mp3.mp3" title="ON 132 audiocorreo, linux vs mac, Avatar y su infoporn">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10886,7 +10941,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1047">
+	<span id="item-1052">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/9z7ijgCqfOE/mp3.mp3" title="ON 131 de archivos, wallpapers, medios, ipods, y HD, sin ir al "CES"">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10896,7 +10951,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1048">
+	<span id="item-1053">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/aj-ZBYWVmM8/mp3.mp3" title="ON 130 ¿2010? y yo que no acabe con el 2009">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10906,7 +10961,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1049">
+	<span id="item-1054">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Y5EnGfO8mqY/mp3.mp3" title="on129 Gente honesta">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10916,7 +10971,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1050">
+	<span id="item-1055">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/uSF-8g-dT0s/mp3.mp3" title="ON 128 nuevo flash, chrome, lubuntu, pegotes">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10926,7 +10981,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1051">
+	<span id="item-1056">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/STh0Nr0LEfs/mp3.mp3" title="ON 118 CODIGO, unos lo abren, otros no.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10936,7 +10991,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1052">
+	<span id="item-1057">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Y8O5DMCnovQ/mp3.mp3" title="ON 116 Ligue chicas geek, Google Wave, Linux en la Casa Blanca">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10946,7 +11001,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1053">
+	<span id="item-1058">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/_noB7rUS4VU/mp3.mp3" title="ON 114 elige tu distribución, sube fotos, apaga el monitor">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10956,7 +11011,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1054">
+	<span id="item-1059">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/OnSbiLnTNBE/mp3.mp3" title="ON 112 "la nube" es borrascosa, Linux en mas Gobiernos del mundo.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10966,7 +11021,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1055">
+	<span id="item-1060">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/m8e0KeArk-8/mp3.mp3" title="ON111 Juegos, Mediateca, Escritorios, Tips en Linux">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10976,7 +11031,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1056">
+	<span id="item-1061">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/hd0lH3QHGyw/mp3.mp3" title="ON110 Mitin para hackear, el hacker no es malo, los medios lo pintan asi">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10986,7 +11041,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1057">
+	<span id="item-1062">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/1XBd_s5vNBo/mp3.mp3" title="ON 109 competencia desleal, abusos a licencia GNU-LGPL de FFMPEG">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -10996,7 +11051,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1058">
+	<span id="item-1063">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/_ZjrYQmuIDo/mp3.mp3" title="ON 108 inocentes maquinas, dia de la libertad en el software">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11006,7 +11061,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1059">
+	<span id="item-1064">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/JUbOecNZ0m4/mp3.mp3" title="ON 107 mapa de gurús, hardware bajo linux">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11016,7 +11071,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1060">
+	<span id="item-1065">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/qo9dzbh2jHo/mp3.mp3" title="ON 106 Correo de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11026,7 +11081,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1061">
+	<span id="item-1066">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/XI7bHQLKTwQ/mp3.mp3" title="ON 105 Yoo no me preocupo, 5 distros para netbooks">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11036,7 +11091,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1062">
+	<span id="item-1067">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/mBbyx8g-_y0/mp3.mp3" title="ON 104 ACABANDO CON NEÓFITOS">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11046,7 +11101,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1063">
+	<span id="item-1068">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/CPGbFF6ZMFc/mp3.mp3" title="ON 103 PYME LIBRE, cifrado de archivos, correo de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11056,7 +11111,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1064">
+	<span id="item-1069">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/R-JRFC5m4jo/mp3.mp3" title="ON 102 Linux para PYME, créditos TUX">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11066,7 +11121,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1065">
+	<span id="item-1070">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/6Leuiy93_To/mp3.mp3" title="ON 101 regreso de vacaciones">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11076,7 +11131,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1066">
+	<span id="item-1071">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/iq-Zqhr6xPE/mp3.mp3" title="ON 100 un logro, antesala para lo que vendrá">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11086,7 +11141,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1067">
+	<span id="item-1072">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/dFg9Uhxhv84/mp3.mp3" title="ON 99 Correo de oyentes">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11096,7 +11151,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1068">
+	<span id="item-1073">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/CmwDTWCWkMc/mp3.mp3" title="ON 98 Internet Satelital">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11106,7 +11161,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1069">
+	<span id="item-1074">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/AAUaZO47GRY/mp3.mp3" title="ON 97 Buscando la iluminación, de la que ilumina y también espiritual">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11116,7 +11171,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1070">
+	<span id="item-1075">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/KVrj0esPXG0/mp3.mp3" title="ON 96 Correo de oyentes y un amable reclamo">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11126,7 +11181,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1071">
+	<span id="item-1076">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/-YfWkFjbfZc/mp3.mp3" title="ON 95 Ubuntu 9.04 nos gusta mucho.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11136,7 +11191,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1072">
+	<span id="item-1077">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/bdrszL6ytVU/mp3.mp3" title="ON 94 mi centro espacial personal, vuelve la relledona, Nokia E71 y 5800">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11146,7 +11201,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1073">
+	<span id="item-1078">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/Z21fd2F8W9Y/mp3.mp3" title="ON 93 Protegiendonos de los "otros" virus, quitate las pilas">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11156,7 +11211,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1074">
+	<span id="item-1079">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/sEl2LXk5grM/mp3.mp3" title="ON 92 Virus ineficiente, Tecnologia ineficiente">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11166,7 +11221,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1075">
+	<span id="item-1080">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/YYdP0vPhTvI/mp3.mp3" title="Contingencia Viral">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11176,7 +11231,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1076">
+	<span id="item-1081">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/IpEygRuBQiQ/mp3.mp3" title="ON 91 Venus y Luna, Otro caso de éxito usando Linux">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11186,7 +11241,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1077">
+	<span id="item-1082">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/-Ds26oWlEJw/mp3.mp3" title="ON 90">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
@@ -11196,7 +11251,7 @@
 	</span>
 </li>
 <li>
-	<span id="item-1078">
+	<span id="item-1083">
 		<a href="http://feedproxy.google.com/~r/OdaibaNet/~5/m57IpNeHOaQ/mp3.mp3" title="ON 89 semana de reflexión, y Alta Definición">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>

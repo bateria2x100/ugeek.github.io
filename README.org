@@ -1,2 +1,2 @@
 * Blog del Podcast de uGeek
-[[ugeek.github.io][https://ugeek.github.io]]
+[[https://ugeek.github.io][ugeek.github.io]]

@@ -277,11 +277,11 @@
 </li>
 <li>
 	<span id="item-17">
-		<a href="#" data-media="http://www.ivoox.com/88-ciclo-4-aprender-a-ser-consciente-antes_mf_22694061_feed_1.mp3" title="88. Ciclo #4: Aprender a ser consciente antes de... "Estar con la familia" (Ejer. Mindfulness)">
+		<a href="#" data-media="http://www.ivoox.com/88-ciclo-4-aprender-a-ser-consciente-antes_mf_22694061_feed_1.mp3" title="88. Ciclo #4: Aprender a ser consciente antes de... 'Estar con la familia' (Ejer. Mindfulness)">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">88. Ciclo #4: Aprender a ser consciente antes de... "Estar con la familia" (Ejer. Mindfulness)</span>
+			<span class="track">88. Ciclo #4: Aprender a ser consciente antes de... 'Estar con la familia' (Ejer. Mindfulness)</span>
 		</a>
 	</span>
 </li>
@@ -3097,11 +3097,11 @@
 </li>
 <li>
 	<span id="item-299">
-		<a href="#" data-media="http://www.ivoox.com/68-ciclo-3-aprender-atencion-consciente-basico_mf_21407167_feed_1.mp3" title="68. Ciclo: #3. Aprender Atención consciente Básico: “Observar el cuerpo"">
+		<a href="#" data-media="http://www.ivoox.com/68-ciclo-3-aprender-atencion-consciente-basico_mf_21407167_feed_1.mp3" title="68. Ciclo: #3. Aprender Atención consciente Básico: “Observar el cuerpo'">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">68. Ciclo: #3. Aprender Atención consciente Básico: “Observar el cuerpo"</span>
+			<span class="track">68. Ciclo: #3. Aprender Atención consciente Básico: “Observar el cuerpo'</span>
 		</a>
 	</span>
 </li>
@@ -4777,11 +4777,11 @@
 </li>
 <li>
 	<span id="item-467">
-		<a href="#" data-media="http://www.ivoox.com/50-ciclo-4-ejercicio-mindfulness-para-dia_mf_20201986_feed_1.mp3" title="50. Ciclo: #4. Ejercicio Mindfulness para el día a día. "Las Llaves"">
+		<a href="#" data-media="http://www.ivoox.com/50-ciclo-4-ejercicio-mindfulness-para-dia_mf_20201986_feed_1.mp3" title="50. Ciclo: #4. Ejercicio Mindfulness para el día a día. 'Las Llaves'">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">50. Ciclo: #4. Ejercicio Mindfulness para el día a día. "Las Llaves"</span>
+			<span class="track">50. Ciclo: #4. Ejercicio Mindfulness para el día a día. 'Las Llaves'</span>
 		</a>
 	</span>
 </li>
@@ -4947,11 +4947,11 @@
 </li>
 <li>
 	<span id="item-484">
-		<a href="#" data-media="http://www.ivoox.com/48-ciclo-3-ejercicio-mindfulness-para-dia_mf_20127558_feed_1.mp3" title="48. Ciclo: #3. Ejercicio Mindfulness para el día a día. "comer y beber"">
+		<a href="#" data-media="http://www.ivoox.com/48-ciclo-3-ejercicio-mindfulness-para-dia_mf_20127558_feed_1.mp3" title="48. Ciclo: #3. Ejercicio Mindfulness para el día a día. 'comer y beber'">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">48. Ciclo: #3. Ejercicio Mindfulness para el día a día. "comer y beber"</span>
+			<span class="track">48. Ciclo: #3. Ejercicio Mindfulness para el día a día. 'comer y beber'</span>
 		</a>
 	</span>
 </li>
@@ -5187,11 +5187,11 @@
 </li>
 <li>
 	<span id="item-508">
-		<a href="#" data-media="http://www.ivoox.com/44-ciclo-ejercicio-mindfulness-para-dia_mf_19894450_feed_1.mp3" title="44. Ciclo: Ejercicio Mindfulness para el día a día. #1 "Escucho mi nombre"">
+		<a href="#" data-media="http://www.ivoox.com/44-ciclo-ejercicio-mindfulness-para-dia_mf_19894450_feed_1.mp3" title="44. Ciclo: Ejercicio Mindfulness para el día a día. #1 'Escucho mi nombre'">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">44. Ciclo: Ejercicio Mindfulness para el día a día. #1 "Escucho mi nombre"</span>
+			<span class="track">44. Ciclo: Ejercicio Mindfulness para el día a día. #1 'Escucho mi nombre'</span>
 		</a>
 	</span>
 </li>
@@ -8327,11 +8327,11 @@
 </li>
 <li>
 	<span id="item-822">
-		<a href="#" data-media="http://www.ivoox.com/13-meditar-es-no-hacer-nada-o-ser_mf_17846055_feed_1.mp3" title="13. ¿Meditar es "no hacer nada", o ser pasivo cuando nos ocurre algo?">
+		<a href="#" data-media="http://www.ivoox.com/13-meditar-es-no-hacer-nada-o-ser_mf_17846055_feed_1.mp3" title="13. ¿Meditar es 'no hacer nada', o ser pasivo cuando nos ocurre algo?">
 			<span class="isplaying"></span>
 			<span class="logo meditaciononlineymindfulness"></span>
 			<span class="podcast">Meditacion Online y Mindfulness</span>
-			<span class="track">13. ¿Meditar es "no hacer nada", o ser pasivo cuando nos ocurre algo?</span>
+			<span class="track">13. ¿Meditar es 'no hacer nada', o ser pasivo cuando nos ocurre algo?</span>
 		</a>
 	</span>
 </li>
@@ -8877,11 +8877,11 @@
 </li>
 <li>
 	<span id="item-877">
-		<a href="#" data-media="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3" title="024. Conectate remotamente a tu Raspberry Pi con "dataplicity"">
+		<a href="#" data-media="https://ia601605.us.archive.org/10/items/024ConectateRemotamenteATuRaspberryPiCondataplicity/%23024%20Conectate%20remotamente%20a%20tu%20Raspberry%20Pi%20con%20%22dataplicity%22%20.mp3" title="024. Conectate remotamente a tu Raspberry Pi con 'dataplicity'">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
 			<span class="podcast">uGeek - Tecnología, Android, Linux, Servidores y mucho más...</span>
-			<span class="track">024. Conectate remotamente a tu Raspberry Pi con "dataplicity"</span>
+			<span class="track">024. Conectate remotamente a tu Raspberry Pi con 'dataplicity'</span>
 		</a>
 	</span>
 </li>
@@ -9377,11 +9377,11 @@
 </li>
 <li>
 	<span id="item-927">
-		<a href="#" data-media="https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3" title="012. Como actualizar Nextcloud y salir del modo de "mantenimiento"">
+		<a href="#" data-media="https://ia801601.us.archive.org/24/items/012CmoActualizarNextcloudY/%23012_c%c3%b3mo_actualizar_Nextcloud_y.mp3" title="012. Como actualizar Nextcloud y salir del modo de 'mantenimiento'">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
 			<span class="podcast">uGeek - Tecnología, Android, Linux, Servidores y mucho más...</span>
-			<span class="track">012. Como actualizar Nextcloud y salir del modo de "mantenimiento"</span>
+			<span class="track">012. Como actualizar Nextcloud y salir del modo de 'mantenimiento'</span>
 		</a>
 	</span>
 </li>
@@ -9727,11 +9727,11 @@
 </li>
 <li>
 	<span id="item-962">
-		<a href="#" data-media="https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3" title="002. "De qué va esto de uGeek?"">
+		<a href="#" data-media="https://ia801904.us.archive.org/20/items/DeQueVaEstoDeUGeek/De%20que%20va%20esto%20de%20uGeek%3f.mp3" title="002. 'De qué va esto de uGeek?'">
 			<span class="isplaying"></span>
 			<span class="logo ugeektecnologíaandroidlinuxservidoresymuchomás"></span>
 			<span class="podcast">uGeek - Tecnología, Android, Linux, Servidores y mucho más...</span>
-			<span class="track">002. "De qué va esto de uGeek?"</span>
+			<span class="track">002. 'De qué va esto de uGeek?'</span>
 		</a>
 	</span>
 </li>
@@ -13847,11 +13847,11 @@
 </li>
 <li>
 	<span id="item-1374">
-		<a href="#" data-media="http://api.spreaker.com/download/episode/9245085/177781603_codeontherocks_code_on_the_rocks_05.mp3" title="S01E05:  "Diseñame esta cabecera, 17 versiones"">
+		<a href="#" data-media="http://api.spreaker.com/download/episode/9245085/177781603_codeontherocks_code_on_the_rocks_05.mp3" title="S01E05:  'Diseñame esta cabecera, 17 versiones'">
 			<span class="isplaying"></span>
 			<span class="logo codeontherocks"></span>
 			<span class="podcast">Code on the rocks</span>
-			<span class="track">S01E05:  "Diseñame esta cabecera, 17 versiones"</span>
+			<span class="track">S01E05:  'Diseñame esta cabecera, 17 versiones'</span>
 		</a>
 	</span>
 </li>
@@ -13887,11 +13887,11 @@
 </li>
 <li>
 	<span id="item-1378">
-		<a href="#" data-media="http://api.spreaker.com/download/episode/9245086/172073180_codeontherocks_code_on_the_rocks_04_a_nosotros_el_efecto_gowex_nos_hizo_mucho_dano.mp3" title="S01E04: "A nosotros el efecto GOWEX nos hizo mucho daño."">
+		<a href="#" data-media="http://api.spreaker.com/download/episode/9245086/172073180_codeontherocks_code_on_the_rocks_04_a_nosotros_el_efecto_gowex_nos_hizo_mucho_dano.mp3" title="S01E04: 'A nosotros el efecto GOWEX nos hizo mucho daño.'">
 			<span class="isplaying"></span>
 			<span class="logo codeontherocks"></span>
 			<span class="podcast">Code on the rocks</span>
-			<span class="track">S01E04: "A nosotros el efecto GOWEX nos hizo mucho daño."</span>
+			<span class="track">S01E04: 'A nosotros el efecto GOWEX nos hizo mucho daño.'</span>
 		</a>
 	</span>
 </li>
@@ -13917,11 +13917,11 @@
 </li>
 <li>
 	<span id="item-1381">
-		<a href="#" data-media="http://api.spreaker.com/download/episode/9245087/163961963_codeontherocks_code_on_the_rocks_03.mp3" title="S01E03: "En atlassian no tenemos maquina de cafe"">
+		<a href="#" data-media="http://api.spreaker.com/download/episode/9245087/163961963_codeontherocks_code_on_the_rocks_03.mp3" title="S01E03: 'En atlassian no tenemos maquina de cafe'">
 			<span class="isplaying"></span>
 			<span class="logo codeontherocks"></span>
 			<span class="podcast">Code on the rocks</span>
-			<span class="track">S01E03: "En atlassian no tenemos maquina de cafe"</span>
+			<span class="track">S01E03: 'En atlassian no tenemos maquina de cafe'</span>
 		</a>
 	</span>
 </li>
@@ -14777,11 +14777,11 @@
 </li>
 <li>
 	<span id="item-1467">
-		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/KSGZds8hSb0/mp3.mp3" title="ON 149 Vulnerabilidad irreal ("Unreal" vulnerabilty)">
+		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/KSGZds8hSb0/mp3.mp3" title="ON 149 Vulnerabilidad irreal ('Unreal' vulnerabilty)">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
 			<span class="podcast">Odaiba Net (Podcast) - www.poderato.com/odaibanet</span>
-			<span class="track">ON 149 Vulnerabilidad irreal ("Unreal" vulnerabilty)</span>
+			<span class="track">ON 149 Vulnerabilidad irreal ('Unreal' vulnerabilty)</span>
 		</a>
 	</span>
 </li>
@@ -14947,11 +14947,11 @@
 </li>
 <li>
 	<span id="item-1484">
-		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/9z7ijgCqfOE/mp3.mp3" title="ON 131 de archivos, wallpapers, medios, ipods, y HD, sin ir al "CES"">
+		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/9z7ijgCqfOE/mp3.mp3" title="ON 131 de archivos, wallpapers, medios, ipods, y HD, sin ir al 'CES'">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
 			<span class="podcast">Odaiba Net (Podcast) - www.poderato.com/odaibanet</span>
-			<span class="track">ON 131 de archivos, wallpapers, medios, ipods, y HD, sin ir al "CES"</span>
+			<span class="track">ON 131 de archivos, wallpapers, medios, ipods, y HD, sin ir al 'CES'</span>
 		</a>
 	</span>
 </li>
@@ -15017,11 +15017,11 @@
 </li>
 <li>
 	<span id="item-1491">
-		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/OnSbiLnTNBE/mp3.mp3" title="ON 112 "la nube" es borrascosa, Linux en mas Gobiernos del mundo.">
+		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/OnSbiLnTNBE/mp3.mp3" title="ON 112 'la nube' es borrascosa, Linux en mas Gobiernos del mundo.">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
 			<span class="podcast">Odaiba Net (Podcast) - www.poderato.com/odaibanet</span>
-			<span class="track">ON 112 "la nube" es borrascosa, Linux en mas Gobiernos del mundo.</span>
+			<span class="track">ON 112 'la nube' es borrascosa, Linux en mas Gobiernos del mundo.</span>
 		</a>
 	</span>
 </li>
@@ -15207,11 +15207,11 @@
 </li>
 <li>
 	<span id="item-1510">
-		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/Z21fd2F8W9Y/mp3.mp3" title="ON 93 Protegiendonos de los "otros" virus, quitate las pilas">
+		<a href="#" data-media="http://feedproxy.google.com/~r/OdaibaNet/~5/Z21fd2F8W9Y/mp3.mp3" title="ON 93 Protegiendonos de los 'otros' virus, quitate las pilas">
 			<span class="isplaying"></span>
 			<span class="logo odaibanetpodcastwwwpoderatocomodaibanet"></span>
 			<span class="podcast">Odaiba Net (Podcast) - www.poderato.com/odaibanet</span>
-			<span class="track">ON 93 Protegiendonos de los "otros" virus, quitate las pilas</span>
+			<span class="track">ON 93 Protegiendonos de los 'otros' virus, quitate las pilas</span>
 		</a>
 	</span>
 </li>

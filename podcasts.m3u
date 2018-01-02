@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,Podcast dmanuelalonso - cap36 - MacBook Pro y linux es un problema
+http://api.spreaker.com/download/episode/13708507/cap36_macbook_pro_y_linux_es_un_problema.mp3
+#EXTINF:-1,Bitácora de Ciberseguridad - BCS020 – Hacks 2017
+http://tracking.feedpress.it/link/15407/7921440/BCS020-Hacks-2017.mp3
 #EXTINF:-1,Radiogeek - Feliz Año nuevo! les deseamos desde Infosertec!!!
 http://www.ivoox.com/feliz-ano-nuevo-les-deseamos-desde-infosertec_mf_22912155_feed_1.mp3
 #EXTINF:-1,Code Time - Anécdotas Giordánicas (2): Las modificaciones de mi equipo de trabajo
@@ -425,6 +429,8 @@ https://anchor.fm/s/18c0860/podcast/download/59733/https%3A%2F%2Fs3-us-west-2.am
 http://www.ivoox.com/intel-amd-windows-linux-android_mf_22160116_feed_1.mp3
 #EXTINF:-1,eDucando Geek - #40 El Podcast como herramienta didáctica en el aula de Educación Primaria
 https://archive.org/download/40ElPodcastHerramientaDidacticaEnElAula/40-el-podcast-herramienta-didactica-en-el-aula.mp3
+#EXTINF:-1,La Hora Maker - LHM130 – Cómo crear comunidad – Comentarios a la entrevista a Cole de Luis del Valle
+http://traffic.libsyn.com/cesargarciasaez/LHM130.mp3
 #EXTINF:-1,Podcast WINTABLET.INFO - mintablet - Medios de pago Round 2 (con Treki23)
 http://www.ivoox.com/mintablet-medios-pago-round-2-con_mf_22148114_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #163 – 2FA / 2FV – Generando inseguridad, sin querer !

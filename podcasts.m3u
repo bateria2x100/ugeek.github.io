@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,Salmorejo Geek - #168 Movistar, WordPress, yo mismo y Laura
+http://www.ivoox.com/168-movistar-wordpress-yo-mismo-laura_mf_22937474_feed_1.mp3
+#EXTINF:-1,Web Reactiva - WR 16: Lo que me gustaría aprender en 2018
+http://api.spreaker.com/download/episode/13710136/webreactiva_podcast_16.mp3
 #EXTINF:-1,Podcast dmanuelalonso - cap36 - MacBook Pro y linux es un problema
 http://api.spreaker.com/download/episode/13708507/cap36_macbook_pro_y_linux_es_un_problema.mp3
 #EXTINF:-1,Bitácora de Ciberseguridad - BCS020 – Hacks 2017
@@ -1313,6 +1317,8 @@ http://www.ivoox.com/27-master-class-sobre-redes-wifi-redes_mf_19540463_feed_1.m
 http://traffic.libsyn.com/cesargarciasaez/LHM097.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Año 10 después del iPhone
 http://tapewrite.com/REST/feed/@alexbarredo/5954fc5d9e91b02b75f69c3a.mp3
+#EXTINF:-1,Programar es una mierda - Episodio 1 - Scrum
+http://www.ivoox.com/episodio-1-scrum_mf_19519341_feed_1.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Google tiene razón, pero la Comisión también
 http://tapewrite.com/REST/feed/@alexbarredo/595362ab9e91b02b75f666f7.mp3
 #EXTINF:-1,Linux Express, de Podcast Linux. - #18 Linux Express

@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1,Bateria2x100 - #173 – Ya vienen los Reyes !
+http://tracking.feedpress.it/link/15283/7939203/Bat2x100_173.m4a
+#EXTINF:-1,Podcast Linux - #42 Linux Connexion con Alvaro Nova
+http://www.ivoox.com/42-linux-connexion-alvaro-nova_mf_22945301_feed_1.mp3
+#EXTINF:-1,NOlegaltech Radio - #005-Uso de software sin licencia
+http://ia600808.us.archive.org/9/items/NolegaltechRadio/005Nolegaltechradio-usoDeSoftwareSinLicencia.mp3
 #EXTINF:-1,Salmorejo Geek - #168 Movistar, WordPress, yo mismo y Laura
 http://www.ivoox.com/168-movistar-wordpress-yo-mismo-laura_mf_22937474_feed_1.mp3
 #EXTINF:-1,Web Reactiva - WR 16: Lo que me gustaría aprender en 2018
@@ -561,6 +567,8 @@ http://api.spreaker.com/download/episode/13249434/deknet_20171105_1412.mp3
 https://www.ivoox.com/s02e01-ubuntu-17-10-distros-100-libres_mf_21884774_feed_1.mp3
 #EXTINF:-1,La Hora Maker - LHM117 – Crea eventos más activos para makers
 http://traffic.libsyn.com/cesargarciasaez/LHM117.mp3
+#EXTINF:-1,La Hora Maker - LHM116 – Resumen de proyectos y actividades en Madrid Mini Maker Faire 2017
+http://traffic.libsyn.com/cesargarciasaez/LHM116.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Kernel: iPhone X vs Pixel 2 XL, con Paolo Ã�lvarez
 http://tapewrite.com/REST/feed/@alexbarredo/59fdfbf86df7fd2b59eee5a3.mp3
 #EXTINF:-1,Podcast – ForoMóviles - ForoMoviles Podcast 094: Deja disfrutar a los demás

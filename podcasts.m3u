@@ -1,4 +1,14 @@
 #EXTM3U
+#EXTINF:-1,Coffee Break: Señal y Ruido - Ep144: Premios Señal y Ruido 2017; Estrella de Tabby; Vulnerabilidad Informática
+http://www.ivoox.com/ep144-premios-senal-ruido-2017-estrella-de_mf_22977866_feed_1.mp3
+#EXTINF:-1,DekNet - Meltdown Attack: Que listo es Calisto
+http://api.spreaker.com/download/episode/13723753/meldown.mp3
+#EXTINF:-1,Programar es una mierda - Episodio 17 - Seguridad Web
+http://www.ivoox.com/episodio-17-seguridad-web_mf_22972571_feed_1.mp3
+#EXTINF:-1,Programar es una mierda - Sesión oyentes #1 - ¿Estructura y buenas prácticas con frameworks?
+http://www.ivoox.com/sesion-oyentes-1-estructura-buenas-practicas_mf_22971998_feed_1.mp3
+#EXTINF:-1,Code Time - Anécdotas Giordánicas (3): ¿Cómo creamos un server distribuido?
+https://www.ivoox.com/anecdotas-giordanicas-3-como-creamos-server-distribuido_mf_22967229_feed_1.mp3
 #EXTINF:-1,Bateria2x100 - #173 – Ya vienen los Reyes !
 http://tracking.feedpress.it/link/15283/7939203/Bat2x100_173.m4a
 #EXTINF:-1,Podcast Linux - #42 Linux Connexion con Alvaro Nova
@@ -453,6 +463,8 @@ http://www.ivoox.com/black-friday-cap-80_mf_22125364_feed_1.mp3
 https://ar.ivoox.com/es/ep137-la-nueva-exotierra-ross-128b-cosmologia-exotica_mf_22120374_feed_1.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Kernel: Google tiene mucho poder, ¿es hora de romper?
 http://tapewrite.com/REST/feed/@alexbarredo/5a0dce3d6df7fd2b59efab2a.mp3
+#EXTINF:-1,La Hora Maker - LHM128 – Las cinco disfunciones de un equipo
+http://traffic.libsyn.com/cesargarciasaez/LHM128.mp3
 #EXTINF:-1,Programar es una mierda - Episodio 12 - La comunidad open source Sakai
 http://www.ivoox.com/episodio-12-la-comunidad-open-source-sakai_mf_22114250_feed_1.mp3
 #EXTINF:-1,Mosqueteroweb tecnologia, Linux, Chromebooks - Cesta Tecnologica Sorteo y recaudación benéfica

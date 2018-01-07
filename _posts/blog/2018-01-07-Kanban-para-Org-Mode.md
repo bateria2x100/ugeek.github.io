@@ -37,12 +37,16 @@ Instalación
 -----------
 
 Instalaremos previamente **dash**, una librería avanzada para trabajar con tablas, si no la tenemos instalada  
-```M-x package-install RET dash RET```  
+```
+M-x package-install RET dash RET
+```    
 
 *Recuerda que M-x=(Alt+x) y RET=Intro*
 
 Descargaremos el archivo con la terminal  
-```wget https://raw.githubusercontent.com/ugeek/emacs-config/master/org-kanban.el```
+```
+wget https://raw.githubusercontent.com/ugeek/emacs-config/master/org-kanban.el
+```  
 
 <!-- -->
 
@@ -52,13 +56,17 @@ También podemos hacerlo desde el Explorador web
 <!-- -->
 
 Cargamos en Emacs el org-kanban.el que hemos descargado  
-```M-x load-file RET ruta_del_archivo RET```  
+```
+M-x load-file RET ruta_del_archivo RET
+```    
 
 Gestión en nuestro Org Mode
 ---------------------------
 
 Nuestro archivo .org, debe tener en la cabecera del documento, los estados de las tareas. Yo he decidido añadir más estados y personalizarlo en Castellano  
-`#+TODO: PENDIENTE(t) | SIGuIENTE(s) | PROCESO(p) | ESPERA(e) | REALIZADO(d)`  
+```
+#+TODO: PENDIENTE(t) | SIGuIENTE(s) | PROCESO(p) | ESPERA(e) | REALIZADO(d)
+```  
 
 
 ![](http://telegra.ph/file/d7fdb99dd61e1b2a0317a.png)  
@@ -69,7 +77,7 @@ estas de un modo más rápido.
 
 Para generar el Panel Kanban, escribiremos este código:
 
-``` {.commonlisp}
+```
 #+BEGIN: kanban                                                                                                                           
 #+END:                                                                                                                                    
 ```
@@ -81,13 +89,19 @@ Ahora situándonos sobre una tarea en el panel, podremos cambiar su
 estado:
 
 Estado Siguiente  
-```M-x org-kanban/next```  
+```
+M-x org-kanban/next
+```  
 
 Estado Anterior  
-```M-x org-kanban/prev```  
+```
+M-x org-kanban/prev
+```  
 
 Estado Siguiente o Anterior  
-```M-x org-kanban/shift```  
+```
+M-x org-kanban/shift
+```  
 
 Por defecto cambiará al estado siguiente, pero pulsando las teclas **j**
 o **k**, podremos cambiar al estado que deseemos.

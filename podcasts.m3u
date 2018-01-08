@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #88: Ceph en Proxmox
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-88-ceph-en-proxmox.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Kernel: Google no sabe hacer amigos, con Axel Marazzi @amarazzi
 http://tapewrite.com/REST/feed/@alexbarredo/5a5259cc9e91b02b75097892.mp3
 #EXTINF:-1,Aprendiendo GTD podcast productividad - 026 - Enseñando GTD con José Miguel Bolívar

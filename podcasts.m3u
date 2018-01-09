@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,Code Time - Script Time: El error de borrar el código &quot;inútil&quot;
+https://www.ivoox.com/script-time-el-error-borrar-codigo_mf_23037181_feed_1.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #89: Streaming de audio gratis con icecast
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-89-streaming-gratis.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - ¿Quién quiere ir a Las Vegas?
 http://tapewrite.com/REST/feed/@alexbarredo/5a53153c9e91b02b7509a0a6.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #88: Ceph en Proxmox

@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1,deployando.me - 24 – Infraestructura inmutable
+https://deployando.me/podcast-download/194/24-infraestructura-inmutable.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #90: Netinstall en Mikrotik
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-90-netinstall-en-mikrotik.mp3
+#EXTINF:-1,mixx.io, tecnología y negocios - Traiciones, rendiciones y presentaciones
+https://cuonda.com/api/external.mp3/http://tapewrite.com/REST/feed/@alexbarredo/5a54b3a49e91b02b7509d6a6.mp3
+#EXTINF:-1,Web Reactiva - WR 17: Programar en Kotlin con Borja Quevedo
+http://api.spreaker.com/download/episode/13749618/webreactiva_podcast_17.mp3
 #EXTINF:-1,Code Time - Script Time: El error de borrar el código &quot;inútil&quot;
 https://www.ivoox.com/script-time-el-error-borrar-codigo_mf_23037181_feed_1.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #89: Streaming de audio gratis con icecast

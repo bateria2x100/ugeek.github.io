@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,Radiogeek - #Radiogeek - Todo sobre el #CES2018 Primera parte
+http://www.ivoox.com/radiogeek-todo-sobre-ces2018-primera-parte_mf_23087253_feed_1.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #91: Buscar una máquina en la red
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-91-bucar-una-maquina.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - El control parental eres tú
 http://tapewrite.com/REST/feed/@alexbarredo/5a55b2ef9e91b02b750a0011.mp3
 #EXTINF:-1,DekNet - Videovigilancia: Menos es más
@@ -7,6 +11,8 @@ http://api.spreaker.com/download/episode/13760420/videovigilancia_menos_es_m_s.m
 https://deployando.me/podcast-download/194/24-infraestructura-inmutable.mp3
 #EXTINF:-1,Linux Express, de Podcast Linux. - #32 Linux Express
 https://gitlab.com/podcastlinux/podcastlinux.gitlab.io/raw/master/Linux-Express/32linuxexpress.mp3
+#EXTINF:-1,eDucando Geek - #42 Arrancar Raspberry Pi 3 desde memoria USB - Elección de disco duro
+https://archive.org/download/42ArranqueUsbRaspberrypi3/42-arranque-usb-raspberrypi3.mp3
 #EXTINF:-1,Podcast de Eduardo Collado - Podcast #90: Netinstall en Mikrotik
 https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-90-netinstall-en-mikrotik.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Traiciones, rendiciones y presentaciones

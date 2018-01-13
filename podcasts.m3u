@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1,DekNet - Control de teclados
+http://api.spreaker.com/download/episode/13760580/control_de_teclados.mp3
 #EXTINF:-1,reflex podcast - #25 Lo mal que lo hacen algunas marcas.
 http://www.ivoox.com/25-lo-mal-lo-hacen-algunas-marcas_mf_23116627_feed_1.mp3
 #EXTINF:-1,Podcast WINTABLET.INFO - Meltdown y Spectre - Cap 83

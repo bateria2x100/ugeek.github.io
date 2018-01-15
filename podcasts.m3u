@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1,NASeros Podcast - 36. El futuro de la tecnología. Retos de la tecnología para los próximos años
+http://www.ivoox.com/36-el-futuro-tecnologia-retos-de_mf_23150374_feed_1.mp3
+#EXTINF:-1,mixx.io, tecnología y negocios - Kernel: Asistentes, no mayordomos
+http://tapewrite.com/REST/feed/@alexbarredo/5a5c6efd9e91b02b750ac06e.mp3
+#EXTINF:-1,Podcast de Eduardo Collado - Podcast #93: FreshRSS y EasyRSS
+https://media.blubrry.com/eduardocollado/www.eduardocollado.com/wp-content/uploads/2018/01/podcast-93-freshrss-y-easyrss.mp3
 #EXTINF:-1,DekNet - iPAD + NAS = PostPC
 http://api.spreaker.com/download/episode/13794737/ipad_nas_postpc.mp3
 #EXTINF:-1,mixx.io, tecnología y negocios - Bonus: Hablando de Newsletters en KFund

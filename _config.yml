@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: uGeek
+name: Bateria2x100
 
 # Short bio or description (displayed in the header)
 description: Podcast y Blog de Tecnología
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/27757712?v=3&s=460
+avatar: https://avatars3.githubusercontent.com/u/35531034?s=400&u=9aaa1204696d349dfa365a6dee87ef35d9423911&v=4
 
 #
 # Flags below are optional
@@ -41,7 +41,7 @@ google_analytics: UA-98100689-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://ugeek.github.io/
+url: https://bateria2x100.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -71,16 +71,16 @@ kramdown:
 # Podcast Feed Settings
 podcast_url: https://ugeek.github.io
 podcast_album_art: /img/ugeek.png
-podcast_title: uGeek
-podcast_owner: Angel
-podcast_email: ugeekpodcast@gmail.com
+podcast_title: Bateria2x100
+podcast_owner: Frank
+podcast_email: bateria2x100@gmail.com
 podcast_category: Technology
-podcast_subcategory_one: Linux
+podcast_subcategory_one: Apple
 podcast_explicit: "no"
-podcast_author: Angel
-podcast_description: Podcast de Tecnología que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general
-podcast_summary: Podcast de Tecnología que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general
-podcast_subtitle: Podcast de Tecnología que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general
+podcast_author: Frank
+podcast_description: Podcast de Tecnología 
+podcast_summary: Podcast de Tecnología 
+podcast_subtitle: Podcast de Tecnología
 
 
 

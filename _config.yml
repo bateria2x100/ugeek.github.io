@@ -69,8 +69,8 @@ kramdown:
     css_class: 'highlight'
 
 # Podcast Feed Settings
-podcast_url: https://ugeek.github.io
-podcast_album_art: /img/ugeek.png
+podcast_url: https://bateria2x100.github.io
+podcast_album_art: /img/bateria2x100.jpg
 podcast_title: Bateria2x100
 podcast_owner: Frank
 podcast_email: bateria2x100@gmail.com

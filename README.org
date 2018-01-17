@@ -1,0 +1,15 @@
+* Blog del Podcast de uGeek
+[[https://ugeek.github.io][ugeek.github.io]]
+
+El blog está dividido en 4 apartados:
+- Blog
+- Temas
+- Buscar
+- ►Play 
+- Sobre mi
+** Blog
+*** Métodos de subscripción
+En el blog podremos encontrar post y podcast. El Blog incluye 3 Feeds.
+- [[https://ugeek.github.io/podcast][Feed del Podcast]]
+- [[https://ugeek.github.io/feed][Feed del Blog (Post+Podcast)]]
+- [[https://ugeek.github.io/emacs][Feed de las publicaciones sobre Emacs]]

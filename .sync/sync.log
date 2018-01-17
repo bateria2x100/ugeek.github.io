@@ -1,0 +1,101 @@
+﻿platform: Linux 4.10.13-1-ARCH #1 SMP PREEMPT Thu Apr 27 12:15:09 CEST 2017 x86_64
+version: 2.5.0.952
+[20170514 16:28:25.360] ZIP: Can't locate [version] in zip, error -100.
+[20170514 16:28:25.412] Directory root is ""
+[20170514 16:28:25.412] test sha1: AE5BD8EFEA5322C4D9986D06680A781392F9A642
+[20170514 16:28:25.413] test sha2: 630DCD2966C4336691125448BBB25B4FF412A49C732DB2C8ABC1B8581BD710DD
+[20170514 16:28:25.473] test aes: 0A940BB5416EF045F1C39458C653EA5A07FEEF74E1D5036E900EEE118E949293
+[20170514 16:28:25.473] diskio_controller created
+[20170514 16:28:25.587] register diskio completion queue with id 1
+[20170514 16:28:25.592] PLC[0x00005588a7815c60] binding on 0.0.0.0:12764
+[20170514 16:28:25.592] D! 20PeerListenConnection::listen[0x00005588a7815c60][8] bound listening socket 8 to IP 0.0.0.0:12764
+[20170514 16:28:25.592] PLC[0x00005588a7815ca0] binding on [::]:12764
+[20170514 16:28:25.592] D! 20PeerListenConnection::listen[0x00005588a7815ca0][9] bound listening socket 9 to IP [::]:12764
+[20170514 16:28:25.592] UDP: bound listening socket 10 to IP 0.0.0.0:12764
+[20170514 16:28:25.593] UDP: bound listening socket 11 to IP [::]:12764
+[20170514 16:28:25.593] D! 20HttpListenConnection::listen[0x00005588a7815f30][12] bound listening socket 12 to IP 127.0.0.1:8888
+[20170514 16:28:25.711] register diskio completion queue with id 2
+[20170514 16:28:25.778] Create diskio thread for drive with id 4308056678, path: 
+[20170514 16:28:25.779] Create diskio thread for drive with id 4944575215, path: 
+[20170514 16:28:25.779] diskio thread start, drive_id = 4308056678, priority = normal
+[20170514 16:28:25.779] diskio thread start, drive_id = 4944575215, priority = normal
+[20170514 16:28:25.780] IPv6 is installed
+[20170514 16:28:25.780] Unsupported or empty sync.dat file
+[20170514 16:28:25.780] My PeerID: 10DFE123CEFF04088EBB715DC72A83C9DD664700
+[20170514 16:28:25.780] LC: LoadLicenses: there is no pro license
+[20170514 16:28:25.781] Joining to the multicast group 239.192.0.0:3838 on interface 172.17.0.1 (docker0)
+[20170514 16:28:25.781] Joining to the multicast group 239.192.0.0:3838 on interface 127.0.0.1 (lo)
+[20170514 16:28:25.781] Joining to the multicast group 239.192.0.0:3838 on interface 192.168.1.111 (wls34)
+[20170514 16:28:25.782] Create diskio thread for drive with id 18446744073709551614, path: 
+[20170514 16:28:25.782] diskio thread start, drive_id = 18446744073709551614, priority = normal
+[20170514 16:28:25.785] Debug log mask has been set to FFFFFFFF
+[20170514 16:28:25.785] Features mask has been set to 0
+[20170514 16:28:25.797] Scheduler: Apply global rule, download limit: -1, upload limit: -1
+[20170514 16:28:25.797] CoreState: Total memory: 4148281344, used by Sync: 9633792, percentage used: 0.23
+[20170514 16:28:25.797] message thread start
+[20170514 16:28:37.781] NAT-PMP: Unable to map port with NAT-PMP.
+[20170514 16:28:40.128] ZIP: Can't locate [css/style.css] in zip, error -100.
+[20170514 16:28:57.296] OpenSSL: Loaded X509 trusted CA from "/etc/ssl/certs/ca-certificates.crt"
+[20170514 16:33:26.481] CoreState: Total memory: 4148281344, used by Sync: 14082048, percentage used: 0.34
+[20170514 16:33:51.947] D! 21ReverseHTTPConnection::set_error[0x00007fe344002b40][21] 103 (EOF)
+[20170514 16:33:51.948] D! 21ReverseHTTPConnection::set_error[0x00007fe350004ba0][23] 103 (EOF)
+[20170514 16:33:51.948] D! 21ReverseHTTPConnection::set_error[0x00007fe350003c50][22] 103 (EOF)
+[20170514 16:33:51.948] D! 21ReverseHTTPConnection::set_error[0x00007fe3500053c0][17] 103 (EOF)
+[20170514 16:38:30.695] CoreState: Total memory: 4148281344, used by Sync: 13266944, percentage used: 0.32
+[20170514 16:43:26.397] Unload diskio thread for drive with id 4308056678, path: 
+[20170514 16:43:26.411] diskio thread stop, drive_id = 4308056678
+[20170514 16:43:26.436] diskio destroy, drive_id = 4308056678
+[20170514 16:43:26.436] Unload diskio thread for drive with id 4944575215, path: 
+[20170514 16:43:26.436] diskio thread stop, drive_id = 4944575215
+[20170514 16:43:26.436] diskio destroy, drive_id = 4944575215
+[20170514 16:43:34.448] CoreState: Total memory: 4148281344, used by Sync: 5660672, percentage used: 0.14
+[20170514 16:48:37.151] CoreState: Total memory: 4148281344, used by Sync: 5627904, percentage used: 0.14
+[20170514 16:53:43.342] CoreState: Total memory: 4148281344, used by Sync: 5451776, percentage used: 0.13
+[20170514 16:58:45.071] CoreState: Total memory: 4148281344, used by Sync: 5451776, percentage used: 0.13
+[20170514 17:00:00.637] Scheduler: Apply global rule, download limit: -1, upload limit: -1
+[20170514 17:03:49.269] CoreState: Total memory: 4148281344, used by Sync: 5451776, percentage used: 0.13
+[20170514 17:08:51.471] CoreState: Total memory: 4148281344, used by Sync: 5292032, percentage used: 0.13
+[20170514 17:13:55.208] CoreState: Total memory: 4148281344, used by Sync: 5201920, percentage used: 0.13
+[20170514 17:19:00.427] CoreState: Total memory: 4148281344, used by Sync: 5201920, percentage used: 0.13
+[20170514 17:24:03.274] CoreState: Total memory: 4148281344, used by Sync: 6787072, percentage used: 0.16
+[20170514 17:29:05.496] CoreState: Total memory: 4148281344, used by Sync: 6787072, percentage used: 0.16
+[20170514 17:29:06.824] D! 21ReverseHTTPConnection::set_error[0x00007fe35001d4a0][21] 103 (EOF)
+[20170514 17:34:07.208] CoreState: Total memory: 4148281344, used by Sync: 6578176, percentage used: 0.16
+[20170514 17:39:10.925] CoreState: Total memory: 4148281344, used by Sync: 6578176, percentage used: 0.16
+[20170514 17:40:25.485] [NETLINK] Network intrfaces configuration was changed
+[20170514 17:40:25.486] Posting message to change network to WIRED_NETWORK
+[20170514 17:40:25.486] Got network change event (suggested type: WIRED_NETWORK)
+[20170514 17:40:25.505] We are about network reload
+[20170514 17:40:25.653] Joining to the multicast group 239.192.0.0:3838 on interface 172.17.0.1 (docker0)
+[20170514 17:40:25.653] Joining to the multicast group 239.192.0.0:3838 on interface 127.0.0.1 (lo)
+[20170514 17:40:26.216] PLC[0x00005588a7815c60] binding on 0.0.0.0:12764
+[20170514 17:40:26.217] D! 20PeerListenConnection::listen[0x00005588a7815c60][8] bound listening socket 8 to IP 0.0.0.0:12764
+[20170514 17:40:26.217] PLC[0x00005588a7815ca0] binding on [::]:12764
+[20170514 17:40:26.217] D! 20PeerListenConnection::listen[0x00005588a7815ca0][9] bound listening socket 9 to IP [::]:12764
+[20170514 17:40:26.217] UDP: bound listening socket 10 to IP 0.0.0.0:12764
+[20170514 17:40:26.217] UDP: bound listening socket 11 to IP [::]:12764
+[20170514 17:40:26.217] D! 20HttpListenConnection::listen[0x00007fe3440036c0][12] bound listening socket 12 to IP 127.0.0.1:8888
+[20170514 17:40:26.698] Stop transfers: cur(0) new(1)
+[20170514 17:40:27.098] Start transfers: cur state (1) sync allowed (1)
+[20170514 17:40:29.902] D! 15UpnpFetchSocket::set_error[0x00007fe350003c50][23] 101 (La red es inaccesible)
+[20170514 17:40:30.526] D! 15UpnpFetchSocket::set_error[0x00007fe350003c50][23] 101 (La red es inaccesible)
+[20170514 18:24:37.794] Scheduler: Apply global rule, download limit: -1, upload limit: -1
+[20170514 18:24:41.516] NAT-PMP: Unable to map port with NAT-PMP.
+[20170514 18:25:00.052] [NETLINK] Network intrfaces configuration was changed
+[20170514 18:25:00.052] Posting message to change network to WIRED_NETWORK
+[20170514 18:25:00.052] Got network change event (suggested type: WIRED_NETWORK)
+[20170514 18:25:00.053] We are about network reload
+[20170514 18:25:00.054] Joining to the multicast group 239.192.0.0:3838 on interface 172.17.0.1 (docker0)
+[20170514 18:25:00.054] Joining to the multicast group 239.192.0.0:3838 on interface 127.0.0.1 (lo)
+[20170514 18:25:00.054] Joining to the multicast group 239.192.0.0:3838 on interface 192.168.1.111 (wls34)
+[20170514 18:25:00.060] PLC[0x00005588a7815c60] binding on 0.0.0.0:12764
+[20170514 18:25:00.060] D! 20PeerListenConnection::listen[0x00005588a7815c60][8] bound listening socket 8 to IP 0.0.0.0:12764
+[20170514 18:25:00.060] PLC[0x00005588a7815ca0] binding on [::]:12764
+[20170514 18:25:00.060] D! 20PeerListenConnection::listen[0x00005588a7815ca0][9] bound listening socket 9 to IP [::]:12764
+[20170514 18:25:00.060] UDP: bound listening socket 10 to IP 0.0.0.0:12764
+[20170514 18:25:00.061] UDP: bound listening socket 11 to IP [::]:12764
+[20170514 18:25:00.061] D! 20HttpListenConnection::listen[0x00007fe344007260][12] bound listening socket 12 to IP 127.0.0.1:8888
+[20170514 18:25:00.158] Stop transfers: cur(0) new(1)
+[20170514 18:25:00.158] Start transfers: cur state (1) sync allowed (1)
+[20170514 18:25:12.276] NAT-PMP: Unable to map port with NAT-PMP.
+[20170514 18:28:26.526] CoreState: Total memory: 4148281344, used by Sync: 3006464, percentage used: 0.07
